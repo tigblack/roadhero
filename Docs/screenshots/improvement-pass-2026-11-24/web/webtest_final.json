@@ -1,0 +1,163 @@
+{
+  "url": "http://127.0.0.1:8805/index.html?mute&memorycheck",
+  "checks": [
+    "first: game ready after Play (5.4 s)",
+    "a fresh browser profile starts a new game with the intro run",
+    "intro done: the car jumped into the first zone (z -46.6, intro false)",
+    "both scouts were shot on the way (kills 0 -> 2)",
+    "targets destroyed while driving (kills 2 -> 5, gun shots 9 -> 47)",
+    "wrecks harpooned and reeled in (2 -> 5)",
+    "permanent rewards applied (HP 100 -> 104, dmg 6.5 -> 6.5, regen 1 -> 1.1)",
+    "DEV button on screen",
+    "DEV opens and pauses (open true, timeScale 0)",
+    "4x selected while the menu keeps the game paused (speed 4, timeScale 0)",
+    "John Wick on",
+    "Done closes it and the game runs at 4x (timeScale 4)",
+    "at 4x with John Wick targets fall at once (kills 6 -> 10)",
+    "back to 1x without John Wick (timeScale 1)",
+    "in the second zone (zone 1, unlocked 1)",
+    "the car survives the swamp mutants for a while",
+    "reload: game ready after Play (4.7 s)",
+    "progress kept after a page reload (zone 1 -> 1, kills 10 -> 10, intro false)",
+    "stats kept (max HP 118.5 -> 118.5)",
+    "the canvas follows the turned screen (844x390)",
+    "DEV and the goal widget fully on screen in landscape",
+    "no errors or exceptions in the console (0)"
+  ],
+  "failures": [],
+  "memory": [
+    {
+      "label": "ready",
+      "wasmHeapMiB": 415,
+      "unityAllocatedMiB": 149,
+      "unityReservedMiB": 332,
+      "managedUsedMiB": 11,
+      "managedHeapMiB": 46,
+      "gfxMiB": 0,
+      "peakWasmMiB": 415,
+      "jsHeapMiB": 174,
+      "tab": {
+        "rendererMiB": 1868,
+        "gpuMiB": 363,
+        "otherMiB": 428
+      }
+    },
+    {
+      "label": "zone1_combat",
+      "wasmHeapMiB": 415,
+      "unityAllocatedMiB": 158,
+      "unityReservedMiB": 333,
+      "managedUsedMiB": 14,
+      "managedHeapMiB": 46,
+      "gfxMiB": 0,
+      "peakWasmMiB": 415,
+      "jsHeapMiB": 174,
+      "tab": {
+        "rendererMiB": 1471,
+        "gpuMiB": 386,
+        "otherMiB": 460
+      }
+    },
+    {
+      "label": "zone2",
+      "wasmHeapMiB": 415,
+      "unityAllocatedMiB": 163,
+      "unityReservedMiB": 333,
+      "managedUsedMiB": 13,
+      "managedHeapMiB": 46,
+      "gfxMiB": 0,
+      "peakWasmMiB": 415,
+      "jsHeapMiB": 175,
+      "tab": {
+        "rendererMiB": 1466,
+        "gpuMiB": 376,
+        "otherMiB": 493
+      }
+    },
+    {
+      "label": "after_reload",
+      "wasmHeapMiB": 399,
+      "unityAllocatedMiB": 157,
+      "unityReservedMiB": 332,
+      "managedUsedMiB": 12,
+      "managedHeapMiB": 46,
+      "gfxMiB": 0,
+      "peakWasmMiB": 399,
+      "jsHeapMiB": 174,
+      "tab": {
+        "rendererMiB": 1561,
+        "gpuMiB": 384,
+        "otherMiB": 496
+      }
+    }
+  ],
+  "frames": [
+    {
+      "label": "idle",
+      "frames": 237,
+      "meanMs": 16.67,
+      "p95": 16.7,
+      "p99": 16.8,
+      "maxMs": 16.8,
+      "over50": 0
+    },
+    {
+      "label": "intro_drive",
+      "frames": 957,
+      "meanMs": 16.67,
+      "p95": 16.7,
+      "p99": 16.8,
+      "maxMs": 16.8,
+      "over50": 0
+    },
+    {
+      "label": "combat_drive",
+      "frames": 207,
+      "meanMs": 16.67,
+      "p95": 16.7,
+      "p99": 16.8,
+      "maxMs": 16.8,
+      "over50": 0
+    },
+    {
+      "label": "dev4x_drive",
+      "frames": 237,
+      "meanMs": 16.67,
+      "p95": 16.7,
+      "p99": 16.8,
+      "maxMs": 16.8,
+      "over50": 0
+    },
+    {
+      "label": "zone2_drive",
+      "frames": 177,
+      "meanMs": 16.67,
+      "p95": 16.7,
+      "p99": 16.8,
+      "maxMs": 16.8,
+      "over50": 0
+    },
+    {
+      "label": "landscape_idle",
+      "frames": 177,
+      "meanMs": 16.67,
+      "p95": 16.8,
+      "p99": 16.8,
+      "maxMs": 16.8,
+      "over50": 0
+    }
+  ],
+  "steps": [
+    "[0.7] launch",
+    "[12.1] intro: hold the stick forward",
+    "[30.3] zone 1 combat: circle among the props",
+    "[56.5] DEV: open, 4x, John Wick, Done",
+    "[70.5] second zone",
+    "[92.3] save and reload",
+    "[100.5] landscape"
+  ],
+  "firstReadySec": 5.397,
+  "zone2Kills": 0,
+  "reloadReadySec": 4.704,
+  "consoleErrors": []
+}

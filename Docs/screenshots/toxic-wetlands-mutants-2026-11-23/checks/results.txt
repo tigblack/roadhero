@@ -1,0 +1,5 @@
+RoadGame MUTANTS_RESULT checks=116 failures=0
+RoadGame WETLANDS_RESULT checks=34 failures=0
+RoadGame BLENDER_RESULT checks=23 failures=0
+RoadGame WATER_RESULT checks=49 failures=0
+DEV_CHECK SUCCESS checks=58 output=/private/tmp/claude-501/-Users-arthuri-Unity-Projects-RoadGame/a675978e-edec-47ae-9de0-14fe00ec6712/scratchpad/cap/f_dev

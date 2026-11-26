@@ -1,0 +1,47 @@
+{
+    "validation": {
+        "editorMasterMuted": true,
+        "checks": [
+            "vertical drop work run is muted",
+            "vertical drop uses the imported river",
+            "vertical drop was executed",
+            "car falls vertically and registers a physical landing",
+            "car lands on the shallow channel bed and remains immersed",
+            "vertical water impact produces a splash with zero commanded horizontal input",
+            "vertical water impact produces expanding ripples",
+            "water landing has little horizontal motion",
+            "vertical water landing needs no recovery",
+            "water landing emits no sand puff or tire dust"
+        ],
+        "failures": [],
+        "drives": []
+    },
+    "release": {
+        "x": -22.041400909423828,
+        "y": 1.559999942779541,
+        "z": 33.179100036621094
+    },
+    "landing": {
+        "x": -22.04137420654297,
+        "y": -0.38923847675323486,
+        "z": 33.17906188964844
+    },
+    "end": {
+        "x": -22.037174224853516,
+        "y": -0.4400000274181366,
+        "z": 33.17319107055664
+    },
+    "impact": 7.289998531341553,
+    "maxHorizontalTravel": 0.007265035528689623,
+    "maxHorizontalSpeed": 0.0016714162193238735,
+    "maxWetDepth": 0.21999984979629517,
+    "landings": 1,
+    "recoveries": 0,
+    "splashes": 1,
+    "sprayParticles": 32,
+    "ripples": 5,
+    "landingDustParticles": 0,
+    "maxTireDustParticles": 0,
+    "airborneObserved": true,
+    "submergedAfterLanding": true
+}

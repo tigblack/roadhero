@@ -1,0 +1,140 @@
+{
+  "url": "http://127.0.0.1:8797/index.html?mute&memorycheck",
+  "viewport": "390x844@3",
+  "samples": [
+    {
+      "t": 0,
+      "wasmHeapMiB": 0,
+      "jsHeapMiB": 1,
+      "label": "Загружаем игру…",
+      "rss": {
+        "rendererMiB": 765.5,
+        "gpuMiB": 139.5,
+        "otherMiB": 327.3
+      }
+    },
+    {
+      "t": 1.13,
+      "wasmHeapMiB": 0,
+      "jsHeapMiB": 232,
+      "label": "Загружаем игру…",
+      "rss": {
+        "rendererMiB": 1228.2,
+        "gpuMiB": 139.4,
+        "otherMiB": 428.1
+      }
+    },
+    {
+      "t": 2.3,
+      "wasmHeapMiB": 256,
+      "jsHeapMiB": 208.2,
+      "label": "Готовим пустошь…",
+      "rss": {
+        "rendererMiB": 1333.2,
+        "gpuMiB": 157.7,
+        "otherMiB": 431.9
+      }
+    },
+    {
+      "t": 3.35,
+      "wasmHeapMiB": 256,
+      "jsHeapMiB": 208.6,
+      "label": "Готовим пустошь…",
+      "rss": {
+        "rendererMiB": 1333.7,
+        "gpuMiB": 138.7,
+        "otherMiB": 431.9
+      }
+    },
+    {
+      "t": 4.69,
+      "wasmHeapMiB": 304,
+      "jsHeapMiB": 208.6,
+      "label": "Готовим пустошь…",
+      "rss": {
+        "rendererMiB": 1748.8,
+        "gpuMiB": 148.7,
+        "otherMiB": 412.5
+      }
+    },
+    {
+      "t": 5.77,
+      "wasmHeapMiB": 494.3,
+      "jsHeapMiB": 173.8,
+      "label": "Готовим пустошь…",
+      "rss": {
+        "rendererMiB": 1794.5,
+        "gpuMiB": 221.5,
+        "otherMiB": 400.9
+      }
+    }
+  ],
+  "pageLoadMs": 125,
+  "readySec": 6.627,
+  "peakWasmHeapMiBDuringLoad": 494.3,
+  "rssAtReady": {
+    "rendererMiB": 1798.9,
+    "gpuMiB": 359.3,
+    "otherMiB": 401
+  },
+  "idle": {
+    "label": "idle",
+    "frames": 476,
+    "meanMs": 16.67,
+    "p50": 16.7,
+    "p95": 16.8,
+    "p99": 16.8,
+    "maxMs": 16.8
+  },
+  "rssIdle": {
+    "rendererMiB": 1731.9,
+    "gpuMiB": 356,
+    "otherMiB": 420.8
+  },
+  "drive": {
+    "label": "drive",
+    "frames": 725,
+    "meanMs": 17.86,
+    "p50": 16.7,
+    "p95": 16.7,
+    "p99": 16.8,
+    "maxMs": 416.7
+  },
+  "rssDrive": {
+    "rendererMiB": 999.6,
+    "gpuMiB": 200.4,
+    "otherMiB": 407
+  },
+  "memoryEnd": {
+    "heapBytes": 518324224,
+    "maxHeapBytes": 518324224,
+    "ready": true
+  },
+  "perfMetrics": {
+    "Nodes": 241,
+    "ScriptDuration": 5.675432,
+    "TaskDuration": 6.562091,
+    "JSHeapUsedSize": 10418668,
+    "JSHeapTotalSize": 12042240
+  },
+  "gl": {
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5 Max, Unspecified Version)",
+    "canvas": "390x844"
+  },
+  "consoleErrors": [],
+  "roadgameLines": [
+    "[4.56] info: RoadGame: work preview, audio muted in this tab (open with ?mute=0 to hear it).",
+    "[12.46] log: RoadGame BLENDER mapping (zone 0): originalNodes=717, replaced=129, added=107, unmapped=0\n",
+    "[12.53] log: RoadGame BLENDER imported DustFlats_Level_v13_SmoothPass.blend (zone 0): replaced=129, added=107, propTemplates=192, meshes=298, preloadBatches=27\n",
+    "[12.73] log: RoadGame BLENDER mapping (zone 1): originalNodes=717, replaced=62, added=355, unmapped=0\n",
+    "[12.74] log: RoadGame BLENDER first-zone perimeter clipped north of z=104.5: meshes=11\n",
+    "[12.74] log: RoadGame BLENDER imported ToxicWetlands_Zone01_v1.blend (zone 1): replaced=62, added=355, propTemplates=182, meshes=464, preloadBatches=8\n",
+    "[13.33] log: RoadGame: moved 7 props clear of the new bridge approaches.\n",
+    "[13.34] log: RoadGame: spawns checked against obstacles: moved=10 stuck=0 rockColliders=1178\n",
+    "[13.35] log: RoadGame WORLD generated in 2155 ms (terrain 32 ms, spawn check 10 ms, rock colliders 1178 in 125 ms)\n",
+    "[13.71] log: RoadGame Intro: started, scout hp=9.6 hit=5.5\n",
+    "[13.71] log: RoadGame: session built in 3045 ms (materials 132, rendering 377, fx+audio 8, world 2165, car 42)\n",
+    "[30.82] log: RoadGame Intro: scout down (1/2) t=17.1 car z=-217.4\n",
+    "[32.80] log: RoadGame Intro: scout down (2/2) t=18.7 car z=-217.4\n"
+  ]
+}

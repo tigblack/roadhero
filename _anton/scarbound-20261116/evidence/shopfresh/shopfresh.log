@@ -1,0 +1,530 @@
+Unity Editor version:    6000.6.4f1 (12bfff696524)
+Branch:                  6000.6/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 26.6.2 (Build 25G83)
+Darwin version:          25.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        36864 MB
+Date:                    2026-11-16T17:48:36Z
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 31504)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 31506)
+VBCSCompiler prewarm took 2.52 ms
+Launching external process: /Applications/Unity/Hub/Editor/6000.6.4f1/Unity.app/Contents/Helpers/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Channel LicenseClient-arthuri doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 31507)
+Launching external process: /Applications/Unity/Hub/Editor/6000.6.4f1/Unity.app/Contents/Helpers/PackageManager/Server/UnityPackageManager
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.6.4f1/Unity.app/Contents/MacOS/Unity
+-batchmode
+-disableaudio
+-projectPath
+/Users/arthuri/Unity Projects/RoadGame
+-executeMethod
+RoadGame.EditorTools.AutoCapture.Run
+-captureScenario
+shopfresh
+-captureTimes
+4
+-captureOut
+/Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/shopfresh
+-captureSaveKey
+_anton_shopfresh
+-captureQuality
+0
+-logFile
+/Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/shopfresh/shopfresh.log
+Successfully changed project path to: /Users/arthuri/Unity Projects/RoadGame
+/Users/arthuri/Unity Projects/RoadGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+Player connection [8331485568]  Target information:
+
+Player connection [8331485568]  * "[IP] 192.168.5.3 [Port] 55504 [Flags] 2 [Guid] 2368936963 [EditorId] 2368936963 [Version] 1048832 [Id] OSXEditor(0,Arnos-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8331485568] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8331485568] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arthuri" at "2026-11-16T17:48:36.199666Z"
+[Package Manager] Connected to IPC stream "Upm-31503" after 0.1 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: d5ced50c0cc873fac82ad2ad4b3d06e8
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052672
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              8b73f4e2dd6c42859d0a1a9d93ae24c7
+  Correlation Id:          26825ec47b4b03a49025692b31682e3a
+  External correlation Id: 5085611487228858664
+  Machine Id:              HuqmfOaHprZJy8b4ZjXSDTKGP7Q=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-arthuri" (connect: 0.11s, validation: 0.01s, handshake: 0.18s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arthuri-notifications" at "2026-11-16T17:48:36.391576Z"
+[Licensing::Module] Connected to LicensingClient (PId: 31507, launch time: 0.00, total connection time: 0.30s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 20066143492779-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.31s
+[Licensing::Module] Licensing is initialized (took 0.11s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - /Applications/Unity/Hub/Editor/6000.6.4f1/Unity.app/Contents/Helpers/Unity.DataStore 
+Unity Data Store artifact dir = Library/DataStore, working dir = /Users/arthuri/Unity Projects/RoadGameUnity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.4f1 (12bfff696524)
+[EntityIdStore] init: VM path (explicit commit), pageSize=16384, blockCount=262144, entitiesPerBlock=1024, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.6.4f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/arthuri/Unity Projects/RoadGame/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M5 Max (high power)
+Metal devices available: 1
+0: Apple M5 Max (high power)
+Using device Apple M5 Max (high power)
+Initializing Metal device caps: Apple M5 Max
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.6.4f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.6.4f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = '/Applications/Unity/Hub/Editor/6000.6.4f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.6.4f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56503
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.6.4f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.6.4f1/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: /Applications/Unity/Hub/Editor/6000.6.4f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001160 seconds.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.276 seconds
+Domain Reload Profiling: 498ms
+	BeginReloadAssembly (46ms)
+		CreateAndSetChildDomain (11ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (35ms)
+		TypeCache.Refresh (104ms)
+			TypeCache.ScanAssembly (96ms)
+		AnalyzeDomain (0ms)
+	FinalizeReload (276ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (44ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 66 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.visualscripting@1.9.12 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.visualscripting@4edfcc09512f)
+    com.unity.ai.assistant@2.21.0-pre.2 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.ai.assistant@890548b66362)
+    com.unity.ai.inference@2.6.1 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.ai.inference@9a123aee5df7)
+    com.unity.pipeline@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.pipeline@178b93997022)
+    com.unity.nuget.mono-cecil@1.11.6 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.nuget.newtonsoft-json@4dfd81071c64)
+    com.unity.dt.app-ui@2.1.13 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.dt.app-ui@9d0f103f520a)
+    com.unity.searcher@4.9.5 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.profiling.core@8a49f7027d06)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.render-pipelines.universal@b0678dfc9e21)
+    com.unity.test-framework@1.8.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.test-framework@80f691d4262b)
+    com.unity.timeline@6.6.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.timeline@c56d56b0070b)
+    com.unity.ugui@2.6.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.ugui@0727b404f3a0)
+    com.unity.modules.accessibility@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.xr)
+    com.unity.burst@2.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.collections@10fff0607388)
+    com.unity.2d.sprite@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.2d.sprite@752945c75a6f)
+    com.unity.mathematics@1.4.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.mathematics@8306a64d0cd6)
+    com.unity.modules.subsystems@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.render-pipelines.core@285af6b8c83f)
+    com.unity.shadergraph@17.6.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.shadergraph@58bcb150677d)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.test-framework.performance@6.6.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.test-framework.performance@b6023decb532)
+    com.unity.graph-authoring@1.0.0 (location: /Users/arthuri/Unity Projects/RoadGame/Library/PackageCache/com.unity.graph-authoring@cfd2588851ee)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.00 seconds
+Starting: /Applications/Unity/Hub/Editor/6000.6.4f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/2000b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Users/arthuri/Unity Projects/RoadGame
+DisplayProgressbar: Compiling Scripts
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "/Applications/Unity/Hub/Editor/6000.6.4f1/Unity.app/Contents/Resources/Scripting/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "/Applications/Unity/Hub/Editor/6000.6.4f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "/Applications/Unity/Hub/Editor/6000.6.4f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll" in favor of "/Applications/Unity/Hub/Editor/6000.6.4f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll"
+ExitCode: 0 Duration: 0s266ms
+[1154/1563  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.25 seconds), 1 items updated, 1563 evaluated
+AssetDatabase: script compilation time: 0.610648s
+Total cache size 268327068
+Total cache size after purge 268327068, took 00:00:00.1086396
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Start HTTP server: port:7800
+Pipeline: Descriptor written to /Users/arthuri/Unity Projects/RoadGame/Library/Pipeline/.unity-pipeline-port
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.783 seconds
+Domain Reload Profiling: 1375ms
+	BeginReloadAssembly (99ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (446ms)
+		LoadAssemblies (145ms)
+		TypeCache.Refresh (214ms)
+			TypeCache.ScanAssembly (199ms)
+		AnalyzeDomain (42ms)
+			BuildScriptInfoCaches (38ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (784ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (406ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.6.4f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Starting new worker id: 0 with log in /Users/arthuri/Unity Projects/RoadGame/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=3160450dd9d994997ba70ff3f39f3cca): Total: 2.695 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1404 ms
+		Asset DB Callback time: managed=18 ms, native=4 ms
+		Scripting: domain reloads=1, domain reload time=615 ms, compile time=612 ms, other=40 ms
+		Project Asset Count: scripts=2244, non-scripts=5496
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 5.141ms
+	ApplyChangesToAssetFolders: 0.224ms
+	Scan: 373.974ms
+	Collect global state as custom dependencies: 9.482ms
+	CategorizeScriptCompilationAssets: 34.113ms
+	ProcessAssetsWithTransientArtifactChanges: 47.110ms
+	CategorizeAssets: 59.581ms
+	CompileScripts: 611.572ms
+	ImportOutOfDateAssets: 793.145ms (788.556ms without children)
+		UnloadImportedAssets: 2.668ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.664ms
+		ImportSchedulerStart: 1.227ms
+	PostProcessAllAssets: 18.951ms
+		MonoPostProcessAllAssets: 18.926ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 6.798ms
+			SyncVS.PostprocessSyncProject 3.366ms
+			GraphRefreshPostprocessor.OnPostprocessAllAssets 0.832ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.757ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 0.733ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.398ms
+			AssetChangeDetector.OnPostprocessAllAssets 0.387ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.289ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.220ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.113ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.107ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.085ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.075ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.070ms
+	UnloadStreamsBegin: 1.935ms
+	PersistCurrentRevisions: 0.144ms
+	GenerateScriptTypeHashes: 0.912ms
+	GenerateScriptTypeSerializationHashes: 1.687ms
+	Untracked: 737.728ms
+
+Application.AssetDatabase Initial Refresh End
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Scanning for USB devices : 0.093ms
+Initializing Unity extensions:
+2026-11-16 21:48:40.230 Unity[31503:3659341] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xc6612c320 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Scarbound Car Combat: Idle RPG
+Unloading 108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10690 unused Assets / (26.5 MB). Loaded Objects now: 11659.
+Memory consumption went from 326.4 MB to 299.9 MB.
+Total: 14.863917 ms (FindLiveObjects: 0.548666 ms CreateObjectMapping: 0.342625 ms MarkObjects: 10.072000 ms  DeleteObjects: 3.799167 ms)
+
+Opening scene 'Assets/Scenes/Game.unity'
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Game.unity'
+	Deserialize:            1.340 ms
+	Integration:            5.265 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.007 ms
+	Total Operation Time:   6.613 ms
+Unloading 2 unused Assets / (111.0 KB). Loaded Objects now: 11673.
+Memory consumption went from 287.7 MB to 287.6 MB.
+Total: 10.078333 ms (FindLiveObjects: 0.267583 ms CreateObjectMapping: 0.144542 ms MarkObjects: 9.551375 ms  DeleteObjects: 0.016417 ms)
+
+[Project] Loading completed in 4.258 seconds
+	Project init time: 				3.992 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.223 seconds
+		Asset Database init time: 		0.180 seconds
+		Global illumination init time: 	0.001 seconds
+		Assemblies load time: 			0.510 seconds
+		Unity extensions init time: 	0.033 seconds
+		Asset Database refresh time: 	2.695 seconds
+	Scene opening time: 			0.195 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1794851320344,"processId":31503,"projectLoad":4.258140583,"projectInit":3.992133125,"templateInit":0.0,"packageManagerInit":0.2233195,"assetDatabaseInit":0.180216,"globalIlluminationInit":0.00054775,"assembliesLoad":0.51044825,"unityExtensionsInit":0.032649375,"assetDatabaseRefresh":2.694648792,"sceneOpening":0.195251875}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1794851320344,"processId":31503,"editorVersion":"6000.6.4f1 (12bfff696524)","branch":"6000.6/staging","buildType":"Release","platform":"OSX"}
+Subscribe to USB device events
+Scanning for USB devices : 0.077ms
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Successfully resolved entitlement details
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+[UnityConnectServicesConfig] config is NOT valid, switching to default
+Created GICache directory at /Users/arthuri/Library/Caches/com.unity3d.UnityEditor/GiCache. Took: 0.001s, timestamps: [4.261 - 4.263]
+[Licensing::Client] Successfully resolved entitlement details
+Worker ready: AssetImportWorkerHW0 0
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[INFO ] [relay] relay.startup port=9001 mcpClientPort=9002 editorPid=31503
+[INFO ] [relay] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.100)
+[INFO ] [relay] log TLS trust: NODE_USE_SYSTEM_CA=on systemCAs=0 bundledCAs=118
+[INFO ] [relay] log Starting relay server...
+[INFO ] [relay] log Command line arguments: ["bun","/$bunfs/root/relay_mac_arm64","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","31503","--shutdown-delay","180","--log-dir","/Users/arthuri/Unity Projects/RoadGame/Logs"]
+[INFO ] [relay] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"31503","shutdownDelaySeconds":180}
+[INFO ] [relay] log Initializing relay components...
+[INFO ] [relay] log Creating RelayEditor...
+[INFO ] [relay] log WebSocket server started
+[INFO ] [relay] log Relay server initialization completed
+[INFO ] [relay] log MCP Client initialized at port: 9002
+[INFO ] [relay] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[INFO ] [relay] log [shell-env] PATH augmented with shell environment (17 entries)
+[INFO ] [relay] log Unity client connected with ID: editor-31503-0lxtuq (relay 1.0.12-build.100)
+[INFO ] [relay] connection.established clientId=editor-31503-0lxtuq port=9001
+Thread 0x455387000 may have been prematurely finalized
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+RoadGame AUDIO editorMasterMuted=True soundSetting= musicSetting=
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RoadGame.EditorTools.AutoCapture:PrepareCapture () (at Assets/RoadGame/Editor/AutoCapture.cs:388)
+RoadGame.EditorTools.AutoCapture:Tick () (at Assets/RoadGame/Editor/AutoCapture.cs:475)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:412)
+
+(Filename: Assets/RoadGame/Editor/AutoCapture.cs Line: 388)
+
+RoadGame: spawns checked against obstacles: moved=3 stuck=0 rockColliders=1178
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RoadGame.World:ValidateSpawns () (at Assets/RoadGame/Scripts/World/World.cs:190)
+RoadGame.World/<GenerateRoutine>d__23:MoveNext () (at Assets/RoadGame/Scripts/World/World.cs:154)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: Assets/RoadGame/Scripts/World/World.cs Line: 190)
+
+RoadGame WORLD generated in 1368 ms (terrain 79 ms, spawn check 1 ms, rock colliders 1178 in 79 ms)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RoadGame.World/<GenerateRoutine>d__23:MoveNext () (at Assets/RoadGame/Scripts/World/World.cs:155)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: Assets/RoadGame/Scripts/World/World.cs Line: 155)
+
+RoadGame: session built in 1919 ms (materials 153, rendering 112, fx+audio 8, world 1379, car 86)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RoadGame.Game/<Start>d__49:MoveNext () (at Assets/RoadGame/Scripts/Game.cs:187)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: Assets/RoadGame/Scripts/Game.cs Line: 187)
+
+RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/shopfresh/shopfresh_00.png | fps~10000 hp=100/100 dmg=5.5 kills=0 pos=(-20.00, 0.00, -75.48) active=61 draws=278 setpass=29 tris=292028 enemyShots=0 gunShots=0 gunHits=0 gunYaw=3 harpoonYaw=16 harpoons=0 reeled=0 harpoonAimErrMax=0.0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RoadGame.EditorTools.AutoCapture:Shoot (int) (at Assets/RoadGame/Editor/AutoCapture.cs:1470)
+RoadGame.EditorTools.AutoCapture:Tick () (at Assets/RoadGame/Editor/AutoCapture.cs:638)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:412)
+
+(Filename: Assets/RoadGame/Editor/AutoCapture.cs Line: 1470)
+
+RoadGame AutoCapture: done, 1 shots in /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/shopfresh
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+RoadGame.EditorTools.AutoCapture:Tick () (at Assets/RoadGame/Editor/AutoCapture.cs:653)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:412)
+
+(Filename: Assets/RoadGame/Editor/AutoCapture.cs Line: 653)
+
+MonoPathRemapper: Attempts to remap: 92264; Successful remaps: 38036
+Thread 0x445023000 may have been prematurely finalized
+Serialized file version minimum: 23, current 23
+Pipeline Server stopped
+[INFO ] [relay] log Shutdown request received from client editor-31503-0lxtuq
+[INFO ] [relay] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[INFO ] [relay] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
+Killing ADB server in 0.037622 seconds.
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+Thread 0x41070b000 may have been prematurely finalized
+Thread 0x17e913000 may have been prematurely finalized
+Thread 0x17e99f000 may have been prematurely finalized
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-arthuri-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-arthuri channel disconnected successfully.
+Shut down UDS service system complete
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+debugger-agent: Unable to listen on 46
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown

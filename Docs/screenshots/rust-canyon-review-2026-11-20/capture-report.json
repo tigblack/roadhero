@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-20",
+  "source": "Unity runtime render; current project models",
+  "zone": "RUST CANYON",
+  "boss": "OIL BARON",
+  "boss_spawn_id": 19500,
+  "boss_hp": 32000,
+  "arena_center": [
+    -15.6,
+    0,
+    264
+  ],
+  "arena_radius": 18,
+  "separate_boss_escort": false,
+  "roster_order": [
+    "Scavenger",
+    "Raider",
+    "Lancer",
+    "Bolter",
+    "Brute",
+    "Buggy"
+  ],
+  "work_audio_muted": true,
+  "batch_flag": "-disableaudio",
+  "test_save_suffix": "_rustpreview20261120",
+  "temporary_editor_script_removed": true,
+  "source_changes": [],
+  "files": {
+    "arena-wide.png": {
+      "bytes": 937937,
+      "sha256": "cf4aeddc0b113660d442764124517680185ffe610c4fde5c21a59e5428c8e6d5"
+    },
+    "boss-close.png": {
+      "bytes": 548393,
+      "sha256": "469ee18893734ca5359a1de391e07f640b2567041795a2a70852a9f3fbf5db5f"
+    },
+    "enemies-rust-canyon.png": {
+      "bytes": 657035,
+      "sha256": "e63e7cc39a3bfc561a314b212c9803ada141c5d56b0c23d21514cdfbbce08fa7"
+    },
+    "enemy-01.png": {
+      "bytes": 195012,
+      "sha256": "e08a5e2057614b9769af4e2ca1af62868c68c492acd9c50662d03e25b70a784b"
+    },
+    "enemy-02.png": {
+      "bytes": 203628,
+      "sha256": "20d3a4025b10f736b8925b642099bddcfc537c3b45324881a482901392668e17"
+    },
+    "enemy-03.png": {
+      "bytes": 193825,
+      "sha256": "e20e68332d6fe2bcbb745f35c1294f57f4bdf8957093f00d9379915a40f9da32"
+    },
+    "enemy-04.png": {
+      "bytes": 202080,
+      "sha256": "6c05891724b68e361b159d57ec5101629be0028c183c478aa1bbb9e2a166f05c"
+    },
+    "enemy-05.png": {
+      "bytes": 225343,
+      "sha256": "4879a7ce7df1595aa206b86798da70c31a3ba5a2f519ca47fc561bd4017460bd"
+    },
+    "enemy-06.png": {
+      "bytes": 227543,
+      "sha256": "43ced5872d898c981c3e1f3d9acb89f1b2e93c55137a5fd7dc356e4000353976"
+    },
+    "enemy-lineup.png": {
+      "bytes": 405966,
+      "sha256": "7d10a4b29c163a77fbbe5716daa2c5c3f812ac9e05aa68d8ded207e475ead75f"
+    }
+  },
+  "time_manager_original_bytes_restored": true,
+  "preview_images_visually_reviewed": true
+}

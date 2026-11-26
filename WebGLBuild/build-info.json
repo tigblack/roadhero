@@ -1,0 +1,10 @@
+{
+  "version": "2026-11-26-car-feel",
+  "builtAtUtc": "2026-11-26T00:21:16.179241+00:00",
+  "sourceBuild": "2026-11-26-car-feel-raw",
+  "delivery": "hashed Unity gzip assets with streamed 24 MiB parts",
+  "chunkedFiles": [
+    "Build/320adde4f16be342e9b3b2a1e132f4c1.data.unityweb"
+  ],
+  "chunkLoader": "chunked-data-loader.4f1eda3c9aa7cfe2.js"
+}

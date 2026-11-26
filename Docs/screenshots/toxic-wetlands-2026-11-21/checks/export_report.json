@@ -1,0 +1,78 @@
+{
+  "sourceFile": "/Users/arthuri/Unity Projects/RoadGame/ArtSource/Levels/ToxicWetlands/ToxicWetlands_Zone01_v1.blend",
+  "sourceSha256": "aca5363a1e3a0fd92e1b79d0c321167052339579a77f0af011e9710dced68442",
+  "nodes": 1297,
+  "meshObjects": 834,
+  "uniqueMeshes": 464,
+  "materials": 11,
+  "textures": {
+    "T_Character_Wetlands_BaseMap_1K": {
+      "file": "T_Character_Wetlands_BaseMap_1K.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "ee4958ee953e4d8e7ec8785e5f5e06b4667df8860113a8f8b77bb3061a3fa412"
+    },
+    "material_010": {
+      "file": "material_010.png",
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "15e5b10ac2591832f684c34b5a5f39af296e52398fbad86af3c672c5cbc639a5"
+    },
+    "T_Ground_Wetlands_BaseMap_2K": {
+      "file": "T_Ground_Wetlands_BaseMap_2K.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "333b7f9747d921daa8efc529dd74291514fbbef2e35b5905d5b2052a5ecf6faf"
+    },
+    "material_011": {
+      "file": "material_011.png",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "258a8b5fd7613ee5d7bbfcf5ddd8a5f7236f188ad92b37fe4eac3fe31a69e21c"
+    },
+    "material_004": {
+      "file": "material_004.png",
+      "size": [
+        128,
+        128
+      ],
+      "sha256": "441d435c7d0ec856ac35de4bcca860ca962e61dd3c342cd135cf0ab2717f19c6"
+    },
+    "T_Road_Wetlands_BaseMap_1Kx2K": {
+      "file": "T_Road_Wetlands_BaseMap_1Kx2K.png",
+      "size": [
+        1024,
+        2048
+      ],
+      "sha256": "afc4ac5f4e8da871e24ed289f2821c70f121288e7e6d5474f40d7cfa5339c0a9"
+    },
+    "T_Trim_Wetlands_BaseMap_2K": {
+      "file": "T_Trim_Wetlands_BaseMap_2K.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "7a3faf501ebc3a6483619b37b2654ae794929b6361755290085d45a602aac7ae"
+    }
+  },
+  "collisionProxies": 54,
+  "spawnRoots": 182,
+  "lodObjects": 34,
+  "counts": {
+    "sourceCorners": 1414403,
+    "splitVertices": 536374,
+    "triangles": 645469,
+    "removedDegenerates": 0,
+    "repairedNormalCorners": 108
+  },
+  "binaryBytes": 37788140,
+  "elapsedSeconds": 2.56
+}

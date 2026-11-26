@@ -1,0 +1,10 @@
+{
+    "mode": "devtravelreload",
+    "checks": [
+        "after a restart the car starts in an unlocked zone (zone 0, unlocked 0, at (-20.96, 0.00, -74.02))",
+        "the test visit left no unlock and no boss win in the save",
+        "test access does not survive a restart (session only)"
+    ],
+    "failures": [],
+    "notes": []
+}

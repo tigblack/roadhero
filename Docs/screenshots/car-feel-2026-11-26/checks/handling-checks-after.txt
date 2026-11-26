@@ -1,0 +1,120 @@
+HANDLING_CHECK PASS work run is muted
+HANDLING_CHECK PASS input comes from the HUD joystick (no script, no autopilot)
+HANDLING_CHECK PASS reverse_straight_h0: reverse goes in 0.05 s after the stick is pulled straight back
+HANDLING_CHECK PASS reverse_straight_h0: reverse holds 5.1 s while the stick stays back (no drop-out, no gear flicker)
+HANDLING_CHECK PASS reverse_straight_h0: backs up at 5.00 m/s (reverse top speed 5)
+HANDLING_CHECK PASS reverse_straight_h0: the wheel stays straight (|steer| max 0.00 deg, mean 0.00 deg)
+HANDLING_CHECK PASS reverse_straight_h0: no turning round: heading changes 0.00 deg in 5.1 s of straight reverse
+HANDLING_CHECK PASS reverse_straight_h0: travels straight back 21.1 m (sideways 0.00 m)
+HANDLING_CHECK PASS reverse_straight_h0: finger up: the car stops and holds (0.00 m/s after 2.0 s)
+HANDLING_CHECK PASS reverse: wheel FL rolls backward with the car (turned -2398 deg, ground asks -2398 deg, ratio 1.00)
+HANDLING_CHECK PASS reverse: wheel FR rolls backward with the car (turned -2398 deg, ground asks -2398 deg, ratio 1.00)
+HANDLING_CHECK PASS reverse: wheel RL rolls backward with the car (turned -2087 deg, ground asks -2086 deg, ratio 1.00)
+HANDLING_CHECK PASS reverse: wheel RR rolls backward with the car (turned -2087 deg, ground asks -2086 deg, ratio 1.00)
+HANDLING_CHECK PASS reverse_straight_h90: reverse goes in 0.05 s after the stick is pulled straight back
+HANDLING_CHECK PASS reverse_straight_h90: reverse holds 5.1 s while the stick stays back (no drop-out, no gear flicker)
+HANDLING_CHECK PASS reverse_straight_h90: backs up at 5.00 m/s (reverse top speed 5)
+HANDLING_CHECK PASS reverse_straight_h90: the wheel stays straight (|steer| max 0.00 deg, mean 0.00 deg)
+HANDLING_CHECK PASS reverse_straight_h90: no turning round: heading changes 0.00 deg in 5.1 s of straight reverse
+HANDLING_CHECK PASS reverse_straight_h90: travels straight back 21.2 m (sideways 0.00 m)
+HANDLING_CHECK PASS reverse_straight_h90: finger up: the car stops and holds (0.00 m/s after 2.0 s)
+HANDLING_CHECK PASS reverse_straight_h180: reverse goes in 0.03 s after the stick is pulled straight back
+HANDLING_CHECK PASS reverse_straight_h180: reverse holds 5.1 s while the stick stays back (no drop-out, no gear flicker)
+HANDLING_CHECK PASS reverse_straight_h180: backs up at 5.00 m/s (reverse top speed 5)
+HANDLING_CHECK PASS reverse_straight_h180: the wheel stays straight (|steer| max 0.00 deg, mean 0.00 deg)
+HANDLING_CHECK PASS reverse_straight_h180: no turning round: heading changes 0.00 deg in 5.1 s of straight reverse
+HANDLING_CHECK PASS reverse_straight_h180: travels straight back 21.3 m (sideways 0.00 m)
+HANDLING_CHECK PASS reverse_straight_h180: finger up: the car stops and holds (0.00 m/s after 2.0 s)
+HANDLING_CHECK PASS reverse_straight_h270: reverse goes in 0.03 s after the stick is pulled straight back
+HANDLING_CHECK PASS reverse_straight_h270: reverse holds 5.1 s while the stick stays back (no drop-out, no gear flicker)
+HANDLING_CHECK PASS reverse_straight_h270: backs up at 5.00 m/s (reverse top speed 5)
+HANDLING_CHECK PASS reverse_straight_h270: the wheel stays straight (|steer| max 0.00 deg, mean 0.00 deg)
+HANDLING_CHECK PASS reverse_straight_h270: no turning round: heading changes 0.00 deg in 5.1 s of straight reverse
+HANDLING_CHECK PASS reverse_straight_h270: travels straight back 21.3 m (sideways 0.00 m)
+HANDLING_CHECK PASS reverse_straight_h270: finger up: the car stops and holds (0.00 m/s after 2.0 s)
+HANDLING_CHECK PASS brake_then_reverse: brakes from 11 m/s to a stop in 1.25 s (stays in forward gear meanwhile: True)
+HANDLING_CHECK PASS brake_then_reverse: reverse goes in only at the stop (1.27 s), never while rolling forward
+HANDLING_CHECK PASS brake_then_reverse: firm, progressive braking 8.5 m/s^2 (10 -> 2 m/s)
+HANDLING_CHECK PASS brake_then_reverse: then backs up (5.0 m/s 2.5 s after the reverse went in)
+HANDLING_CHECK PASS brake_then_reverse: no U-turn: heading stays within 0.0 deg
+HANDLING_CHECK PASS brake_then_reverse: one gear change forward -> reverse (1)
+HANDLING_CHECK PASS brake_then_reverse: moderate nose dive under the brakes (-1.89 deg)
+HANDLING_CHECK PASS rear_diagonal_right: reverse goes in (0.03 s)
+HANDLING_CHECK PASS rear_diagonal_right: keeps backing up, never drives forward
+HANDLING_CHECK PASS rear_diagonal_right: steering sign on the real physics: wheel 25.8 deg
+HANDLING_CHECK PASS rear_diagonal_right: the tail swings towards the stick: heading -44.8 deg (the stick is 45 deg off the tail)
+HANDLING_CHECK PASS rear_diagonal_right: ends up travelling along the stick (0.4 deg off)
+HANDLING_CHECK PASS rear_diagonal_right: the wheel comes back as the tail lines up (0.1 deg)
+HANDLING_CHECK PASS rear_diagonal_left: reverse goes in (0.03 s)
+HANDLING_CHECK PASS rear_diagonal_left: keeps backing up, never drives forward
+HANDLING_CHECK PASS rear_diagonal_left: steering sign on the real physics: wheel -25.8 deg
+HANDLING_CHECK PASS rear_diagonal_left: the tail swings towards the stick: heading 44.8 deg (the stick is 45 deg off the tail)
+HANDLING_CHECK PASS rear_diagonal_left: ends up travelling along the stick (0.4 deg off)
+HANDLING_CHECK PASS rear_diagonal_left: the wheel comes back as the tail lines up (-0.1 deg)
+HANDLING_CHECK PASS wall_exit: the mesa wall is ahead (13.3 m)
+HANDLING_CHECK PASS wall_exit: pinned against the wall (moved 0.04 m in the last second, 0.25 m/s)
+HANDLING_CHECK PASS wall_exit: reverse goes in 0.05 s after the stick goes back
+HANDLING_CHECK PASS wall_exit: backs calmly off the wall: 17.4 m straight back, heading change 0.9 deg
+HANDLING_CHECK PASS wall_exit: stays on its wheels, no recovery teleport
+HANDLING_CHECK PASS slope: the car stands on a 14.6 deg slope of the road hill, nose uphill
+HANDLING_CHECK PASS slope: hands off, the car holds on the slope (drift 0.08 m)
+HANDLING_CHECK PASS slope: reverse goes in on the slope
+HANDLING_CHECK PASS slope: backs down under control (max 5.3 m/s)
+HANDLING_CHECK PASS slope: straight down the hill (heading within 0.0 deg)
+HANDLING_CHECK PASS slope: stick ahead again: brakes, forward gear at the stop, drives up the hill (9.4 m/s)
+HANDLING_CHECK PASS water_reverse: the wheels are in the river (318/318 frames wet)
+HANDLING_CHECK PASS water_reverse: reverse goes in and backs up through the water (4.7 m/s)
+HANDLING_CHECK PASS water_reverse: stays straight in the current (heading within 0.7 deg)
+HANDLING_CHECK PASS water_reverse: no recovery teleport
+HANDLING_CHECK PASS landing_reverse: off the ramp and down again (touch-down at 4.53 s)
+HANDLING_CHECK PASS landing_reverse: after the touch-down it brakes, reverse only at the stop (1.45 s)
+HANDLING_CHECK PASS landing_reverse: backs up straight after the landing (5.0 m/s, heading within 0.1 deg)
+HANDLING_CHECK PASS landing_reverse: the suspension takes the landing (-6.9 cm)
+HANDLING_CHECK PASS landing_reverse: short, damped response (settled after 0.40 s, 1 swings)
+HANDLING_CHECK PASS small_stick_release: a 6% deflection is inside the dead zone (no throttle, 0.000 m/s)
+HANDLING_CHECK PASS small_stick_release: a 20% deflection creeps forward (0.93 m/s)
+HANDLING_CHECK PASS small_stick_release: finger up: the stick reads zero at once
+HANDLING_CHECK PASS small_stick_release: the car stops after the release (0.28 s)
+HANDLING_CHECK PASS focus_menu_fingers: losing the app focus lets go of the stick
+HANDLING_CHECK PASS focus_menu_fingers: opening a menu lets go of the stick (paused, no input)
+HANDLING_CHECK PASS focus_menu_fingers: after the menu closes there is no stale input
+HANDLING_CHECK PASS focus_menu_fingers: a second finger on the stick area does not take it over
+HANDLING_CHECK PASS focus_menu_fingers: finger A up lets go
+HANDLING_CHECK PASS focus_menu_fingers: all finger steps ran
+HANDLING_CHECK PASS rate_60fps_1x: stable (reverse at 5.1 s, |pitch| max 2.00, |roll| max 1.73 deg)
+HANDLING_CHECK PASS forward: wheel FL rolls forward with the car (turned 1179 deg, ground asks 1179 deg, ratio 1.00)
+HANDLING_CHECK PASS forward: wheel FR rolls forward with the car (turned 1179 deg, ground asks 1179 deg, ratio 1.00)
+HANDLING_CHECK PASS forward: wheel RL rolls forward with the car (turned 1096 deg, ground asks 1025 deg, ratio 1.07)
+HANDLING_CHECK PASS forward: wheel RR rolls forward with the car (turned 1096 deg, ground asks 1025 deg, ratio 1.07)
+HANDLING_CHECK PASS suspension: squat under full throttle 1.00 deg (nose up, smaller than the brake dive)
+HANDLING_CHECK PASS suspension: body lean in the hard right turn -1.71 deg (left side down, limited)
+HANDLING_CHECK PASS rate_30fps_1x: stable (reverse at 5.2 s, |pitch| max 2.04, |roll| max 1.78 deg)
+HANDLING_CHECK PASS rate_30fps_1x: the same path as 60 FPS 1x (end 0.15 m and 0.4 deg apart)
+HANDLING_CHECK PASS rate_60fps_2x: stable (reverse at 5.2 s, |pitch| max 2.04, |roll| max 1.78 deg)
+HANDLING_CHECK PASS rate_60fps_2x: the same path as 60 FPS 1x (end 0.15 m and 0.2 deg apart)
+HANDLING_CHECK PASS rate_30fps_2x: stable (reverse at 5.2 s, |pitch| max 2.07, |roll| max 1.66 deg)
+HANDLING_CHECK PASS rate_30fps_2x: the same path as 60 FPS 1x (end 0.13 m and 0.4 deg apart)
+HANDLING_CHECK PASS rate_60fps_4x: stable (reverse at 5.2 s, |pitch| max 2.07, |roll| max 1.68 deg)
+HANDLING_CHECK PASS rate_60fps_4x: the same path as 60 FPS 1x (end 0.18 m and 0.1 deg apart)
+HANDLING_CHECK PASS rate_30fps_4x: stable (reverse at 5.3 s, |pitch| max 1.88, |roll| max 1.59 deg)
+HANDLING_CHECK PASS rate_30fps_4x: the same path as 60 FPS 1x (end 0.24 m and 0.4 deg apart)
+HANDLING_CHECK PASS feel_launch: full stick from a standstill: 3 m/s in 0.80 s, 9 m/s in 2.80 s
+HANDLING_CHECK PASS feel_launch: finger up at 11.2 m/s: it slows down clearly and rolls out 14.6 m in 2.66 s
+HANDLING_CHECK PASS feel_turn_low: the nose follows a 45 deg stick step (0.68 s to half, 1.73 s to 90 %, overshoot 0.0 deg)
+HANDLING_CHECK PASS feel_turn_low: back on the old line without a weave (1.62 s to within 5 deg, swing past it 0.0 deg)
+HANDLING_CHECK PASS feel_turn_mid: the nose follows a 35 deg stick step (0.63 s to half, 1.37 s to 90 %, overshoot 0.0 deg)
+HANDLING_CHECK PASS feel_turn_mid: back on the old line without a weave (1.13 s to within 5 deg, swing past it 0.0 deg)
+HANDLING_CHECK PASS feel_slalom_low: the body answers every stick switch (5 switches, reaction mean 0.17 s, max 0.18 s)
+HANDLING_CHECK PASS feel_slalom_low: the nose stays within the stick's +-30 deg plus a margin (heading -12.8..12.8 deg)
+HANDLING_CHECK PASS feel_slalom_mid: the body answers every stick switch (5 switches, reaction mean 0.18 s, max 0.20 s)
+HANDLING_CHECK PASS feel_slalom_mid: the nose stays within the stick's +-30 deg plus a margin (heading -14.4..14.6 deg)
+HANDLING_CHECK PASS feel_small_corrections: +-6 deg nudges stay small and smooth (wheel max 6.1 deg, tracking error 1.36 deg, overshoot 0.0 deg)
+HANDLING_CHECK PASS feel_top_speed: a 10 deg nudge at 13.1+ m/s and back: calm, no weave (swing past 0.0 deg, settled in 0.72 s, 1 yaw reversals)
+HANDLING_CHECK PASS feel_release: finger up at 10.0 m/s: a clear slow-down (7.6 m/s after 0.5 s) and a short roll-out (11.1 m, 2.32 s)
+HANDLING_CHECK PASS ramp_Kicker0a: launches off the lip at 11.9 m/s and lands on its wheels (wall caps 1)
+HANDLING_CHECK PASS ramp_Kicker0b: launches off the lip at 12.0 m/s and lands on its wheels (wall caps 0)
+HANDLING_CHECK PASS bigjump_rollout: rolls on after the landing (12.6 m/s half a second later; wall caps 0)
+HANDLING_CHECK PASS absorb_rigid: scrap absorbed: the car settles -1.7 cm on its springs
+HANDLING_CHECK PASS absorb_rigid: and is still again after 0.73 s
+HANDLING_CHECK PASS materials: game-camera frames of the car written (handling_car_game / _close / _side)
+HANDLING_CHECK PASS the body never changes its shape (max scale deviation 0.00000)

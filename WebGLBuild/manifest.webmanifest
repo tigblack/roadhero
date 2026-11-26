@@ -1,0 +1,19 @@
+{
+  "id": "./",
+  "name": "Scarbound Car Combat: Idle RPG",
+  "short_name": "Scarbound",
+  "description": "Автомобильные бои в пустоши",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "background_color": "#11140e",
+  "theme_color": "#11140e",
+  "icons": [
+    {
+      "src": "TemplateData/app-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

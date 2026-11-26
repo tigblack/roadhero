@@ -1,0 +1,45 @@
+[
+ {
+  "file": "/private/tmp/claude-501/-Users-arthuri-Unity-Projects-RoadGame/a675978e-edec-47ae-9de0-14fe00ec6712/scratchpad/music/theme/music_theme.wav",
+  "sample_rate": 44100,
+  "channels": 2,
+  "subtype": "PCM_16",
+  "frames": 5080320,
+  "seconds": 115.2,
+  "gain_db": 0.0,
+  "lufs_i": -16.96,
+  "lra_lu": 4.53,
+  "true_peak_dbtp": -1.12,
+  "sample_peak_dbfs": -1.37,
+  "lr_correlation": 0.885,
+  "mono_fold_db": -0.26,
+  "phone_lufs": -23.2,
+  "phone_loss_db": 6.24,
+  "band_share_pct": {
+   "20-60": 8.2,
+   "60-250": 45.3,
+   "250-800": 28.2,
+   "800-2.5k": 11.1,
+   "2.5-6k": 5.1,
+   "6-16k": 2.1
+  },
+  "seam": {
+   "jump": 0.01553,
+   "local_p999_step": 0.29091,
+   "jump_vs_local": 0.053,
+   "rms_last_50ms_db": -23.45,
+   "rms_first_50ms_db": -15.38,
+   "step_db_at_seam": 8.07,
+   "p99_step_db_50ms": 13.94,
+   "quietest_200ms_db": -31.7,
+   "first_frame": [
+    -0.05963,
+    -0.06235
+   ],
+   "last_frame": [
+    -0.0441,
+    -0.05029
+   ]
+  }
+ }
+]

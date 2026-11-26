@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_CarBody
+  m_Shader: {fileID: 4800000, guid: 176371834e1ad48519416ffa889dd219, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _BAKED_MAPS
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: cd5a9bdf89196492e91991e6889934c3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 6a9f71b2ae83148f8bba6b60c7c26226, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 17a61b2abb59f47b387d0fe8315ff4ec, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: c1e40f41acf3c4be6a57c4c03d4c945c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AOFloor: 0.86
+    - _AOHeight: 0.55
+    - _Alpha: 1
+    - _BumpScale: 1
+    - _DstBlend: 0
+    - _DustAmount: 0.02
+    - _GlossMul: 1
+    - _OcclusionStrength: 1
+    - _ReflStrength: 1
+    - _Saturation: 1
+    - _ShadowStrength: 0.82
+    - _SpecStrength: 1.15
+    - _SrcBlend: 1
+    - _TermHi: 0.7
+    - _TermLo: -0.5
+    - _UseBakedMaps: 1
+    - _VertexColorWeight: 0
+    - _WorldUV: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+    - _FlashColor: {r: 1, g: 1, b: 1, a: 0}
+    - _RimColor: {r: 0.86, g: 0.93, b: 1, a: 0.16}
+    - _ShadeColor: {r: 0.65999997, g: 0.62, b: 0.82, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

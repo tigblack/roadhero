@@ -1,0 +1,26 @@
+{
+  "source_dir": "/Users/arthuri/Blender Proj/car/Scarbound_Car_v10_DetailedCar_Scripts/lib",
+  "project_dir": "/Users/arthuri/Unity Projects/RoadGame",
+  "recoil_sweep_m": 0.05,
+  "GunMesh": {
+    "vertices": 10356,
+    "polygons": 10808,
+    "capsules": 5,
+    "boxes": 3,
+    "uncovered_vertices": 0,
+    "polygons_not_wholly_in_one_convex_proxy": 0,
+    "first_uncovered_vertices": [],
+    "first_unenclosed_polygon_indices": []
+  },
+  "GunCradle": {
+    "vertices": 1638,
+    "polygons": 1704,
+    "capsules": 1,
+    "boxes": 3,
+    "uncovered_vertices": 0,
+    "polygons_not_wholly_in_one_convex_proxy": 0,
+    "first_uncovered_vertices": [],
+    "first_unenclosed_polygon_indices": []
+  },
+  "passed": true
+}

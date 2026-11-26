@@ -1,0 +1,121 @@
+RoadGame MUTANTS_CHECK PASS work run is muted
+RoadGame MUTANTS_CHECK PASS creature bundle loads (AshenWinter_Enemies_v1.blend)
+RoadGame MUTANTS_CHECK PASS Scav has a creature (AW_AshPecker, 18874 tris)
+RoadGame MUTANTS_CHECK PASS Raider has a creature (AW_SnowReaper, 19816 tris)
+RoadGame MUTANTS_CHECK PASS Spearman has a creature (AW_NeedleWalker, 12608 tris)
+RoadGame MUTANTS_CHECK PASS Crossbow has a creature (AW_BoilerSpitter, 14494 tris)
+RoadGame MUTANTS_CHECK PASS Brute has a creature (AW_Executioner, 21384 tris)
+RoadGame MUTANTS_CHECK PASS Buggy has a creature (AW_WhiteoutRaider, 20472 tris)
+RoadGame MUTANTS_CHECK PASS BossColossus has a creature (AW_BlackReactor)
+RoadGame MUTANTS_CHECK PASS names: ASHEN WINTER, BLACK REACTOR / ЧЁРНЫЙ РЕАКТОР
+RoadGame MUTANTS_CHECK PASS zone 0 raider stays a raider (no creature)
+RoadGame MUTANTS_CHECK PASS zone 3 raider stays a raider (no creature)
+RoadGame MUTANTS_CHECK PASS no live target outside the creature zones carries a creature (0)
+RoadGame MUTANTS_CHECK PASS zone balance table intact
+RoadGame MUTANTS_CHECK PASS Scav: a live zone-2 Scav next to the car (spawn 20149)
+RoadGame MUTANTS_CHECK PASS Scav is a mutant (AW_AshPecker) with an animator (AshPeckerAnimator)
+RoadGame MUTANTS_CHECK PASS Scav draws only mutant meshes, no leftover body or weapon (16 renderers)
+RoadGame MUTANTS_CHECK PASS Scav has no generated humanoid / buggy transforms left
+RoadGame MUTANTS_CHECK PASS Scav rig flashes / burns the creature with property blocks
+RoadGame MUTANTS_CHECK PASS Scav HP bar at 1.85 m sits just over the body (top 1.81 m)
+RoadGame MUTANTS_CHECK PASS Scav gun aim point (0.00, 0.70, 0.00) is on the body
+RoadGame MUTANTS_CHECK PASS Scav shots leave from its mouth ((0.54, 1.27, -1.28))
+RoadGame MUTANTS_CHECK PASS Scav attacked the car with its new body (3 strikes / volleys, enemy shots so far 9)
+RoadGame MUTANTS_CHECK PASS Scav wind-up -> damage frame reached (last at 11.24, landed=False)
+RoadGame MUTANTS_CHECK PASS Scav flashes when hit (property blocks on the creature)
+RoadGame MUTANTS_CHECK PASS Scav dies through the normal damage handler and plays its death
+RoadGame MUTANTS_CHECK PASS Scav root stays upright on death (the creature falls inside its own hierarchy; the harpoon takes the root)
+RoadGame MUTANTS_CHECK PASS Scav wreck is harpooned and reeled in (reeled 1)
+RoadGame MUTANTS_CHECK PASS respawned Scav (spawn 20149) is the same creature in its rest pose (16 renderers)
+RoadGame MUTANTS_CHECK PASS Raider: a live zone-2 Raider next to the car (spawn 20160)
+RoadGame MUTANTS_CHECK PASS Raider is a mutant (AW_SnowReaper) with an animator (SnowReaperAnimator)
+RoadGame MUTANTS_CHECK PASS Raider draws only mutant meshes, no leftover body or weapon (24 renderers)
+RoadGame MUTANTS_CHECK PASS Raider has no generated humanoid / buggy transforms left
+RoadGame MUTANTS_CHECK PASS Raider rig flashes / burns the creature with property blocks
+RoadGame MUTANTS_CHECK PASS Raider HP bar at 2.25 m sits just over the body (top 2.16 m)
+RoadGame MUTANTS_CHECK PASS Raider gun aim point (0.00, 0.86, 0.00) is on the body
+RoadGame MUTANTS_CHECK PASS Raider attacked the car with its new body (5 strikes / volleys, enemy shots so far 18)
+RoadGame MUTANTS_CHECK PASS Raider wind-up -> damage frame reached (last at 21.45, landed=True)
+RoadGame MUTANTS_CHECK PASS Raider flashes when hit (property blocks on the creature)
+RoadGame MUTANTS_CHECK PASS Raider dies through the normal damage handler and plays its death
+RoadGame MUTANTS_CHECK PASS Raider root stays upright on death (the creature falls inside its own hierarchy; the harpoon takes the root)
+RoadGame MUTANTS_CHECK PASS Raider wreck is harpooned and reeled in (reeled 1)
+RoadGame MUTANTS_CHECK PASS respawned Raider (spawn 20160) is the same creature in its rest pose (24 renderers)
+RoadGame MUTANTS_CHECK PASS Spearman: a live zone-2 Spearman next to the car (spawn 20168)
+RoadGame MUTANTS_CHECK PASS Spearman is a mutant (AW_NeedleWalker) with an animator (NeedleWalkerAnimator)
+RoadGame MUTANTS_CHECK PASS Spearman draws only mutant meshes, no leftover body or weapon (16 renderers)
+RoadGame MUTANTS_CHECK PASS Spearman has no generated humanoid / buggy transforms left
+RoadGame MUTANTS_CHECK PASS Spearman rig flashes / burns the creature with property blocks
+RoadGame MUTANTS_CHECK PASS Spearman HP bar at 3.10 m sits just over the body (top 2.94 m)
+RoadGame MUTANTS_CHECK PASS Spearman gun aim point (0.00, 1.18, 0.00) is on the body
+RoadGame MUTANTS_CHECK PASS Spearman shots leave from its mouth ((-0.91, 2.42, -0.91))
+RoadGame MUTANTS_CHECK PASS Spearman attacked the car with its new body (3 strikes / volleys, enemy shots so far 33)
+RoadGame MUTANTS_CHECK PASS Spearman wind-up -> damage frame reached (last at 30.66, landed=False)
+RoadGame MUTANTS_CHECK PASS Spearman flashes when hit (property blocks on the creature)
+RoadGame MUTANTS_CHECK PASS Spearman dies through the normal damage handler and plays its death
+RoadGame MUTANTS_CHECK PASS Spearman root stays upright on death (the creature falls inside its own hierarchy; the harpoon takes the root)
+RoadGame MUTANTS_CHECK PASS Spearman wreck is harpooned and reeled in (reeled 1)
+RoadGame MUTANTS_CHECK PASS respawned Spearman (spawn 20168) is the same creature in its rest pose (16 renderers)
+RoadGame MUTANTS_CHECK PASS Crossbow: a live zone-2 Crossbow next to the car (spawn 20175)
+RoadGame MUTANTS_CHECK PASS Crossbow is a mutant (AW_BoilerSpitter) with an animator (BoilerSpitterAnimator)
+RoadGame MUTANTS_CHECK PASS Crossbow draws only mutant meshes, no leftover body or weapon (21 renderers)
+RoadGame MUTANTS_CHECK PASS Crossbow has no generated humanoid / buggy transforms left
+RoadGame MUTANTS_CHECK PASS Crossbow rig flashes / burns the creature with property blocks
+RoadGame MUTANTS_CHECK PASS Crossbow HP bar at 2.55 m sits just over the body (top 2.53 m)
+RoadGame MUTANTS_CHECK PASS Crossbow gun aim point (0.00, 0.97, 0.00) is on the body
+RoadGame MUTANTS_CHECK PASS Crossbow shots leave from its mouth ((0.12, 2.27, 0.32))
+RoadGame MUTANTS_CHECK PASS Crossbow attacked the car with its new body (3 strikes / volleys, enemy shots so far 43)
+RoadGame MUTANTS_CHECK PASS Crossbow wind-up -> damage frame reached (last at 40.23, landed=False)
+RoadGame MUTANTS_CHECK PASS Crossbow flashes when hit (property blocks on the creature)
+RoadGame MUTANTS_CHECK PASS Crossbow dies through the normal damage handler and plays its death
+RoadGame MUTANTS_CHECK PASS Crossbow root stays upright on death (the creature falls inside its own hierarchy; the harpoon takes the root)
+RoadGame MUTANTS_CHECK PASS Crossbow wreck is harpooned and reeled in (reeled 1)
+RoadGame MUTANTS_CHECK PASS respawned Crossbow (spawn 20175) is the same creature in its rest pose (21 renderers)
+RoadGame MUTANTS_CHECK PASS Brute: a live zone-2 Brute next to the car (spawn 20179)
+RoadGame MUTANTS_CHECK PASS Brute is a mutant (AW_Executioner) with an animator (ExecutionerAnimator)
+RoadGame MUTANTS_CHECK PASS Brute draws only mutant meshes, no leftover body or weapon (20 renderers)
+RoadGame MUTANTS_CHECK PASS Brute has no generated humanoid / buggy transforms left
+RoadGame MUTANTS_CHECK PASS Brute rig flashes / burns the creature with property blocks
+RoadGame MUTANTS_CHECK PASS Brute HP bar at 3.70 m sits just over the body (top 3.53 m)
+RoadGame MUTANTS_CHECK PASS Brute gun aim point (0.00, 1.41, 0.00) is on the body
+RoadGame MUTANTS_CHECK PASS Brute shots leave from its mouth ((2.00, 1.50, -1.01))
+RoadGame MUTANTS_CHECK PASS Brute attacked the car with its new body (3 strikes / volleys, enemy shots so far 55)
+RoadGame MUTANTS_CHECK PASS Brute wind-up -> damage frame reached (last at 51.11, landed=False)
+RoadGame MUTANTS_CHECK PASS Brute flashes when hit (property blocks on the creature)
+RoadGame MUTANTS_CHECK PASS Brute dies through the normal damage handler and plays its death
+RoadGame MUTANTS_CHECK PASS Brute root stays upright on death (the creature falls inside its own hierarchy; the harpoon takes the root)
+RoadGame MUTANTS_CHECK PASS Brute wreck is harpooned and reeled in (reeled 1)
+RoadGame MUTANTS_CHECK PASS respawned Brute (spawn 20179) is the same creature in its rest pose (20 renderers)
+RoadGame MUTANTS_CHECK PASS Buggy: a live zone-2 Buggy next to the car (spawn 20180)
+RoadGame MUTANTS_CHECK PASS Buggy is a mutant (AW_WhiteoutRaider) with an animator (WhiteoutRaiderAnimator)
+RoadGame MUTANTS_CHECK PASS Buggy draws only mutant meshes, no leftover body or weapon (35 renderers)
+RoadGame MUTANTS_CHECK PASS Buggy has no generated humanoid / buggy transforms left
+RoadGame MUTANTS_CHECK PASS Buggy rig flashes / burns the creature with property blocks
+RoadGame MUTANTS_CHECK PASS Buggy HP bar at 2.80 m sits just over the body (top 2.66 m)
+RoadGame MUTANTS_CHECK PASS Buggy gun aim point (0.00, 1.06, 0.00) is on the body
+RoadGame MUTANTS_CHECK PASS Buggy shots leave from its mouth ((-0.91, 2.10, 0.34))
+RoadGame MUTANTS_CHECK PASS Buggy attacked the car with its new body (9 strikes / volleys, enemy shots so far 78)
+RoadGame MUTANTS_CHECK PASS Buggy wind-up -> damage frame reached (last at 61.16, landed=False)
+RoadGame MUTANTS_CHECK PASS Buggy flashes when hit (property blocks on the creature)
+RoadGame MUTANTS_CHECK PASS Buggy dies through the normal damage handler and plays its death
+RoadGame MUTANTS_CHECK PASS Buggy root stays upright on death (the creature falls inside its own hierarchy; the harpoon takes the root)
+RoadGame MUTANTS_CHECK PASS Buggy wreck is harpooned and reeled in (reeled 1)
+RoadGame MUTANTS_CHECK PASS respawned Buggy (spawn 20180) is the same creature in its rest pose (35 renderers)
+RoadGame MUTANTS_CHECK PASS zone-2 boss spawn exists
+RoadGame MUTANTS_CHECK PASS the Black Reactor is active next to the car
+RoadGame MUTANTS_CHECK PASS BossColossus is a mutant (AW_BlackReactor) with an animator (BlackReactorAnimator)
+RoadGame MUTANTS_CHECK PASS BossColossus draws only mutant meshes, no leftover body or weapon (23 renderers)
+RoadGame MUTANTS_CHECK PASS BossColossus has no generated humanoid / buggy transforms left
+RoadGame MUTANTS_CHECK PASS BossColossus rig flashes / burns the creature with property blocks
+RoadGame MUTANTS_CHECK PASS BossColossus HP bar at 9.60 m sits just over the body (top 9.30 m)
+RoadGame MUTANTS_CHECK PASS BossColossus gun aim point (0.00, 1.60, 0.00) is on the body
+RoadGame MUTANTS_CHECK PASS the Black Reactor wound up a blow / slam (blow=True, slam=True)
+RoadGame MUTANTS_CHECK PASS the Black Reactor dies through the normal damage handler and plays its death
+RoadGame MUTANTS_CHECK PASS boss win counts and opens the next zone (bossKills=1, unlockedZone=3)
+RoadGame MUTANTS_CHECK PASS the Black Reactor unlocks Thunder Lance as before
+RoadGame MUTANTS_CHECK PASS the Black Reactor gives Roof Plates as before
+RoadGame MUTANTS_CHECK PASS the boss wreck is reeled in and its reward applies (max HP 5000128 -> 5002688)
+RoadGame MUTANTS_CHECK PASS first win pays 200 gems (0 -> 200)
+RoadGame MUTANTS_CHECK PASS creatures stay on the ground while they move (max error 0.000 m)
+RoadGame MUTANTS_CHECK PASS engaged mutants do not stand inside each other (longest deep overlap 0.84 s; -)
+RoadGame MUTANTS_RESULT checks=120 failures=0

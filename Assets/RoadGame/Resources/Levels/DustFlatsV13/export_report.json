@@ -1,0 +1,82 @@
+{
+  "sourceFile": "/Users/arthuri/Blender Proj/New Folder(1)/DustFlats_Level_v13_SmoothPass.blend",
+  "sourceSha256": "3e5c69fae07b6b638e931db51673af2bc069e2ddc1ca826ddc06b93183a27651",
+  "sourceScene": "Exports/Blender/2026-11-17/scene.json",
+  "version": 1,
+  "nodes": 1188,
+  "meshObjects": 708,
+  "uniqueMeshes": 298,
+  "materials": 10,
+  "textures": {
+    "T_Ground_DustFlats_BaseMap_2K.png": {
+      "file": "T_Ground_DustFlats_BaseMap_2K.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "fecee0d0b7ad6d9176223a4f4171b6e51c6e1bd5107cabfe06e2bace1309c535"
+    },
+    "material_011.png": {
+      "file": "material_011.png",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "258a8b5fd7613ee5d7bbfcf5ddd8a5f7236f188ad92b37fe4eac3fe31a69e21c"
+    },
+    "material_001.png": {
+      "file": "material_001.png",
+      "size": [
+        128,
+        128
+      ],
+      "sha256": "441d435c7d0ec856ac35de4bcca860ca962e61dd3c342cd135cf0ab2717f19c6"
+    },
+    "T_Road_Asphalt_BaseMap_1Kx2K.png": {
+      "file": "T_Road_Asphalt_BaseMap_1Kx2K.png",
+      "size": [
+        1024,
+        2048
+      ],
+      "sha256": "85576737749ce3d732727a09462e0c6972512351822f5e513997fc978f9f2c9c"
+    },
+    "T_Rock_Strata_BaseMap_1K.png": {
+      "file": "T_Rock_Strata_BaseMap_1K.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "70349c98aac3dbc01f2b9249a234dd47f4a11a9be46c39da75dffdb0beda2b3b"
+    },
+    "T_Trim_Structures_BaseMap_2K.png": {
+      "file": "T_Trim_Structures_BaseMap_2K.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "88bf5dd14b6301a9e80c0944b9558a6da390d9aa43078747092d24dc24deb935"
+    }
+  },
+  "lodObjects": 114,
+  "collisionProxies": 13,
+  "counts": {
+    "sourceCorners": 4240680,
+    "splitVertices": 1639533,
+    "triangles": 1622830,
+    "removedDegenerates": 1578,
+    "clippedRiverTriangles": 24728,
+    "repairedNormalCorners": 74,
+    "upwardWaterTriangles": 11643
+  },
+  "binaryBytes": 111291776,
+  "elapsedSeconds": 5.18,
+  "excluded": [
+    "References",
+    "PREVIEW",
+    "presentation horizon backdrop"
+  ],
+  "clipRiverMaximumUnityZ": 105,
+  "waterOrientation": "Planar source displayed double-sided in Blender; runtime water winding and normals face upward. Source .blend unchanged.",
+  "lodTransforms": "Hidden LOD mesh buffers use identity local transforms relative to source object.",
+  "warnings": []
+}

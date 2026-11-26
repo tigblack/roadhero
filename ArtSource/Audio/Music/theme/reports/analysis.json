@@ -1,0 +1,498 @@
+{
+  "render": "final",
+  "sections": [
+    {
+      "section": "ignition",
+      "seconds": [
+        0.0,
+        9.6
+      ],
+      "level_lufs_ungated": -19.54,
+      "peak_dbfs": -5.7,
+      "crest_db": 15.9,
+      "band_share_pct": {
+        "20-60": 10.0,
+        "60-250": 73.9,
+        "250-800": 9.1,
+        "800-2500": 3.1,
+        "2500-6000": 1.3,
+        "6000-16000": 2.6
+      },
+      "lr_correlation": 0.873,
+      "mono_sum_change_db": -0.29
+    },
+    {
+      "section": "theme",
+      "seconds": [
+        9.6,
+        28.8
+      ],
+      "level_lufs_ungated": -17.17,
+      "peak_dbfs": -2.61,
+      "crest_db": 17.2,
+      "band_share_pct": {
+        "20-60": 8.0,
+        "60-250": 54.2,
+        "250-800": 22.2,
+        "800-2500": 7.7,
+        "2500-6000": 5.6,
+        "6000-16000": 2.4
+      },
+      "lr_correlation": 0.897,
+      "mono_sum_change_db": -0.23
+    },
+    {
+      "section": "open_road",
+      "seconds": [
+        28.8,
+        48.0
+      ],
+      "level_lufs_ungated": -15.35,
+      "peak_dbfs": -1.4,
+      "crest_db": 16.8,
+      "band_share_pct": {
+        "20-60": 7.2,
+        "60-250": 34.8,
+        "250-800": 36.5,
+        "800-2500": 12.3,
+        "2500-6000": 7.7,
+        "6000-16000": 1.5
+      },
+      "lr_correlation": 0.887,
+      "mono_sum_change_db": -0.26
+    },
+    {
+      "section": "scrapyard",
+      "seconds": [
+        48.0,
+        67.2
+      ],
+      "level_lufs_ungated": -16.98,
+      "peak_dbfs": -3.71,
+      "crest_db": 15.9,
+      "band_share_pct": {
+        "20-60": 8.7,
+        "60-250": 53.7,
+        "250-800": 18.8,
+        "800-2500": 12.6,
+        "2500-6000": 3.8,
+        "6000-16000": 2.3
+      },
+      "lr_correlation": 0.879,
+      "mono_sum_change_db": -0.27
+    },
+    {
+      "section": "dust",
+      "seconds": [
+        67.2,
+        86.4
+      ],
+      "level_lufs_ungated": -18.63,
+      "peak_dbfs": -4.89,
+      "crest_db": 16.6,
+      "band_share_pct": {
+        "20-60": 3.4,
+        "60-250": 19.1,
+        "250-800": 51.0,
+        "800-2500": 19.8,
+        "2500-6000": 4.7,
+        "6000-16000": 1.9
+      },
+      "lr_correlation": 0.856,
+      "mono_sum_change_db": -0.33
+    },
+    {
+      "section": "return",
+      "seconds": [
+        86.4,
+        105.6
+      ],
+      "level_lufs_ungated": -15.76,
+      "peak_dbfs": -2.35,
+      "crest_db": 16.2,
+      "band_share_pct": {
+        "20-60": 6.2,
+        "60-250": 47.8,
+        "250-800": 28.7,
+        "800-2500": 10.5,
+        "2500-6000": 4.9,
+        "6000-16000": 1.9
+      },
+      "lr_correlation": 0.899,
+      "mono_sum_change_db": -0.22
+    },
+    {
+      "section": "turnaround",
+      "seconds": [
+        105.6,
+        115.2
+      ],
+      "level_lufs_ungated": -18.87,
+      "peak_dbfs": -5.08,
+      "crest_db": 15.9,
+      "band_share_pct": {
+        "20-60": 8.8,
+        "60-250": 70.2,
+        "250-800": 11.4,
+        "800-2500": 5.9,
+        "2500-6000": 1.3,
+        "6000-16000": 2.4
+      },
+      "lr_correlation": 0.881,
+      "mono_sum_change_db": -0.27
+    }
+  ],
+  "tonal_balance": {
+    "slope_db_per_octave_100hz_4khz": -4.65,
+    "slope_log_log_100hz_10khz": -0.811,
+    "low_end_vs_line_db": -6.3,
+    "top_end_vs_line_db": -3.0,
+    "third_octaves_db": {
+      "39": 9.6,
+      "50": 13.0,
+      "62": 14.9,
+      "79": 15.1,
+      "99": 13.2,
+      "125": 15.5,
+      "157": 11.9,
+      "198": 9.7,
+      "250": 8.9,
+      "315": 7.8,
+      "397": 5.5,
+      "500": 7.2,
+      "630": 5.1,
+      "794": -0.1,
+      "1000": -3.7,
+      "1260": -2.7,
+      "1587": -1.7,
+      "2000": -4.6,
+      "2520": -4.6,
+      "3175": -6.9,
+      "4000": -10.3,
+      "5040": -12.1,
+      "6350": -15.8,
+      "8000": -18.1,
+      "10079": -17.1,
+      "12699": -18.0,
+      "16000": -22.9
+    },
+    "reference": "popular recordings fall about 4.5-5 dB per octave over 100 Hz-4 kHz (Pestana et al. 2013; Elowsson and Friberg 2017)"
+  },
+  "side_minus_mid_db": {
+    "20-120": -30.3,
+    "120-2000": -12.8,
+    "2000-16000": -5.2
+  },
+  "published_genre": {
+    "genre": "jazz",
+    "slope": -1.293,
+    "source": "Pestana et al. 2013, Table 2: US and UK number-one singles 1950-2010 tagged jazz",
+    "set_by": "jazz",
+    "master_slope": -0.811,
+    "difference": 0.482
+  },
+  "reference_comparison": null,
+  "stem_levels_lufs_ungated": {
+    "drums": {
+      "ignition": -25.31,
+      "theme": -24.94,
+      "open_road": -19.7,
+      "scrapyard": -23.29,
+      "dust": -25.24,
+      "return": -20.64,
+      "turnaround": -24.83
+    },
+    "shaker": {
+      "ignition": -29.25,
+      "theme": -28.63,
+      "open_road": -32.27,
+      "scrapyard": -28.12,
+      "dust": -32.86,
+      "return": -27.77,
+      "turnaround": -28.72
+    },
+    "metal": {
+      "ignition": -44.54,
+      "theme": -44.44,
+      "open_road": -79.43,
+      "scrapyard": -40.6,
+      "dust": -66.43,
+      "return": -42.98,
+      "turnaround": -44.54
+    },
+    "wood": {
+      "ignition": -59.28,
+      "theme": -59.28,
+      "open_road": -200.69,
+      "scrapyard": -54.73,
+      "dust": -42.58,
+      "return": -59.18,
+      "turnaround": -59.28
+    },
+    "fx": {
+      "ignition": -200.69,
+      "theme": -200.69,
+      "open_road": -200.69,
+      "scrapyard": -47.87,
+      "dust": -43.92,
+      "return": -88.66,
+      "turnaround": -200.69
+    },
+    "bass": {
+      "ignition": -22.08,
+      "theme": -21.78,
+      "open_road": -20.79,
+      "scrapyard": -21.76,
+      "dust": -26.32,
+      "return": -20.7,
+      "turnaround": -21.98
+    },
+    "riff": {
+      "ignition": -22.87,
+      "theme": -22.36,
+      "open_road": -27.74,
+      "scrapyard": -22.89,
+      "dust": -29.36,
+      "return": -22.2,
+      "turnaround": -22.92
+    },
+    "lead": {
+      "ignition": -143.09,
+      "theme": -19.58,
+      "open_road": -17.19,
+      "scrapyard": -23.3,
+      "dust": -26.95,
+      "return": -18.64,
+      "turnaround": -73.47
+    },
+    "slide": {
+      "ignition": -200.69,
+      "theme": -34.09,
+      "open_road": -25.49,
+      "scrapyard": -23.32,
+      "dust": -22.47,
+      "return": -22.4,
+      "turnaround": -29.63
+    },
+    "comp": {
+      "ignition": -200.69,
+      "theme": -200.69,
+      "open_road": -25.35,
+      "scrapyard": -62.12,
+      "dust": -35.45,
+      "return": -27.52,
+      "turnaround": -60.12
+    },
+    "pad": {
+      "ignition": -31.72,
+      "theme": -31.72,
+      "open_road": -29.32,
+      "scrapyard": -31.59,
+      "dust": -27.54,
+      "return": -29.56,
+      "turnaround": -31.47
+    }
+  },
+  "lead_tracks": [
+    "lead",
+    "slide"
+  ],
+  "lead_source": "buses",
+  "lead_presence": [
+    {
+      "section": "ignition",
+      "lead_active_frames": 0
+    },
+    {
+      "section": "theme",
+      "lead_active_frames": 537,
+      "lead_minus_accompaniment_level_db": -1.9,
+      "lead_minus_accompaniment_db_median": 6.6,
+      "lead_minus_accompaniment_db_p10": -3.0,
+      "masked_share_pct": 0.5
+    },
+    {
+      "section": "open_road",
+      "lead_active_frames": 867,
+      "lead_minus_accompaniment_level_db": -1.2,
+      "lead_minus_accompaniment_db_median": 2.5,
+      "lead_minus_accompaniment_db_p10": -7.5,
+      "masked_share_pct": 1.2
+    },
+    {
+      "section": "scrapyard",
+      "lead_active_frames": 672,
+      "lead_minus_accompaniment_level_db": -2.8,
+      "lead_minus_accompaniment_db_median": 5.0,
+      "lead_minus_accompaniment_db_p10": -6.5,
+      "masked_share_pct": 0.8
+    },
+    {
+      "section": "dust",
+      "lead_active_frames": 555,
+      "lead_minus_accompaniment_level_db": -0.8,
+      "lead_minus_accompaniment_db_median": 6.2,
+      "lead_minus_accompaniment_db_p10": -4.4,
+      "masked_share_pct": 0.5
+    },
+    {
+      "section": "return",
+      "lead_active_frames": 675,
+      "lead_minus_accompaniment_level_db": -2.1,
+      "lead_minus_accompaniment_db_median": 4.3,
+      "lead_minus_accompaniment_db_p10": -14.8,
+      "masked_share_pct": 1.3
+    },
+    {
+      "section": "turnaround",
+      "lead_active_frames": 110,
+      "lead_minus_accompaniment_level_db": -11.5,
+      "lead_minus_accompaniment_db_median": 1.2,
+      "lead_minus_accompaniment_db_p10": -14.0,
+      "masked_share_pct": 2.8
+    }
+  ],
+  "melody_groups": [
+    {
+      "region": "ignition",
+      "melody_group": [],
+      "balance": []
+    },
+    {
+      "region": "theme",
+      "melody_group": [
+        "lead"
+      ],
+      "melody_group_minus_rest_db": -2.0,
+      "balance": [
+        {
+          "track": "bass",
+          "role": "bass",
+          "level_minus_melody_db": -2.2,
+          "suggested_cut_db": 0.8
+        },
+        {
+          "track": "riff",
+          "role": "rhythm",
+          "level_minus_melody_db": -2.8,
+          "suggested_cut_db": 3.2
+        }
+      ]
+    },
+    {
+      "region": "open_road",
+      "melody_group": [
+        "lead"
+      ],
+      "melody_group_minus_rest_db": -1.7,
+      "balance": []
+    },
+    {
+      "region": "scrapyard",
+      "melody_group": [
+        "lead"
+      ],
+      "melody_group_minus_rest_db": -7.0,
+      "balance": [
+        {
+          "track": "bass",
+          "role": "bass",
+          "level_minus_melody_db": 1.5,
+          "suggested_cut_db": 4.5
+        },
+        {
+          "track": "riff",
+          "role": "rhythm",
+          "level_minus_melody_db": 0.4,
+          "suggested_cut_db": 6.4
+        },
+        {
+          "track": "slide",
+          "role": "countermelody",
+          "level_minus_melody_db": -0.0,
+          "suggested_cut_db": 3.0
+        }
+      ]
+    },
+    {
+      "region": "dust",
+      "melody_group": [
+        "lead"
+      ],
+      "melody_group_minus_rest_db": -8.7,
+      "balance": [
+        {
+          "track": "slide",
+          "role": "countermelody",
+          "level_minus_melody_db": 4.5,
+          "suggested_cut_db": 7.5
+        },
+        {
+          "track": "bass",
+          "role": "bass",
+          "level_minus_melody_db": 0.6,
+          "suggested_cut_db": 3.6
+        },
+        {
+          "track": "pad",
+          "role": "texture",
+          "level_minus_melody_db": -0.6,
+          "suggested_cut_db": 5.4
+        },
+        {
+          "track": "riff",
+          "role": "rhythm",
+          "level_minus_melody_db": -2.4,
+          "suggested_cut_db": 3.6
+        }
+      ]
+    },
+    {
+      "region": "return",
+      "melody_group": [
+        "lead"
+      ],
+      "melody_group_minus_rest_db": -3.8,
+      "balance": [
+        {
+          "track": "bass",
+          "role": "bass",
+          "level_minus_melody_db": -2.1,
+          "suggested_cut_db": 0.9
+        },
+        {
+          "track": "riff",
+          "role": "rhythm",
+          "level_minus_melody_db": -3.6,
+          "suggested_cut_db": 2.4
+        }
+      ]
+    },
+    {
+      "region": "turnaround",
+      "melody_group": [],
+      "balance": []
+    }
+  ],
+  "reverb": {
+    "early_decay_time_s": 1.075,
+    "clarity_c80_db": 23.2,
+    "hall_c80_db": [
+      -2.0,
+      2.0
+    ],
+    "spaces": [
+      "room",
+      "plate",
+      "hall"
+    ]
+  },
+  "warnings": [],
+  "master": {
+    "integrated_lufs": -17.0,
+    "true_peak_dbtp": -1.14,
+    "lra_lu": 4.7,
+    "plr_db": 15.9
+  },
+  "note": "Measurements only; they do not establish how the music sounds."
+}

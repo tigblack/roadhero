@@ -1,0 +1,1846 @@
+{
+  "version": 1,
+  "source": "/Users/arthuri/Blender Proj/car/Scarbound_Car_v10_DetailedCar.blend",
+  "sourceSha256": "9d9e51f16b68428645285dfe90931f889d83b853d66ca8b3909359bbad70d6a1",
+  "nodes": [
+    {
+      "name": "PlayerCar",
+      "sourceName": "REFERENCE_PlayerCar_DoNotMerge",
+      "parent": -1,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "Body",
+      "sourceName": "Body.573",
+      "parent": 0,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "CarBody",
+      "lods": [
+        {
+          "file": "mesh_01_LOD0.bytes",
+          "vertices": 38772,
+          "triangles": 58736,
+          "removedDegenerates": 0,
+          "sha256": "8ccb9cabe26a62d3de2e58f59d69126daf78a3c9d0f644c8312123f1c06c5615"
+        },
+        {
+          "file": "mesh_01_LOD1.bytes",
+          "vertices": 18699,
+          "triangles": 24666,
+          "removedDegenerates": 2,
+          "sha256": "8b06c6d2f5a069dda5efe4731f31b3ca66adc3c6cc35b7b22f07bf2fbe57086c"
+        },
+        {
+          "file": "mesh_01_LOD2.bytes",
+          "vertices": 7617,
+          "triangles": 8220,
+          "removedDegenerates": 2,
+          "sha256": "8851162a7223bf315628b5eaeddedc876d2ae3013e130a3875f95f773f6f4f5d"
+        }
+      ]
+    },
+    {
+      "name": "Details",
+      "sourceName": "Details",
+      "parent": 1,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "CarDetails",
+      "lods": [
+        {
+          "file": "mesh_02_LOD0.bytes",
+          "vertices": 66363,
+          "triangles": 68380,
+          "removedDegenerates": 0,
+          "sha256": "99eaa374c423aab4784744e7a409c2744acbece0582b9657ed7f2a9aca869f41"
+        },
+        {
+          "file": "mesh_02_LOD1.bytes",
+          "vertices": 33329,
+          "triangles": 25982,
+          "removedDegenerates": 0,
+          "sha256": "c49e6903c7e3396a0a12573ae7fe5df2aa478d66a0c4adad308d782dcb20ca11"
+        },
+        {
+          "file": "mesh_02_LOD2.bytes",
+          "vertices": 14109,
+          "triangles": 7518,
+          "removedDegenerates": 0,
+          "sha256": "f699df9643b0c67cb3776445218bee9a954c16c01fe3e784ce0f948816d5a964"
+        }
+      ]
+    },
+    {
+      "name": "Harpooner",
+      "sourceName": "Harpooner",
+      "parent": 1,
+      "position": [
+        0.0,
+        0.6000000238418579,
+        -1.5499999523162842
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "TurretBase",
+      "sourceName": "TurretBase.001",
+      "parent": 3,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "Harpoon",
+      "lods": [
+        {
+          "file": "mesh_04_LOD0.bytes",
+          "vertices": 1937,
+          "triangles": 2240,
+          "removedDegenerates": 0,
+          "sha256": "4ad5e44e89f1b7503e2646704392d7cad7dd2ed3b4fc57fe41c42c6193913cef"
+        },
+        {
+          "file": "mesh_04_LOD1.bytes",
+          "vertices": 1277,
+          "triangles": 1008,
+          "removedDegenerates": 0,
+          "sha256": "a9a09a127c12085a189f6e8599fa15a581284367b78e73b5a4c26142cb018742"
+        },
+        {
+          "file": "mesh_04_LOD2.bytes",
+          "vertices": 730,
+          "triangles": 358,
+          "removedDegenerates": 0,
+          "sha256": "a6a4b41df883204ee6f6f0dfaf51c78cee9cce5d2345957f833bfbc5edc32479"
+        }
+      ]
+    },
+    {
+      "name": "TurretYaw",
+      "sourceName": "TurretYaw.001",
+      "parent": 3,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "Column",
+      "sourceName": "Column",
+      "parent": 5,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "Harpoon",
+      "lods": [
+        {
+          "file": "mesh_06_LOD0.bytes",
+          "vertices": 5262,
+          "triangles": 5828,
+          "removedDegenerates": 0,
+          "sha256": "ad9f4ca0bfcd2421b753e0a2a3984045c9fcec4921f797264a6aa2a83c7c3b21"
+        },
+        {
+          "file": "mesh_06_LOD1.bytes",
+          "vertices": 3347,
+          "triangles": 2622,
+          "removedDegenerates": 0,
+          "sha256": "ababb7d3de0cb8c7457ec7ae4d735f21d0f28791e631c155c5b45294346bc70b"
+        },
+        {
+          "file": "mesh_06_LOD2.bytes",
+          "vertices": 1686,
+          "triangles": 932,
+          "removedDegenerates": 0,
+          "sha256": "6bc6da9e0098d4eaf7076cba5f0d1f49623701c0619a39db2c7369cf9bf73efa"
+        }
+      ]
+    },
+    {
+      "name": "Launcher",
+      "sourceName": "Launcher",
+      "parent": 5,
+      "position": [
+        0.0,
+        0.8000000715255737,
+        0.0
+      ],
+      "rotation": [
+        -0.0523359514772892,
+        0.0,
+        0.0,
+        0.9986295104026794
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "GripL",
+      "sourceName": "GripL",
+      "parent": 7,
+      "position": [
+        -0.1550000011920929,
+        5.960464477539063e-08,
+        -0.26200008392333984
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "GripR",
+      "sourceName": "GripR",
+      "parent": 7,
+      "position": [
+        0.1550000011920929,
+        5.960464477539063e-08,
+        -0.26200008392333984
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "LauncherMesh",
+      "sourceName": "LauncherMesh",
+      "parent": 7,
+      "position": [
+        0.0,
+        -2.9802322387695312e-08,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "Harpoon",
+      "lods": [
+        {
+          "file": "mesh_10_LOD0.bytes",
+          "vertices": 11757,
+          "triangles": 11524,
+          "removedDegenerates": 0,
+          "sha256": "3b72cd1174d4d4364dccc9e30dcf44fd06552289858acda7dd67926f0ef6fe77"
+        },
+        {
+          "file": "mesh_10_LOD1.bytes",
+          "vertices": 7483,
+          "triangles": 5184,
+          "removedDegenerates": 0,
+          "sha256": "d596db6b220228390aebf7a2cde4a7e1153af0d3fa0995177e9e040305fa2c64"
+        },
+        {
+          "file": "mesh_10_LOD2.bytes",
+          "vertices": 3733,
+          "triangles": 1843,
+          "removedDegenerates": 0,
+          "sha256": "8b0834b776f756b88553ff7a29fde1093254674c973916349367c5e2a41f2790"
+        }
+      ]
+    },
+    {
+      "name": "Muzzle",
+      "sourceName": "Muzzle.018",
+      "parent": 7,
+      "position": [
+        0.0,
+        2.2351741790771484e-08,
+        0.5699999332427979
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "HarpoonTip",
+      "sourceName": "HarpoonTip",
+      "parent": 11,
+      "position": [
+        0.0,
+        8.940696716308594e-08,
+        0.09999996423721313
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0499999523162842,
+        1.0499999523162842,
+        1.0499999523162842
+      ],
+      "material": "Harpoon",
+      "lods": [
+        {
+          "file": "mesh_12_LOD0.bytes",
+          "vertices": 2704,
+          "triangles": 2560,
+          "removedDegenerates": 0,
+          "sha256": "aad8db6f628087528e4afdf6e2ff6bb9746fa34dbe571d63b5daf8ddf372ad83"
+        },
+        {
+          "file": "mesh_12_LOD1.bytes",
+          "vertices": 1406,
+          "triangles": 1152,
+          "removedDegenerates": 0,
+          "sha256": "7a88c96443ab7ded2dbc7815ebd22569059ed784ba4f1932a91e5c6f531bf227"
+        },
+        {
+          "file": "mesh_12_LOD2.bytes",
+          "vertices": 1070,
+          "triangles": 512,
+          "removedDegenerates": 0,
+          "sha256": "16b0d75a5c72f3c200b9aed755324a82053c1871c40575544d6667712e904128"
+        }
+      ]
+    },
+    {
+      "name": "Quasimodo",
+      "sourceName": "Quasimodo",
+      "parent": 5,
+      "position": [
+        0.0,
+        0.0,
+        -0.5399999618530273
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "Body",
+      "sourceName": "Body.574",
+      "parent": 13,
+      "position": [
+        0.0,
+        0.6200000047683716,
+        -0.039999961853027344
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "Cloak",
+      "sourceName": "Cloak",
+      "parent": 14,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "Quasimodo",
+      "lods": [
+        {
+          "file": "mesh_15_LOD0.bytes",
+          "vertices": 31966,
+          "triangles": 28440,
+          "removedDegenerates": 0,
+          "sha256": "8855ab42f89951c571bf14087b577bd7442e71a66c04a55f09dd1df84f2bb640"
+        },
+        {
+          "file": "mesh_15_LOD1.bytes",
+          "vertices": 13590,
+          "triangles": 11944,
+          "removedDegenerates": 0,
+          "sha256": "f32941d337685d885639e3f83352c0f6fdb4a9dd44585d13251ae4e19798d6f0"
+        },
+        {
+          "file": "mesh_15_LOD2.bytes",
+          "vertices": 5921,
+          "triangles": 3980,
+          "removedDegenerates": 0,
+          "sha256": "ccc932b7130dd4a9ef07f8a668b195bc496a53a907fd0bd339acf8acff3f49ff"
+        }
+      ]
+    },
+    {
+      "name": "Head",
+      "sourceName": "Head",
+      "parent": 14,
+      "position": [
+        0.0,
+        0.4099999666213989,
+        0.23000001907348633
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "HeadMesh",
+      "sourceName": "HeadMesh",
+      "parent": 16,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "Quasimodo",
+      "lods": [
+        {
+          "file": "mesh_17_LOD0.bytes",
+          "vertices": 12584,
+          "triangles": 12388,
+          "removedDegenerates": 0,
+          "sha256": "a98b95740feecdbfbb9c25e84546dbfec673288b0355a563c5d7e1b9686fcc41"
+        },
+        {
+          "file": "mesh_17_LOD1.bytes",
+          "vertices": 5637,
+          "triangles": 5202,
+          "removedDegenerates": 0,
+          "sha256": "ee430062d40eea139bc42595474a15210c8b8a756a55b1b10c8959c770534f77"
+        },
+        {
+          "file": "mesh_17_LOD2.bytes",
+          "vertices": 2397,
+          "triangles": 1734,
+          "removedDegenerates": 0,
+          "sha256": "394d6efd0dd8c67c89a99215c24bfef5b70cf4f9689e9ea69558e13f580943a2"
+        }
+      ]
+    },
+    {
+      "name": "ShoulderL",
+      "sourceName": "ShoulderL",
+      "parent": 14,
+      "position": [
+        -0.20000000298023224,
+        0.35500001907348633,
+        0.13999998569488525
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "ShoulderR",
+      "sourceName": "ShoulderR",
+      "parent": 14,
+      "position": [
+        0.2150000035762787,
+        0.4099999666213989,
+        0.13999998569488525
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "ForeArmL",
+      "sourceName": "ForeArmL",
+      "parent": 13,
+      "position": [
+        -0.3919351398944855,
+        0.7773778438568115,
+        0.15005838871002197
+      ],
+      "rotation": [
+        0.4899422824382782,
+        0.1427055448293686,
+        0.8206815123558044,
+        0.2570478022098541
+      ],
+      "scale": [
+        1.0,
+        0.9999998807907104,
+        0.9999999403953552
+      ],
+      "material": "Quasimodo",
+      "lods": [
+        {
+          "file": "mesh_20_LOD0.bytes",
+          "vertices": 3593,
+          "triangles": 3956,
+          "removedDegenerates": 0,
+          "sha256": "8602af9779bade358f9b340830abd79465a53afa26cc26ad886e53fa0e91eea5"
+        },
+        {
+          "file": "mesh_20_LOD1.bytes",
+          "vertices": 1764,
+          "triangles": 1780,
+          "removedDegenerates": 0,
+          "sha256": "960680a1a75aaf63c9a21f635138f5060ba784da8d0459c480668ac520d5ba57"
+        },
+        {
+          "file": "mesh_20_LOD2.bytes",
+          "vertices": 782,
+          "triangles": 632,
+          "removedDegenerates": 0,
+          "sha256": "fea99857e7fc02e444450f74d4cae516db0bd6bad962043a196c80ec8723bb20"
+        }
+      ]
+    },
+    {
+      "name": "ForeArmR",
+      "sourceName": "ForeArmR",
+      "parent": 13,
+      "position": [
+        0.3860584497451782,
+        0.8130999803543091,
+        0.14574849605560303
+      ],
+      "rotation": [
+        0.49901798367500305,
+        -0.05837927758693695,
+        -0.8285394906997681,
+        0.24717453122138977
+      ],
+      "scale": [
+        1.0000001192092896,
+        1.0000001192092896,
+        0.9999999403953552
+      ],
+      "material": "Quasimodo",
+      "lods": [
+        {
+          "file": "mesh_21_LOD0.bytes",
+          "vertices": 3582,
+          "triangles": 3956,
+          "removedDegenerates": 0,
+          "sha256": "3973944de352afbfadb521128035a79ddd47615393dd1f6aaa1986c02b61d070"
+        },
+        {
+          "file": "mesh_21_LOD1.bytes",
+          "vertices": 1729,
+          "triangles": 1780,
+          "removedDegenerates": 0,
+          "sha256": "0d944593ae028fdb1ce1614c79c8b430363c7ac376d0e3497b97e1468ec82190"
+        },
+        {
+          "file": "mesh_21_LOD2.bytes",
+          "vertices": 771,
+          "triangles": 632,
+          "removedDegenerates": 0,
+          "sha256": "1290b0e53b880fb568262dc4bf08a5bd4e42af589e52887dbeba9b54ce73815b"
+        }
+      ]
+    },
+    {
+      "name": "HandL",
+      "sourceName": "HandL",
+      "parent": 13,
+      "position": [
+        -0.1550000011920929,
+        0.772613525390625,
+        0.279437780380249
+      ],
+      "rotation": [
+        -0.015904055908322334,
+        0.510054349899292,
+        -0.044078145176172256,
+        0.8588647842407227
+      ],
+      "scale": [
+        0.9999999403953552,
+        0.9999999403953552,
+        1.0
+      ],
+      "material": "Quasimodo",
+      "lods": [
+        {
+          "file": "mesh_22_LOD0.bytes",
+          "vertices": 3963,
+          "triangles": 3596,
+          "removedDegenerates": 0,
+          "sha256": "4d576c587bdeafd6e8bdeb1e5164dbfc68bb114a74cf6c4eb7e56d67abfba8d9"
+        },
+        {
+          "file": "mesh_22_LOD1.bytes",
+          "vertices": 2129,
+          "triangles": 1618,
+          "removedDegenerates": 0,
+          "sha256": "d003a867098d254ce61fa170f9a848b6547038c210ae7ca448b7af7f7afb103b"
+        },
+        {
+          "file": "mesh_22_LOD2.bytes",
+          "vertices": 977,
+          "triangles": 574,
+          "removedDegenerates": 0,
+          "sha256": "6f1c21a6e1f2d62f448d44151fc1f0b5b5f0c0b850412cd2d72faec539e440d5"
+        }
+      ]
+    },
+    {
+      "name": "HandR",
+      "sourceName": "HandR",
+      "parent": 13,
+      "position": [
+        0.1550000011920929,
+        0.772613525390625,
+        0.279437780380249
+      ],
+      "rotation": [
+        0.042032282799482346,
+        -0.5006600022315979,
+        0.07745589315891266,
+        0.8611465692520142
+      ],
+      "scale": [
+        0.9999999403953552,
+        1.0,
+        0.9999998807907104
+      ],
+      "material": "Quasimodo",
+      "lods": [
+        {
+          "file": "mesh_23_LOD0.bytes",
+          "vertices": 4250,
+          "triangles": 3594,
+          "removedDegenerates": 0,
+          "sha256": "ca0ea9db19a8dc30bdda26102a606176487d8468b27b6e2b4607a3a31f656572"
+        },
+        {
+          "file": "mesh_23_LOD1.bytes",
+          "vertices": 2303,
+          "triangles": 1616,
+          "removedDegenerates": 0,
+          "sha256": "32509eedba42637f080c12b04f8ed37bd49993a74c37d7b9dc7a7f2fffd172b5"
+        },
+        {
+          "file": "mesh_23_LOD2.bytes",
+          "vertices": 1025,
+          "triangles": 574,
+          "removedDegenerates": 0,
+          "sha256": "7e470d4bd88dd2721cfa663084380acaa7b427f996aee2db3ac9854297a682ad"
+        }
+      ]
+    },
+    {
+      "name": "LegL",
+      "sourceName": "LegL.170",
+      "parent": 13,
+      "position": [
+        -0.10000000149011612,
+        0.6000000238418579,
+        -0.029999971389770508
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "LegMesh",
+      "sourceName": "LegMesh.001",
+      "parent": 24,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "Quasimodo",
+      "lods": [
+        {
+          "file": "mesh_25_LOD0.bytes",
+          "vertices": 6427,
+          "triangles": 6712,
+          "removedDegenerates": 0,
+          "sha256": "aa7630bd66fc90e812e98ce17edb5db1069e8c4d53064ce41737218a0519ca5c"
+        },
+        {
+          "file": "mesh_25_LOD1.bytes",
+          "vertices": 3168,
+          "triangles": 3020,
+          "removedDegenerates": 0,
+          "sha256": "3f32fc2bd0ecac0abc0df330b004b8e527489a32bbf94b1aa5215417caadbfb3"
+        },
+        {
+          "file": "mesh_25_LOD2.bytes",
+          "vertices": 1423,
+          "triangles": 1072,
+          "removedDegenerates": 0,
+          "sha256": "96d5b0a989e9dc1d91add1bbbbc38d8d88f1be84284fe2cc69ced4c542c877cf"
+        }
+      ]
+    },
+    {
+      "name": "LegR",
+      "sourceName": "LegR.170",
+      "parent": 13,
+      "position": [
+        0.10000000149011612,
+        0.6000000238418579,
+        -0.029999971389770508
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "LegMesh",
+      "sourceName": "LegMesh",
+      "parent": 26,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "Quasimodo",
+      "lods": [
+        {
+          "file": "mesh_27_LOD0.bytes",
+          "vertices": 6458,
+          "triangles": 6712,
+          "removedDegenerates": 0,
+          "sha256": "f98348a381fcfabcb8c75953d316e981510d5bcaa1398f7f95590cdf910265e6"
+        },
+        {
+          "file": "mesh_27_LOD1.bytes",
+          "vertices": 3189,
+          "triangles": 3020,
+          "removedDegenerates": 0,
+          "sha256": "bf0c3e6e8d5f189bf6bdc983b9030af38c0e558ab37dda335c5d9c794815009a"
+        },
+        {
+          "file": "mesh_27_LOD2.bytes",
+          "vertices": 1472,
+          "triangles": 1072,
+          "removedDegenerates": 0,
+          "sha256": "b18401f0c4d6aae69dab90d7855d31b8642a26bae1432a9b559be7fd501e28cf"
+        }
+      ]
+    },
+    {
+      "name": "UpperArmL",
+      "sourceName": "UpperArmL",
+      "parent": 13,
+      "position": [
+        -0.20000000298023224,
+        0.9750000238418579,
+        0.09999442100524902
+      ],
+      "rotation": [
+        0.02127332240343094,
+        -0.6404277682304382,
+        0.5326680541038513,
+        0.5528693199157715
+      ],
+      "scale": [
+        1.0,
+        0.9999999403953552,
+        1.0
+      ],
+      "material": "Quasimodo",
+      "lods": [
+        {
+          "file": "mesh_28_LOD0.bytes",
+          "vertices": 1762,
+          "triangles": 1624,
+          "removedDegenerates": 0,
+          "sha256": "4d942441c7b1aaed2688821137f583fe4a2d51a72b085ff923f5b1009ddb56ff"
+        },
+        {
+          "file": "mesh_28_LOD1.bytes",
+          "vertices": 702,
+          "triangles": 730,
+          "removedDegenerates": 0,
+          "sha256": "39e1a252c2f89443c868e360bbda88d9df44a9a19e5858a8ee9da1c1b43b3f3d"
+        },
+        {
+          "file": "mesh_28_LOD2.bytes",
+          "vertices": 331,
+          "triangles": 292,
+          "removedDegenerates": 0,
+          "sha256": "b7d0523464c86672c90730e9b6944cae930493f6f50a5fc44167d9a9a2a508b6"
+        }
+      ]
+    },
+    {
+      "name": "UpperArmR",
+      "sourceName": "UpperArmR",
+      "parent": 13,
+      "position": [
+        0.2150000035762787,
+        1.0299999713897705,
+        0.09999442100524902
+      ],
+      "rotation": [
+        0.08850173652172089,
+        0.6406745314598083,
+        -0.528603732585907,
+        0.5498014688491821
+      ],
+      "scale": [
+        1.0,
+        0.9999999403953552,
+        1.0
+      ],
+      "material": "Quasimodo",
+      "lods": [
+        {
+          "file": "mesh_29_LOD0.bytes",
+          "vertices": 1705,
+          "triangles": 1624,
+          "removedDegenerates": 0,
+          "sha256": "adbd6886b472855e0b08fe0595e5f33913dbbbc7b8d722b28361943b8f1b762b"
+        },
+        {
+          "file": "mesh_29_LOD1.bytes",
+          "vertices": 654,
+          "triangles": 730,
+          "removedDegenerates": 0,
+          "sha256": "a40a18d2053936dbfbf36cc8c2b92f5634c2f9de9d70fb1d7a038b4b4fd090b0"
+        },
+        {
+          "file": "mesh_29_LOD2.bytes",
+          "vertices": 301,
+          "triangles": 292,
+          "removedDegenerates": 0,
+          "sha256": "b56ee287a5201e667f3a780e532983386a8249bdd8f947ba8a4069caf1248d26"
+        }
+      ]
+    },
+    {
+      "name": "TurretBase",
+      "sourceName": "TurretBase",
+      "parent": 1,
+      "position": [
+        0.5600000023841858,
+        1.0017861127853394,
+        1.0499999523162842
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "HoodMount",
+      "sourceName": "HoodMount",
+      "parent": 30,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "HoodGun",
+      "lods": [
+        {
+          "file": "mesh_31_LOD0.bytes",
+          "vertices": 4312,
+          "triangles": 4800,
+          "removedDegenerates": 0,
+          "sha256": "b73a9a0741ec2569cbcd86663e1d6cb9b92ed976b68fbda666b2358620512347"
+        },
+        {
+          "file": "mesh_31_LOD1.bytes",
+          "vertices": 2862,
+          "triangles": 2400,
+          "removedDegenerates": 0,
+          "sha256": "152659531e6622dc5cea3545996ee4e81f0dec6c5cc8cb4e282fc365aa6887e9"
+        },
+        {
+          "file": "mesh_31_LOD2.bytes",
+          "vertices": 1927,
+          "triangles": 1056,
+          "removedDegenerates": 0,
+          "sha256": "826281a6c9b77df48e97b77424d15488c91213fbe5f389b505a51db4d6f361c3"
+        }
+      ]
+    },
+    {
+      "name": "TurretYaw",
+      "sourceName": "TurretYaw",
+      "parent": 30,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "Turntable",
+      "sourceName": "Turntable",
+      "parent": 32,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "HoodGun",
+      "lods": [
+        {
+          "file": "mesh_33_LOD0.bytes",
+          "vertices": 5770,
+          "triangles": 6372,
+          "removedDegenerates": 0,
+          "sha256": "37932a5eeb27d6ab7a69940515d596639e4f136a1f728841ab86bcb99a557553"
+        },
+        {
+          "file": "mesh_33_LOD1.bytes",
+          "vertices": 3846,
+          "triangles": 3186,
+          "removedDegenerates": 0,
+          "sha256": "d2a2d5aa2a5cb333406ff748ce9de5aab143fb3a7e446fef13d54b9e61bc5c84"
+        },
+        {
+          "file": "mesh_33_LOD2.bytes",
+          "vertices": 2244,
+          "triangles": 1400,
+          "removedDegenerates": 0,
+          "sha256": "cf9ecaba7d7e4a34148b34f17ac560dedb58077a6673246c33f93e62a8cb05e7"
+        }
+      ]
+    },
+    {
+      "name": "TurretPitch",
+      "sourceName": "TurretPitch",
+      "parent": 32,
+      "position": [
+        0.0,
+        0.3630000352859497,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "Barrel0",
+      "sourceName": "Barrel0",
+      "parent": 34,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "GunMesh",
+      "sourceName": "GunMesh",
+      "parent": 35,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "HoodGun",
+      "lods": [
+        {
+          "file": "mesh_36_LOD0.bytes",
+          "vertices": 18977,
+          "triangles": 20376,
+          "removedDegenerates": 0,
+          "sha256": "a0cd5083e5c07e019af1782aa4d1a4c31e73b6452cd04d3ad53d2f19eda3f994"
+        },
+        {
+          "file": "mesh_36_LOD1.bytes",
+          "vertices": 12897,
+          "triangles": 11206,
+          "removedDegenerates": 0,
+          "sha256": "581bcc8f2598d4e03f60e37fd826b7f63766824106f2fbf77e5058bf452694ef"
+        },
+        {
+          "file": "mesh_36_LOD2.bytes",
+          "vertices": 8102,
+          "triangles": 5704,
+          "removedDegenerates": 0,
+          "sha256": "5cea50d398f14f63550f003fa8c5b8c0cf383ca0e5cab001d416f366f93d7ca8"
+        }
+      ]
+    },
+    {
+      "name": "HoodGun_Muzzle",
+      "sourceName": "HoodGun_Muzzle",
+      "parent": 35,
+      "position": [
+        0.0,
+        0.0549999475479126,
+        1.0199999809265137
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "GunCradle",
+      "sourceName": "GunCradle",
+      "parent": 34,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "HoodGun",
+      "lods": [
+        {
+          "file": "mesh_38_LOD0.bytes",
+          "vertices": 2564,
+          "triangles": 3208,
+          "removedDegenerates": 0,
+          "sha256": "6fcc33906cc69a837d1b6485298b7277ecec118092d1cf03cfb246d95813c6b8"
+        },
+        {
+          "file": "mesh_38_LOD1.bytes",
+          "vertices": 1463,
+          "triangles": 1604,
+          "removedDegenerates": 0,
+          "sha256": "3cc98b7ad5e224abadf3cbd0d8d2a112cef76ffabf42d85b3d76388d0746fc52"
+        },
+        {
+          "file": "mesh_38_LOD2.bytes",
+          "vertices": 967,
+          "triangles": 704,
+          "removedDegenerates": 0,
+          "sha256": "0ff3e1794776910092e508fca7a0e5ea3fceefbcf56fa2a204697ec850af6079"
+        }
+      ]
+    },
+    {
+      "name": "Underbody",
+      "sourceName": "Underbody",
+      "parent": 1,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "CarDetails",
+      "lods": [
+        {
+          "file": "mesh_39_LOD0.bytes",
+          "vertices": 17126,
+          "triangles": 16324,
+          "removedDegenerates": 0,
+          "sha256": "77b0b9b705600f7026eae7ed7cb54cdcd44f564dd62453fb672de30fe24e1778"
+        },
+        {
+          "file": "mesh_39_LOD1.bytes",
+          "vertices": 7629,
+          "triangles": 4896,
+          "removedDegenerates": 0,
+          "sha256": "a2a2e624eaabbc47f09ed12a7f04af335edb3ff4a915aa961fa49671650ea857"
+        },
+        {
+          "file": "mesh_39_LOD2.bytes",
+          "vertices": 2281,
+          "triangles": 976,
+          "removedDegenerates": 0,
+          "sha256": "98b63253525fa9fdb9f8414365f36a5ecf3db85671559c0cfa2ca5a9f4280414"
+        }
+      ]
+    },
+    {
+      "name": "Wheel_RL",
+      "sourceName": "Wheel.084",
+      "parent": 0,
+      "position": [
+        -0.9700000286102295,
+        0.4399999976158142,
+        -1.4199999570846558
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "BrakeCaliper_RL",
+      "sourceName": "BrakeCaliper_RL",
+      "parent": 40,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "CarDetails",
+      "lods": [
+        {
+          "file": "mesh_41_LOD0.bytes",
+          "vertices": 392,
+          "triangles": 456,
+          "removedDegenerates": 0,
+          "sha256": "ca799a503eea8629a6573a3223103ba02e55995b9b9992cdf8c1ae746689cc06"
+        },
+        {
+          "file": "mesh_41_LOD1.bytes",
+          "vertices": 246,
+          "triangles": 228,
+          "removedDegenerates": 0,
+          "sha256": "1c345d6c493921189f6078bbf5d6d92bc6d71232ed7dd9d3b0b1111c257cd105"
+        },
+        {
+          "file": "mesh_41_LOD2.bytes",
+          "vertices": 164,
+          "triangles": 114,
+          "removedDegenerates": 0,
+          "sha256": "172847d3558c4facc5197b90e331af8c4de607578288ea7a6431f98784224117"
+        }
+      ]
+    },
+    {
+      "name": "Wheel",
+      "sourceName": "Wheel.085",
+      "parent": 40,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "Wheels",
+      "lods": [
+        {
+          "file": "mesh_42_LOD0.bytes",
+          "vertices": 14026,
+          "triangles": 13668,
+          "removedDegenerates": 8,
+          "sha256": "4c0305632b858d3ad86acad3c2a6f6e40e4b0566a678cc97d4a2c702660a39ed"
+        },
+        {
+          "file": "mesh_42_LOD1.bytes",
+          "vertices": 7357,
+          "triangles": 5734,
+          "removedDegenerates": 8,
+          "sha256": "60422b4b3b4785873b06f747d6641bf1c5be5ffe0a0d17121c79c565847b25dd"
+        },
+        {
+          "file": "mesh_42_LOD2.bytes",
+          "vertices": 3014,
+          "triangles": 1768,
+          "removedDegenerates": 8,
+          "sha256": "544c17309d0cecfb0d5eff76d021c1cbbe2147f3f25f5093a1cfaecd14fb43c9"
+        }
+      ]
+    },
+    {
+      "name": "Wheel_RR",
+      "sourceName": "Wheel.086",
+      "parent": 0,
+      "position": [
+        0.9700000286102295,
+        0.4399999976158142,
+        -1.4199999570846558
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "BrakeCaliper_RR",
+      "sourceName": "BrakeCaliper_RR",
+      "parent": 43,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "CarDetails",
+      "lods": [
+        {
+          "file": "mesh_44_LOD0.bytes",
+          "vertices": 392,
+          "triangles": 456,
+          "removedDegenerates": 0,
+          "sha256": "65a56e14cd702e4c3b5b8515c795300ca4bba34a95e3ca0c2729676226685c33"
+        },
+        {
+          "file": "mesh_44_LOD1.bytes",
+          "vertices": 245,
+          "triangles": 228,
+          "removedDegenerates": 0,
+          "sha256": "e2fc5a07b18975258f570e112ab141dff3e274ca017f9a0b381bc9f8c4c7e87b"
+        },
+        {
+          "file": "mesh_44_LOD2.bytes",
+          "vertices": 163,
+          "triangles": 114,
+          "removedDegenerates": 0,
+          "sha256": "dece369b0db1c257f89485808203abc4ad7a643f79c6590c5f64ba793a5ef0f3"
+        }
+      ]
+    },
+    {
+      "name": "Wheel",
+      "sourceName": "Wheel.087",
+      "parent": 43,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "Wheels",
+      "lods": [
+        {
+          "file": "mesh_45_LOD0.bytes",
+          "vertices": 14060,
+          "triangles": 13668,
+          "removedDegenerates": 8,
+          "sha256": "a3a67f8b7d99676aba9b1729c3f11fbdc02e3582fc7fd61711fe9b245bab09a8"
+        },
+        {
+          "file": "mesh_45_LOD1.bytes",
+          "vertices": 7393,
+          "triangles": 5734,
+          "removedDegenerates": 8,
+          "sha256": "6697f332257b8a250210d46a944dd6575c0e880afc546606faba923ae98c4aed"
+        },
+        {
+          "file": "mesh_45_LOD2.bytes",
+          "vertices": 3014,
+          "triangles": 1768,
+          "removedDegenerates": 8,
+          "sha256": "46678d6c632c68f623ec6f26d61391eac51690bcd359891729a3ce9d2ec8f633"
+        }
+      ]
+    },
+    {
+      "name": "WheelSteer_FL",
+      "sourceName": "WheelSteer.082",
+      "parent": 0,
+      "position": [
+        -0.8600000143051147,
+        0.3799999952316284,
+        1.4500000476837158
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "BrakeCaliper_FL",
+      "sourceName": "BrakeCaliper_FL",
+      "parent": 46,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "CarDetails",
+      "lods": [
+        {
+          "file": "mesh_47_LOD0.bytes",
+          "vertices": 779,
+          "triangles": 816,
+          "removedDegenerates": 0,
+          "sha256": "f22eac57c3eaaff030166d7a553cb25fcaa19add0802cdd494da6d979b851a85"
+        },
+        {
+          "file": "mesh_47_LOD1.bytes",
+          "vertices": 480,
+          "triangles": 408,
+          "removedDegenerates": 0,
+          "sha256": "0654e3a30e464f9aae76634ccadaf6e4a6873d6bf9da2bc24a2e407cd01038cf"
+        },
+        {
+          "file": "mesh_47_LOD2.bytes",
+          "vertices": 312,
+          "triangles": 204,
+          "removedDegenerates": 0,
+          "sha256": "a9851497ef87b96c419b6f05626d3544e0cae0691e587c8e59c99b9ba9c43140"
+        }
+      ]
+    },
+    {
+      "name": "Wheel",
+      "sourceName": "Wheel.082",
+      "parent": 46,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "Wheels",
+      "lods": [
+        {
+          "file": "mesh_48_LOD0.bytes",
+          "vertices": 13665,
+          "triangles": 13672,
+          "removedDegenerates": 8,
+          "sha256": "06e294a9e330d1ccc85ed27c64315051ad1e7e542123df2916d08cfb5c8aaf7b"
+        },
+        {
+          "file": "mesh_48_LOD1.bytes",
+          "vertices": 7221,
+          "triangles": 5736,
+          "removedDegenerates": 8,
+          "sha256": "a282e876cbc905abcde192d4fb1b6ef4b8d294b53f8e2655ee8f2d6a8468e597"
+        },
+        {
+          "file": "mesh_48_LOD2.bytes",
+          "vertices": 2973,
+          "triangles": 1770,
+          "removedDegenerates": 8,
+          "sha256": "e99fad822d139dd1cf5cd4bef53e6d43830d3793e745e0c596f581a0d48ac255"
+        }
+      ]
+    },
+    {
+      "name": "WheelSteer_FR",
+      "sourceName": "WheelSteer.083",
+      "parent": 0,
+      "position": [
+        0.8600000143051147,
+        0.3799999952316284,
+        1.4500000476837158
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "",
+      "lods": []
+    },
+    {
+      "name": "BrakeCaliper_FR",
+      "sourceName": "BrakeCaliper_FR",
+      "parent": 49,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "CarDetails",
+      "lods": [
+        {
+          "file": "mesh_50_LOD0.bytes",
+          "vertices": 779,
+          "triangles": 816,
+          "removedDegenerates": 0,
+          "sha256": "23782bf5c0bfed42e6ed7564051a38ee22d54f23e4e20096fecb60d924e2eff2"
+        },
+        {
+          "file": "mesh_50_LOD1.bytes",
+          "vertices": 484,
+          "triangles": 408,
+          "removedDegenerates": 0,
+          "sha256": "312deeb8d6c36242b84ffb75cd18dd4559d177d81f5f6c405ab297f4757af781"
+        },
+        {
+          "file": "mesh_50_LOD2.bytes",
+          "vertices": 316,
+          "triangles": 204,
+          "removedDegenerates": 0,
+          "sha256": "e3e98c914d3b50851c423d3bd2dac91e65fad69027c11b87ddf4d330b797ddd5"
+        }
+      ]
+    },
+    {
+      "name": "Wheel",
+      "sourceName": "Wheel.083",
+      "parent": 49,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "Wheels",
+      "lods": [
+        {
+          "file": "mesh_51_LOD0.bytes",
+          "vertices": 13665,
+          "triangles": 13672,
+          "removedDegenerates": 8,
+          "sha256": "15c610487a1a5526ff2d612d036c63e8d2cfd9ce4dae1cd0fda47aa46af16a6c"
+        },
+        {
+          "file": "mesh_51_LOD1.bytes",
+          "vertices": 7212,
+          "triangles": 5736,
+          "removedDegenerates": 8,
+          "sha256": "4a6a0e84e680925f698ca9f553d832e17bf7b6bbd8301317ac18ec0c11f97466"
+        },
+        {
+          "file": "mesh_51_LOD2.bytes",
+          "vertices": 3002,
+          "triangles": 1770,
+          "removedDegenerates": 8,
+          "sha256": "c7b5fcec73724111152f6f9f0dcc55cf29047df088eebfe826d82c6180ad3199"
+        }
+      ]
+    }
+  ],
+  "lodTriangles": [
+    330174,
+    139558,
+    47789
+  ]
+}

@@ -1,0 +1,32 @@
+RoadGame BLENDER_RESULT checks=23 failures=0
+RoadGame HANDLING_RESULT checks=103 failures=0
+RoadGame GUIDE SUMMARY landing=13.7 bought=17.0 ready=-1.0 bossEngaged=-1.0 bossKilled=-1.0 demo=-1.0 demoHits=0 bonus=7 free=1 deaths=0 upgrades=1 lvl=2,1,0,0 gems=70 dmg0=68.5 dmg1=29.1 hp=582 kills=118 t=852.8
+RoadGame MUTANTS_RESULT checks=116 failures=0
+RoadGame OCCLUSION_RESULT checks=41 failures=0
+RoadGame ROUTE SUMMARY arrived 9 of 9
+RoadGame WATER_RESULT checks=49 failures=0
+RoadGame WETLANDS_RESULT checks=34 failures=0
+RoadGame ROUTE start=camp0 at=(-72.34, 0.00, -38.15) result=ARRIVED time=18.6s onRoad=7.7s worksTurnoff=15.6s stuckEvents=0 end=(45.76, -4.50, 43.01)
+RoadGame ROUTE start=camp1 at=(73.81, 0.00, 4.91) result=ARRIVED time=15.5s onRoad=10.8s worksTurnoff=10.8s stuckEvents=0 end=(46.23, -4.50, 42.90)
+RoadGame ROUTE start=camp2 at=(-62.75, 0.00, 20.65) result=ARRIVED time=20.4s onRoad=11.3s worksTurnoff=17.5s stuckEvents=0 end=(45.77, -4.50, 43.02)
+RoadGame ROUTE start=stuckspot at=(-59.00, 0.00, -36.40) result=ARRIVED time=19.7s onRoad=8.8s worksTurnoff=16.7s stuckEvents=0 end=(45.91, -4.50, 43.04)
+RoadGame ROUTE start=east_desert at=(88.00, 0.00, -40.00) result=ARRIVED time=31.1s onRoad=15.0s worksTurnoff=28.2s stuckEvents=0 end=(45.71, -4.50, 43.01)
+RoadGame ROUTE start=west_north at=(-80.00, 0.00, 30.00) result=ARRIVED time=32.1s onRoad=23.2s worksTurnoff=29.1s stuckEvents=0 end=(45.73, -4.50, 43.01)
+RoadGame ROUTE start=south_east at=(70.00, 0.00, -85.00) result=ARRIVED time=23.1s onRoad=8.0s worksTurnoff=20.1s stuckEvents=0 end=(45.90, -4.50, 43.03)
+RoadGame ROUTE start=works_east at=(90.00, 0.00, 52.00) result=ARRIVED time=23.7s onRoad=13.8s worksTurnoff=13.8s stuckEvents=0 end=(46.54, -4.50, 42.81)
+RoadGame ROUTE start=works_lid at=(33.00, 0.00, 50.00) result=ARRIVED time=14.0s onRoad=3.2s worksTurnoff=3.3s stuckEvents=0 end=(47.05, -4.50, 42.65)
+RoadGame ROUTE SUMMARY arrived 9 of 9
+RoadGame ROUTE start=west_north at=(-80.00, 0.00, 30.00) result=ARRIVED time=32.2s onRoad=23.1s worksTurnoff=29.3s stuckEvents=0 end=(45.78, -4.50, 43.02)
+RoadGame ROUTE start=works_lid at=(33.00, 0.00, 50.00) result=ARRIVED time=13.9s onRoad=3.2s worksTurnoff=3.2s stuckEvents=0 end=(46.94, -4.50, 42.62)
+RoadGame ROUTE start=exit_corner_sw at=(30.40, -4.50, 55.30) result=ARRIVED time=22.9s onRoad=-1.0s worksTurnoff=-1.0s stuckEvents=0 end=(26.44, -0.59, 41.32)
+RoadGame ROUTE start=exit_center at=(52.00, -4.50, 66.00) result=ARRIVED time=6.9s onRoad=-1.0s worksTurnoff=-1.0s stuckEvents=0 end=(26.43, -0.59, 41.27)
+RoadGame ROUTE SUMMARY arrived 4 of 4
+DEV_CHECK SUCCESS checks=58 output=/private/tmp/claude-501/-Users-arthuri-Unity-Projects-RoadGame/a675978e-edec-47ae-9de0-14fe00ec6712/scratchpad/pass/final/f3/dev
+RoadGame RESETCHECK loaded after a restart: gems=0 weaponLevels=1,0,0,0 copies=0,0,0,0 armor=0,0 maxHp=100 dmg0=5.5 unlockedZone=0 bossKills=0,0,0,0 stashes=0 spawnsUsed=0 kills=0 bonusTimers=fresh tutorialDone=False introPending=True | sound=False music=True vibration=False introActive=True car=(0.00, 0.00, -238.00) sfxOn=False musicOn=True
+RoadGame RESET before: gems=777 weaponLevels=6,2,0,0 copies=3,1,0,0 armor=1,0 maxHp=2605 dmg0=80 unlockedZone=1 bossKills=1,0,0,0 stashes=1 spawnsUsed=3 kills=323 bonusTimers=set tutorialDone=True introPending=False | sound=False music=True vibration=False
+RoadGame RESET dialog open=True
+RoadGame RESET cancel: dialogClosed=True settingsStillOpen=True progressUnchanged=True saveUnchanged=True
+RoadGame RESET dialog open again=True
+RoadGame RESET saved at once: gems=0 weaponLevels=1,0,0,0 copies=0,0,0,0 armor=0,0 maxHp=100 dmg0=5.5 unlockedZone=0 bossKills=0,0,0,0 stashes=0 spawnsUsed=0 kills=0 bonusTimers=fresh tutorialDone=False introPending=True | sound=False music=True vibration=False
+RoadGame RESET new session: gems=0 weaponLevels=1,0,0,0 copies=0,0,0,0 armor=0,0 maxHp=100 dmg0=5.5 unlockedZone=0 bossKills=0,0,0,0 stashes=0 spawnsUsed=0 kills=0 bonusTimers=fresh tutorialDone=False introPending=True | sound=False music=True vibration=False introActive=True car=(0.00, 0.00, -238.00) heading=0 sfxOn=False musicOn=True paused=False panelsOpen=False
+RoadGame RESET saved for the restart: gems=0 weaponLevels=1,0,0,0 copies=0,0,0,0 armor=0,0 maxHp=100 dmg0=5.5 unlockedZone=0 bossKills=0,0,0,0 stashes=0 spawnsUsed=0 kills=0 bonusTimers=fresh tutorialDone=False introPending=True | sound=False music=True vibration=False

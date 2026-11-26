@@ -1,0 +1,801 @@
+{
+  "scene": "Assets/Scenes/Game.unity",
+  "resolution": [
+    540,
+    1170
+  ],
+  "camera": {
+    "position": [
+      14.2000008,
+      35.3343,
+      30.3848553
+    ],
+    "euler": [
+      48.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.406736642,
+      0.0,
+      0.0,
+      0.9135454
+    ],
+    "fov": 46.0,
+    "aspect": 0.461538464,
+    "projection": [
+      5.10434628,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      2.35585213,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.010582,
+      -1.0,
+      0.0,
+      0.0,
+      -2.010582,
+      0.0
+    ],
+    "nonJitteredProjection": [
+      5.10434628,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      2.35585213,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.010582,
+      -1.0,
+      0.0,
+      0.0,
+      -2.010582,
+      0.0
+    ]
+  },
+  "player": {
+    "position": [
+      17.4000015,
+      0.0,
+      56.5
+    ],
+    "rotation": [
+      0.0,
+      0.953716934,
+      0.0,
+      0.30070582
+    ],
+    "hp": 1420.0
+  },
+  "enemy": {
+    "position": [
+      11.500001,
+      0.0,
+      67.0
+    ],
+    "rotation": [
+      0.0,
+      0.9659258,
+      0.0,
+      0.258819073
+    ],
+    "hp": 2860.0
+  },
+  "gems": 245,
+  "weaponLevel": 4,
+  "weaponCopies": 2,
+  "hud": [
+    {
+      "path": "HudCanvas[11]/Safe[1]/BossBar[8]/Hp[2]",
+      "text": "2.86K",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "active": true,
+      "position": [
+        25.0,
+        -31.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "size": [
+        -50.0,
+        -2.0
+      ],
+      "anchorMin": [
+        0.0,
+        0.0
+      ],
+      "anchorMax": [
+        1.0,
+        1.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "anchored": [
+        25.0,
+        1.0
+      ]
+    },
+    {
+      "path": "HudCanvas[11]/Safe[1]/BossBar[8]/Name[3]",
+      "text": "THE MAMMOTH",
+      "color": [
+        1.0,
+        0.85,
+        0.7,
+        1.0
+      ],
+      "active": true,
+      "position": [
+        25.0,
+        -70.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "size": [
+        500.0,
+        44.0
+      ],
+      "anchorMin": [
+        0.5,
+        0.0
+      ],
+      "anchorMax": [
+        0.5,
+        0.0
+      ],
+      "pivot": [
+        0.5,
+        1.0
+      ],
+      "anchored": [
+        25.0,
+        -6.0
+      ]
+    },
+    {
+      "path": "HudCanvas[11]/Safe[1]/Garage[5]/Label[2]",
+      "text": "GARAGE",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "active": true,
+      "position": [
+        -64.0,
+        -146.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "size": [
+        200.0,
+        40.0
+      ],
+      "anchorMin": [
+        0.5,
+        0.0
+      ],
+      "anchorMax": [
+        0.5,
+        0.0
+      ],
+      "pivot": [
+        0.5,
+        0.0
+      ],
+      "anchored": [
+        0.0,
+        -18.0
+      ]
+    },
+    {
+      "path": "HudCanvas[11]/Safe[1]/Gems[2]/Txt[2]",
+      "text": "245",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "active": true,
+      "position": [
+        62.0,
+        -36.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "size": [
+        140.0,
+        60.0
+      ],
+      "anchorMin": [
+        0.0,
+        0.5
+      ],
+      "anchorMax": [
+        0.0,
+        0.5
+      ],
+      "pivot": [
+        0.0,
+        0.5
+      ],
+      "anchored": [
+        62.0,
+        2.0
+      ]
+    },
+    {
+      "path": "HudCanvas[11]/Safe[1]/Shop[6]/Label[2]",
+      "text": "SHOP",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "active": true,
+      "position": [
+        -64.0,
+        -146.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "size": [
+        200.0,
+        40.0
+      ],
+      "anchorMin": [
+        0.5,
+        0.0
+      ],
+      "anchorMax": [
+        0.5,
+        0.0
+      ],
+      "pivot": [
+        0.5,
+        0.0
+      ],
+      "anchored": [
+        0.0,
+        -18.0
+      ]
+    },
+    {
+      "path": "HudCanvas[11]/Safe[1]/SlotBar[9]/Armor0[5]/Lvl[2]",
+      "text": "",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "active": true,
+      "position": [
+        56.0,
+        -60.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "size": [
+        80.0,
+        50.0
+      ],
+      "anchorMin": [
+        1.0,
+        0.0
+      ],
+      "anchorMax": [
+        1.0,
+        0.0
+      ],
+      "pivot": [
+        1.0,
+        0.0
+      ],
+      "anchored": [
+        -6.0,
+        2.0
+      ]
+    },
+    {
+      "path": "HudCanvas[11]/Safe[1]/SlotBar[9]/Armor1[6]/Lvl[2]",
+      "text": "",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "active": true,
+      "position": [
+        56.0,
+        -60.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "size": [
+        80.0,
+        50.0
+      ],
+      "anchorMin": [
+        1.0,
+        0.0
+      ],
+      "anchorMax": [
+        1.0,
+        0.0
+      ],
+      "pivot": [
+        1.0,
+        0.0
+      ],
+      "anchored": [
+        -6.0,
+        2.0
+      ]
+    },
+    {
+      "path": "HudCanvas[11]/Safe[1]/SlotBar[9]/Weapon0[0]/Lvl[2]",
+      "text": "4",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "active": true,
+      "position": [
+        56.0,
+        -60.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "size": [
+        80.0,
+        50.0
+      ],
+      "anchorMin": [
+        1.0,
+        0.0
+      ],
+      "anchorMax": [
+        1.0,
+        0.0
+      ],
+      "pivot": [
+        1.0,
+        0.0
+      ],
+      "anchored": [
+        -6.0,
+        2.0
+      ]
+    },
+    {
+      "path": "HudCanvas[11]/Safe[1]/SlotBar[9]/Weapon1[1]/Lvl[2]",
+      "text": "",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "active": true,
+      "position": [
+        56.0,
+        -60.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "size": [
+        80.0,
+        50.0
+      ],
+      "anchorMin": [
+        1.0,
+        0.0
+      ],
+      "anchorMax": [
+        1.0,
+        0.0
+      ],
+      "pivot": [
+        1.0,
+        0.0
+      ],
+      "anchored": [
+        -6.0,
+        2.0
+      ]
+    },
+    {
+      "path": "HudCanvas[11]/Safe[1]/SlotBar[9]/Weapon2[2]/Lvl[2]",
+      "text": "",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "active": true,
+      "position": [
+        56.0,
+        -60.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "size": [
+        80.0,
+        50.0
+      ],
+      "anchorMin": [
+        1.0,
+        0.0
+      ],
+      "anchorMax": [
+        1.0,
+        0.0
+      ],
+      "pivot": [
+        1.0,
+        0.0
+      ],
+      "anchored": [
+        -6.0,
+        2.0
+      ]
+    },
+    {
+      "path": "HudCanvas[11]/Safe[1]/SlotBar[9]/Weapon3[3]/Lvl[2]",
+      "text": "",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "active": true,
+      "position": [
+        56.0,
+        -60.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "size": [
+        80.0,
+        50.0
+      ],
+      "anchorMin": [
+        1.0,
+        0.0
+      ],
+      "anchorMax": [
+        1.0,
+        0.0
+      ],
+      "pivot": [
+        1.0,
+        0.0
+      ],
+      "anchored": [
+        -6.0,
+        2.0
+      ]
+    },
+    {
+      "path": "OverlayCanvas[10]/Float[3]/Txt[0]",
+      "text": "144!",
+      "color": [
+        1.0,
+        0.82,
+        0.2,
+        1.0
+      ],
+      "active": true,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "size": [
+        0.0,
+        0.0
+      ],
+      "anchorMin": [
+        0.0,
+        0.0
+      ],
+      "anchorMax": [
+        1.0,
+        1.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "anchored": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "OverlayCanvas[10]/PlayerBar[0]/Dmg[2]/DmgTxt[1]",
+      "text": "273",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "active": true,
+      "position": [
+        44.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "size": [
+        100.0,
+        40.0
+      ],
+      "anchorMin": [
+        0.0,
+        0.5
+      ],
+      "anchorMax": [
+        0.0,
+        0.5
+      ],
+      "pivot": [
+        0.0,
+        0.5
+      ],
+      "anchored": [
+        44.0,
+        0.0
+      ]
+    },
+    {
+      "path": "OverlayCanvas[10]/PlayerBar[0]/Hp[1]",
+      "text": "1.42K",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "active": true,
+      "position": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "size": [
+        0.0,
+        -2.0
+      ],
+      "anchorMin": [
+        0.0,
+        0.0
+      ],
+      "anchorMax": [
+        1.0,
+        1.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "anchored": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "path": "OverlayCanvas[10]/TBar[1]/Hp[1]",
+      "text": "2.86K",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "active": true,
+      "position": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "size": [
+        0.0,
+        -2.0
+      ],
+      "anchorMin": [
+        0.0,
+        0.0
+      ],
+      "anchorMax": [
+        1.0,
+        1.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "anchored": [
+        0.0,
+        1.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+    "editorMasterMuted": true,
+    "checks": [
+        "work run is muted",
+        "imported river is active",
+        "ford has shallow water contact: 0.090m",
+        "main channel has deeper water contact: 0.220m",
+        "channel immersion exceeds ford immersion",
+        "dry river bank has no water contact",
+        "car above water does not receive underwater forces",
+        "space below river bed is outside the water volume",
+        "other zones do not inherit first-zone water",
+        "bridge 0 deck is dry above the river",
+        "bridge 1 deck is dry above the river",
+        "dry_coast has no recovery or out-of-bounds reset",
+        "dry coast remains outside water",
+        "channel_coast has no recovery or out-of-bounds reset",
+        "channel coast stays immersed during measurement",
+        "water slows equal-input 10m/s coast more than dry ground: wet=2.57 dry=6.99",
+        "restart_in_channel has no recovery or out-of-bounds reset",
+        "car restarts and drives from rest in the main channel",
+        "ford_crossing has no recovery or out-of-bounds reset",
+        "car traverses the shallow ford",
+        "ford crossing physically enters water",
+        "water contact clears after driving onto the far bank",
+        "main_bridge has no recovery or out-of-bounds reset",
+        "main_bridge is traversed",
+        "main_bridge uses its elevated driving deck",
+        "main_bridge produces no submerged handling or splash entries",
+        "track_bridge has no recovery or out-of-bounds reset",
+        "track_bridge uses its elevated driving deck",
+        "track_bridge produces no submerged handling or splash entries",
+        "all six physical water/bridge runs completed"
+    ],
+    "failures": [
+        "track_bridge is traversed"
+    ],
+    "drives": [
+        {
+            "name": "dry_coast",
+            "start": {
+                "x": -22.239295959472656,
+                "y": 0.5902306437492371,
+                "z": -8.965799331665039
+            },
+            "end": {
+                "x": -15.197122573852539,
+                "y": -0.08015789091587067,
+                "z": -7.714811325073242
+            },
+            "elapsed": 0.8146094083786011,
+            "startSpeed": 10.0,
+            "endSpeed": 6.989385604858398,
+            "maxWetSpeed": 0.0,
+            "maxDepth": 0.0,
+            "maxImmersion": 0.0,
+            "wetTime": 0.0,
+            "remaining": 0.8475821018218994,
+            "entries": 0,
+            "recoveries": 0,
+            "reachedEnd": true,
+            "sawElevatedDeck": false,
+            "sawDryAfterWater": false
+        },
+        {
+            "name": "channel_coast",
+            "start": {
+                "x": -22.041400909423828,
+                "y": -0.4399999976158142,
+                "z": 33.179100036621094
+            },
+            "end": {
+                "x": -24.52838134765625,
+                "y": -0.4399980306625366,
+                "z": 36.77985763549805
+            },
+            "elapsed": 0.8103070259094238,
+            "startSpeed": 10.0,
+            "endSpeed": 2.568608045578003,
+            "maxWetSpeed": 9.651627540588379,
+            "maxDepth": 0.21858447790145874,
+            "maxImmersion": 0.9904465675354004,
+            "wetTime": 0.8103070259094238,
+            "remaining": 20.624849319458008,
+            "entries": 1,
+            "recoveries": 0,
+            "reachedEnd": false,
+            "sawElevatedDeck": false,
+            "sawDryAfterWater": false
+        },
+        {
+            "name": "restart_in_channel",
+            "start": {
+                "x": -22.041400909423828,
+                "y": -0.4399999976158142,
+                "z": 33.179100036621094
+            },
+            "end": {
+                "x": -28.40199089050293,
+                "y": -0.4386053681373596,
+                "z": 42.39141082763672
+            },
+            "elapsed": 4.009505271911621,
+            "startSpeed": 0.0,
+            "endSpeed": 3.720285415649414,
+            "maxWetSpeed": 3.720285415649414,
+            "maxDepth": 0.21949923038482666,
+            "maxImmersion": 0.9904465675354004,
+            "wetTime": 4.009505271911621,
+            "remaining": 13.806171417236328,
+            "entries": 1,
+            "recoveries": 0,
+            "reachedEnd": false,
+            "sawElevatedDeck": false,
+            "sawDryAfterWater": false
+        },
+        {
+            "name": "ford_crossing",
+            "start": {
+                "x": -22.239295959472656,
+                "y": 0.5902306437492371,
+                "z": -8.965799331665039
+            },
+            "end": {
+                "x": 17.250513076782227,
+                "y": 0.0,
+                "z": -1.9461143016815186
+            },
+            "elapsed": 13.50461483001709,
+            "startSpeed": 6.5,
+            "endSpeed": 1.401298464324817e-45,
+            "maxWetSpeed": 9.39486026763916,
+            "maxDepth": 0.09168842434883118,
+            "maxImmersion": 0.4066164791584015,
+            "wetTime": 1.9794073104858398,
+            "remaining": 6.10890007019043,
+            "entries": 1,
+            "recoveries": 0,
+            "reachedEnd": true,
+            "sawElevatedDeck": false,
+            "sawDryAfterWater": true
+        },
+        {
+            "name": "main_bridge",
+            "start": {
+                "x": -26.307966232299805,
+                "y": 0.0,
+                "z": -0.5026082992553711
+            },
+            "end": {
+                "x": 19.338470458984375,
+                "y": 0.0,
+                "z": 36.70185089111328
+            },
+            "elapsed": 9.514616012573242,
+            "startSpeed": 6.5,
+            "endSpeed": 1.401298464324817e-45,
+            "maxWetSpeed": 0.0,
+            "maxDepth": 0.0,
+            "maxImmersion": 0.0,
+            "wetTime": 0.0,
+            "remaining": 12.517838478088379,
+            "entries": 0,
+            "recoveries": 0,
+            "reachedEnd": true,
+            "sawElevatedDeck": true,
+            "sawDryAfterWater": false
+        },
+        {
+            "name": "track_bridge",
+            "start": {
+                "x": 28.568470001220703,
+                "y": 0.0,
+                "z": -53.424198150634766
+            },
+            "end": {
+                "x": 24.904592514038086,
+                "y": 0.8188790678977966,
+                "z": -21.839542388916016
+            },
+            "elapsed": 9.509685516357422,
+            "startSpeed": 6.5,
+            "endSpeed": 11.282465934753418,
+            "maxWetSpeed": 0.0,
+            "maxDepth": 0.0,
+            "maxImmersion": 0.0,
+            "wetTime": 0.0,
+            "remaining": 11.2034912109375,
+            "entries": 0,
+            "recoveries": 0,
+            "reachedEnd": false,
+            "sawElevatedDeck": true,
+            "sawDryAfterWater": false
+        }
+    ]
+}

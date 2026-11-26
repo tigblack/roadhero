@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-19",
+  "project": "/Users/arthuri/Unity Projects/RoadGame",
+  "prefab": "Assets/RoadGame/Resources/Cars/ScarboundDetailed.prefab",
+  "sourceUnchanged": true,
+  "compileAndShaderErrors": 0,
+  "silentWorkRuns": true,
+  "sourceLods": [
+    330174,
+    139558,
+    47789
+  ],
+  "gunRestPoses": 360,
+  "gunRestContacts": 0,
+  "aimCases": 576,
+  "gunOrFlashContacts": 0,
+  "launchRunContacts": 0,
+  "homingPathContactsCarOrCrew": 0,
+  "minimumMeasuredPitchMarginDegrees": 1.0,
+  "harpoonPoses": 360,
+  "harpoonCarContacts": 0,
+  "introShots": 17,
+  "introHits": 17,
+  "introHarpoons": 2,
+  "introReeled": 2,
+  "pickupViews": 6,
+  "introFrames": 4,
+  "logs": {
+    "import": "Logs/blender_car_import.log",
+    "icon": "Logs/blender_car_icon.log",
+    "clearance": "Logs/blender_car_clearance_final.log",
+    "pickup": "Logs/blender_car_pickup_final.log",
+    "intro": "Logs/blender_car_intro_final.log"
+  }
+}

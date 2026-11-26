@@ -1,0 +1,1966 @@
+{
+  "nodes": 4153,
+  "meshInstances": 1988,
+  "bounds": {
+    "min": [
+      -175,
+      -4.7,
+      -260.97287
+    ],
+    "max": [
+      175,
+      14.6369333,
+      780
+    ]
+  },
+  "meshes": {
+    "mesh_000000": {
+      "vertices": 1484,
+      "triangles": 1004
+    },
+    "mesh_000001": {
+      "vertices": 4,
+      "triangles": 2
+    },
+    "mesh_000002": {
+      "vertices": 8060,
+      "triangles": 4464
+    },
+    "mesh_000003": {
+      "vertices": 7978,
+      "triangles": 4414
+    },
+    "mesh_000004": {
+      "vertices": 7978,
+      "triangles": 4414
+    },
+    "mesh_000005": {
+      "vertices": 1160,
+      "triangles": 1848
+    },
+    "mesh_000006": {
+      "vertices": 40,
+      "triangles": 38
+    },
+    "mesh_000007": {
+      "vertices": 58,
+      "triangles": 56
+    },
+    "mesh_000008": {
+      "vertices": 38,
+      "triangles": 36
+    },
+    "mesh_000009": {
+      "vertices": 24021,
+      "triangles": 23190
+    },
+    "mesh_000010": {
+      "vertices": 232,
+      "triangles": 120
+    },
+    "mesh_000011": {
+      "vertices": 16987,
+      "triangles": 16852
+    },
+    "mesh_000012": {
+      "vertices": 7978,
+      "triangles": 4414
+    },
+    "mesh_000013": {
+      "vertices": 7978,
+      "triangles": 4414
+    },
+    "mesh_000014": {
+      "vertices": 7978,
+      "triangles": 4414
+    },
+    "mesh_000015": {
+      "vertices": 1110,
+      "triangles": 1768
+    },
+    "mesh_000016": {
+      "vertices": 36,
+      "triangles": 34
+    },
+    "mesh_000017": {
+      "vertices": 18,
+      "triangles": 16
+    },
+    "mesh_000018": {
+      "vertices": 14,
+      "triangles": 12
+    },
+    "mesh_000019": {
+      "vertices": 38,
+      "triangles": 36
+    },
+    "mesh_000020": {
+      "vertices": 36184,
+      "triangles": 34914
+    },
+    "mesh_000021": {
+      "vertices": 232,
+      "triangles": 120
+    },
+    "mesh_000022": {
+      "vertices": 16987,
+      "triangles": 16852
+    },
+    "mesh_000023": {
+      "vertices": 8156,
+      "triangles": 4508
+    },
+    "mesh_000024": {
+      "vertices": 7978,
+      "triangles": 4414
+    },
+    "mesh_000025": {
+      "vertices": 7978,
+      "triangles": 4414
+    },
+    "mesh_000026": {
+      "vertices": 1105,
+      "triangles": 1760
+    },
+    "mesh_000027": {
+      "vertices": 52,
+      "triangles": 50
+    },
+    "mesh_000028": {
+      "vertices": 40,
+      "triangles": 38
+    },
+    "mesh_000029": {
+      "vertices": 52,
+      "triangles": 50
+    },
+    "mesh_000030": {
+      "vertices": 29669,
+      "triangles": 28666
+    },
+    "mesh_000031": {
+      "vertices": 232,
+      "triangles": 120
+    },
+    "mesh_000032": {
+      "vertices": 16987,
+      "triangles": 16852
+    },
+    "mesh_000033": {
+      "vertices": 7978,
+      "triangles": 4414
+    },
+    "mesh_000034": {
+      "vertices": 7978,
+      "triangles": 4414
+    },
+    "mesh_000035": {
+      "vertices": 7978,
+      "triangles": 4414
+    },
+    "mesh_000036": {
+      "vertices": 965,
+      "triangles": 1536
+    },
+    "mesh_000037": {
+      "vertices": 66,
+      "triangles": 64
+    },
+    "mesh_000038": {
+      "vertices": 48,
+      "triangles": 46
+    },
+    "mesh_000039": {
+      "vertices": 42,
+      "triangles": 40
+    },
+    "mesh_000040": {
+      "vertices": 25278,
+      "triangles": 22980
+    },
+    "mesh_000041": {
+      "vertices": 232,
+      "triangles": 120
+    },
+    "mesh_000042": {
+      "vertices": 5183,
+      "triangles": 9816
+    },
+    "mesh_000043": {
+      "vertices": 2911,
+      "triangles": 5552
+    },
+    "mesh_000044": {
+      "vertices": 2911,
+      "triangles": 5600
+    },
+    "mesh_000045": {
+      "vertices": 4047,
+      "triangles": 7840
+    },
+    "mesh_000046": {
+      "vertices": 6,
+      "triangles": 4
+    },
+    "mesh_000047": {
+      "vertices": 14199,
+      "triangles": 19040
+    },
+    "mesh_000048": {
+      "vertices": 14506,
+      "triangles": 19200
+    },
+    "mesh_000049": {
+      "vertices": 5119,
+      "triangles": 6960
+    },
+    "mesh_000050": {
+      "vertices": 4157,
+      "triangles": 2504
+    },
+    "mesh_000051": {
+      "vertices": 768,
+      "triangles": 384
+    },
+    "mesh_000052": {
+      "vertices": 432,
+      "triangles": 216
+    },
+    "mesh_000053": {
+      "vertices": 114,
+      "triangles": 52
+    },
+    "mesh_000054": {
+      "vertices": 4,
+      "triangles": 2
+    },
+    "mesh_000055": {
+      "vertices": 12,
+      "triangles": 10
+    },
+    "mesh_000056": {
+      "vertices": 8,
+      "triangles": 6
+    },
+    "mesh_000057": {
+      "vertices": 32,
+      "triangles": 30
+    },
+    "mesh_000058": {
+      "vertices": 4,
+      "triangles": 2
+    },
+    "mesh_000059": {
+      "vertices": 6,
+      "triangles": 4
+    },
+    "mesh_000060": {
+      "vertices": 12,
+      "triangles": 12
+    },
+    "mesh_000061": {
+      "vertices": 48,
+      "triangles": 60
+    },
+    "mesh_000062": {
+      "vertices": 6,
+      "triangles": 4
+    },
+    "mesh_000063": {
+      "vertices": 10,
+      "triangles": 8
+    },
+    "mesh_000064": {
+      "vertices": 20,
+      "triangles": 24
+    },
+    "mesh_000065": {
+      "vertices": 10,
+      "triangles": 8
+    },
+    "mesh_000066": {
+      "vertices": 12,
+      "triangles": 10
+    },
+    "mesh_000067": {
+      "vertices": 24,
+      "triangles": 30
+    },
+    "mesh_000068": {
+      "vertices": 12,
+      "triangles": 10
+    },
+    "mesh_000069": {
+      "vertices": 4,
+      "triangles": 2
+    },
+    "mesh_000070": {
+      "vertices": 8,
+      "triangles": 6
+    },
+    "mesh_000071": {
+      "vertices": 4,
+      "triangles": 2
+    },
+    "mesh_000072": {
+      "vertices": 12,
+      "triangles": 10
+    },
+    "mesh_000073": {
+      "vertices": 12,
+      "triangles": 10
+    },
+    "mesh_000074": {
+      "vertices": 16,
+      "triangles": 14
+    },
+    "mesh_000075": {
+      "vertices": 48,
+      "triangles": 70
+    },
+    "mesh_000076": {
+      "vertices": 32,
+      "triangles": 42
+    },
+    "mesh_000077": {
+      "vertices": 16,
+      "triangles": 14
+    },
+    "mesh_000078": {
+      "vertices": 6,
+      "triangles": 4
+    },
+    "mesh_000079": {
+      "vertices": 18,
+      "triangles": 20
+    },
+    "mesh_000080": {
+      "vertices": 12,
+      "triangles": 12
+    },
+    "mesh_000081": {
+      "vertices": 48,
+      "triangles": 60
+    },
+    "mesh_000082": {
+      "vertices": 6,
+      "triangles": 4
+    },
+    "mesh_000083": {
+      "vertices": 36,
+      "triangles": 50
+    },
+    "mesh_000084": {
+      "vertices": 42,
+      "triangles": 60
+    },
+    "mesh_000085": {
+      "vertices": 24,
+      "triangles": 30
+    },
+    "mesh_000086": {
+      "vertices": 4,
+      "triangles": 2
+    },
+    "mesh_000087": {
+      "vertices": 4,
+      "triangles": 2
+    },
+    "mesh_000088": {
+      "vertices": 810,
+      "triangles": 540
+    },
+    "mesh_000089": {
+      "vertices": 576,
+      "triangles": 264
+    },
+    "mesh_000090": {
+      "vertices": 3044,
+      "triangles": 1578
+    },
+    "mesh_000091": {
+      "vertices": 1989,
+      "triangles": 1004
+    },
+    "mesh_000092": {
+      "vertices": 8856,
+      "triangles": 4502
+    },
+    "mesh_000093": {
+      "vertices": 1176,
+      "triangles": 592
+    },
+    "mesh_000094": {
+      "vertices": 1176,
+      "triangles": 592
+    },
+    "mesh_000095": {
+      "vertices": 840,
+      "triangles": 424
+    },
+    "mesh_000096": {
+      "vertices": 696,
+      "triangles": 352
+    },
+    "mesh_000097": {
+      "vertices": 240,
+      "triangles": 112
+    },
+    "mesh_000098": {
+      "vertices": 818,
+      "triangles": 400
+    },
+    "mesh_000099": {
+      "vertices": 4660,
+      "triangles": 2504
+    },
+    "mesh_000100": {
+      "vertices": 3059,
+      "triangles": 2904
+    },
+    "mesh_000101": {
+      "vertices": 3040,
+      "triangles": 2904
+    },
+    "mesh_000102": {
+      "vertices": 388,
+      "triangles": 236
+    },
+    "mesh_000103": {
+      "vertices": 715,
+      "triangles": 686
+    },
+    "mesh_000104": {
+      "vertices": 379,
+      "triangles": 256
+    },
+    "mesh_000105": {
+      "vertices": 1080,
+      "triangles": 504
+    },
+    "mesh_000106": {
+      "vertices": 1080,
+      "triangles": 504
+    },
+    "mesh_000107": {
+      "vertices": 380,
+      "triangles": 188
+    },
+    "mesh_000108": {
+      "vertices": 2279,
+      "triangles": 3200
+    },
+    "mesh_000109": {
+      "vertices": 2233,
+      "triangles": 3200
+    },
+    "mesh_000110": {
+      "vertices": 1779,
+      "triangles": 1904
+    },
+    "mesh_000111": {
+      "vertices": 384,
+      "triangles": 176
+    },
+    "mesh_000112": {
+      "vertices": 9,
+      "triangles": 8
+    },
+    "mesh_000113": {
+      "vertices": 18,
+      "triangles": 20
+    },
+    "mesh_000114": {
+      "vertices": 6,
+      "triangles": 4
+    },
+    "mesh_000115": {
+      "vertices": 15,
+      "triangles": 16
+    },
+    "mesh_000116": {
+      "vertices": 10,
+      "triangles": 8
+    },
+    "mesh_000117": {
+      "vertices": 21,
+      "triangles": 24
+    },
+    "mesh_000118": {
+      "vertices": 14,
+      "triangles": 12
+    },
+    "mesh_000119": {
+      "vertices": 15,
+      "triangles": 16
+    },
+    "mesh_000120": {
+      "vertices": 10,
+      "triangles": 8
+    },
+    "mesh_000121": {
+      "vertices": 9,
+      "triangles": 8
+    },
+    "mesh_000122": {
+      "vertices": 18,
+      "triangles": 20
+    },
+    "mesh_000123": {
+      "vertices": 6,
+      "triangles": 4
+    },
+    "mesh_000124": {
+      "vertices": 42,
+      "triangles": 60
+    },
+    "mesh_000125": {
+      "vertices": 3852,
+      "triangles": 1816
+    },
+    "mesh_000126": {
+      "vertices": 288,
+      "triangles": 140
+    },
+    "mesh_000127": {
+      "vertices": 288,
+      "triangles": 140
+    },
+    "mesh_000128": {
+      "vertices": 4,
+      "triangles": 2
+    },
+    "mesh_000129": {
+      "vertices": 4,
+      "triangles": 2
+    },
+    "mesh_000130": {
+      "vertices": 1018,
+      "triangles": 780
+    },
+    "mesh_000131": {
+      "vertices": 608,
+      "triangles": 468
+    },
+    "mesh_000132": {
+      "vertices": 828,
+      "triangles": 468
+    },
+    "mesh_000133": {
+      "vertices": 408,
+      "triangles": 212
+    },
+    "mesh_000134": {
+      "vertices": 216,
+      "triangles": 168
+    },
+    "mesh_000135": {
+      "vertices": 96,
+      "triangles": 44
+    },
+    "mesh_000136": {
+      "vertices": 1106,
+      "triangles": 580
+    },
+    "mesh_000137": {
+      "vertices": 1106,
+      "triangles": 580
+    },
+    "mesh_000138": {
+      "vertices": 1100,
+      "triangles": 574
+    },
+    "mesh_000139": {
+      "vertices": 1100,
+      "triangles": 574
+    },
+    "mesh_000140": {
+      "vertices": 1106,
+      "triangles": 580
+    },
+    "mesh_000141": {
+      "vertices": 1100,
+      "triangles": 574
+    },
+    "mesh_000142": {
+      "vertices": 1110,
+      "triangles": 584
+    },
+    "mesh_000143": {
+      "vertices": 1106,
+      "triangles": 580
+    },
+    "mesh_000144": {
+      "vertices": 1110,
+      "triangles": 584
+    },
+    "mesh_000145": {
+      "vertices": 1110,
+      "triangles": 584
+    },
+    "mesh_000146": {
+      "vertices": 224,
+      "triangles": 342
+    },
+    "mesh_000147": {
+      "vertices": 224,
+      "triangles": 342
+    },
+    "mesh_000148": {
+      "vertices": 195,
+      "triangles": 304
+    },
+    "mesh_000149": {
+      "vertices": 380,
+      "triangles": 596
+    },
+    "mesh_000150": {
+      "vertices": 1266,
+      "triangles": 1200
+    },
+    "mesh_000151": {
+      "vertices": 289,
+      "triangles": 448
+    },
+    "mesh_000152": {
+      "vertices": 1365,
+      "triangles": 1280
+    },
+    "mesh_000153": {
+      "vertices": 225,
+      "triangles": 344
+    },
+    "mesh_000154": {
+      "vertices": 1477,
+      "triangles": 1360
+    },
+    "mesh_000155": {
+      "vertices": 289,
+      "triangles": 448
+    },
+    "mesh_000156": {
+      "vertices": 1517,
+      "triangles": 1360
+    },
+    "mesh_000157": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000158": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000159": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000160": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000161": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000162": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000163": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000164": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000165": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000166": {
+      "vertices": 210,
+      "triangles": 324
+    },
+    "mesh_000167": {
+      "vertices": 380,
+      "triangles": 596
+    },
+    "mesh_000168": {
+      "vertices": 1560,
+      "triangles": 1440
+    },
+    "mesh_000169": {
+      "vertices": 256,
+      "triangles": 402
+    },
+    "mesh_000170": {
+      "vertices": 1480,
+      "triangles": 1360
+    },
+    "mesh_000171": {
+      "vertices": 272,
+      "triangles": 424
+    },
+    "mesh_000172": {
+      "vertices": 1363,
+      "triangles": 1280
+    },
+    "mesh_000173": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000174": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000175": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000176": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000177": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000178": {
+      "vertices": 169,
+      "triangles": 264
+    },
+    "mesh_000179": {
+      "vertices": 380,
+      "triangles": 596
+    },
+    "mesh_000180": {
+      "vertices": 1713,
+      "triangles": 1600
+    },
+    "mesh_000181": {
+      "vertices": 289,
+      "triangles": 448
+    },
+    "mesh_000182": {
+      "vertices": 1524,
+      "triangles": 1440
+    },
+    "mesh_000183": {
+      "vertices": 256,
+      "triangles": 402
+    },
+    "mesh_000184": {
+      "vertices": 1280,
+      "triangles": 1200
+    },
+    "mesh_000185": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000186": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000187": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000188": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000189": {
+      "vertices": 210,
+      "triangles": 324
+    },
+    "mesh_000190": {
+      "vertices": 380,
+      "triangles": 596
+    },
+    "mesh_000191": {
+      "vertices": 1386,
+      "triangles": 1280
+    },
+    "mesh_000192": {
+      "vertices": 289,
+      "triangles": 448
+    },
+    "mesh_000193": {
+      "vertices": 1612,
+      "triangles": 1520
+    },
+    "mesh_000194": {
+      "vertices": 256,
+      "triangles": 402
+    },
+    "mesh_000195": {
+      "vertices": 1710,
+      "triangles": 1600
+    },
+    "mesh_000196": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000197": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000198": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000199": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000200": {
+      "vertices": 150,
+      "triangles": 228
+    },
+    "mesh_000201": {
+      "vertices": 574,
+      "triangles": 386
+    },
+    "mesh_000202": {
+      "vertices": 574,
+      "triangles": 386
+    },
+    "mesh_000203": {
+      "vertices": 574,
+      "triangles": 386
+    },
+    "mesh_000204": {
+      "vertices": 574,
+      "triangles": 386
+    },
+    "mesh_000205": {
+      "vertices": 574,
+      "triangles": 386
+    },
+    "mesh_000206": {
+      "vertices": 574,
+      "triangles": 386
+    },
+    "mesh_000207": {
+      "vertices": 574,
+      "triangles": 386
+    },
+    "mesh_000208": {
+      "vertices": 574,
+      "triangles": 386
+    },
+    "mesh_000209": {
+      "vertices": 574,
+      "triangles": 386
+    },
+    "mesh_000210": {
+      "vertices": 574,
+      "triangles": 386
+    },
+    "mesh_000211": {
+      "vertices": 574,
+      "triangles": 386
+    },
+    "mesh_000212": {
+      "vertices": 574,
+      "triangles": 386
+    },
+    "mesh_000213": {
+      "vertices": 3686,
+      "triangles": 2176
+    },
+    "mesh_000214": {
+      "vertices": 3438,
+      "triangles": 1960
+    },
+    "mesh_000215": {
+      "vertices": 3438,
+      "triangles": 1960
+    },
+    "mesh_000216": {
+      "vertices": 3894,
+      "triangles": 4576
+    },
+    "mesh_000217": {
+      "vertices": 5244,
+      "triangles": 7088
+    },
+    "mesh_000218": {
+      "vertices": 290,
+      "triangles": 270
+    },
+    "mesh_000219": {
+      "vertices": 3280,
+      "triangles": 3280
+    },
+    "mesh_000220": {
+      "vertices": 6823,
+      "triangles": 5510
+    },
+    "mesh_000221": {
+      "vertices": 1519,
+      "triangles": 1488
+    },
+    "mesh_000222": {
+      "vertices": 145,
+      "triangles": 224
+    },
+    "mesh_000223": {
+      "vertices": 125,
+      "triangles": 192
+    },
+    "mesh_000224": {
+      "vertices": 125,
+      "triangles": 192
+    },
+    "mesh_000225": {
+      "vertices": 366,
+      "triangles": 244
+    },
+    "mesh_000226": {
+      "vertices": 15582,
+      "triangles": 20560
+    },
+    "mesh_000227": {
+      "vertices": 15142,
+      "triangles": 20240
+    },
+    "mesh_000228": {
+      "vertices": 15439,
+      "triangles": 20560
+    },
+    "mesh_000229": {
+      "vertices": 15345,
+      "triangles": 20240
+    },
+    "mesh_000230": {
+      "vertices": 15140,
+      "triangles": 20000
+    },
+    "mesh_000231": {
+      "vertices": 15549,
+      "triangles": 20560
+    },
+    "mesh_000232": {
+      "vertices": 15034,
+      "triangles": 20080
+    },
+    "mesh_000233": {
+      "vertices": 15189,
+      "triangles": 20320
+    },
+    "mesh_000234": {
+      "vertices": 13231,
+      "triangles": 16800
+    },
+    "mesh_000235": {
+      "vertices": 13428,
+      "triangles": 16880
+    },
+    "mesh_000236": {
+      "vertices": 15143,
+      "triangles": 20320
+    },
+    "mesh_000237": {
+      "vertices": 19090,
+      "triangles": 24480
+    },
+    "mesh_000238": {
+      "vertices": 12432,
+      "triangles": 15920
+    },
+    "mesh_000239": {
+      "vertices": 1102,
+      "triangles": 1032
+    },
+    "mesh_000240": {
+      "vertices": 1160,
+      "triangles": 580
+    },
+    "mesh_000241": {
+      "vertices": 11279,
+      "triangles": 14720
+    },
+    "mesh_000242": {
+      "vertices": 19514,
+      "triangles": 25360
+    },
+    "mesh_000243": {
+      "vertices": 1102,
+      "triangles": 1032
+    },
+    "mesh_000244": {
+      "vertices": 17232,
+      "triangles": 22240
+    },
+    "mesh_000245": {
+      "vertices": 13187,
+      "triangles": 17040
+    },
+    "mesh_000246": {
+      "vertices": 1102,
+      "triangles": 1032
+    },
+    "mesh_000247": {
+      "vertices": 622,
+      "triangles": 888
+    },
+    "mesh_000248": {
+      "vertices": 580,
+      "triangles": 808
+    },
+    "mesh_000249": {
+      "vertices": 442,
+      "triangles": 632
+    },
+    "mesh_000250": {
+      "vertices": 250,
+      "triangles": 172
+    },
+    "mesh_000251": {
+      "vertices": 250,
+      "triangles": 172
+    },
+    "mesh_000252": {
+      "vertices": 224,
+      "triangles": 156
+    },
+    "mesh_000253": {
+      "vertices": 624,
+      "triangles": 288
+    },
+    "mesh_000254": {
+      "vertices": 792,
+      "triangles": 368
+    },
+    "mesh_000255": {
+      "vertices": 816,
+      "triangles": 380
+    },
+    "mesh_000256": {
+      "vertices": 515,
+      "triangles": 500
+    },
+    "mesh_000257": {
+      "vertices": 412,
+      "triangles": 400
+    },
+    "mesh_000258": {
+      "vertices": 412,
+      "triangles": 400
+    },
+    "mesh_000259": {
+      "vertices": 661,
+      "triangles": 600
+    },
+    "mesh_000260": {
+      "vertices": 646,
+      "triangles": 600
+    },
+    "mesh_000261": {
+      "vertices": 670,
+      "triangles": 600
+    },
+    "mesh_000262": {
+      "vertices": 486,
+      "triangles": 480
+    },
+    "mesh_000263": {
+      "vertices": 648,
+      "triangles": 640
+    },
+    "mesh_000264": {
+      "vertices": 648,
+      "triangles": 640
+    },
+    "mesh_000265": {
+      "vertices": 633,
+      "triangles": 960
+    },
+    "mesh_000266": {
+      "vertices": 637,
+      "triangles": 960
+    },
+    "mesh_000267": {
+      "vertices": 737,
+      "triangles": 668
+    },
+    "mesh_000268": {
+      "vertices": 737,
+      "triangles": 668
+    },
+    "mesh_000269": {
+      "vertices": 737,
+      "triangles": 668
+    },
+    "mesh_000270": {
+      "vertices": 458,
+      "triangles": 240
+    },
+    "mesh_000271": {
+      "vertices": 458,
+      "triangles": 240
+    },
+    "mesh_000272": {
+      "vertices": 482,
+      "triangles": 252
+    },
+    "mesh_000273": {
+      "vertices": 190,
+      "triangles": 96
+    },
+    "mesh_000274": {
+      "vertices": 94,
+      "triangles": 52
+    },
+    "mesh_000275": {
+      "vertices": 94,
+      "triangles": 52
+    },
+    "mesh_000276": {
+      "vertices": 1148,
+      "triangles": 568
+    },
+    "mesh_000277": {
+      "vertices": 1148,
+      "triangles": 568
+    },
+    "mesh_000278": {
+      "vertices": 1148,
+      "triangles": 568
+    },
+    "mesh_000279": {
+      "vertices": 1709,
+      "triangles": 2640
+    },
+    "mesh_000280": {
+      "vertices": 452,
+      "triangles": 556
+    },
+    "mesh_000281": {
+      "vertices": 520,
+      "triangles": 832
+    },
+    "mesh_000282": {
+      "vertices": 390,
+      "triangles": 332
+    },
+    "mesh_000283": {
+      "vertices": 2630,
+      "triangles": 4656
+    },
+    "mesh_000284": {
+      "vertices": 452,
+      "triangles": 556
+    },
+    "mesh_000285": {
+      "vertices": 520,
+      "triangles": 832
+    },
+    "mesh_000286": {
+      "vertices": 304,
+      "triangles": 296
+    },
+    "mesh_000287": {
+      "vertices": 1840,
+      "triangles": 2704
+    },
+    "mesh_000288": {
+      "vertices": 452,
+      "triangles": 556
+    },
+    "mesh_000289": {
+      "vertices": 764,
+      "triangles": 1272
+    },
+    "mesh_000290": {
+      "vertices": 520,
+      "triangles": 832
+    },
+    "mesh_000291": {
+      "vertices": 132,
+      "triangles": 134
+    },
+    "mesh_000292": {
+      "vertices": 1484,
+      "triangles": 2448
+    },
+    "mesh_000293": {
+      "vertices": 452,
+      "triangles": 556
+    },
+    "mesh_000294": {
+      "vertices": 520,
+      "triangles": 832
+    },
+    "mesh_000295": {
+      "vertices": 491,
+      "triangles": 424
+    },
+    "mesh_000296": {
+      "vertices": 2443,
+      "triangles": 2748
+    },
+    "mesh_000297": {
+      "vertices": 534,
+      "triangles": 372
+    },
+    "mesh_000298": {
+      "vertices": 782,
+      "triangles": 660
+    },
+    "mesh_000299": {
+      "vertices": 782,
+      "triangles": 660
+    },
+    "mesh_000300": {
+      "vertices": 312,
+      "triangles": 144
+    },
+    "mesh_000301": {
+      "vertices": 312,
+      "triangles": 144
+    },
+    "mesh_000302": {
+      "vertices": 3904,
+      "triangles": 3952
+    },
+    "mesh_000303": {
+      "vertices": 782,
+      "triangles": 660
+    },
+    "mesh_000304": {
+      "vertices": 824,
+      "triangles": 640
+    },
+    "mesh_000305": {
+      "vertices": 870,
+      "triangles": 640
+    },
+    "mesh_000306": {
+      "vertices": 871,
+      "triangles": 640
+    },
+    "mesh_000307": {
+      "vertices": 636,
+      "triangles": 960
+    },
+    "mesh_000308": {
+      "vertices": 624,
+      "triangles": 960
+    },
+    "mesh_000309": {
+      "vertices": 627,
+      "triangles": 960
+    },
+    "mesh_000310": {
+      "vertices": 396,
+      "triangles": 384
+    },
+    "mesh_000311": {
+      "vertices": 396,
+      "triangles": 384
+    },
+    "mesh_000312": {
+      "vertices": 396,
+      "triangles": 384
+    },
+    "mesh_000313": {
+      "vertices": 648,
+      "triangles": 640
+    },
+    "mesh_000314": {
+      "vertices": 648,
+      "triangles": 640
+    },
+    "mesh_000315": {
+      "vertices": 486,
+      "triangles": 480
+    },
+    "mesh_000316": {
+      "vertices": 646,
+      "triangles": 600
+    },
+    "mesh_000317": {
+      "vertices": 670,
+      "triangles": 600
+    },
+    "mesh_000318": {
+      "vertices": 661,
+      "triangles": 600
+    },
+    "mesh_000319": {
+      "vertices": 562,
+      "triangles": 492
+    },
+    "mesh_000320": {
+      "vertices": 562,
+      "triangles": 492
+    },
+    "mesh_000321": {
+      "vertices": 562,
+      "triangles": 492
+    },
+    "mesh_000322": {
+      "vertices": 669,
+      "triangles": 362
+    },
+    "mesh_000323": {
+      "vertices": 669,
+      "triangles": 362
+    },
+    "mesh_000324": {
+      "vertices": 669,
+      "triangles": 362
+    },
+    "mesh_000325": {
+      "vertices": 737,
+      "triangles": 668
+    },
+    "mesh_000326": {
+      "vertices": 737,
+      "triangles": 668
+    },
+    "mesh_000327": {
+      "vertices": 458,
+      "triangles": 240
+    },
+    "mesh_000328": {
+      "vertices": 482,
+      "triangles": 252
+    },
+    "mesh_000329": {
+      "vertices": 458,
+      "triangles": 240
+    },
+    "mesh_000330": {
+      "vertices": 190,
+      "triangles": 96
+    },
+    "mesh_000331": {
+      "vertices": 94,
+      "triangles": 52
+    },
+    "mesh_000332": {
+      "vertices": 94,
+      "triangles": 52
+    },
+    "mesh_000333": {
+      "vertices": 1148,
+      "triangles": 568
+    },
+    "mesh_000334": {
+      "vertices": 1148,
+      "triangles": 568
+    },
+    "mesh_000335": {
+      "vertices": 1709,
+      "triangles": 2640
+    },
+    "mesh_000336": {
+      "vertices": 452,
+      "triangles": 556
+    },
+    "mesh_000337": {
+      "vertices": 520,
+      "triangles": 832
+    },
+    "mesh_000338": {
+      "vertices": 2630,
+      "triangles": 4656
+    },
+    "mesh_000339": {
+      "vertices": 452,
+      "triangles": 556
+    },
+    "mesh_000340": {
+      "vertices": 520,
+      "triangles": 832
+    },
+    "mesh_000341": {
+      "vertices": 1840,
+      "triangles": 2704
+    },
+    "mesh_000342": {
+      "vertices": 452,
+      "triangles": 556
+    },
+    "mesh_000343": {
+      "vertices": 764,
+      "triangles": 1272
+    },
+    "mesh_000344": {
+      "vertices": 520,
+      "triangles": 832
+    },
+    "mesh_000345": {
+      "vertices": 1484,
+      "triangles": 2448
+    },
+    "mesh_000346": {
+      "vertices": 452,
+      "triangles": 556
+    },
+    "mesh_000347": {
+      "vertices": 520,
+      "triangles": 832
+    },
+    "mesh_000348": {
+      "vertices": 2198,
+      "triangles": 3400
+    },
+    "mesh_000349": {
+      "vertices": 452,
+      "triangles": 556
+    },
+    "mesh_000350": {
+      "vertices": 520,
+      "triangles": 832
+    },
+    "mesh_000351": {
+      "vertices": 564,
+      "triangles": 524
+    },
+    "mesh_000352": {
+      "vertices": 2443,
+      "triangles": 2748
+    },
+    "mesh_000353": {
+      "vertices": 312,
+      "triangles": 144
+    },
+    "mesh_000354": {
+      "vertices": 312,
+      "triangles": 144
+    },
+    "mesh_000355": {
+      "vertices": 3500,
+      "triangles": 5660
+    },
+    "mesh_000356": {
+      "vertices": 452,
+      "triangles": 556
+    },
+    "mesh_000357": {
+      "vertices": 520,
+      "triangles": 832
+    },
+    "mesh_000358": {
+      "vertices": 440,
+      "triangles": 592
+    },
+    "mesh_000359": {
+      "vertices": 678,
+      "triangles": 740
+    },
+    "mesh_000360": {
+      "vertices": 678,
+      "triangles": 740
+    },
+    "mesh_000361": {
+      "vertices": 678,
+      "triangles": 740
+    },
+    "mesh_000362": {
+      "vertices": 498,
+      "triangles": 604
+    },
+    "mesh_000363": {
+      "vertices": 496,
+      "triangles": 604
+    },
+    "mesh_000364": {
+      "vertices": 496,
+      "triangles": 604
+    },
+    "mesh_000365": {
+      "vertices": 624,
+      "triangles": 288
+    },
+    "mesh_000366": {
+      "vertices": 816,
+      "triangles": 380
+    },
+    "mesh_000367": {
+      "vertices": 792,
+      "triangles": 368
+    },
+    "mesh_000368": {
+      "vertices": 515,
+      "triangles": 500
+    },
+    "mesh_000369": {
+      "vertices": 412,
+      "triangles": 400
+    },
+    "mesh_000370": {
+      "vertices": 412,
+      "triangles": 400
+    },
+    "mesh_000371": {
+      "vertices": 633,
+      "triangles": 960
+    },
+    "mesh_000372": {
+      "vertices": 637,
+      "triangles": 960
+    },
+    "mesh_000373": {
+      "vertices": 658,
+      "triangles": 960
+    },
+    "mesh_000374": {
+      "vertices": 2010,
+      "triangles": 1348
+    },
+    "mesh_000375": {
+      "vertices": 2010,
+      "triangles": 1348
+    },
+    "mesh_000376": {
+      "vertices": 2010,
+      "triangles": 1348
+    },
+    "mesh_000377": {
+      "vertices": 564,
+      "triangles": 364
+    },
+    "mesh_000378": {
+      "vertices": 564,
+      "triangles": 364
+    },
+    "mesh_000379": {
+      "vertices": 552,
+      "triangles": 364
+    },
+    "mesh_000380": {
+      "vertices": 737,
+      "triangles": 668
+    },
+    "mesh_000381": {
+      "vertices": 737,
+      "triangles": 668
+    },
+    "mesh_000382": {
+      "vertices": 737,
+      "triangles": 668
+    },
+    "mesh_000383": {
+      "vertices": 648,
+      "triangles": 640
+    },
+    "mesh_000384": {
+      "vertices": 486,
+      "triangles": 480
+    },
+    "mesh_000385": {
+      "vertices": 648,
+      "triangles": 640
+    },
+    "mesh_000386": {
+      "vertices": 458,
+      "triangles": 240
+    },
+    "mesh_000387": {
+      "vertices": 458,
+      "triangles": 240
+    },
+    "mesh_000388": {
+      "vertices": 94,
+      "triangles": 52
+    },
+    "mesh_000389": {
+      "vertices": 94,
+      "triangles": 52
+    },
+    "mesh_000390": {
+      "vertices": 190,
+      "triangles": 96
+    },
+    "mesh_000391": {
+      "vertices": 1148,
+      "triangles": 568
+    },
+    "mesh_000392": {
+      "vertices": 1148,
+      "triangles": 568
+    },
+    "mesh_000393": {
+      "vertices": 1148,
+      "triangles": 568
+    },
+    "mesh_000394": {
+      "vertices": 1709,
+      "triangles": 2640
+    },
+    "mesh_000395": {
+      "vertices": 452,
+      "triangles": 556
+    },
+    "mesh_000396": {
+      "vertices": 520,
+      "triangles": 832
+    },
+    "mesh_000397": {
+      "vertices": 2630,
+      "triangles": 4656
+    },
+    "mesh_000398": {
+      "vertices": 452,
+      "triangles": 556
+    },
+    "mesh_000399": {
+      "vertices": 520,
+      "triangles": 832
+    },
+    "mesh_000400": {
+      "vertices": 1840,
+      "triangles": 2704
+    },
+    "mesh_000401": {
+      "vertices": 452,
+      "triangles": 556
+    },
+    "mesh_000402": {
+      "vertices": 764,
+      "triangles": 1272
+    },
+    "mesh_000403": {
+      "vertices": 520,
+      "triangles": 832
+    },
+    "mesh_000404": {
+      "vertices": 1484,
+      "triangles": 2448
+    },
+    "mesh_000405": {
+      "vertices": 452,
+      "triangles": 556
+    },
+    "mesh_000406": {
+      "vertices": 520,
+      "triangles": 832
+    },
+    "mesh_000407": {
+      "vertices": 2198,
+      "triangles": 3400
+    },
+    "mesh_000408": {
+      "vertices": 452,
+      "triangles": 556
+    },
+    "mesh_000409": {
+      "vertices": 520,
+      "triangles": 832
+    },
+    "mesh_000410": {
+      "vertices": 2443,
+      "triangles": 2748
+    },
+    "mesh_000411": {
+      "vertices": 312,
+      "triangles": 144
+    },
+    "mesh_000412": {
+      "vertices": 312,
+      "triangles": 144
+    },
+    "mesh_000413": {
+      "vertices": 2046,
+      "triangles": 3336
+    },
+    "mesh_000414": {
+      "vertices": 452,
+      "triangles": 556
+    },
+    "mesh_000415": {
+      "vertices": 520,
+      "triangles": 832
+    },
+    "mesh_000416": {
+      "vertices": 444,
+      "triangles": 592
+    },
+    "mesh_000417": {
+      "vertices": 1016,
+      "triangles": 1584
+    },
+    "mesh_000418": {
+      "vertices": 1016,
+      "triangles": 1584
+    },
+    "mesh_000419": {
+      "vertices": 1016,
+      "triangles": 1584
+    },
+    "mesh_000420": {
+      "vertices": 981,
+      "triangles": 912
+    },
+    "mesh_000421": {
+      "vertices": 1024,
+      "triangles": 912
+    },
+    "mesh_000422": {
+      "vertices": 927,
+      "triangles": 912
+    },
+    "mesh_000423": {
+      "vertices": 847,
+      "triangles": 786
+    },
+    "mesh_000424": {
+      "vertices": 640,
+      "triangles": 594
+    },
+    "mesh_000425": {
+      "vertices": 847,
+      "triangles": 786
+    },
+    "mesh_000426": {
+      "vertices": 396,
+      "triangles": 384
+    },
+    "mesh_000427": {
+      "vertices": 396,
+      "triangles": 384
+    },
+    "mesh_000428": {
+      "vertices": 396,
+      "triangles": 384
+    },
+    "mesh_000429": {
+      "vertices": 788,
+      "triangles": 1120
+    },
+    "mesh_000430": {
+      "vertices": 767,
+      "triangles": 1120
+    },
+    "mesh_000431": {
+      "vertices": 763,
+      "triangles": 1120
+    },
+    "mesh_000432": {
+      "vertices": 661,
+      "triangles": 600
+    },
+    "mesh_000433": {
+      "vertices": 646,
+      "triangles": 600
+    },
+    "mesh_000434": {
+      "vertices": 670,
+      "triangles": 600
+    },
+    "mesh_000435": {
+      "vertices": 737,
+      "triangles": 668
+    },
+    "mesh_000436": {
+      "vertices": 737,
+      "triangles": 668
+    },
+    "mesh_000437": {
+      "vertices": 583,
+      "triangles": 512
+    },
+    "mesh_000438": {
+      "vertices": 583,
+      "triangles": 512
+    },
+    "mesh_000439": {
+      "vertices": 583,
+      "triangles": 512
+    },
+    "mesh_000440": {
+      "vertices": 739,
+      "triangles": 350
+    },
+    "mesh_000441": {
+      "vertices": 739,
+      "triangles": 350
+    },
+    "mesh_000442": {
+      "vertices": 739,
+      "triangles": 350
+    },
+    "mesh_000443": {
+      "vertices": 190,
+      "triangles": 96
+    },
+    "mesh_000444": {
+      "vertices": 94,
+      "triangles": 52
+    },
+    "mesh_000445": {
+      "vertices": 94,
+      "triangles": 52
+    },
+    "mesh_000446": {
+      "vertices": 1148,
+      "triangles": 568
+    },
+    "mesh_000447": {
+      "vertices": 1148,
+      "triangles": 568
+    },
+    "mesh_000448": {
+      "vertices": 1709,
+      "triangles": 2640
+    },
+    "mesh_000449": {
+      "vertices": 452,
+      "triangles": 556
+    },
+    "mesh_000450": {
+      "vertices": 520,
+      "triangles": 832
+    },
+    "mesh_000451": {
+      "vertices": 2720,
+      "triangles": 4784
+    },
+    "mesh_000452": {
+      "vertices": 452,
+      "triangles": 556
+    },
+    "mesh_000453": {
+      "vertices": 520,
+      "triangles": 832
+    },
+    "mesh_000454": {
+      "vertices": 1840,
+      "triangles": 2704
+    },
+    "mesh_000455": {
+      "vertices": 452,
+      "triangles": 556
+    },
+    "mesh_000456": {
+      "vertices": 764,
+      "triangles": 1272
+    },
+    "mesh_000457": {
+      "vertices": 520,
+      "triangles": 832
+    },
+    "mesh_000458": {
+      "vertices": 1484,
+      "triangles": 2448
+    },
+    "mesh_000459": {
+      "vertices": 452,
+      "triangles": 556
+    },
+    "mesh_000460": {
+      "vertices": 520,
+      "triangles": 832
+    },
+    "mesh_000461": {
+      "vertices": 2443,
+      "triangles": 2748
+    },
+    "mesh_000462": {
+      "vertices": 312,
+      "triangles": 144
+    },
+    "mesh_000463": {
+      "vertices": 312,
+      "triangles": 144
+    },
+    "mesh_000464": {
+      "vertices": 3140,
+      "triangles": 4528
+    },
+    "mesh_000465": {
+      "vertices": 2222,
+      "triangles": 1300
+    },
+    "mesh_000466": {
+      "vertices": 5185,
+      "triangles": 7526
+    },
+    "mesh_000467": {
+      "vertices": 4504,
+      "triangles": 3560
+    },
+    "mesh_000468": {
+      "vertices": 385,
+      "triangles": 428
+    },
+    "mesh_000469": {
+      "vertices": 395,
+      "triangles": 336
+    },
+    "mesh_000470": {
+      "vertices": 2420,
+      "triangles": 1264
+    },
+    "mesh_000471": {
+      "vertices": 513,
+      "triangles": 524
+    },
+    "mesh_000472": {
+      "vertices": 781,
+      "triangles": 660
+    },
+    "mesh_000473": {
+      "vertices": 1243,
+      "triangles": 1322
+    },
+    "mesh_000474": {
+      "vertices": 268,
+      "triangles": 252
+    },
+    "mesh_000475": {
+      "vertices": 1008,
+      "triangles": 1596
+    },
+    "mesh_000476": {
+      "vertices": 1008,
+      "triangles": 1596
+    },
+    "mesh_000477": {
+      "vertices": 3640,
+      "triangles": 6016
+    },
+    "mesh_000478": {
+      "vertices": 3989,
+      "triangles": 5668
+    },
+    "mesh_000479": {
+      "vertices": 370,
+      "triangles": 688
+    },
+    "mesh_000480": {
+      "vertices": 121,
+      "triangles": 110
+    },
+    "mesh_000481": {
+      "vertices": 560,
+      "triangles": 1040
+    },
+    "mesh_000482": {
+      "vertices": 560,
+      "triangles": 1040
+    },
+    "mesh_000483": {
+      "vertices": 1228,
+      "triangles": 1144
+    },
+    "mesh_000484": {
+      "vertices": 1228,
+      "triangles": 1144
+    },
+    "mesh_000485": {
+      "vertices": 1174,
+      "triangles": 1144
+    },
+    "mesh_000486": {
+      "vertices": 1174,
+      "triangles": 1144
+    }
+  }
+}

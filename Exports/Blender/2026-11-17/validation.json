@@ -1,0 +1,44 @@
+{
+  "full_file_reopened": true,
+  "source_nodes": 4153,
+  "mesh_instances": 1988,
+  "unique_meshes": 487,
+  "unique_vertices": 919950,
+  "unique_triangles": 972210,
+  "original_triangles": 981358,
+  "zero_area_triangles_removed": 9148,
+  "all_vertices_match_source": true,
+  "all_faces_accounted_for_after_zero_area_cleanup": true,
+  "color_and_uv_layers_preserved": true,
+  "world_bounds_blender": [
+    [
+      -175.0,
+      -260.9728698730469,
+      -4.699999809265137
+    ],
+    [
+      175.0,
+      780.0,
+      14.636933326721191
+    ]
+  ],
+  "packed_images": 10,
+  "first_zone": {
+    "file": "DustFlats_Level_v10.blend",
+    "mesh_objects": 590,
+    "bounds_blender": [
+      [
+        -175.0,
+        -260.9728698730469,
+        -4.699999809265137
+      ],
+      [
+        175.0,
+        112.0858154296875,
+        13.683013916015625
+      ]
+    ],
+    "fbx": "DustFlats_Level_v10.fbx",
+    "reopened": true
+  }
+}

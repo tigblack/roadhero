@@ -1,0 +1,531 @@
+{
+  "status": "TECHNICAL_PASS_AUDITION_PENDING",
+  "title": "Scarbound - Dust Road Groove (in-game loop)",
+  "version": "1.0",
+  "draft": false,
+  "runtime_seconds": 17.34,
+  "stage_seconds": {
+    "prepare": 0.748,
+    "midi": 0.018,
+    "parts": 0.131,
+    "mix": 2.662,
+    "master": 8.645,
+    "mix_checks": 0.002,
+    "master_check": 0.001,
+    "outputs": 5.082,
+    "sections_and_checks": 0.047
+  },
+  "process_seconds": {
+    "loudness measurement": 15.255,
+    "mix": 2.266,
+    "mp3": 1.003,
+    "flac": 0.187,
+    "decode_mp3": 0.133,
+    "master_chain": 0.13,
+    "delivery limiter": 0.043
+  },
+  "jobs": 8,
+  "project_sha256": "da95e76005267cc8eae790d9199168692fdffb87a8f45779cd82430407660e65",
+  "renderer_sha256": "874ca506dcafb8b419452d1d93327999cfb6f956c82f490265515f8c9a659f23",
+  "validation": {
+    "tracks": 11,
+    "notes": 2598,
+    "bars": 48,
+    "seconds": 127.2,
+    "sections": 7,
+    "warnings": []
+  },
+  "checks": {
+    "finite": true,
+    "no_clipping": true,
+    "true_peak_ceiling": true,
+    "duration_exact": true,
+    "stereo_48k_24bit": true,
+    "tail_quiet": true,
+    "midi_note_count": true,
+    "midi_no_stuck_notes": true,
+    "dependency_hashes_verified": true,
+    "mp3_loudness_matches_master": true,
+    "buses_and_returns_add_up_to_premix": true,
+    "loop_length_exact": true,
+    "loop_points_in_wav": true,
+    "loop_true_peak_ceiling": true,
+    "loop_cues_in_wav": true
+  },
+  "chain": "bus",
+  "premaster": {
+    "frames": 6105600,
+    "sample_rate": 48000,
+    "channels": 2,
+    "bits": 32,
+    "format": 3,
+    "seconds": 127.2,
+    "integrated_lufs": -15.3,
+    "true_peak_dbtp": -0.04,
+    "lra_lu": 5.7,
+    "sample_peak_dbfs": -0.10081692612205075,
+    "clipped_samples": 0,
+    "rms": 0.12273529554969621,
+    "sha256": "5dedfb2d2292b9a31ede5197bfce0d2a2cc2abace7ba2bf0c102cdb3aed2d6c9",
+    "meter": "FFmpeg loudnorm input analysis; BS.1770/EBU R128"
+  },
+  "master": {
+    "frames": 6105600,
+    "sample_rate": 48000,
+    "channels": 2,
+    "bits": 24,
+    "format": 1,
+    "seconds": 127.2,
+    "integrated_lufs": -17.0,
+    "true_peak_dbtp": -1.14,
+    "lra_lu": 4.7,
+    "sample_peak_dbfs": -1.4028220352792031,
+    "clipped_samples": 0,
+    "rms": 0.09902398108161281,
+    "sha256": "b2eedb5b13529b0ede8eb00cd8e7f41c4dd81a7175b56b81927a606768375457",
+    "meter": "FFmpeg loudnorm input analysis; BS.1770/EBU R128"
+  },
+  "sections": [
+    {
+      "id": "ignition",
+      "start_bar": 0,
+      "bars": 4,
+      "intent": "groove from the first beat: riff, bass, drums with side stick, shaker",
+      "start_seconds": 0.0,
+      "end_seconds": 9.6,
+      "rms_dbfs": -21.568,
+      "side_mid_db": -11.66,
+      "active_tracks": [
+        "drums",
+        "shaker",
+        "metal",
+        "wood",
+        "bass",
+        "riff",
+        "pad"
+      ]
+    },
+    {
+      "id": "theme",
+      "start_bar": 4,
+      "bars": 8,
+      "intent": "the motif (call), a slide answer, the motif up a third, its answer",
+      "start_seconds": 9.6,
+      "end_seconds": 28.8,
+      "rms_dbfs": -19.822,
+      "side_mid_db": -12.673,
+      "active_tracks": [
+        "drums",
+        "shaker",
+        "metal",
+        "wood",
+        "bass",
+        "riff",
+        "lead",
+        "slide",
+        "pad"
+      ]
+    },
+    {
+      "id": "open_road",
+      "start_bar": 12,
+      "bars": 8,
+      "intent": "the lift: snare and ride, strummed archtop, the road melody",
+      "start_seconds": 28.8,
+      "end_seconds": 48.0,
+      "rms_dbfs": -18.239,
+      "side_mid_db": -12.171,
+      "active_tracks": [
+        "drums",
+        "shaker",
+        "bass",
+        "riff",
+        "lead",
+        "slide",
+        "comp",
+        "pad"
+      ]
+    },
+    {
+      "id": "scrapyard",
+      "start_bar": 20,
+      "bars": 8,
+      "intent": "the motif on the slide guitar, then only its falling tail; metal and wood percussion; the lead answers",
+      "start_seconds": 48.0,
+      "end_seconds": 67.2,
+      "rms_dbfs": -19.61,
+      "side_mid_db": -11.918,
+      "active_tracks": [
+        "drums",
+        "shaker",
+        "metal",
+        "wood",
+        "fx",
+        "bass",
+        "riff",
+        "lead",
+        "slide",
+        "pad"
+      ]
+    },
+    {
+      "id": "dust",
+      "start_bar": 28,
+      "bars": 8,
+      "intent": "calm: pad, ringing arpeggios, the call slowed down; drums rebuild in the last two bars",
+      "start_seconds": 67.2,
+      "end_seconds": 86.4,
+      "rms_dbfs": -21.534,
+      "side_mid_db": -11.086,
+      "active_tracks": [
+        "drums",
+        "shaker",
+        "wood",
+        "fx",
+        "bass",
+        "riff",
+        "lead",
+        "slide",
+        "comp",
+        "pad"
+      ]
+    },
+    {
+      "id": "return",
+      "start_bar": 36,
+      "bars": 8,
+      "intent": "the high point: the motif with a second voice, the full band, the call reaches G5",
+      "start_seconds": 86.4,
+      "end_seconds": 105.6,
+      "rms_dbfs": -18.509,
+      "side_mid_db": -12.746,
+      "active_tracks": [
+        "drums",
+        "shaker",
+        "metal",
+        "wood",
+        "bass",
+        "riff",
+        "lead",
+        "slide",
+        "comp",
+        "pad"
+      ]
+    },
+    {
+      "id": "turnaround",
+      "start_bar": 44,
+      "bars": 4,
+      "intent": "back to the road texture; one slide accent; a light fill into bar 1",
+      "start_seconds": 105.6,
+      "end_seconds": 115.2,
+      "rms_dbfs": -20.987,
+      "side_mid_db": -11.979,
+      "active_tracks": [
+        "drums",
+        "shaker",
+        "metal",
+        "wood",
+        "bass",
+        "riff",
+        "slide",
+        "pad"
+      ]
+    }
+  ],
+  "mastering": {
+    "chain": "bus",
+    "rules": 2,
+    "mix_gain_db": -2.7,
+    "master_chain": "volume=-2.700000dB,acompressor=threshold=0.158489:ratio=2:attack=30:release=200:knee=4:makeup=1,highshelf=f=10000:g=2.5:t=q:w=0.7,equalizer=f=3200:t=q:w=1.2:g=0.8",
+    "mixed": {
+      "integrated_lufs": -18.63,
+      "true_peak_dbtp": -2.77,
+      "lra_lu": 4.7
+    },
+    "target_lufs": -17.0,
+    "true_peak_ceiling_dbtp": -1.0,
+    "limiter_dbtp": -1.1,
+    "limiter": {
+      "release_ms": 60.0,
+      "lookahead_ms": 3.0,
+      "lowest_steady_hz": 27.5,
+      "share_of_time_pct": 0.0,
+      "deepest_db": -0.0
+    },
+    "delivery_chain": "volume=1.630000dB, true-peak limiter to -1.1 dBTP (look-ahead 3 ms, release 60 ms; NumPy)",
+    "passes": [
+      {
+        "gain_db": 1.63,
+        "limit_dbtp": -1.1,
+        "taken_db": 0.0,
+        "lufs": -17.0,
+        "true_peak_dbtp": -1.14
+      }
+    ],
+    "limiting_db": {
+      "ignition": 0.0,
+      "theme": 0.0,
+      "open_road": 0.0,
+      "scrapyard": 0.0,
+      "dust": 0.0,
+      "return": 0.0,
+      "turnaround": 0.0
+    }
+  },
+  "buses": {
+    "assignment": {
+      "drums": "drums",
+      "shaker": "drums",
+      "metal": "drums",
+      "wood": "drums",
+      "fx": "drums",
+      "bass": "bass",
+      "riff": "rhythm",
+      "lead": "lead",
+      "slide": "lead",
+      "comp": "rhythm",
+      "pad": "ensemble"
+    },
+    "spaces": {
+      "drums": "room",
+      "shaker": "room",
+      "metal": "room",
+      "wood": "room",
+      "fx": "room",
+      "riff": "room",
+      "lead": "plate",
+      "slide": "plate",
+      "comp": "room",
+      "pad": "hall"
+    },
+    "returns": [
+      "room_return.wav",
+      "plate_return.wav",
+      "hall_return.wav"
+    ],
+    "rules": {
+      "rules": 2,
+      "lead_threshold_dbfs": -13.5,
+      "reverb": null
+    },
+    "level_change_db": {
+      "drums": 0.62,
+      "bass": -0.14,
+      "rhythm": -1.01,
+      "ensemble": 0.0,
+      "lead": -0.41
+    },
+    "sum_minus_premix_peak_dbfs": -146.3,
+    "sum_error_share_of_allowance": 0.0218,
+    "adds_up_to_premix": true
+  },
+  "mp3": {
+    "mp3_lufs": -16.99,
+    "mp3_true_peak_dbtp": -1.06,
+    "matches": true,
+    "over_full_scale": false
+  },
+  "cache_hits": 11,
+  "stems_reused": 11,
+  "stem_count": 11,
+  "direct_audio_listening_performed": false,
+  "perceptual_quality": "Not certified by numeric checks; user audition pending",
+  "dependencies": {
+    "fluidsynth": {
+      "sha256": "96fb96bdb960aea50b8350928c8f458654a684896622fafec86f5c5f76b8f7cd",
+      "version": "FluidSynth runtime version 2.6.2",
+      "license": "System package; see its distribution",
+      "source": "User system installation; hash is integrity, not provenance"
+    },
+    "ffmpeg": {
+      "sha256": "1ede5c7fd4e97d832ec69c97c78231875de7d69c55423158f5f4a4d923227dd5",
+      "version": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+      "license": "System package; see its distribution",
+      "source": "User system installation; hash is integrity, not provenance"
+    },
+    "soundfonts": {
+      "rusty": {
+        "sha256": "e362ab09bdf5be216e07d196c936b10049170594250690c9f5a7df5b1f5f2183",
+        "license": "CC0-1.0 source samples: Big Rusty Drums by Karoryfer Samples; built by music-production soundbank.py",
+        "source": "https://github.com/sfzinstruments/karoryfer.big-rusty-drums at f07ce00df34a46b6b08375be56fe116cf15782bc with references/soundbanks/big_rusty_drums.json",
+        "version": "build b1",
+        "verified_samples": null,
+        "prebuilt": "https://github.com/owoevan-dev/music-skill/releases/download/soundbanks-1/rusty-b1.sf2.xz"
+      },
+      "vcsl_world": {
+        "sha256": "1d66543001ae6c6c562c8dbb3dc6f2a4807d26768252e0bc20d8b5cc1dc8532e",
+        "license": "CC0-1.0 source samples: VCSL by Versilian Studios; built by music-production soundbank.py",
+        "source": "https://github.com/sgossner/VCSL at c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e with references/soundbanks/vcsl_world.json",
+        "version": "build b7",
+        "verified_samples": null,
+        "prebuilt": "https://github.com/owoevan-dev/music-skill/releases/download/soundbanks-1/vcsl_world-b7.sf2.xz"
+      },
+      "bass_darkblack": {
+        "sha256": "b01cf1f928e000168d49fbda507692e5431057b5c35450fe8e20e39cae62eb63",
+        "license": "CC0-1.0 source samples: Black And Blue Basses by Karoryfer Samples; built by music-production soundbank.py",
+        "source": "https://github.com/sfzinstruments/karoryfer.black-and-blue-basses at 6e7d674cdb41be7a54dbccb15472401ad01099b9 with references/soundbanks/black_and_blue_bass.json",
+        "version": "build b1",
+        "verified_samples": null,
+        "prebuilt": "https://github.com/owoevan-dev/music-skill/releases/download/soundbanks-1/bass_darkblack-b1.sf2.xz"
+      },
+      "fsbs_clean": {
+        "sha256": "e66351135ff7c06ca0fee799688e767c917a085988ff29691c02f72c0a4ddabe",
+        "license": "CC0-1.0: FreePats Electric Guitar FSBS (clean)",
+        "source": "https://github.com/owoevan-dev/music-skill/releases/download/soundbanks-1/EGuitarFSBS-clean-SF2-20260807.tar.xz",
+        "version": "2026-08-07 (archive sha256 76290716bde53576f790411eb245c7c67a26436633afa08fe560e807d43ff963)"
+      },
+      "guitar_shiny": {
+        "sha256": "8d3da400f3d716970528dbb47a97661c778db11a5b300131bf70880067bade4b",
+        "license": "CC0-1.0 source samples (sfzinstruments/karoryfer.shinyguitar); built by music-production soundbank.py",
+        "source": "https://github.com/sfzinstruments/karoryfer.shinyguitar at 57243cca85277dbcc120ce17c6178032f93c80f3 with references/soundbanks/guitar_shiny.json",
+        "version": "build b1",
+        "verified_samples": null,
+        "prebuilt": "https://github.com/owoevan-dev/music-skill/releases/download/soundbanks-1/guitar_shiny-b1.sf2.xz"
+      }
+    }
+  },
+  "loop": {
+    "start_bar": 0,
+    "end_bar": 48,
+    "sample_rate": 48000,
+    "start_sample": 0,
+    "end_sample": 5529600,
+    "length_samples": 5529600,
+    "start_seconds": 0.0,
+    "end_seconds": 115.2,
+    "bpm": 100.0,
+    "bar_beats": 4,
+    "beat_count": 192.0,
+    "sections": [
+      {
+        "id": "ignition",
+        "start_sample": 0,
+        "start_seconds": 0.0
+      },
+      {
+        "id": "theme",
+        "start_sample": 460800,
+        "start_seconds": 9.6
+      },
+      {
+        "id": "open_road",
+        "start_sample": 1382400,
+        "start_seconds": 28.8
+      },
+      {
+        "id": "scrapyard",
+        "start_sample": 2304000,
+        "start_seconds": 48.0
+      },
+      {
+        "id": "dust",
+        "start_sample": 3225600,
+        "start_seconds": 67.2
+      },
+      {
+        "id": "return",
+        "start_sample": 4147200,
+        "start_seconds": 86.4
+      },
+      {
+        "id": "turnaround",
+        "start_sample": 5068800,
+        "start_seconds": 105.6
+      }
+    ],
+    "files": {
+      "wav": "loop.wav"
+    },
+    "gain_db": 0.0,
+    "integrated_lufs": -17.03,
+    "true_peak_dbtp": -1.14,
+    "seam": {
+      "windows_seconds": {
+        "before": [
+          110.2,
+          115.2
+        ],
+        "after": [
+          0.0,
+          1.0
+        ]
+      },
+      "meter": {
+        "bpm_at_end": 100.0,
+        "bpm_at_start": 100.0,
+        "same_tempo": true,
+        "on_bar_line": true
+      },
+      "timbre": {
+        "before": [
+          "bass",
+          "drums",
+          "metal",
+          "pad",
+          "riff",
+          "shaker",
+          "slide"
+        ],
+        "after": [
+          "bass",
+          "drums",
+          "pad",
+          "riff",
+          "shaker"
+        ],
+        "continuing": [
+          "bass",
+          "drums",
+          "pad",
+          "riff",
+          "shaker"
+        ],
+        "entering": [],
+        "leaving": [
+          "metal",
+          "slide"
+        ]
+      },
+      "pitch": {
+        "after": [
+          "D",
+          "E",
+          "G",
+          "A",
+          "B"
+        ],
+        "before": [
+          "C",
+          "D",
+          "E",
+          "F#",
+          "G",
+          "A",
+          "B"
+        ],
+        "not_before": [],
+        "share_after_in_before": 1.0
+      },
+      "abruptness": {
+        "sounding_at_end": {
+          "pad": 3
+        },
+        "folded_tail_lufs": -32.34,
+        "first_second_own_lufs": -18.64,
+        "tail_below_own_db": 13.7,
+        "seam_step": 0.01422,
+        "seam_step_vs_local_p999": 0.19,
+        "first_frame_dbfs": -24.1
+      },
+      "volume": {
+        "before_lufs": -18.65,
+        "after_lufs": -18.52,
+        "change_db": 0.13,
+        "last_400ms_lufs": -18.38,
+        "first_400ms_lufs": -17.92
+      }
+    },
+    "ogg_skipped": "This FFmpeg has no libvorbis encoder"
+  }
+}

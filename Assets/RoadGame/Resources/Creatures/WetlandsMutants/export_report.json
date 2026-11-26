@@ -1,0 +1,105 @@
+{
+  "creatures": [
+    {
+      "model": "Crossbow",
+      "name": "Mut_BileToad",
+      "tris": 12080,
+      "height": 1.238,
+      "footprint": 1.262,
+      "size": [
+        2.354,
+        1.252,
+        2.032
+      ],
+      "nodeCount": 18
+    },
+    {
+      "model": "Buggy",
+      "name": "Mut_FleshEngine",
+      "tris": 26790,
+      "height": 1.976,
+      "footprint": 2.028,
+      "size": [
+        2.542,
+        2.02,
+        3.655
+      ],
+      "nodeCount": 19
+    },
+    {
+      "model": "Scav",
+      "name": "Mut_Leechling",
+      "tris": 11958,
+      "height": 0.867,
+      "footprint": 1.232,
+      "size": [
+        1.829,
+        0.878,
+        2.335
+      ],
+      "nodeCount": 17
+    },
+    {
+      "model": "Raider",
+      "name": "Mut_MireCrab",
+      "tris": 15766,
+      "height": 1.526,
+      "footprint": 2.048,
+      "size": [
+        2.706,
+        1.532,
+        2.769
+      ],
+      "nodeCount": 21
+    },
+    {
+      "model": "BossBaron",
+      "name": "Mut_MireMother",
+      "tris": 40802,
+      "height": 6.455,
+      "footprint": 6.319,
+      "size": [
+        10.009,
+        6.552,
+        9.718
+      ],
+      "nodeCount": 23
+    },
+    {
+      "model": "Spearman",
+      "name": "Mut_ReedStalker",
+      "tris": 10572,
+      "height": 3.21,
+      "footprint": 2.161,
+      "size": [
+        0.917,
+        3.21,
+        3.228
+      ],
+      "nodeCount": 20
+    },
+    {
+      "model": "Brute",
+      "name": "Mut_SporeBrute",
+      "tris": 16314,
+      "height": 3.224,
+      "footprint": 1.949,
+      "size": [
+        3.111,
+        3.252,
+        2.101
+      ],
+      "nodeCount": 16
+    }
+  ],
+  "nodes": 134,
+  "meshes": 123,
+  "materials": 1,
+  "counts": {
+    "triangles": 134282,
+    "vertices": 78915,
+    "lodTriangles": 64814
+  },
+  "binaryBytes": 9010668,
+  "elapsedSeconds": 0.49
+}

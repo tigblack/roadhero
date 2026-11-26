@@ -1,0 +1,26 @@
+{
+  "mode": "built-in image_gen",
+  "use_case": "precise-object-edit",
+  "final_image": "/Users/arthuri/Unity Projects/RoadGame/Docs/concepts/hood-weapons-2026-11-15/08-chumbucket-m249.png",
+  "source_image": "/Users/arthuri/.codex/generated_images/01a1d608-1900-7a13-9279-aa426aab28e0/exec-40caac65-c47d-47c4-b8bb-4c0941923bde.png",
+  "inputs": [
+    {
+      "role": "edit target",
+      "path": "/Users/arthuri/Unity Projects/RoadGame/Docs/concepts/hood-weapons-2026-11-15/07-hooded-quasimodo.png"
+    },
+    {
+      "role": "character face and silhouette reference",
+      "path": "/Users/arthuri/Unity Projects/RoadGame/Docs/concepts/hood-weapons-2026-11-15/references/chumbucket-game-reference.jpg",
+      "page": "https://www.cheatcc.com/guides/mad-max-guide-walkthrough/walkthrough-23/mission-03-righteous-work/",
+      "image_url": "https://cdn.cheatcc.com/guide_screens/mad_max/mm_mission3_1.jpg"
+    },
+    {
+      "role": "M249 exterior silhouette reference",
+      "path": "/Users/arthuri/Unity Projects/RoadGame/Docs/concepts/hood-weapons-2026-11-15/references/m249-fn-reference.png",
+      "page": "https://fnamerica.com/products/machine-guns/fn-m249-saw/",
+      "image_url": "https://fnamerica.com/wp-content/uploads/2009/09/FN_M249_SAW_Rotators_1-1-1200x550.png"
+    }
+  ],
+  "character_primary_source": "https://loffan.artstation.com/projects/KlogR",
+  "prompt": "Use case: precise-object-edit.\nAsset type: revised three-view stylized 3D vehicle concept sheet for an arcade RPG.\nInputs: Image 1 is the EDIT TARGET and controls the entire vehicle, layout, rendering style and composition. Image 2 is a screenshot of Chumbucket, the mechanic from the 2015 Mad Max game, used ONLY as a face and hunched silhouette reference. Image 3 is the official FN M249 SAW exterior photo, used ONLY as a silhouette reference for the small hood-mounted game prop.\n\nMake two precise visual changes consistently in ALL THREE views:\n\n1. CHARACTER. Redesign our existing hooded character as a stylized 3D adaptation of CHUMBUCKET from image 2, rather than a generic sinister monk. Keep our existing tattered dark brown cloak with the hood UP, our character's approximate height, his standing position inside the pickup bed, and his hands operating the mounted rear harpoon turret. Through the front of the hood show recognizable Chumbucket facial shapes: a pale balding forehead, broad flattened crooked nose, extremely heavy irregular brow, uneven small eyes with one more narrowed, sunken dirty cheeks, sparse rough stubble and an asymmetric mouth with a few crooked missing teeth visible in a tense slight grimace. Strong hunched back and uneven elevated shoulders under the cloth, head projecting forward. Translate these features into the same sculpted stylized 3D game aesthetic as the vehicle. Unsettling and scruffy, with no smile, no rosy cheeks, no cute baby eyes. Keep fabric out of the turret supports and his hands. No blood or fresh wounds. The back and top views must show the same hooded hunched character.\n\n2. SMALL HOOD MACHINE GUN. Replace ONLY the current short chunky cannon-like gun body with a compact stylized M249 SAW based directly on image 3. It must read as a LIGHT MACHINE GUN: an elongated low rectangular receiver, slimmer ventilated fore-end, long THIN single barrel and small muzzle, recognizable upper carrying handle and a small dark rear stock. Use the external proportions and silhouette from the FN reference, simplified to match the game art. Keep matte dark metal with subtle worn edges. It remains a SMALL vehicle-mounted prop, with approximately the current total compact footprint; make the silhouette slender, not a large cannon. Keep its existing LOW circular swivel base and supported pivot. The gun stays on the VEHICLE RIGHT side of the hood in driving direction. In the LARGE FRONT VIEW, keep it in its current near-side location to the IMAGE LEFT of the central silver intake. In the TOP view with front at PAGE TOP, keep it at PAGE RIGHT. In the small REAR view it remains on the same physical near/right side. All three must match. Keep the barrel angled slightly sideways as before so the swivel is evident. One gun per car. No deployed bipod, no tall tower, no enlarged muzzle or thick cannon barrel. Static visual exterior only.\n\nStrictly preserve everything else from image 1: same three-view sheet with identical camera angles, vehicle placement and crop; graphite Mustang-based ute, open rear cargo bed, ivory stripes, headlights, hood intake, wheels, materials and lighting; unchanged rear floor-mounted harpoon turret with its cable reel, its placement and operator relationship. Preserve the sandy background. Do not mirror or shift the car or relocate the two attachments. Do not add extra people, extra weapons, labels or text."
+}

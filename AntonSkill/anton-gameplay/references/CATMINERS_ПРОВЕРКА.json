@@ -1,0 +1,837 @@
+{
+  "status": "machine_audio_comparison_plus_sampled_video_speaker_check",
+  "manual_listening": false,
+  "original_url": "https://drive.google.com/file/d/1MZVY5OWI2sRdGMrMc0TNHvnJc_MnOuaU/view",
+  "full_second_pass_complete": true,
+  "independent_audio_clips_transcribed": 56,
+  "cases": [
+    {
+      "id": "C01",
+      "packet": "A01",
+      "quote": "Всё дело просто в математике",
+      "quote_start": 219.76,
+      "quote_end": 221.12,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Слава предполагает, что проблему создаёт желание добавить в долгую инкрементальную игру активные действия: покликать, ускорить. Антон перебивает: «Нет, Слав, мимо, мимо, мимо», затем возвращает разговор к математике и формулам. Смена говорящего дополнительно просмотрена на кадрах 03:36–03:47; первые три контрольных кадра A01 ещё показывали Славу.",
+      "meaning": "В ответ на конкретное объяснение различия Gold and Goblins и CatMiners он называет причиной устройство математики. Это не его предложение убрать из игр все активные действия.",
+      "packets": [
+        {
+          "id": "A01",
+          "start": 204,
+          "end": 226,
+          "audio": "catminers-evidence/audio/A01.wav"
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "packet": "A02",
+      "quote": "С точки зрения баланса, с точки зрения общей мат-модели, она значения не имеет",
+      "quote_start": 589.84,
+      "quote_end": 594.32,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Перечислены шесть локальных улучшений, коты автоматически добывают камни. Вручную тоже можно ударить, например помочь пробить конкретный камень.",
+      "meaning": "Он называет этот клик feel-инструментом участия, который в разбираемой простой модели не определяет общий баланс.",
+      "packets": [
+        {
+          "id": "A02",
+          "start": 584,
+          "end": 606,
+          "audio": "catminers-evidence/audio/A02.wav"
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "packet": "A03",
+      "quote": "Первая — это шмотки, вторая — это карточки",
+      "quote_start": 669.04,
+      "quote_end": 672.96,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Антон описывает два слоя меты CatMiners. У экипировки четыре предмета: кирка, шапка, рюкзак, сапоги; каждый даёт соответствующий стат, редкость и части усиливают предметы.",
+      "meaning": "В текущем виде это простой слой постепенного прогресса; далее он говорит, что выраженного билдостроения здесь не образуется, но ранний интерес такая мета дать может.",
+      "packets": [
+        {
+          "id": "A03",
+          "start": 668,
+          "end": 690,
+          "audio": "catminers-evidence/audio/A03.wav"
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "packet": "A04",
+      "quote": "их просто хочется закрыть",
+      "quote_start": 734.16,
+      "quote_end": 735.52,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "После первой шахты игра указывает надеть кирку. Антона раздражает количество туторов. В конце фрагмента разработчик обещает убрать: видеокадр 12:21 показывает Тиграна, это не обещание Антона.",
+      "meaning": "Претензия направлена на конкретную навязчивую подачу. Затем Антон говорит про отдельную проработку туторов по фидбэку и аналитике, а также склонность нейросетей добавлять их на каждое действие.",
+      "packets": [
+        {
+          "id": "A04",
+          "start": 726,
+          "end": 748,
+          "audio": "catminers-evidence/audio/A04.wav"
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "packet": "A05",
+      "quote": "каждую шахту я могу за 5—7 минут пройти",
+      "quote_start": 891.16,
+      "quote_end": 893.44,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Антон говорит, что дошёл примерно до шахт 12–13. По формулам предполагает, что шахта 30 займёт около 10–11 минут.",
+      "meaning": "Он показывает, почему текущее небольшое увеличение параметров не даёт того многодневного горизонта шахты, который обсуждается на примере референса.",
+      "packets": [
+        {
+          "id": "A05",
+          "start": 880,
+          "end": 902,
+          "audio": "catminers-evidence/audio/A05.wav"
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "packet": "A06",
+      "quote": "это очень маленькое число",
+      "quote_start": 1000.12,
+      "quote_end": 1001.24,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Он суммирует доступные локальные улучшения примерно до сотни и сравнивает с большим числом промежуточных усилений в поздних шахтах Gold and Goblins: мержами, новой командой и другими событиями.",
+      "meaning": "Смысл — не просто увеличить ожидание между теми же кнопками: в длинном промежутке игроку нужны переживаемые усиления. Словом «дофамин» он описывает эти микрособытия.",
+      "packets": [
+        {
+          "id": "A06",
+          "start": 986,
+          "end": 1008,
+          "audio": "catminers-evidence/audio/A06.wav"
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "packet": "A07",
+      "quote": "важно не сама фича, какая добавляется",
+      "quote_start": 1152.44,
+      "quote_end": 1155.36,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Собеседник предлагает добавить мерж котов и работу шахт. Антон отвечает, что можно добавить любую фичу, если правильно её посчитать, и предлагает разбирать, что именно она делает.",
+      "meaning": "Мерж, обычные покупки, граф улучшений, опыт или изготовление кирок могут по-разному оформлять прогрессию. Он приводит граф Butcher как выбранную более интересную топологию, а не единственно возможную математику.",
+      "packets": [
+        {
+          "id": "A07",
+          "start": 1151,
+          "end": 1173,
+          "audio": "catminers-evidence/audio/A07.wav"
+        }
+      ]
+    },
+    {
+      "id": "C08",
+      "packet": "A08",
+      "quote": "округлённое вверх количество кучек",
+      "quote_start": 1485.64,
+      "quote_end": 1487.28,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Он рассматривает камень и вместимость рюкзака. Вслух описывает число кучек как HP, делённое на 10, с округлением вверх; пример интерфейса — 56 HP и шесть кучек.",
+      "meaning": "Это декомпозиция конкретной CatMiners: сколько работы по разрушению и сколько работы по переносу останется в шахте.",
+      "packets": [
+        {
+          "id": "A08",
+          "start": 1482,
+          "end": 1504,
+          "audio": "catminers-evidence/audio/A08.wav"
+        }
+      ]
+    },
+    {
+      "id": "C09",
+      "packet": "A09",
+      "quote": "мы уже упёрлись бы в другую величину",
+      "quote_start": 1863.48,
+      "quote_end": 1865.0,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Мысленный пример: коты ходят далеко, носят по одной кучке, камень разрушают одним ударом, из него выпадает 50 кучек. Для вывоза всё равно нужны многочисленные рейсы. В обратном мысленном примере около 01:18:43 он делает скорость передвижения практически бесконечной: выигрыш остаётся ограниченным, пока сохраняется добыча. Затем рассматривает бесконечный рюкзак: он тоже не убирает время добычи. При бесконечном DPS ограничителем снова может стать путь.",
+      "meaning": "Время зависит от того, какое ограничение сильнее в выбранных условиях. Одного разговора об уроне недостаточно, если узкое место перешло в доставку.",
+      "packets": [
+        {
+          "id": "A09",
+          "start": 1843,
+          "end": 1865,
+          "audio": "catminers-evidence/audio/A09.wav"
+        },
+        {
+          "id": "A27",
+          "start": 4731,
+          "end": 4753,
+          "audio": "catminers-evidence/audio/A27.wav"
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "packet": "A10",
+      "quote": "Самое главное для нас в гейм-дизайне — это тайминги",
+      "quote_start": 2031.04,
+      "quote_end": 2034.36,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Завершён разбор количества объектов, их HP и кучек. Далее он переходит к апгрейдам, чтобы объяснить, из каких составляющих возникает длительность уровня. В финале (02:13:07–02:13:57) положительно оценивает фундамент CatMiners: HP камней легко связать с DPS и множителями. Противопоставляет ему менее оформленную математическую идею другого обсуждавшегося концепта про крабов. На контрольном кадре 02:13:30 активен Антон.",
+      "meaning": "Это заявленная цель макроразбора данной экономики. Он пытается связать параметры с временем, а не просто предложить новые названия улучшений. Его критика текущей глубины не отменяет положительной оценки основы: он видит понятные параметры, от которых можно строить баланс.",
+      "packets": [
+        {
+          "id": "A10",
+          "start": 2029,
+          "end": 2051,
+          "audio": "catminers-evidence/audio/A10.wav"
+        }
+      ]
+    },
+    {
+      "id": "C11",
+      "packet": "A11",
+      "quote": "они должны сходиться вместе с общей системой уравнения",
+      "quote_start": 2163.2,
+      "quote_end": 2166.12,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "После скачков урона кирки спорят, не съедает ли она ценность скорости и рюкзака. Никита продолжает это возражение. Антон отвечает: «Никит, это всё неважно», прогрессия может быть любой; важна согласованность последних настроек с системой.",
+      "meaning": "Он объясняет зависимые параметры. В его условном примере из 200 цифр 185 можно выбирать свободно, остальные 15 должны получаться как следствие остальных ограничений.",
+      "packets": [
+        {
+          "id": "A11",
+          "start": 2147,
+          "end": 2169,
+          "audio": "catminers-evidence/audio/A11.wav"
+        },
+        {
+          "id": "A47",
+          "start": 2159,
+          "end": 2181,
+          "audio": "catminers-evidence/audio/A47.wav"
+        }
+      ]
+    },
+    {
+      "id": "C12",
+      "packet": "A56",
+      "quote": "Тогда был бы экспоненциальный взрыв",
+      "quote_start": 2396.2,
+      "quote_end": 2398.0,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Он рассматривает кирку с ростом отдачи примерно на 20% и цены на 30%, затем обратный пример: урон ×1,4, цена ×1,3. Для второго отдельно убирает кап в 20 улучшений и предел уровня, а золото получает прямо пропорционально урону.",
+      "meaning": "В этом мысленном случае покупки ускорялись бы всё сильнее. Следом он выделяет уже две влияющие на доход прокачки: кирку и Loot Value, которые надо рассматривать совместно.",
+      "packets": [
+        {
+          "id": "A56",
+          "start": 2381,
+          "end": 2403,
+          "audio": "catminers-evidence/audio/A56.wav"
+        },
+        {
+          "id": "A13",
+          "start": 2411,
+          "end": 2433,
+          "audio": "catminers-evidence/audio/A13.wav"
+        }
+      ]
+    },
+    {
+      "id": "C13",
+      "packet": "A14",
+      "quote": "для простоты возьмём",
+      "quote_start": 2567.56,
+      "quote_end": 2568.6,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Антон говорит: если доля времени добычи и переноски контролируется, можно для объяснения взять 50% добычи и 50% маршрута и представить непрерывную добычу с половинным эффектом.",
+      "meaning": "Он упрощает модель, чтобы проследить связь урона, Loot Value и дохода.",
+      "packets": [
+        {
+          "id": "A14",
+          "start": 2556,
+          "end": 2578,
+          "audio": "catminers-evidence/audio/A14.wav"
+        }
+      ]
+    },
+    {
+      "id": "C14",
+      "packet": "A43",
+      "quote": "необязательно это соблюдать",
+      "quote_start": 2897.4,
+      "quote_end": 2899.28,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "На экране он пишет DPS(t) = GPS(t). Сначала выбирает простую модель: сколько у камня HP, столько денег. Сразу после этого говорит, что так делать необязательно, и приводит другое соотношение HP и награды.",
+      "meaning": "Равенство помогает ему объяснить модель, а не предписывает обязательную формулу дохода всем играм.",
+      "packets": [
+        {
+          "id": "A16",
+          "start": 2869,
+          "end": 2891,
+          "audio": "catminers-evidence/audio/A16.wav"
+        },
+        {
+          "id": "A43",
+          "start": 2894,
+          "end": 2916,
+          "audio": "catminers-evidence/audio/A43.wav"
+        }
+      ]
+    },
+    {
+      "id": "C15",
+      "packet": "A28",
+      "quote": "ускорить игру каким-то внешним образом",
+      "quote_start": 4989.36,
+      "quote_end": 4991.24,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Антон предлагает мысленно рассчитанный длинный локальный кор. В одном примере это 300 дней, в другом — 400. Целевое прохождение рассматриваемой шахты — два дня. Участники несколько раз спрашивают, откуда x200 и идёт ли речь об уровне или всей игре.",
+      "meaning": "Он отвечает отношением 400 к двум: требуемое внешнее ускорение даёт мета. Отдельно объясняет расчёт одной шахты и суммирование длительностей шахт для всей игры.",
+      "packets": [
+        {
+          "id": "A15",
+          "start": 2656,
+          "end": 2678,
+          "audio": "catminers-evidence/audio/A15.wav"
+        },
+        {
+          "id": "A28",
+          "start": 4984,
+          "end": 5006,
+          "audio": "catminers-evidence/audio/A28.wav"
+        },
+        {
+          "id": "A53",
+          "start": 5032,
+          "end": 5054,
+          "audio": "catminers-evidence/audio/A53.wav"
+        }
+      ]
+    },
+    {
+      "id": "C16",
+      "packet": "A19",
+      "quote": "время сократится не в два раза",
+      "quote_start": 3481.24,
+      "quote_end": 3482.84,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Сначала он объясняет, что в выбранной модели x2 денег сжимает циклы накопления и всю траекторию вдвое. Затем отдельно говорит о x2 DPS: сокращение времени зависит от внутренних формул.",
+      "meaning": "Одинаковая подпись множителя на разных характеристиках не означает одинаковую форму ускорения прохождения.",
+      "packets": [
+        {
+          "id": "A18",
+          "start": 3434,
+          "end": 3456,
+          "audio": "catminers-evidence/audio/A18.wav"
+        },
+        {
+          "id": "A19",
+          "start": 3474,
+          "end": 3496,
+          "audio": "catminers-evidence/audio/A19.wav"
+        }
+      ]
+    },
+    {
+      "id": "C17",
+      "packet": "A20",
+      "quote": "вычли, не умножили",
+      "quote_start": 3595.48,
+      "quote_end": 3597.0,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Его пример — +500 монет на старте, которые позволяют быстро пройти условные первые семь минут. В отличие от этого он обсуждает глобальный множитель денег.",
+      "meaning": "Стартовый запас срезает начало траектории; это не то же самое, что пропорционально ускорить все дальнейшие циклы.",
+      "packets": [
+        {
+          "id": "A20",
+          "start": 3575,
+          "end": 3597,
+          "audio": "catminers-evidence/audio/A20.wav"
+        }
+      ]
+    },
+    {
+      "id": "C18",
+      "packet": "A52",
+      "quote": "Это именно общий глобальный мультипликатор",
+      "quote_start": 4673.76,
+      "quote_end": 4676.4,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Он уточняет: требуемые x200 — не x200 к урону, одновременно x200 к Loot Value и ещё каждому стату. В другом примере карточка повышает не весь урон, а только урон по аметисту или его ценность.",
+      "meaning": "Эффекты имеют разный охват, а общая величина складывается через устройство всей меты. Он обсуждает дробление силы между сущностями и полезность разных карточек на разных шахтах.",
+      "packets": [
+        {
+          "id": "A51",
+          "start": 3640,
+          "end": 3662,
+          "audio": "catminers-evidence/audio/A51.wav"
+        },
+        {
+          "id": "A52",
+          "start": 4667,
+          "end": 4689,
+          "audio": "catminers-evidence/audio/A52.wav"
+        }
+      ]
+    },
+    {
+      "id": "C19",
+      "packet": "A22",
+      "quote": "его никто не купит, он обесценился",
+      "quote_start": 3821.48,
+      "quote_end": 3823.6,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Собеседник несколько раз уточняет, можно ли продавать валюту, которая обесценивается. Антон отвечает примером: фиксированные 100 монет за доллар перестают иметь смысл при триллионном доходе; пакет надо соотнести с текущим GPM. В 01:04:04–01:05:52 он также противопоставляет чистую косметику в мобильном инкрементале скинам Dota, которые можно показать другим. Затем вспоминает ценовое якорение «трёх вёдер попкорна» и говорит, что в их замерах рассчитанная ценность и платёжеспособность были важнее таких приёмов.",
+      "meaning": "Он сравнивает 50 тысяч при тысяче в минуту и десятки миллионов при миллионе в минуту: предложение должно продавать актуальную для этого этапа ценность времени.",
+      "packets": [
+        {
+          "id": "A22",
+          "start": 3804,
+          "end": 3826,
+          "audio": "catminers-evidence/audio/A22.wav"
+        },
+        {
+          "id": "A23",
+          "start": 3884,
+          "end": 3906,
+          "audio": "catminers-evidence/audio/A23.wav"
+        }
+      ]
+    },
+    {
+      "id": "C20",
+      "packet": "A25",
+      "quote": "по которым есть модификатор урона",
+      "quote_start": 4333.08,
+      "quote_end": 4335.0,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Собеседники отвечают на претензию о малом числе событий: здесь же есть шахты. Антон возражает, что в текущей версии это просто другой тип камней, с большим HP и модификатором. Другой участник предполагает ценность закрытого сектора как маячка; Антон и это не принимает как объяснение новой производящей механики.",
+      "meaning": "Он различает уже существующую залежь и ещё не реализованную идею самостоятельного источника ресурсов. Позднее сам предлагает превратить залежи в работающие производства.",
+      "packets": [
+        {
+          "id": "A25",
+          "start": 4329,
+          "end": 4351,
+          "audio": "catminers-evidence/audio/A25.wav"
+        }
+      ]
+    },
+    {
+      "id": "C21",
+      "packet": "A29",
+      "quote": "пережить заново вот этот опыт",
+      "quote_start": 5169.76,
+      "quote_end": 5171.0,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Игрок уже пришёл на определённый кор, ему понравилось мержить и расставлять гоблинов. В событии можно снова дать начальный рост с нуля, свои карточки и немного другой визуал/правила.",
+      "meaning": "Антон описывает освежение знакомой петли для уже заинтересованной аудитории. Параллельно ивенты дают ресурсы для постоянной меты.",
+      "packets": [
+        {
+          "id": "A29",
+          "start": 5149,
+          "end": 5171,
+          "audio": "catminers-evidence/audio/A29.wav"
+        }
+      ]
+    },
+    {
+      "id": "C22",
+      "packet": "A30",
+      "quote": "там нет никакого урона",
+      "quote_start": 5376.68,
+      "quote_end": 5378.16,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Антон сравнивает более явно математическую игру из прогресс-баров с CatMiners. Объясняет каскад: условный десятый ресурс усиливает девятый, затем восьмой, и эффект доходит к первому.",
+      "meaning": "Это предложенный им референс для понимания общей структуры без множества логистических параметров — скорости ходьбы, ёмкости и разгрузки.",
+      "packets": [
+        {
+          "id": "A30",
+          "start": 5372,
+          "end": 5394,
+          "audio": "catminers-evidence/audio/A30.wav"
+        }
+      ]
+    },
+    {
+      "id": "C23",
+      "packet": "A31",
+      "quote": "Я остановил рост времени на каждый уровень",
+      "quote_start": 5625.96,
+      "quote_end": 5628.2,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Он выбирает примерные целевые длительности: ранний разгон, затем уровень около двух дней; после условного двадцатого уровня оставляет ту же целевую продолжительность для последующих. На экране есть таблица значений. Перед таблицей он явно принимает для примера 60 минут игры в день (01:32:41); это допущение, а не замер аудитории.",
+      "meaning": "Плато времени не означает одинаковое суммарное HP: мета растёт, и объём работы уровня это компенсирует. Сам Антон называет эту конкретную последовательность субъективной.",
+      "packets": [
+        {
+          "id": "A31",
+          "start": 5609,
+          "end": 5631,
+          "audio": "catminers-evidence/audio/A31.wav"
+        },
+        {
+          "id": "A49",
+          "start": 5552,
+          "end": 5574,
+          "audio": "catminers-evidence/audio/A49.wav"
+        }
+      ]
+    },
+    {
+      "id": "C24",
+      "packet": "A48",
+      "quote": "возможно, даже слишком часто",
+      "quote_start": 5906.16,
+      "quote_end": 5907.6,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Сначала он рисует условную шкалу силы награды: мелкое улучшение, сундук, легендарная карта; сильные события реже слабых. Собеседник напоминает правило: каждые пятнадцать секунд что-то происходит.",
+      "meaning": "Антон не утверждает это правило: пятнадцать секунд может быть слишком часто; как пример верхнего промежутка микрособытия он называет полторы-две минуты. Расписание от секунд до недели иллюстрирует различную редкость событий.",
+      "packets": [
+        {
+          "id": "A32",
+          "start": 5809,
+          "end": 5831,
+          "audio": "catminers-evidence/audio/A32.wav"
+        },
+        {
+          "id": "A48",
+          "start": 5896,
+          "end": 5918,
+          "audio": "catminers-evidence/audio/A48.wav"
+        }
+      ]
+    },
+    {
+      "id": "C25",
+      "packet": "A33",
+      "quote": "пытаемся всё скопировать",
+      "quote_start": 6049.6,
+      "quote_end": 6051.04,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Антон рассказывает, как декоративная золотая рыбка появилась в первом спавнере Venom при макетировании с женой. Потом эту деталь повторяли клоны, как будто без неё продукт не может работать. Сразу после истории (01:40:41–01:41:33) сравнивает точное копирование с получением клона без понимания внутренней работы; обсуждаемую ИИ-копию игры про зайцев называет для них blackbox с некоторой ценностью.",
+      "meaning": "История объясняет разницу точного копирования и понимания причинно-следственных связей. Он тут же признаёт: очень точная копия тоже может работать.",
+      "packets": [
+        {
+          "id": "A33",
+          "start": 6039,
+          "end": 6061,
+          "audio": "catminers-evidence/audio/A33.wav"
+        }
+      ]
+    },
+    {
+      "id": "C26",
+      "packet": "A46",
+      "quote": "просто от себя набрасываю",
+      "quote_start": 6124.84,
+      "quote_end": 6126.04,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "После математической части Антон сам объявляет переход к более субъективным идеям. Предлагает сделать расчищенную залежь производством: вместо минералов могут быть молоко, корм, дерево; продукт продаётся, карточки повышают его ценность.",
+      "meaning": "Пример молочной фермы, которая после открытия производит молоко с ценой 7, затем 8/9/12, действительно принадлежит ему. Он показывает, как сделать карточку понятной и полезной в конкретной шахте.",
+      "packets": [
+        {
+          "id": "A46",
+          "start": 6114,
+          "end": 6136,
+          "audio": "catminers-evidence/audio/A46.wav"
+        },
+        {
+          "id": "A34",
+          "start": 6174,
+          "end": 6196,
+          "audio": "catminers-evidence/audio/A34.wav"
+        }
+      ]
+    },
+    {
+      "id": "C27",
+      "packet": "A35",
+      "quote": "у нас эта штука автоматизируется",
+      "quote_start": 6397.76,
+      "quote_end": 6399.48,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Продолжая тот же набросок, он предлагает сначала накопить и скликнуть десять единиц молока, а потом открыть автоматизацию через уровень карточки. Говорит о расчёте ожидаемого уровня карточки на разных шахтах и постановке автоматизации немного вперёд.",
+      "meaning": "Это конкретный предлагаемый способ пережить переход от ручного процесса к самостоятельной работе производства. Затем он предлагает визуализировать поток конвейером и накоплением монет на базе.",
+      "packets": [
+        {
+          "id": "A35",
+          "start": 6384,
+          "end": 6406,
+          "audio": "catminers-evidence/audio/A35.wav"
+        }
+      ]
+    },
+    {
+      "id": "C28",
+      "packet": "A44",
+      "quote": "у нас есть крутой симулятор, который умеет это всё рассчитывать",
+      "quote_start": 6518.2,
+      "quote_end": 6521.56,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Он предлагает кузнеца, производство кирок и мерж 2→1. Объясняет: при известной частоте выпуска можно прикинуть будущий DPS. Следом говорит выбирать сущности, которые умеешь считать, либо использовать симулятор, но уметь оценить его результат.",
+      "meaning": "Смысл — не накидать произвольные приколы, а понимать их вклад в задуманную длительность. В следующей реплике предпочитает меньше хорошо посчитанных фич большому числу рассыпающихся.",
+      "packets": [
+        {
+          "id": "A36",
+          "start": 6477,
+          "end": 6499,
+          "audio": "catminers-evidence/audio/A36.wav"
+        },
+        {
+          "id": "A44",
+          "start": 6504,
+          "end": 6526,
+          "audio": "catminers-evidence/audio/A44.wav"
+        }
+      ]
+    },
+    {
+      "id": "C29",
+      "packet": "A37",
+      "quote": "В итоге у меня 134 вопроса задала нейронка",
+      "quote_start": 6949.64,
+      "quote_end": 6952.28,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Он рассказывает о строительном прототипе. Предложил ИИ задавать вопросы, собирать GDD и искать дыры. Ожидал 10–15 вопросов, получил 134. ИИ предлагал A/B/C; он выбирал или объяснял, почему варианты не подходят.",
+      "meaning": "Это способ совместного брейншторма, который он предлагает попробовать: человек остаётся водителем, помощник — штурманом. Важно и продолжение: быстрая реализация после обсуждения не дала сразу хороший результат.",
+      "packets": [
+        {
+          "id": "A37",
+          "start": 6941,
+          "end": 6963,
+          "audio": "catminers-evidence/audio/A37.wav"
+        },
+        {
+          "id": "A45",
+          "start": 6929,
+          "end": 6951,
+          "audio": "catminers-evidence/audio/A45.wav"
+        }
+      ]
+    },
+    {
+      "id": "C30",
+      "packet": "A54",
+      "quote": "это просто продажа времени",
+      "quote_start": 7392.24,
+      "quote_end": 7393.76,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": false,
+      "whisper_coverage_available": true,
+      "nearby_whisper": " Есть цель научиться делать игры на определенное количество добротного контента, а вот куда они попадут, это уже во многом рандом. И чем больше у тебя изначальная value, изначальный фундамент игры, тем с большей вероятностью в больший grade игра попадет. Все очень просто. Ну, то есть, типа, сейчас, ну, мы в любом случае обказываем... Я все сказал, на самом деле, про реварды да и напы в самом общем виде, просто если система...  настроена то реварды да и на п это просто продажи времени то есть если есть симулятор который вид сколько ресурсов добывается за минуту времени или за день времени ну в зависимости от того на что экономика больше заточена как бы на непрерывную какую-то игру или она вот под сутки залочена потому что например будь чем сначала на минуты посчитан потом мы зарифачили архитектуру баланса теперь он в днях считается все и практически не дневные  И реклама, и напы, все отсчитывается в днях для любой фичи, чтобы посчитать value. Это всегда продажа времени, так или иначе. Начинать, по крайней мере, это 80% продаж в таких играх. Мы продаем время. Чтобы продавать время, нам надо посчитать, сколько ресурсов мы за единицу времени получаем и домножить на нужные коэффициенты. Вот, в принципе, и вся монетизация. Окей. Ну, я же правильно...",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "На ранний вопрос о rewarded Антон сначала отвечает, что в их выбранной стратегии прежде нужна понятная игра на 20–30 часов. Позже всё же объясняет общий принцип: если система посчитана и известны ресурсы за минуту или день, можно оценивать ускорение через время. Позже (02:07:49–02:08:45) связывает денежную глубину с запасом контента: платящий игрок покупает сокращение пути, поэтому даже после большой траты ему должно оставаться куда прогрессировать. Два года обычного прохождения, несколько месяцев у донатера и цена дня — приведённые им приблизительные примеры. В этом объяснении он оценивает продажу времени как «80% продаж в таких играх»; это его приблизительное обобщение, не проверенная здесь статистика.",
+      "meaning": "Утверждение относится к рассматриваемым играм с прокачкой. Он приводит собственный переход Butcher от расчётов в минутах к дневной экономике.",
+      "packets": [
+        {
+          "id": "A54",
+          "start": 7374,
+          "end": 7396,
+          "audio": "catminers-evidence/audio/A54.wav"
+        },
+        {
+          "id": "A39",
+          "start": 7394,
+          "end": 7416,
+          "audio": "catminers-evidence/audio/A39.wav"
+        },
+        {
+          "id": "A40",
+          "start": 7639,
+          "end": 7661,
+          "audio": "catminers-evidence/audio/A40.wav"
+        }
+      ]
+    },
+    {
+      "id": "C31",
+      "packet": "A24",
+      "quote": "которые не попали ни в какие CPA-выборки",
+      "quote_start": 4000.48,
+      "quote_end": 4002.96,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Обсуждение масштабируемых валютных пакетов переходит к тому, кто приходит в игру. Антон противопоставляет CPI-закупку и выборку потенциальных плательщиков; его пример — условные 5000 пользователей, которые могут не покупать даже в продукте с высоким LTV.",
+      "meaning": "Он объясняет, почему результат покупки трафика нельзя читать как случайный срез людей и почему готовность аудитории платить влияет на IAP. Отдельно допускает рекламную монетизацию непокупающей аудитории.",
+      "packets": [
+        {
+          "id": "A24",
+          "start": 3999,
+          "end": 4021,
+          "audio": "catminers-evidence/audio/A24.wav"
+        }
+      ]
+    },
+    {
+      "id": "C32",
+      "packet": "A41",
+      "quote": "исключения тоже можно придумать",
+      "quote_start": 7795.96,
+      "quote_end": 7799.52,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": false,
+      "whisper_coverage_available": true,
+      "nearby_whisper": " Это добор с игроков, у которых есть другая мотивация, типа вот соревновательная такая, с них экстра-вэлью извлечь. До этого момента мультиплеер был как бы, ну, в смысле, если в нем хорошо разбираться, иметь большой опыт, можно и раньше встраивать, но мультиплеер в ГКшке, он абсолютно бессмысленный. То есть нужна хорошая база, чтобы это все работало, и гильдии, и с ПВПшки, ну и так далее. Ну, это в среднем. Исключение тоже можно придумать.  окей так диман ты запись ведешь дима да окей все тогда жду от тебя после созвона файлик ну или самого суть в бокус и попроси объединить с тем с прошлым ну файлом прожарки от антона но которую я тебе дам давай ладно окей",
+      "speaker": "Anton, with dialogue context and sampled video evidence",
+      "context": "Обсуждая развитие уже работающего продукта, Антон говорит о соревновательной мотивации и добавлении гильдий/PvP поверх хорошей базы. Тут же допускает раннее встраивание у команды с соответствующим опытом.",
+      "meaning": "Это его средняя стратегия развития, дополненная исключениями, а не утверждение невозможности другой конструкции игры.",
+      "packets": [
+        {
+          "id": "A41",
+          "start": 7779,
+          "end": 7801,
+          "audio": "catminers-evidence/audio/A41.wav"
+        }
+      ]
+    },
+    {
+      "id": "C33",
+      "packet": "A55",
+      "quote": "ограниченное количество раз",
+      "quote_start": 8101.52,
+      "quote_end": 8103.08,
+      "gigaam_literal_match": true,
+      "whisper_literal_match": true,
+      "whisper_coverage_available": true,
+      "nearby_whisper": "",
+      "speaker": "other participant",
+      "context": "В конце другой собеседник описывает Steam-айдлер с престижами и усилением x4, которое сначала можно попробовать бесплатно несколько раз. На его аватаре в красной одежде BOSS виден индикатор говорящего, у Антона активности нет.",
+      "meaning": "Это пример, внесённый участником в финальную дискуссию. Запись заканчивается без отдельного содержательного ответа Антона на этот пример.",
+      "packets": [
+        {
+          "id": "A42",
+          "start": 8064,
+          "end": 8086,
+          "audio": "catminers-evidence/audio/A42.wav"
+        },
+        {
+          "id": "A55",
+          "start": 8092,
+          "end": 8114,
+          "audio": "catminers-evidence/audio/A55.wav"
+        }
+      ]
+    }
+  ]
+}

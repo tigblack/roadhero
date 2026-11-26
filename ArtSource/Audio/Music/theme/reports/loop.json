@@ -1,0 +1,53 @@
+{
+  "start_bar": 0,
+  "end_bar": 48,
+  "sample_rate": 48000,
+  "start_sample": 0,
+  "end_sample": 5529600,
+  "length_samples": 5529600,
+  "start_seconds": 0.0,
+  "end_seconds": 115.2,
+  "bpm": 100.0,
+  "bar_beats": 4,
+  "beat_count": 192.0,
+  "sections": [
+    {
+      "id": "ignition",
+      "start_sample": 0,
+      "start_seconds": 0.0
+    },
+    {
+      "id": "theme",
+      "start_sample": 460800,
+      "start_seconds": 9.6
+    },
+    {
+      "id": "open_road",
+      "start_sample": 1382400,
+      "start_seconds": 28.8
+    },
+    {
+      "id": "scrapyard",
+      "start_sample": 2304000,
+      "start_seconds": 48.0
+    },
+    {
+      "id": "dust",
+      "start_sample": 3225600,
+      "start_seconds": 67.2
+    },
+    {
+      "id": "return",
+      "start_sample": 4147200,
+      "start_seconds": 86.4
+    },
+    {
+      "id": "turnaround",
+      "start_sample": 5068800,
+      "start_seconds": 105.6
+    }
+  ],
+  "files": {
+    "wav": "loop.wav"
+  }
+}

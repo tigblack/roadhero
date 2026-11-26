@@ -1,0 +1,6 @@
+RoadGame MUSICCHECK editorMasterMuted=True
+RoadGame MUSICCHECK guid=282b26e0f1b694285ada29f9817c05f8 loadType=Streaming compression=Vorbis quality=0.6 sampleRateSetting=PreserveSampleRate forceToMono=False loadInBackground=True webglOverride=False webglLoadType=Streaming
+RoadGame MUSICCHECK clip name=music_theme length=115.2000s samples=5080320 channels=2 frequency=44100 loadType=Streaming
+RoadGame MUSICCHECK resources music_theme=5080320 music_action=none
+RoadGame MUSICCHECK vorbis q=0.6 decoded ok=True samples=5080320 channels=2 frequency=44100
+RoadGame MUSICCHECK wrote /private/tmp/claude-501/-Users-arthuri-Unity-Projects-RoadGame/a675978e-edec-47ae-9de0-14fe00ec6712/scratchpad/music/theme/vorbis_decoded.raw

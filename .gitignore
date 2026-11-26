@@ -1,0 +1,55 @@
+# Unity regenerates these directories when the project is opened.
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uilds/
+/[Bb]uild/
+/MemoryCaptures/
+/Recordings/
+/Data/
+
+# Generated IDE files and machine-local agent state.
+.vs/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.pidb
+*.booproj
+*.opendb
+*.VC.db
+/.claude/
+/.codex/
+
+# The Sites checkout has its own Git history and hosting identity.
+# The latest standalone player is versioned separately in WebGLBuild/.
+/Sites/
+/_anton/**/webgl/
+/AntonSkill.zip
+
+# Tool caches, editor backups and operating-system metadata.
+**/node_modules/
+**/__pycache__/
+*.py[cod]
+*.blend[0-9]
+*.blend[0-9][0-9]
+*.bak
+*.tmp
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Local credentials/signing material are never project source.
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.key

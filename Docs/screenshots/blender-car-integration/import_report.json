@@ -1,0 +1,27 @@
+{
+    "source": "/Users/arthuri/Blender Proj/car/Scarbound_Car_v10_DetailedCar.blend",
+    "sourceSha256": "9d9e51f16b68428645285dfe90931f889d83b853d66ca8b3909359bbad70d6a1",
+    "prefab": "Assets/RoadGame/Resources/Cars/ScarboundDetailed.prefab",
+    "nodes": 52,
+    "meshObjects": 29,
+    "serializedMeshes": 87,
+    "materials": 6,
+    "triangles": [
+        330174,
+        139558,
+        47789
+    ],
+    "boundsCenter": {
+        "x": 0.0,
+        "y": 0.9730984568595886,
+        "z": 0.0005002021789550781
+    },
+    "dimensions": {
+        "x": 2.4130001068115234,
+        "y": 1.994196891784668,
+        "z": 5.038999557495117
+    },
+    "hierarchyVerified": true,
+    "texturesVerified": true,
+    "tangentsVerified": true
+}

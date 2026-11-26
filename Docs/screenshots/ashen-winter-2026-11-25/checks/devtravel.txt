@@ -1,0 +1,66 @@
+RoadGame DEVTRAVEL_CHECK PASS after a restart the car starts in an unlocked zone (zone 0, unlocked 0, at (-20.96, 0.00, -74.02))
+RoadGame DEVTRAVEL_CHECK PASS the test visit left no unlock and no boss win in the save
+RoadGame DEVTRAVEL_CHECK PASS test access does not survive a restart (session only)
+RoadGame DEVTRAVEL_RESULT mode=devtravelreload checks=3 failures=0
+RoadGame DEVTRAVEL_CHECK PASS a new save: the intro runs, every gate closed (car at (-0.06, 0.00, -236.93))
+RoadGame DEVTRAVEL_CHECK PASS the DEV panel opens and pauses the game
+RoadGame DEVTRAVEL_CHECK PASS «Зона 3 — Пепельная зима» is available at once (closed story gate)
+RoadGame DEVTRAVEL_CHECK PASS the DEV card fits the screen (1170x540: (411.26, 13.25) .. (758.74, 526.75))
+RoadGame DEVTRAVEL_CHECK PASS a repeated tap moves the car once (1)
+RoadGame DEVTRAVEL_CHECK PASS the panel closes and the game runs again
+RoadGame DEVTRAVEL_CHECK PASS the car stands on the Ashen Winter pad heading north ((-41.00, 0.00, 322.00), heading 0.0)
+RoadGame DEVTRAVEL_CHECK PASS on the floor (y 0.00), at rest, not flying
+RoadGame DEVTRAVEL_CHECK PASS no unlock, no boss win; test access in session memory (unlocked 0, test 2)
+RoadGame DEVTRAVEL_CHECK PASS the game speed (2x) and John Wick are kept
+RoadGame DEVTRAVEL_CHECK PASS aim cleared, input held for a moment after the move
+RoadGame DEVTRAVEL_CHECK PASS the unfinished intro is set aside: no intro jump, the save keeps the intro ahead
+RoadGame DEVTRAVEL_CHECK PASS the camera follows to the new place ((-41.00, 35.26, 296.38))
+RoadGame DEVTRAVEL_CHECK PASS the goal widget shows this zone's boss as a test visit (Boss, zone 2: Тестовый визит: прогресс не засчитывается)
+RoadGame DEVTRAVEL_CHECK PASS autosave and minimize keep the allowed checkpoint (0, -78; unlocked 0)
+RoadGame DEVTRAVEL_CHECK PASS the save still has the intro ahead
+RoadGame DEVTRAVEL_CHECK PASS «Зона 1» takes the car back to the Dust Flats pad ((-20.00, 0.00, -76.00))
+RoadGame DEVTRAVEL_CHECK PASS speed and John Wick still kept
+RoadGame DEVTRAVEL_CHECK PASS «Зона 2» takes the car to the Toxic Wetlands pad ((37.00, 0.00, 122.00))
+RoadGame DEVTRAVEL_RESULT mode=devtravel checks=19 failures=0
+RoadGame DEVTRAVEL_CHECK PASS a new save: the intro runs, every gate closed (car at (-0.04, 0.00, -237.23))
+RoadGame DEVTRAVEL_CHECK PASS the DEV panel opens and pauses the game
+RoadGame DEVTRAVEL_CHECK PASS «Зона 3 — Пепельная зима» is available at once (closed story gate)
+RoadGame DEVTRAVEL_CHECK PASS the DEV card fits the screen (540x1170: (21.61, 217.92) .. (518.39, 952.07))
+RoadGame DEVTRAVEL_CHECK PASS a repeated tap moves the car once (1)
+RoadGame DEVTRAVEL_CHECK PASS the panel closes and the game runs again
+RoadGame DEVTRAVEL_CHECK PASS the car stands on the Ashen Winter pad heading north ((-41.00, 0.00, 322.00), heading 0.0)
+RoadGame DEVTRAVEL_CHECK PASS on the floor (y 0.00), at rest, not flying
+RoadGame DEVTRAVEL_CHECK PASS no unlock, no boss win; test access in session memory (unlocked 0, test 2)
+RoadGame DEVTRAVEL_CHECK PASS the game speed (2x) and John Wick are kept
+RoadGame DEVTRAVEL_CHECK PASS aim cleared, input held for a moment after the move
+RoadGame DEVTRAVEL_CHECK PASS the unfinished intro is set aside: no intro jump, the save keeps the intro ahead
+RoadGame DEVTRAVEL_CHECK PASS the camera follows to the new place ((-41.00, 55.75, 281.50))
+RoadGame DEVTRAVEL_CHECK PASS the goal widget shows this zone's boss as a test visit (Boss, zone 2: Тестовый визит: прогресс не засчитывается)
+RoadGame DEVTRAVEL_CHECK PASS autosave and minimize keep the allowed checkpoint (0, -78; unlocked 0)
+RoadGame DEVTRAVEL_CHECK PASS the save still has the intro ahead
+RoadGame DEVTRAVEL_CHECK PASS «Зона 1» takes the car back to the Dust Flats pad ((-20.00, 0.00, -76.00))
+RoadGame DEVTRAVEL_CHECK PASS speed and John Wick still kept
+RoadGame DEVTRAVEL_CHECK PASS «Зона 2» takes the car to the Toxic Wetlands pad ((37.00, 0.00, 122.00))
+RoadGame DEVTRAVEL_RESULT mode=devtravel checks=19 failures=0
+RoadGame DEVTRAVEL_CHECK PASS a save with only the first zone open, car in zone 0 at (10.12, 0.00, -74.11)
+RoadGame DEVTRAVEL_CHECK PASS the DEV panel opens and pauses the game
+RoadGame DEVTRAVEL_CHECK PASS «Зона 3 — Пепельная зима» is available at once (closed story gate)
+RoadGame DEVTRAVEL_CHECK PASS the DEV card fits the screen (540x1170: (21.61, 217.93) .. (518.39, 952.07))
+RoadGame DEVTRAVEL_CHECK PASS a repeated tap moves the car once (1)
+RoadGame DEVTRAVEL_CHECK PASS the panel closes and the game runs again
+RoadGame DEVTRAVEL_CHECK PASS the car stands on the Ashen Winter pad heading north ((-41.00, 0.00, 322.00), heading 0.0)
+RoadGame DEVTRAVEL_CHECK PASS on the floor (y 0.00), at rest, not flying
+RoadGame DEVTRAVEL_CHECK PASS no unlock, no boss win; test access in session memory (unlocked 0, test 2)
+RoadGame DEVTRAVEL_CHECK PASS the game speed (2x) and John Wick are kept
+RoadGame DEVTRAVEL_CHECK PASS aim cleared, input held for a moment after the move
+RoadGame DEVTRAVEL_CHECK PASS the camera follows to the new place ((-41.00, 55.75, 281.50))
+RoadGame DEVTRAVEL_CHECK PASS the goal widget shows this zone's boss as a test visit (Boss, zone 2: Тестовый визит: прогресс не засчитывается)
+RoadGame DEVTRAVEL_CHECK PASS autosave and minimize keep the allowed checkpoint (10.12101, -74.10788; unlocked 0)
+RoadGame DEVTRAVEL_CHECK PASS the car can die in the visited zone
+RoadGame DEVTRAVEL_CHECK PASS after a death in the test zone the car comes back on its pad (respawned at (-41.00, 0.00, 322.00), now (-41.51, 0.00, 324.71))
+RoadGame DEVTRAVEL_CHECK PASS the save still holds the zone-0 checkpoint after the death
+RoadGame DEVTRAVEL_CHECK PASS «Зона 1» takes the car back to the Dust Flats pad ((-20.00, 0.00, -76.00))
+RoadGame DEVTRAVEL_CHECK PASS speed and John Wick still kept
+RoadGame DEVTRAVEL_CHECK PASS «Зона 2» takes the car to the Toxic Wetlands pad ((37.00, 0.00, 122.00))
+RoadGame DEVTRAVEL_CHECK PASS back in an open zone the save takes the new position (-20.0, -76.0)
+RoadGame DEVTRAVEL_RESULT mode=devtravelsave checks=21 failures=0

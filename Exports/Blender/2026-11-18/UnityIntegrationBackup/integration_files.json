@@ -1,0 +1,29 @@
+{
+  "source": "DustFlats_Level_v13_SmoothPass.blend",
+  "files": [
+    "Assets/RoadGame/Scripts/World/World.cs",
+    "Assets/RoadGame/Scripts/World/Ground.cs",
+    "Assets/RoadGame/Scripts/World/NavGrid.cs",
+    "Assets/RoadGame/Scripts/World/DustFlatsSurfaces.cs",
+    "Assets/RoadGame/Scripts/World/ImportedLevel.cs",
+    "Assets/RoadGame/Scripts/Actors/Player.cs",
+    "Assets/RoadGame/Scripts/Game.cs",
+    "Assets/RoadGame/Scripts/UI/Minimap.cs",
+    "Assets/RoadGame/Editor/AutoCapture.cs",
+    "Assets/RoadGame/Editor/AutoCaptureBlenderLevel.cs",
+    "Assets/RoadGame/Editor/ImportedLevelTextureSettings.cs",
+    "Tools/Blender/export_runtime_level.py",
+    "Tools/Blender/export_v13_surfaces.py",
+    "Tools/Blender/validate_runtime_level.py",
+    "Tools/Blender/README_Runtime_Level.md",
+    "README_RoadGame.md",
+    "Docs/screenshots/blender-v13-integration/README.md"
+  ],
+  "assets": [
+    "Assets/RoadGame/Resources/Levels/DustFlatsV13",
+    "Assets/RoadGame/Resources/Levels/DustFlats_v13_surfaces.json"
+  ],
+  "validation_checks": 23,
+  "failures": 0,
+  "intro_complete": true
+}

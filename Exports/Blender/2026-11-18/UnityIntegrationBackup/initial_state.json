@@ -1,0 +1,42 @@
+{
+  "Assets/RoadGame/Scripts/World/World.cs": {
+    "sha256": "dface80cec70a0bb84c05eb54b470768640ccee340256bdd0c7f5025a4720788",
+    "mtime_ns": 1794834494352098302
+  },
+  "Assets/RoadGame/Scripts/World/Ground.cs": {
+    "sha256": "f0e85a4e74f4a12efb172e10a49c734bb5ce1869b76970d8d1af115cdabffd05",
+    "mtime_ns": 1794834424973040848
+  },
+  "Assets/RoadGame/Scripts/World/NavGrid.cs": {
+    "sha256": "518f4033993951190007a8bcd7e2404fe327423d8ce1702f94212370cf8372dd",
+    "mtime_ns": 1794910258286480921
+  },
+  "Assets/RoadGame/Scripts/Actors/Player.cs": {
+    "sha256": "828763e1b5170ead5f99794aa882daa53d50d3798c92200cbe5501af6259d946",
+    "mtime_ns": 1794833237070325406
+  },
+  "Assets/RoadGame/Scripts/World/Target.cs": {
+    "sha256": "ff263d7a45614f10aed4180445eb5b300b2f44fa57f484109a441e9946413759",
+    "mtime_ns": 1794667500275524574
+  },
+  "Assets/RoadGame/Scripts/Fx/OcclusionFader.cs": {
+    "sha256": "b00045c42254fb5000f3e36076fa2b69f1f41231725e916df43886a12fce7c1a",
+    "mtime_ns": 1794677311289930345
+  },
+  "Assets/RoadGame/Scripts/Rendering/Mats.cs": {
+    "sha256": "7127f4328afb8003583417e7855306921fcdde0236754abc999809cc379d3352",
+    "mtime_ns": 1794613075801745482
+  },
+  "Assets/RoadGame/Scripts/Game.cs": {
+    "sha256": "67557cf6cec723d91039ffab122a051bdee09fffee0fb875f2c03d566e125134",
+    "mtime_ns": 1794912124136890166
+  },
+  "Assets/RoadGame/Editor/AutoCapture.cs": {
+    "sha256": "7d9f06bd32dae7af0566fefcdb964ce3d2d38fcce17f329862bc9b6eef75d79c",
+    "mtime_ns": 1794859310596569780
+  },
+  "README_RoadGame.md": {
+    "sha256": "c687727b9c1dbd09e43621f54d44d92f9343b8faaef671807557b2a97f25de6d",
+    "mtime_ns": 1794914401977703602
+  }
+}

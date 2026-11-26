@@ -1,0 +1,13 @@
+RoadGame PERF shot=0 quality=Mobile renderMs median=1.06 p90=1.24 enemyMoveMsPerFrame=0.032 enemies=56 draws=268 setpass=35 tris=374641 verts=367493 shadowCasters=137 carVerts=545564 carTris=520635
+RoadGame PERF shot=1 quality=Mobile renderMs median=1.11 p90=1.53 enemyMoveMsPerFrame=0.058 enemies=87 draws=289 setpass=37 tris=376200 verts=360004 shadowCasters=125 carVerts=545564 carTris=520635
+RoadGame PERF shot=2 quality=Mobile renderMs median=1.16 p90=1.43 enemyMoveMsPerFrame=0.065 enemies=85 draws=279 setpass=40 tris=373959 verts=373784 shadowCasters=157 carVerts=545564 carTris=520635
+RoadGame PERF shot=3 quality=Mobile renderMs median=1.12 p90=1.55 enemyMoveMsPerFrame=0.056 enemies=66 draws=241 setpass=37 tris=352710 verts=352351 shadowCasters=96 carVerts=545564 carTris=520635
+RoadGame PERF shot=4 quality=Mobile renderMs median=1.32 p90=1.63 enemyMoveMsPerFrame=0.048 enemies=81 draws=317 setpass=36 tris=424183 verts=398938 shadowCasters=147 carVerts=545564 carTris=520635
+RoadGame PERF shot=5 quality=Mobile renderMs median=1.65 p90=2.01 enemyMoveMsPerFrame=0.067 enemies=92 draws=316 setpass=47 tris=590389 verts=532093 shadowCasters=174 carVerts=545564 carTris=520635
+RoadGame PERF shot=6 quality=Mobile renderMs median=1.61 p90=1.79 enemyMoveMsPerFrame=0.080 enemies=86 draws=294 setpass=47 tris=572276 verts=518410 shadowCasters=139 carVerts=545564 carTris=520635
+RoadGame PERF shot=7 quality=Mobile renderMs median=1.47 p90=1.77 enemyMoveMsPerFrame=0.067 enemies=75 draws=227 setpass=37 tris=466696 verts=435481 shadowCasters=82 carVerts=545564 carTris=520635
+RoadGame PERF shot=8 quality=Mobile renderMs median=1.80 p90=2.06 enemyMoveMsPerFrame=0.073 enemies=91 draws=257 setpass=42 tris=386448 verts=390523 shadowCasters=103 carVerts=545564 carTris=520635
+RoadGame PERF shot=9 quality=Mobile renderMs median=1.90 p90=2.33 enemyMoveMsPerFrame=0.083 enemies=67 draws=302 setpass=41 tris=464015 verts=413258 shadowCasters=174 carVerts=545564 carTris=520635
+RoadGame PERF shot=10 quality=Mobile renderMs median=2.09 p90=2.41 enemyMoveMsPerFrame=0.078 enemies=77 draws=385 setpass=37 tris=649323 verts=538555 shadowCasters=232 carVerts=545564 carTris=520635
+RoadGame PERF shot=11 quality=Mobile renderMs median=1.09 p90=1.54 enemyMoveMsPerFrame=0.070 enemies=70 draws=254 setpass=39 tris=372665 verts=371639 shadowCasters=90 carVerts=545564 carTris=520635
+RoadGame PERF shot=12 quality=Mobile renderMs median=1.19 p90=1.31 enemyMoveMsPerFrame=0.058 enemies=69 draws=318 setpass=45 tris=474135 verts=446913 shadowCasters=127 carVerts=545564 carTris=520635

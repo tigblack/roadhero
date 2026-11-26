@@ -1,0 +1,35 @@
+{
+    "source": "DustFlats_Level_v13_SmoothPass.blend",
+    "editorMasterMuted": true,
+    "checks": [
+        "work run is muted",
+        "imported river surfaces are active",
+        "all imported source IDs resolve to their original gameplay objects",
+        "edited static geometry replaces the procedural first zone",
+        "ford bed is drivable at approximately -0.31m: -0.31",
+        "main channel bed is approximately -0.44m: -0.44",
+        "main bridge has a supported deck: 1.091",
+        "track bridge has a supported deck: 0.9",
+        "river does not modify other zones",
+        "no frozen spawn visuals duplicate live targets: 0",
+        "world progression spawns retained: 741",
+        "ford_crossing traversed with car controller",
+        "car wheels follow the submerged bed during ford crossing",
+        "main_bridge traversed with car controller",
+        "car wheels follow the elevated deck during bridge crossing",
+        "track_bridge traversed with car controller",
+        "car wheels follow the elevated deck during bridge crossing",
+        "live destructible props use imported Blender geometry",
+        "imported prop retains damage and hit feedback",
+        "imported prop retains destruction and removes its blocker",
+        "imported prop retains respawn",
+        "gate animation/progression state retained",
+        "hangar roof still fades for the car"
+    ],
+    "failures": [],
+    "drives": [
+        "ford_crossing start=(-22.24, 0.59, -8.97) end=(17.26, 0.00, -1.95) remaining=6.12m height=[-0.31,0.59] recovered=0",
+        "main_bridge start=(-25.50, 0.00, 1.50) end=(13.06, 0.00, 33.30) remaining=7.34m height=[0.00,1.09] recovered=0",
+        "track_bridge start=(28.35, 0.00, -51.40) end=(23.50, 0.00, -8.03) remaining=4.69m height=[0.00,0.90] recovered=0"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+  "mode": "built-in image_gen",
+  "date": "2026-11-13",
+  "use_case": "stylized-concept",
+  "art_direction": "Original graphic-novel game key art: bold ink contours, painterly cel shading, saturated amber/rust/turquoise, dramatic contrast. No words, UI, branding or watermarks. Based on the actual RoadGame models and screenshots.",
+  "assets": [
+    {
+      "asset": "hero-car",
+      "references": [
+        "Assets/RoadGame/Art/AppIcon.png",
+        "Docs/screenshots/13_car_closeup.png"
+      ],
+      "prompt": "Main illustrated loading panel. Preserve charcoal long low 1970s fastback muscle car, four round lamps, silver hood supercharger, twin roof cannon, chrome bumper and side pipes, hunched brown-cloaked goggled harpoon operator on rear deck, two silver cylinders. Dynamic low front three-quarter drift across cracked desert asphalt with amber dust and turquoise rim light. Hero entire silhouette readable inside safe margins; minimal desert and mesas."
+    },
+    {
+      "asset": "enemy-mammoth",
+      "references": [
+        "Docs/screenshots/03_boss_mammoth.png"
+      ],
+      "prompt": "Actual Mammoth boss: long rusty-orange armored cargo truck with three axles / six wheels, tall cab and long hood, rectangular windshield, bone skull grille, wide silver spike ram, vertical exhausts, spiked roof, junk crates and red barrel on flatbed, red and charcoal flags. Low charging front-side angle in canyon gate; cool turquoise shadows and hot rust-orange light. Final edit corrected axle count from 4 to 3 without changing style/framing."
+    },
+    {
+      "asset": "wasteland",
+      "prompt": "Use case: stylized-concept. Asset: very wide panoramic website background and landscape loading panel for a wasteland car combat RPG. Original landscape illustration in the SAME bold ink, painterly cel shaded, vibrant amber/rust/turquoise graphic-novel style as reference 1, whose car identity is not needed in this environment image. References 2 and 3 show real game locations: golden sand, red sandstone canyon, curved cracked charcoal asphalt with worn yellow dashed centreline, small corrugated repair garage with green panel, gas pumps, wooden raider gates with silver spikes, scattered barrels, dead trees and cacti. Build a cinematic desert panorama at warm sunset with turquoise high sky and copper clouds; keep the middle 45 percent visually quiet, low contrast hazy dusty valley and empty open road so website game canvas can sit there. Put the rich recognizable details on far left and far right: small desert repair garage + pumps on one side and spiked raider checkpoint + rusty scrap crates on the other, sandstone mesas beyond. No vehicles or people necessary. Sweeping cracked road leads through scene. Saturated accents at edges, centre calm, no black vignette baked into art, no borders, no text, no signs with writing, no logos or UI. Compose for a very wide 2:1 image suitable background crop and a recognizable smaller landscape collage panel.",
+      "references": [
+        "Assets/RoadGame/Resources/Loading/hero-car.png",
+        "Docs/screenshots/01_zone1_dust_flats.png",
+        "Docs/screenshots/05_zone2_rust_canyon.png"
+      ]
+    },
+    {
+      "asset": "action-harpoon",
+      "prompt": "Use case: stylized-concept. Asset: original gameplay-mechanic loading panel for same desert car RPG. Reference 1 is the desired visual style and hero car identity; reference 2 is the ACTUAL game harpoon mechanic. Show a strong diagonal tense black cable from the goggled brown-cloaked hunched operator on the rear deck of the dark muscle car, to a battered rusted scrap-metal crate or destroyed vehicle fragment being winched toward the car. The cable must attach both ends, clearly one harpoon hook embedded in the scrap. Three-quarter raised rear/side view. Preserve the car: charcoal long low fastback, silver hood blower, twin roof cannon, chrome side pipes, two silver rear cylinders; operator is hunched in brown coat and uses a silver harpoon rifle. The car dominates left half and scrap plus cable right half, whole action readable in central 75 percent with 10 percent safe margins. Amber dust, turquoise reflected light, rusty orange canyon/desert backdrop, forceful black ink contours and painterly cel shading matching reference1. Dynamic, colorful, clear, explains 'destroy, harpoon scrap, grow stronger'. No UI, no floating numbers, no words, no logos or watermark, no graphic injury, no invented mechanics. Landscape 3:2 illustration.",
+      "references": [
+        "Assets/RoadGame/Resources/Loading/hero-car.png",
+        "Docs/screenshots/02_harpoon_devour.png"
+      ]
+    }
+  ],
+  "exports": {
+    "unity": "Assets/RoadGame/Resources/Loading/*.png",
+    "web": "Assets/WebGLTemplates/RoadGame/TemplateData/*.webp",
+    "optimization": "WebP q82 panels / q83 wide background; no creative edits during export. Unity compressed textures, no mipmaps or alpha or CPU-readable copy."
+  },
+  "final_asset": {
+    "asset": "loading-poster",
+    "status": "final portrait revision",
+    "mode": "built-in image_gen",
+    "prompt_file": "Tools/Art/loading-poster-prompt.txt",
+    "composition": "One tall 9:16 illustration with nine irregular narrative panels; no words or UI; full contain on desktop and mobile.",
+    "unity": "Assets/RoadGame/Resources/Loading/loading-poster.png",
+    "web": "Assets/WebGLTemplates/RoadGame/TemplateData/loading-poster.webp",
+    "source": "/Users/arthuri/.codex/generated_images/01a1d0b3-fa52-7b13-860e-11bc50a8e7be/exec-2901e08c-faf6-46ba-bf94-9e1235561845.png",
+    "optimization": "WebP q86 method6; no creative pixel edits during export; Unity compressed texture max2048 no mipmaps/readback.",
+    "references": [
+      "Docs/art-source/loading-first-pass/hero-car.png",
+      "Docs/art-source/loading-first-pass/enemy-mammoth.png",
+      "Docs/screenshots/17_raiders_rush.png",
+      "Docs/screenshots/18_buggy_machine_gun.png",
+      "Docs/screenshots/07_zone4_toxic_marsh.png"
+    ],
+    "title": "SCARBOUND / CAR COMBAT / IDLE RPG, centered responsive HTML and native UI overlay; original generated poster remains unlettered.",
+    "unity_import": "NPOT scale None preserves941×1672 aspect; compressed no mipmaps."
+  },
+  "first_pass_archive": "Docs/art-source/loading-first-pass (rejected four-panel composition; not included in runtime)"
+}

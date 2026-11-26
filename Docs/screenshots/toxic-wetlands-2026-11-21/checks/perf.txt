@@ -1,0 +1,19 @@
+# RoadGame PERF lines, Mobile quality (-capturePerf 1 -captureQuality 0), batch editor on Apple Silicon, 2026-11-21
+## wetlands (second zone)
+RoadGame PERF shot=0 quality=Mobile renderMs median=1.10 p90=1.61 enemyMoveMsPerFrame=0.038 enemies=63 draws=285 setpass=39 tris=716117 verts=860593 shadowCasters=145 carVerts=545564 carTris=520635
+RoadGame PERF shot=1 quality=Mobile renderMs median=1.26 p90=1.50 enemyMoveMsPerFrame=0.043 enemies=89 draws=327 setpass=43 tris=537297 verts=490649 shadowCasters=215 carVerts=545564 carTris=520635
+RoadGame PERF shot=2 quality=Mobile renderMs median=1.29 p90=1.87 enemyMoveMsPerFrame=0.051 enemies=93 draws=292 setpass=46 tris=428428 verts=448464 shadowCasters=150 carVerts=545564 carTris=520635
+RoadGame PERF shot=3 quality=Mobile renderMs median=1.16 p90=1.54 enemyMoveMsPerFrame=0.063 enemies=103 draws=287 setpass=44 tris=364290 verts=360105 shadowCasters=126 carVerts=545564 carTris=520635
+RoadGame PERF shot=4 quality=Mobile renderMs median=1.31 p90=2.52 enemyMoveMsPerFrame=0.047 enemies=80 draws=333 setpass=44 tris=353056 verts=355840 shadowCasters=147 carVerts=545564 carTris=520635
+RoadGame PERF shot=5 quality=Mobile renderMs median=1.20 p90=1.44 enemyMoveMsPerFrame=0.046 enemies=90 draws=267 setpass=37 tris=395745 verts=387954 shadowCasters=119 carVerts=545564 carTris=520635
+RoadGame PERF shot=6 quality=Mobile renderMs median=1.17 p90=1.68 enemyMoveMsPerFrame=0.048 enemies=90 draws=260 setpass=42 tris=400626 verts=401141 shadowCasters=103 carVerts=545564 carTris=520635
+RoadGame PERF shot=7 quality=Mobile renderMs median=1.16 p90=1.62 enemyMoveMsPerFrame=0.037 enemies=71 draws=262 setpass=39 tris=350593 verts=365639 shadowCasters=99 carVerts=545564 carTris=520635
+RoadGame PERF shot=8 quality=Mobile renderMs median=1.18 p90=1.72 enemyMoveMsPerFrame=0.030 enemies=62 draws=290 setpass=39 tris=491314 verts=466548 shadowCasters=129 carVerts=545564 carTris=520635
+RoadGame PERF shot=9 quality=Mobile renderMs median=1.18 p90=1.57 enemyMoveMsPerFrame=0.040 enemies=74 draws=296 setpass=38 tris=451559 verts=423059 shadowCasters=170 carVerts=545564 carTris=520635
+RoadGame PERF shot=10 quality=Mobile renderMs median=1.19 p90=1.41 enemyMoveMsPerFrame=0.035 enemies=66 draws=320 setpass=38 tris=645700 verts=634548 shadowCasters=174 carVerts=545564 carTris=520635
+RoadGame PERF shot=11 quality=Mobile renderMs median=1.22 p90=1.46 enemyMoveMsPerFrame=0.036 enemies=64 draws=321 setpass=43 tris=851439 verts=788635 shadowCasters=174 carVerts=545564 carTris=520635
+RoadGame PERF shot=12 quality=Mobile renderMs median=1.23 p90=1.46 enemyMoveMsPerFrame=0.033 enemies=64 draws=327 setpass=41 tris=823867 verts=771541 shadowCasters=170 carVerts=545564 carTris=520635
+## mid (first zone, Dust Flats v13, baseline)
+RoadGame PERF shot=0 quality=Mobile renderMs median=1.04 p90=1.47 enemyMoveMsPerFrame=0.045 enemies=51 draws=243 setpass=38 tris=783014 verts=861990 shadowCasters=112 carVerts=545564 carTris=520635
+RoadGame PERF shot=1 quality=Mobile renderMs median=1.06 p90=1.26 enemyMoveMsPerFrame=0.026 enemies=60 draws=231 setpass=44 tris=719838 verts=784719 shadowCasters=100 carVerts=545564 carTris=520635
+RoadGame PERF shot=2 quality=Mobile renderMs median=1.06 p90=1.20 enemyMoveMsPerFrame=0.027 enemies=67 draws=225 setpass=37 tris=731721 verts=794541 shadowCasters=96 carVerts=545564 carTris=520635

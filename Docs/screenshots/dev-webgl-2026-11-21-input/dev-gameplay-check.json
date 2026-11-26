@@ -1,0 +1,222 @@
+{
+    "version": "DevGameplayCheck/1",
+    "createdUtc": "2026-11-21T07:51:06.9024610Z",
+    "saveSuffix": "_devcheck20261121",
+    "targetHitMethod": "Target.Hit(1,false,player.Pos); Mammoth uses a real Turret round",
+    "passed": false,
+    "exception": "System.InvalidOperationException: DEV_CHECK failed: pointer_dev_button_press_received | InputSystem consumed queued MouseState with leftButton=1 at (0.00, 0.00); deviceId=4\n  at RoadGame.EditorTools.DevGameplayCheck.Require (System.String name, System.Boolean passed, System.String details) [0x000e5] in /Users/arthuri/Unity Projects/RoadGame/Assets/RoadGame/Editor/DevGameplayCheck.cs:500 \n  at RoadGame.EditorTools.DevGameplayCheck+<PointerClick>d__25.MoveNext () [0x00294] in /Users/arthuri/Unity Projects/RoadGame/Assets/RoadGame/Editor/DevGameplayCheck.cs:421 \n  at RoadGame.EditorTools.DevGameplayCheck.Tick () [0x000e7] in /Users/arthuri/Unity Projects/RoadGame/Assets/RoadGame/Editor/DevGameplayCheck.cs:145 ",
+    "checks": [
+        {
+            "name": "fresh_locked_gate",
+            "details": "New isolated game; Mammoth alive and second zone locked.",
+            "passed": true,
+            "gameSeconds": 0.0,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "work_audio_muted",
+            "details": "Editor master audio muted; Sound/Music save settings remain untouched.",
+            "passed": true,
+            "gameSeconds": 0.0,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "speed_1",
+            "details": "Expected Time.timeScale=1; actual=1; selected=1",
+            "passed": true,
+            "gameSeconds": 0.0,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "speed_2",
+            "details": "Expected Time.timeScale=2; actual=2; selected=2",
+            "passed": true,
+            "gameSeconds": 0.0,
+            "timeScale": 2.0,
+            "speed": 2.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "scaled_clock_2",
+            "details": "Measured Time.time/Time.unscaledTime ratio=2.000 over 0.625 unscaled seconds.",
+            "passed": true,
+            "gameSeconds": 1.2500852346420288,
+            "timeScale": 2.0,
+            "speed": 2.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "speed_4",
+            "details": "Expected Time.timeScale=4; actual=4; selected=4",
+            "passed": true,
+            "gameSeconds": 1.2500852346420288,
+            "timeScale": 4.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "scaled_clock_4",
+            "details": "Measured Time.time/Time.unscaledTime ratio=4.000 over 0.400 unscaled seconds.",
+            "passed": true,
+            "gameSeconds": 2.8500773906707764,
+            "timeScale": 4.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.00000762939453
+            ]
+        },
+        {
+            "name": "pause_at_4",
+            "details": "Expected Time.timeScale=0; actual=0; selected=4",
+            "passed": true,
+            "gameSeconds": 2.8500773906707764,
+            "timeScale": 0.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.00000762939453
+            ]
+        },
+        {
+            "name": "resume_at_4",
+            "details": "Expected Time.timeScale=4; actual=4; selected=4",
+            "passed": true,
+            "gameSeconds": 2.8500773906707764,
+            "timeScale": 4.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.00000762939453
+            ]
+        },
+        {
+            "name": "speed_change_keeps_pause",
+            "details": "Expected Time.timeScale=0; actual=0; selected=2",
+            "passed": true,
+            "gameSeconds": 2.8500773906707764,
+            "timeScale": 0.0,
+            "speed": 2.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.00000762939453
+            ]
+        },
+        {
+            "name": "resume_changed_speed",
+            "details": "Expected Time.timeScale=2; actual=2; selected=2",
+            "passed": true,
+            "gameSeconds": 2.8500773906707764,
+            "timeScale": 2.0,
+            "speed": 2.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.00000762939453
+            ]
+        },
+        {
+            "name": "slowmo_uses_modifier",
+            "details": "Slow motion temporarily lowers selected speed4; actual=1.2",
+            "passed": true,
+            "gameSeconds": 2.890174388885498,
+            "timeScale": 1.2000000476837158,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -77.99999237060547
+            ]
+        },
+        {
+            "name": "slowmo_restores_4",
+            "details": "Expected Time.timeScale=4; actual=4; selected=4",
+            "passed": true,
+            "gameSeconds": 5.023754596710205,
+            "timeScale": 4.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pointer_event_system",
+            "details": "Production EventSystem uses InputSystemUIInputModule; mouse events below are queued, not direct onClick invocations.",
+            "passed": true,
+            "gameSeconds": 5.023754596710205,
+            "timeScale": 4.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pointer_dev_button_raycast",
+            "details": "Screen=640x480 point=(603.82, 174.39) topRaycast=Dev expectedButton=Dev",
+            "passed": true,
+            "gameSeconds": 5.057034969329834,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pointer_dev_button_press_received",
+            "details": "InputSystem consumed queued MouseState with leftButton=1 at (0.00, 0.00); deviceId=4",
+            "passed": false,
+            "gameSeconds": 5.123738765716553,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        }
+    ],
+    "northGateDrive": [],
+    "screenshots": [
+        "failure.png"
+    ]
+}

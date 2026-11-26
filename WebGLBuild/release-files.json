@@ -1,0 +1,95 @@
+{
+  "version": "2026-11-26-car-feel",
+  "files": [
+    {
+      "path": "Build/320adde4f16be342e9b3b2a1e132f4c1.data.unityweb.part000.bin",
+      "bytes": 25165824,
+      "sha256": "f8fb1001a824505dd1896d3be16102ddfd86301b9a1edbc49916b307647875ca"
+    },
+    {
+      "path": "Build/320adde4f16be342e9b3b2a1e132f4c1.data.unityweb.part001.bin",
+      "bytes": 25165824,
+      "sha256": "5d2c81c4a2f6e1235695605d369840c8e3d6d5361c3bca011e53afde88eaf822"
+    },
+    {
+      "path": "Build/320adde4f16be342e9b3b2a1e132f4c1.data.unityweb.part002.bin",
+      "bytes": 25165824,
+      "sha256": "7f8d82eb6af03028c6da099c165c99ad78f0affc195a3c842342cdab2b1feabb"
+    },
+    {
+      "path": "Build/320adde4f16be342e9b3b2a1e132f4c1.data.unityweb.part003.bin",
+      "bytes": 25165824,
+      "sha256": "309b8f63334f1a3b4887c846af1c045c6e6f982973ea9e1bd3fef99c69e7064d"
+    },
+    {
+      "path": "Build/320adde4f16be342e9b3b2a1e132f4c1.data.unityweb.part004.bin",
+      "bytes": 21857660,
+      "sha256": "db6411bf17881c3d82c333701dc60441abc92e115e4249c32e0fcb4ac45b8741"
+    },
+    {
+      "path": "Build/5ad36125be4d804f553d3109008bd09b.loader.js",
+      "bytes": 48779,
+      "sha256": "4980f85fbc1bdc9209d029a62e9bde7950297e868c314c8e6a8e2e6ce2e37fdb"
+    },
+    {
+      "path": "Build/db96a2ee07d4b7d29597ac03fab63077.wasm.unityweb",
+      "bytes": 10227406,
+      "sha256": "19315e3c11730acf0c65aa607ec94b715a5696bcde2af986a96d0d96bcaa6622"
+    },
+    {
+      "path": "Build/e9e359369c1aedd65b994229c59b8550.framework.js.unityweb",
+      "bytes": 75216,
+      "sha256": "fd0d20c73ff5a33c2d04e89bec17b9b5639b8e88db5a117c2b000d3884c034dd"
+    },
+    {
+      "path": "TemplateData/app-icon.png",
+      "bytes": 711784,
+      "sha256": "45263cc9828ae7dc37bd2dc6d164129308d13c200d1b0e2fee88c6fa36077c06"
+    },
+    {
+      "path": "TemplateData/loading-poster.webp",
+      "bytes": 593844,
+      "sha256": "320759bdc41035568ee1a3a3d04173278b902158614233d14e57b5d95ab327d5"
+    },
+    {
+      "path": "TemplateData/mobile-display.js",
+      "bytes": 6241,
+      "sha256": "6a7ea91cca3dd9bdae41e54632f087509f639511177bd217078d1ce15f653da4"
+    },
+    {
+      "path": "TemplateData/page-background.webp",
+      "bytes": 270768,
+      "sha256": "0325c1ec322f01d5cd794e6bf46b7aa3005995d84c28173c5563bcd1f09a5b37"
+    },
+    {
+      "path": "TemplateData/style.css",
+      "bytes": 13201,
+      "sha256": "1dc6cf67d8c692e8128d3ca0c4615bfc8d208836a9efab7119e1a0ccc44975a8"
+    },
+    {
+      "path": "build-info.json",
+      "bytes": 348,
+      "sha256": "1bc8136a4957b254257d59e8b5730c220a3a9086faf20e7a5260f680ba783d77"
+    },
+    {
+      "path": "chunk-manifest.json",
+      "bytes": 1510,
+      "sha256": "9c67e6d1bdd7376153fb60fa719ae27218dfa585a7ab2342d99547c092949313"
+    },
+    {
+      "path": "chunked-data-loader.4f1eda3c9aa7cfe2.js",
+      "bytes": 5059,
+      "sha256": "4f1eda3c9aa7cfe256091695737f69ae85ea05a492986b44c291c66611e116b2"
+    },
+    {
+      "path": "index.html",
+      "bytes": 18442,
+      "sha256": "284ea7486c709aba5f0c237f43d0213223edc1e90275056fe851286cfddc24a6"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 438,
+      "sha256": "9bb86c54d8fd6a92159589d085db0b2bd39aaa4ea13c6cca8d3c8f017c695316"
+    }
+  ]
+}

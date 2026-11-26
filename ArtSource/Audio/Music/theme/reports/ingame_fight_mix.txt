@@ -1,0 +1,17 @@
+In-game mix check (measurement, not listening) - 2026-11-19
+Unity 6000.6.4f1 batch in an APFS clone of the project, -disableaudio, editor master muted (RoadGame AUDIO editorMasterMuted=True).
+Scenario: AutoCapture "fight" (car at a camp, autopilot shooting, hits, harpoon), final mix tapped with AudioTap, 38 s at 48 kHz.
+Same run twice: once with the new music_theme.wav, once with the old one (backup/music_theme_v3_casual_G_104bpm.wav).
+The music is a known signal: it was found in the recording by circular cross-correlation and its gain fitted by least squares;
+"the rest" = the recording minus the fitted music (engine, guns, hits, harpoon, UI, ambience loops).
+
+                         new theme            old theme
+music gain found         0.431 (-7.3 dB)      0.444 (-7.1 dB)      Sfx.cs: 0.62 * 0.72 = 0.446 (-7.0 dB)
+music part               -24.3 LUFS           -22.1 LUFS
+the rest                 -19.8 LUFS           -19.6 LUFS
+music vs the rest        -4.5 LU              -2.5 LU              full range: 2 dB more room for the game sounds
+phone model (mono, HP 350 Hz, LP 9 kHz)
+  music                  -30.5 LUFS           -30.1 LUFS
+  the rest               -27.6 LUFS           -27.3 LUFS
+  music vs the rest      -2.9 LU              -2.8 LU              on a phone speaker the balance is as before
+whole mix                -18.5 LUFS, peak -1.8 dBFS    -17.7 LUFS, peak -1.2 dBFS

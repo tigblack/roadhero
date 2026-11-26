@@ -1,0 +1,11 @@
+Scene: Assets/Scenes/Game.unity
+Actual GameView: (540.00, 1170.00)
+One staged combat moment using actual player, Mammoth, zone0 world geometry and live HUD.
+Camera position: (14.200000, 35.334300, 30.384860)
+Camera rotation: (48.000000, 0.000000, 0.000000)
+Camera FOV: 46
+Player: (17.400000, 0.000000, 56.500000)
+Mammoth: (11.500000, 0.000000, 67.000000)
+HP player: 1420; Mammoth: 2860
+Fixed state SHA256: 0e7d3becf85873e8de8eb9ecdbfbe7d29b3554d7a236fbc75a417134359404e8
+Sixth variant: Archero 2 inspired; rounded existing meshes, mint/coral paint, clean pastel surfaces and soft painted light; original HUD.

@@ -1,0 +1,195 @@
+{
+  "url": "http://127.0.0.1:8813/index.html?mute&memorycheck",
+  "checks": [
+    "first: game ready after Play (5.7 s)",
+    "a fresh browser profile starts a new game with the intro run",
+    "intro done: the car jumped into the first zone (z -47.5, intro false)",
+    "both scouts were shot on the way (kills 0 -> 3)",
+    "targets destroyed while driving (kills 3 -> 7, gun shots 8 -> 46)",
+    "wrecks harpooned and reeled in (3 -> 7)",
+    "permanent rewards applied (HP 102.5 -> 106.5, dmg 6.5 -> 7, regen 1 -> 1.1)",
+    "DEV button on screen",
+    "DEV opens and pauses (open true, timeScale 0)",
+    "4x selected while the menu keeps the game paused (speed 4, timeScale 0)",
+    "John Wick on",
+    "Done closes it and the game runs at 4x (timeScale 4)",
+    "at 4x with John Wick targets fall at once (kills 8 -> 12)",
+    "back to 1x without John Wick (timeScale 1)",
+    "the DEV panel shows the three «Локации» buttons",
+    "«Зона 3» takes the car to Ashen Winter at once (zone 2, test 2, moves 0 -> 1, z 322.0)",
+    "a test visit: no unlock, no boss win (unlocked 0 -> 0)",
+    "driving in Ashen Winter (z 324.7, hp 121)",
+    "«Зона 1» brings the car back to the Dust Flats (zone 0, unlocked 0)",
+    "in the second zone (zone 1, unlocked 1)",
+    "the car survives the swamp mutants for a while",
+    "reload: game ready after Play (5.0 s)",
+    "progress kept after a page reload (zone 1 -> 1, kills 12 -> 12, intro false)",
+    "stats kept (max HP 121 -> 121)",
+    "the canvas follows the turned screen (844x390)",
+    "DEV and the goal widget fully on screen in landscape",
+    "landscape: the DEV card with «Локации» fits the screen",
+    "no errors or exceptions in the console (0)"
+  ],
+  "failures": [],
+  "memory": [
+    {
+      "label": "ready",
+      "wasmHeapMiB": 400,
+      "unityAllocatedMiB": 152,
+      "unityReservedMiB": 332,
+      "managedUsedMiB": 13,
+      "managedHeapMiB": 47,
+      "gfxMiB": 0,
+      "peakWasmMiB": 400,
+      "jsHeapMiB": 193,
+      "tab": {
+        "rendererMiB": 1934,
+        "gpuMiB": 386,
+        "otherMiB": 429
+      }
+    },
+    {
+      "label": "zone1_combat",
+      "wasmHeapMiB": 400,
+      "unityAllocatedMiB": 162,
+      "unityReservedMiB": 333,
+      "managedUsedMiB": 14,
+      "managedHeapMiB": 47,
+      "gfxMiB": 0,
+      "peakWasmMiB": 400,
+      "jsHeapMiB": 194,
+      "tab": {
+        "rendererMiB": 1536,
+        "gpuMiB": 412,
+        "otherMiB": 460
+      }
+    },
+    {
+      "label": "ashen_winter",
+      "wasmHeapMiB": 416,
+      "unityAllocatedMiB": 170,
+      "unityReservedMiB": 333,
+      "managedUsedMiB": 14,
+      "managedHeapMiB": 62,
+      "gfxMiB": 0,
+      "peakWasmMiB": 400,
+      "jsHeapMiB": 194,
+      "tab": {
+        "rendererMiB": 1546,
+        "gpuMiB": 423,
+        "otherMiB": 498
+      }
+    },
+    {
+      "label": "zone2",
+      "wasmHeapMiB": 416,
+      "unityAllocatedMiB": 173,
+      "unityReservedMiB": 333,
+      "managedUsedMiB": 15,
+      "managedHeapMiB": 62,
+      "gfxMiB": 0,
+      "peakWasmMiB": 400,
+      "jsHeapMiB": 195,
+      "tab": {
+        "rendererMiB": 1536,
+        "gpuMiB": 413,
+        "otherMiB": 499
+      }
+    },
+    {
+      "label": "after_reload",
+      "wasmHeapMiB": 399,
+      "unityAllocatedMiB": 160,
+      "unityReservedMiB": 332,
+      "managedUsedMiB": 14,
+      "managedHeapMiB": 46,
+      "gfxMiB": 0,
+      "peakWasmMiB": 399,
+      "jsHeapMiB": 194,
+      "tab": {
+        "rendererMiB": 1635,
+        "gpuMiB": 412,
+        "otherMiB": 503
+      }
+    }
+  ],
+  "frames": [
+    {
+      "label": "idle",
+      "frames": 237,
+      "meanMs": 16.67,
+      "p95": 16.7,
+      "p99": 16.8,
+      "maxMs": 16.8,
+      "over50": 0
+    },
+    {
+      "label": "intro_drive",
+      "frames": 957,
+      "meanMs": 16.67,
+      "p95": 16.8,
+      "p99": 16.8,
+      "maxMs": 16.8,
+      "over50": 0
+    },
+    {
+      "label": "combat_drive",
+      "frames": 207,
+      "meanMs": 16.67,
+      "p95": 16.7,
+      "p99": 16.8,
+      "maxMs": 16.8,
+      "over50": 0
+    },
+    {
+      "label": "dev4x_drive",
+      "frames": 237,
+      "meanMs": 16.67,
+      "p95": 16.7,
+      "p99": 16.8,
+      "maxMs": 16.8,
+      "over50": 0
+    },
+    {
+      "label": "ashen_drive",
+      "frames": 207,
+      "meanMs": 16.67,
+      "p95": 16.8,
+      "p99": 16.8,
+      "maxMs": 16.8,
+      "over50": 0
+    },
+    {
+      "label": "zone2_drive",
+      "frames": 177,
+      "meanMs": 16.67,
+      "p95": 16.7,
+      "p99": 16.8,
+      "maxMs": 16.8,
+      "over50": 0
+    },
+    {
+      "label": "landscape_idle",
+      "frames": 177,
+      "meanMs": 16.67,
+      "p95": 16.8,
+      "p99": 16.8,
+      "maxMs": 16.8,
+      "over50": 0
+    }
+  ],
+  "steps": [
+    "[0.6] launch",
+    "[12.3] intro: hold the stick forward",
+    "[30.5] zone 1 combat: circle among the props",
+    "[56.5] DEV: open, 4x, John Wick, Done",
+    "[70.5] DEV travel: Зона 3 — Пепельная зима",
+    "[84.9] second zone",
+    "[106.6] save and reload",
+    "[115.1] landscape"
+  ],
+  "firstReadySec": 5.67,
+  "zone2Kills": 0,
+  "reloadReadySec": 5.026,
+  "consoleErrors": []
+}

@@ -1,0 +1,28 @@
+{
+  "file": "06_archero_2.png",
+  "style": "Archero 2 inspired, own RoadGame geometry/HUD",
+  "source": "actual Unity GameView m_TargetTexture via Pipeline CaptureGameView(source=screen)",
+  "before": "PASS fixed transforms/camera projection/HP/HUD, style=0, actual GameView RT=540x1170, fingerprint=0e7d3becf85873e8de8eb9ecdbfbe7d29b3554d7a236fbc75a417134359404e8",
+  "after": "PASS fixed transforms/camera projection/HP/HUD, style=0, actual GameView RT=540x1170, fingerprint=0e7d3becf85873e8de8eb9ecdbfbe7d29b3554d7a236fbc75a417134359404e8",
+  "sameCameraPoseHudBeforeAfter": true,
+  "roundedMeshes": true,
+  "recolors": [
+    {
+      "mesh": "boss_mammoth",
+      "vertices": 6168,
+      "changed": 630
+    },
+    {
+      "mesh": "playercar_v2",
+      "vertices": 35694,
+      "changed": 31614
+    },
+    {
+      "mesh": "playercar_v2_extras",
+      "vertices": 24936,
+      "changed": 630
+    }
+  ],
+  "reference": "https://play.google.com/store/apps/details?id=com.xq.archeroii&hl=en",
+  "synchronousShaderCompilation": true
+}

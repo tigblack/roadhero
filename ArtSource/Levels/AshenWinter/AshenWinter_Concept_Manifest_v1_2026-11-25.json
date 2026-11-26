@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "region_index": 2,
+  "proposed_name": "ASHEN WINTER",
+  "proposed_name_ru": "Пепельная зима",
+  "existing_region_name": "SALT FLATS",
+  "status": "concept_only",
+  "created_at_utc": "2026-11-25T09:21:35.908995+00:00",
+  "art_direction_path": "ArtSource/Levels/AshenWinter/AshenWinter_ArtDirection_v1_2026-11-25.txt",
+  "raster_qa_report": "Logs/AshenWinter-concept-raster-2026-11-25.json",
+  "assets": [
+    {
+      "id": "ashen-winter-environment-concept",
+      "path": "ArtSource/Levels/AshenWinter/Concepts/AshenWinter_Environment_Concept_v1_2026-11-25.png",
+      "prompt_path": "ArtSource/Levels/AshenWinter/Concepts/AshenWinter_Environment_Prompt_v1_2026-11-25.txt",
+      "sha256": "88641d7e47fe70e4484fe112bd0415395ced7079b157d58411bba4002175ba9c",
+      "bytes": 3345889,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "alpha_required": false,
+      "source": {
+        "kind": "ai-generated",
+        "tool": "built-in image_gen.imagegen",
+        "input_images": []
+      },
+      "rights_note": "AI-generated concept reference; no external asset-pack licence is claimed. Original generated PNG preserved.",
+      "approval_status": "concept_draft",
+      "technical_checks_passed": true,
+      "technical_checks_scope": "Raster decode, format, dimensions and file integrity only",
+      "runtime_ready": false
+    },
+    {
+      "id": "ashen-winter-enemies-concept",
+      "path": "ArtSource/Characters/AshenWinterEnemies/Concepts/AshenWinter_Enemies_Concept_v1_2026-11-25.png",
+      "prompt_path": "ArtSource/Characters/AshenWinterEnemies/Concepts/AshenWinter_Enemies_Prompt_v1_2026-11-25.txt",
+      "sha256": "72688166484fb4019fd4acdd0f3d0c7295754f990e6009d870fdea77ecd0add7",
+      "bytes": 2489304,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_required": false,
+      "source": {
+        "kind": "ai-generated",
+        "tool": "built-in image_gen.imagegen",
+        "input_images": []
+      },
+      "rights_note": "AI-generated concept reference; no external asset-pack licence is claimed. Original generated PNG preserved.",
+      "approval_status": "concept_draft",
+      "technical_checks_passed": true,
+      "technical_checks_scope": "Raster decode, format, dimensions and file integrity only",
+      "runtime_ready": false
+    }
+  ],
+  "roster": [
+    {
+      "number": "01",
+      "name_ru": "Пепельный клювач",
+      "name_en": "Ash Pecker",
+      "proposed_model_id": "Scav",
+      "combat_role": "ranged scrap spit"
+    },
+    {
+      "number": "02",
+      "name_ru": "Снежный резак",
+      "name_en": "Snow Reaper",
+      "proposed_model_id": "Raider",
+      "combat_role": "melee hooks"
+    },
+    {
+      "number": "03",
+      "name_ru": "Игольщик",
+      "name_en": "Needle Walker",
+      "proposed_model_id": "Spearman",
+      "combat_role": "ranged physical needle"
+    },
+    {
+      "number": "04",
+      "name_ru": "Котельник",
+      "name_en": "Boiler Spitter",
+      "proposed_model_id": "Crossbow",
+      "combat_role": "arcing projectile"
+    },
+    {
+      "number": "05",
+      "name_ru": "Бетонный палач",
+      "name_en": "Concrete Executioner",
+      "proposed_model_id": "Brute",
+      "combat_role": "heavy ranged blast"
+    },
+    {
+      "number": "06",
+      "name_ru": "Метельщик",
+      "name_en": "Whiteout Raider",
+      "proposed_model_id": "Buggy",
+      "combat_role": "ranged turret"
+    },
+    {
+      "number": "07",
+      "name_ru": "Чёрный реактор",
+      "name_en": "Black Reactor",
+      "proposed_model_id": "BossColossus",
+      "combat_role": "boss concept; attacks require implementation"
+    }
+  ],
+  "blender_models_created": false,
+  "unity_integrated": false,
+  "webgl_rebuilt": false,
+  "balance_changed": false,
+  "saves_changed": false,
+  "production_files_modified": false
+}

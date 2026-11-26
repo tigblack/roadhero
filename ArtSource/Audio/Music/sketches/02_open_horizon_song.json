@@ -1,0 +1,7520 @@
+{
+  "schema": "music-production/v1",
+  "title": "Scarbound sketch 2: Open Horizon",
+  "version": "1.0",
+  "clock": {
+    "bars": 12,
+    "meter": [
+      4,
+      4
+    ],
+    "tail_seconds": 12,
+    "tempo": [
+      [
+        0,
+        100
+      ]
+    ]
+  },
+  "sections": [
+    {
+      "id": "horizon",
+      "start_bar": 0,
+      "bars": 4,
+      "intent": "the open-road melody over strums, half-time drums"
+    },
+    {
+      "id": "far",
+      "start_bar": 4,
+      "bars": 4,
+      "intent": "a slide answer, the melody's cadence on D"
+    },
+    {
+      "id": "call",
+      "start_bar": 8,
+      "bars": 4,
+      "intent": "the motif slowed down on the slide guitar over the A cycle"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "drums",
+      "role": "drums",
+      "engine": "soundfont",
+      "notes": [
+        {
+          "id": "drums_b001_t000_p36",
+          "on": 0.0,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b001_t120_p36",
+          "on": 2.5,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b001_t096_p38",
+          "on": 2.0,
+          "duration": 0.5,
+          "pitch": 38
+        },
+        {
+          "id": "drums_b001_t000_p51",
+          "on": 0.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b001_t024_p51",
+          "on": 0.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b001_t048_p51",
+          "on": 1.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b001_t072_p51",
+          "on": 1.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b001_t096_p51",
+          "on": 2.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b001_t120_p51",
+          "on": 2.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b001_t144_p51",
+          "on": 3.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b001_t168_p51",
+          "on": 3.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b001_t000_p49",
+          "on": 0.0,
+          "duration": 2.0,
+          "pitch": 49
+        },
+        {
+          "id": "drums_b002_t000_p36",
+          "on": 4.0,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b002_t120_p36",
+          "on": 6.5,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b002_t096_p38",
+          "on": 6.0,
+          "duration": 0.5,
+          "pitch": 38
+        },
+        {
+          "id": "drums_b002_t000_p51",
+          "on": 4.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b002_t024_p51",
+          "on": 4.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b002_t048_p51",
+          "on": 5.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b002_t072_p51",
+          "on": 5.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b002_t096_p51",
+          "on": 6.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b002_t120_p51",
+          "on": 6.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b002_t144_p51",
+          "on": 7.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b002_t168_p51",
+          "on": 7.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b003_t000_p36",
+          "on": 8.0,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b003_t120_p36",
+          "on": 10.5,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b003_t096_p38",
+          "on": 10.0,
+          "duration": 0.5,
+          "pitch": 38
+        },
+        {
+          "id": "drums_b003_t000_p51",
+          "on": 8.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b003_t024_p51",
+          "on": 8.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b003_t048_p51",
+          "on": 9.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b003_t072_p51",
+          "on": 9.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b003_t096_p51",
+          "on": 10.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b003_t120_p51",
+          "on": 10.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b003_t144_p51",
+          "on": 11.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b003_t168_p51",
+          "on": 11.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b004_t000_p36",
+          "on": 12.0,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b004_t120_p36",
+          "on": 14.5,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b004_t096_p38",
+          "on": 14.0,
+          "duration": 0.5,
+          "pitch": 38
+        },
+        {
+          "id": "drums_b004_t000_p51",
+          "on": 12.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b004_t024_p51",
+          "on": 12.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b004_t048_p51",
+          "on": 13.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b004_t072_p51",
+          "on": 13.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b004_t096_p51",
+          "on": 14.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b004_t120_p51",
+          "on": 14.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b004_t144_p51",
+          "on": 15.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b004_t168_p51",
+          "on": 15.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b005_t000_p36",
+          "on": 16.0,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b005_t120_p36",
+          "on": 18.5,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b005_t096_p38",
+          "on": 18.0,
+          "duration": 0.5,
+          "pitch": 38
+        },
+        {
+          "id": "drums_b005_t000_p51",
+          "on": 16.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b005_t024_p51",
+          "on": 16.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b005_t048_p51",
+          "on": 17.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b005_t072_p51",
+          "on": 17.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b005_t096_p51",
+          "on": 18.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b005_t120_p51",
+          "on": 18.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b005_t144_p51",
+          "on": 19.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b005_t168_p51",
+          "on": 19.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b006_t000_p36",
+          "on": 20.0,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b006_t120_p36",
+          "on": 22.5,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b006_t096_p38",
+          "on": 22.0,
+          "duration": 0.5,
+          "pitch": 38
+        },
+        {
+          "id": "drums_b006_t000_p51",
+          "on": 20.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b006_t024_p51",
+          "on": 20.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b006_t048_p51",
+          "on": 21.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b006_t072_p51",
+          "on": 21.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b006_t096_p51",
+          "on": 22.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b006_t120_p51",
+          "on": 22.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b006_t144_p51",
+          "on": 23.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b006_t168_p51",
+          "on": 23.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b007_t000_p36",
+          "on": 24.0,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b007_t120_p36",
+          "on": 26.5,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b007_t096_p38",
+          "on": 26.0,
+          "duration": 0.5,
+          "pitch": 38
+        },
+        {
+          "id": "drums_b007_t000_p51",
+          "on": 24.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b007_t024_p51",
+          "on": 24.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b007_t048_p51",
+          "on": 25.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b007_t072_p51",
+          "on": 25.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b007_t096_p51",
+          "on": 26.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b007_t120_p51",
+          "on": 26.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b007_t144_p51",
+          "on": 27.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b007_t168_p51",
+          "on": 27.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b008_t000_p36",
+          "on": 28.0,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b008_t120_p36",
+          "on": 30.5,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b008_t096_p38",
+          "on": 30.0,
+          "duration": 0.5,
+          "pitch": 38
+        },
+        {
+          "id": "drums_b008_t000_p51",
+          "on": 28.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b008_t024_p51",
+          "on": 28.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b008_t048_p51",
+          "on": 29.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b008_t072_p51",
+          "on": 29.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b008_t096_p51",
+          "on": 30.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b008_t120_p51",
+          "on": 30.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b008_t144_p51",
+          "on": 31.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b008_t168_p51",
+          "on": 31.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b009_t000_p36",
+          "on": 32.0,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b009_t120_p36",
+          "on": 34.5,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b009_t096_p38",
+          "on": 34.0,
+          "duration": 0.5,
+          "pitch": 38
+        },
+        {
+          "id": "drums_b009_t000_p51",
+          "on": 32.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b009_t024_p51",
+          "on": 32.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b009_t048_p51",
+          "on": 33.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b009_t072_p51",
+          "on": 33.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b009_t096_p51",
+          "on": 34.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b009_t120_p51",
+          "on": 34.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b009_t144_p51",
+          "on": 35.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b009_t168_p51",
+          "on": 35.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b010_t000_p36",
+          "on": 36.0,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b010_t120_p36",
+          "on": 38.5,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b010_t096_p38",
+          "on": 38.0,
+          "duration": 0.5,
+          "pitch": 38
+        },
+        {
+          "id": "drums_b010_t000_p51",
+          "on": 36.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b010_t024_p51",
+          "on": 36.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b010_t048_p51",
+          "on": 37.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b010_t072_p51",
+          "on": 37.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b010_t096_p51",
+          "on": 38.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b010_t120_p51",
+          "on": 38.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b010_t144_p51",
+          "on": 39.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b010_t168_p51",
+          "on": 39.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b011_t000_p36",
+          "on": 40.0,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b011_t120_p36",
+          "on": 42.5,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b011_t096_p38",
+          "on": 42.0,
+          "duration": 0.5,
+          "pitch": 38
+        },
+        {
+          "id": "drums_b011_t000_p51",
+          "on": 40.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b011_t024_p51",
+          "on": 40.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b011_t048_p51",
+          "on": 41.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b011_t072_p51",
+          "on": 41.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b011_t096_p51",
+          "on": 42.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b011_t120_p51",
+          "on": 42.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b011_t144_p51",
+          "on": 43.0,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b011_t168_p51",
+          "on": 43.5,
+          "duration": 0.5,
+          "pitch": 51
+        },
+        {
+          "id": "drums_b012_t000_p36",
+          "on": 44.0,
+          "duration": 0.5,
+          "pitch": 36
+        },
+        {
+          "id": "drums_b012_t096_p38",
+          "on": 46.0,
+          "duration": 0.5,
+          "pitch": 38
+        },
+        {
+          "id": "drums_b012_t120_p43",
+          "on": 46.5,
+          "duration": 0.5,
+          "pitch": 43
+        },
+        {
+          "id": "drums_b012_t144_p43",
+          "on": 47.0,
+          "duration": 0.5,
+          "pitch": 43
+        },
+        {
+          "id": "drums_b012_t168_p41",
+          "on": 47.5,
+          "duration": 0.5,
+          "pitch": 41
+        },
+        {
+          "id": "drums_b012_t180_p41",
+          "on": 47.75,
+          "duration": 0.25,
+          "pitch": 41
+        }
+      ],
+      "performance": {
+        "notes": {
+          "drums_b001_t000_p36": {
+            "velocity": 87,
+            "gate": 0.9,
+            "timing_ms": -1.56
+          },
+          "drums_b001_t120_p36": {
+            "velocity": 65,
+            "gate": 0.9,
+            "timing_ms": 3.41
+          },
+          "drums_b001_t096_p38": {
+            "velocity": 78,
+            "gate": 0.9,
+            "timing_ms": 5.37
+          },
+          "drums_b001_t000_p51": {
+            "velocity": 47,
+            "gate": 0.9,
+            "timing_ms": -1.56
+          },
+          "drums_b001_t024_p51": {
+            "velocity": 38,
+            "gate": 0.9,
+            "timing_ms": -0.48
+          },
+          "drums_b001_t048_p51": {
+            "velocity": 38,
+            "gate": 0.9,
+            "timing_ms": -0.69
+          },
+          "drums_b001_t072_p51": {
+            "velocity": 42,
+            "gate": 0.9,
+            "timing_ms": 2.85
+          },
+          "drums_b001_t096_p51": {
+            "velocity": 52,
+            "gate": 0.9,
+            "timing_ms": 5.37
+          },
+          "drums_b001_t120_p51": {
+            "velocity": 36,
+            "gate": 0.9,
+            "timing_ms": 3.41
+          },
+          "drums_b001_t144_p51": {
+            "velocity": 38,
+            "gate": 0.9,
+            "timing_ms": 2.9
+          },
+          "drums_b001_t168_p51": {
+            "velocity": 37,
+            "gate": 0.9,
+            "timing_ms": -0.1
+          },
+          "drums_b001_t000_p49": {
+            "velocity": 61,
+            "gate": 0.9,
+            "timing_ms": -1.56
+          },
+          "drums_b002_t000_p36": {
+            "velocity": 87,
+            "gate": 0.9,
+            "timing_ms": 3.48
+          },
+          "drums_b002_t120_p36": {
+            "velocity": 66,
+            "gate": 0.9,
+            "timing_ms": -0.5
+          },
+          "drums_b002_t096_p38": {
+            "velocity": 80,
+            "gate": 0.9,
+            "timing_ms": 3.09
+          },
+          "drums_b002_t000_p51": {
+            "velocity": 53,
+            "gate": 0.9,
+            "timing_ms": 3.48
+          },
+          "drums_b002_t024_p51": {
+            "velocity": 34,
+            "gate": 0.9,
+            "timing_ms": -2.2
+          },
+          "drums_b002_t048_p51": {
+            "velocity": 40,
+            "gate": 0.9,
+            "timing_ms": 0.32
+          },
+          "drums_b002_t072_p51": {
+            "velocity": 36,
+            "gate": 0.9,
+            "timing_ms": 1.14
+          },
+          "drums_b002_t096_p51": {
+            "velocity": 49,
+            "gate": 0.9,
+            "timing_ms": 3.09
+          },
+          "drums_b002_t120_p51": {
+            "velocity": 35,
+            "gate": 0.9,
+            "timing_ms": -0.5
+          },
+          "drums_b002_t144_p51": {
+            "velocity": 35,
+            "gate": 0.9,
+            "timing_ms": 1.04
+          },
+          "drums_b002_t168_p51": {
+            "velocity": 42,
+            "gate": 0.9,
+            "timing_ms": -0.18
+          },
+          "drums_b003_t000_p36": {
+            "velocity": 83,
+            "gate": 0.9,
+            "timing_ms": -2.01
+          },
+          "drums_b003_t120_p36": {
+            "velocity": 66,
+            "gate": 0.9,
+            "timing_ms": -4.89
+          },
+          "drums_b003_t096_p38": {
+            "velocity": 75,
+            "gate": 0.9,
+            "timing_ms": -5.1
+          },
+          "drums_b003_t000_p51": {
+            "velocity": 45,
+            "gate": 0.9,
+            "timing_ms": -2.01
+          },
+          "drums_b003_t024_p51": {
+            "velocity": 36,
+            "gate": 0.9,
+            "timing_ms": -4.19
+          },
+          "drums_b003_t048_p51": {
+            "velocity": 39,
+            "gate": 0.9,
+            "timing_ms": -0.13
+          },
+          "drums_b003_t072_p51": {
+            "velocity": 41,
+            "gate": 0.9,
+            "timing_ms": -6.84
+          },
+          "drums_b003_t096_p51": {
+            "velocity": 50,
+            "gate": 0.9,
+            "timing_ms": -5.1
+          },
+          "drums_b003_t120_p51": {
+            "velocity": 37,
+            "gate": 0.9,
+            "timing_ms": -4.89
+          },
+          "drums_b003_t144_p51": {
+            "velocity": 39,
+            "gate": 0.9,
+            "timing_ms": -1.0
+          },
+          "drums_b003_t168_p51": {
+            "velocity": 36,
+            "gate": 0.9,
+            "timing_ms": -0.36
+          },
+          "drums_b004_t000_p36": {
+            "velocity": 93,
+            "gate": 0.9,
+            "timing_ms": -3.95
+          },
+          "drums_b004_t120_p36": {
+            "velocity": 66,
+            "gate": 0.9,
+            "timing_ms": -5.19
+          },
+          "drums_b004_t096_p38": {
+            "velocity": 81,
+            "gate": 0.9,
+            "timing_ms": -4.4
+          },
+          "drums_b004_t000_p51": {
+            "velocity": 56,
+            "gate": 0.9,
+            "timing_ms": -3.95
+          },
+          "drums_b004_t024_p51": {
+            "velocity": 37,
+            "gate": 0.9,
+            "timing_ms": -0.13
+          },
+          "drums_b004_t048_p51": {
+            "velocity": 40,
+            "gate": 0.9,
+            "timing_ms": -4.55
+          },
+          "drums_b004_t072_p51": {
+            "velocity": 35,
+            "gate": 0.9,
+            "timing_ms": -1.23
+          },
+          "drums_b004_t096_p51": {
+            "velocity": 49,
+            "gate": 0.9,
+            "timing_ms": -4.4
+          },
+          "drums_b004_t120_p51": {
+            "velocity": 36,
+            "gate": 0.9,
+            "timing_ms": -5.19
+          },
+          "drums_b004_t144_p51": {
+            "velocity": 35,
+            "gate": 0.9,
+            "timing_ms": 1.23
+          },
+          "drums_b004_t168_p51": {
+            "velocity": 42,
+            "gate": 0.9,
+            "timing_ms": 1.14
+          },
+          "drums_b005_t000_p36": {
+            "velocity": 87,
+            "gate": 0.9,
+            "timing_ms": 2.01
+          },
+          "drums_b005_t120_p36": {
+            "velocity": 68,
+            "gate": 0.9,
+            "timing_ms": 5.39
+          },
+          "drums_b005_t096_p38": {
+            "velocity": 80,
+            "gate": 0.9,
+            "timing_ms": 0.07
+          },
+          "drums_b005_t000_p51": {
+            "velocity": 47,
+            "gate": 0.9,
+            "timing_ms": 2.01
+          },
+          "drums_b005_t024_p51": {
+            "velocity": 39,
+            "gate": 0.9,
+            "timing_ms": -4.44
+          },
+          "drums_b005_t048_p51": {
+            "velocity": 41,
+            "gate": 0.9,
+            "timing_ms": -4.39
+          },
+          "drums_b005_t072_p51": {
+            "velocity": 41,
+            "gate": 0.9,
+            "timing_ms": 4.04
+          },
+          "drums_b005_t096_p51": {
+            "velocity": 53,
+            "gate": 0.9,
+            "timing_ms": 0.07
+          },
+          "drums_b005_t120_p51": {
+            "velocity": 37,
+            "gate": 0.9,
+            "timing_ms": 5.39
+          },
+          "drums_b005_t144_p51": {
+            "velocity": 36,
+            "gate": 0.9,
+            "timing_ms": 3.02
+          },
+          "drums_b005_t168_p51": {
+            "velocity": 40,
+            "gate": 0.9,
+            "timing_ms": 2.89
+          },
+          "drums_b006_t000_p36": {
+            "velocity": 87,
+            "gate": 0.9,
+            "timing_ms": 3.55
+          },
+          "drums_b006_t120_p36": {
+            "velocity": 67,
+            "gate": 0.9,
+            "timing_ms": -1.65
+          },
+          "drums_b006_t096_p38": {
+            "velocity": 81,
+            "gate": 0.9,
+            "timing_ms": 3.76
+          },
+          "drums_b006_t000_p51": {
+            "velocity": 53,
+            "gate": 0.9,
+            "timing_ms": 3.55
+          },
+          "drums_b006_t024_p51": {
+            "velocity": 37,
+            "gate": 0.9,
+            "timing_ms": 8.99
+          },
+          "drums_b006_t048_p51": {
+            "velocity": 38,
+            "gate": 0.9,
+            "timing_ms": 5.03
+          },
+          "drums_b006_t072_p51": {
+            "velocity": 36,
+            "gate": 0.9,
+            "timing_ms": 6.76
+          },
+          "drums_b006_t096_p51": {
+            "velocity": 49,
+            "gate": 0.9,
+            "timing_ms": 3.76
+          },
+          "drums_b006_t120_p51": {
+            "velocity": 36,
+            "gate": 0.9,
+            "timing_ms": -1.65
+          },
+          "drums_b006_t144_p51": {
+            "velocity": 37,
+            "gate": 0.9,
+            "timing_ms": -3.63
+          },
+          "drums_b006_t168_p51": {
+            "velocity": 43,
+            "gate": 0.9,
+            "timing_ms": -3.56
+          },
+          "drums_b007_t000_p36": {
+            "velocity": 91,
+            "gate": 0.9,
+            "timing_ms": -3.96
+          },
+          "drums_b007_t120_p36": {
+            "velocity": 66,
+            "gate": 0.9,
+            "timing_ms": -3.2
+          },
+          "drums_b007_t096_p38": {
+            "velocity": 83,
+            "gate": 0.9,
+            "timing_ms": -2.17
+          },
+          "drums_b007_t000_p51": {
+            "velocity": 50,
+            "gate": 0.9,
+            "timing_ms": -3.96
+          },
+          "drums_b007_t024_p51": {
+            "velocity": 40,
+            "gate": 0.9,
+            "timing_ms": -1.1
+          },
+          "drums_b007_t048_p51": {
+            "velocity": 43,
+            "gate": 0.9,
+            "timing_ms": -2.73
+          },
+          "drums_b007_t072_p51": {
+            "velocity": 43,
+            "gate": 0.9,
+            "timing_ms": -0.91
+          },
+          "drums_b007_t096_p51": {
+            "velocity": 55,
+            "gate": 0.9,
+            "timing_ms": -2.17
+          },
+          "drums_b007_t120_p51": {
+            "velocity": 36,
+            "gate": 0.9,
+            "timing_ms": -3.2
+          },
+          "drums_b007_t144_p51": {
+            "velocity": 38,
+            "gate": 0.9,
+            "timing_ms": -2.78
+          },
+          "drums_b007_t168_p51": {
+            "velocity": 35,
+            "gate": 0.9,
+            "timing_ms": 0.22
+          },
+          "drums_b008_t000_p36": {
+            "velocity": 92,
+            "gate": 0.9,
+            "timing_ms": 0.21
+          },
+          "drums_b008_t120_p36": {
+            "velocity": 65,
+            "gate": 0.9,
+            "timing_ms": -0.38
+          },
+          "drums_b008_t096_p38": {
+            "velocity": 78,
+            "gate": 0.9,
+            "timing_ms": -0.5
+          },
+          "drums_b008_t000_p51": {
+            "velocity": 55,
+            "gate": 0.9,
+            "timing_ms": 0.21
+          },
+          "drums_b008_t024_p51": {
+            "velocity": 34,
+            "gate": 0.9,
+            "timing_ms": -0.29
+          },
+          "drums_b008_t048_p51": {
+            "velocity": 39,
+            "gate": 0.9,
+            "timing_ms": -1.29
+          },
+          "drums_b008_t072_p51": {
+            "velocity": 34,
+            "gate": 0.9,
+            "timing_ms": -3.09
+          },
+          "drums_b008_t096_p51": {
+            "velocity": 47,
+            "gate": 0.9,
+            "timing_ms": -0.5
+          },
+          "drums_b008_t120_p51": {
+            "velocity": 35,
+            "gate": 0.9,
+            "timing_ms": -0.38
+          },
+          "drums_b008_t144_p51": {
+            "velocity": 35,
+            "gate": 0.9,
+            "timing_ms": -5.96
+          },
+          "drums_b008_t168_p51": {
+            "velocity": 38,
+            "gate": 0.9,
+            "timing_ms": -5.94
+          },
+          "drums_b009_t000_p36": {
+            "velocity": 87,
+            "gate": 0.9,
+            "timing_ms": -0.9
+          },
+          "drums_b009_t120_p36": {
+            "velocity": 67,
+            "gate": 0.9,
+            "timing_ms": -5.52
+          },
+          "drums_b009_t096_p38": {
+            "velocity": 78,
+            "gate": 0.9,
+            "timing_ms": -3.69
+          },
+          "drums_b009_t000_p51": {
+            "velocity": 47,
+            "gate": 0.9,
+            "timing_ms": -0.9
+          },
+          "drums_b009_t024_p51": {
+            "velocity": 37,
+            "gate": 0.9,
+            "timing_ms": -2.56
+          },
+          "drums_b009_t048_p51": {
+            "velocity": 41,
+            "gate": 0.9,
+            "timing_ms": -4.1
+          },
+          "drums_b009_t072_p51": {
+            "velocity": 42,
+            "gate": 0.9,
+            "timing_ms": -2.47
+          },
+          "drums_b009_t096_p51": {
+            "velocity": 52,
+            "gate": 0.9,
+            "timing_ms": -3.69
+          },
+          "drums_b009_t120_p51": {
+            "velocity": 37,
+            "gate": 0.9,
+            "timing_ms": -5.52
+          },
+          "drums_b009_t144_p51": {
+            "velocity": 39,
+            "gate": 0.9,
+            "timing_ms": 2.06
+          },
+          "drums_b009_t168_p51": {
+            "velocity": 37,
+            "gate": 0.9,
+            "timing_ms": -2.67
+          },
+          "drums_b010_t000_p36": {
+            "velocity": 85,
+            "gate": 0.9,
+            "timing_ms": -3.44
+          },
+          "drums_b010_t120_p36": {
+            "velocity": 66,
+            "gate": 0.9,
+            "timing_ms": 1.62
+          },
+          "drums_b010_t096_p38": {
+            "velocity": 79,
+            "gate": 0.9,
+            "timing_ms": 1.93
+          },
+          "drums_b010_t000_p51": {
+            "velocity": 52,
+            "gate": 0.9,
+            "timing_ms": -3.44
+          },
+          "drums_b010_t024_p51": {
+            "velocity": 34,
+            "gate": 0.9,
+            "timing_ms": -0.13
+          },
+          "drums_b010_t048_p51": {
+            "velocity": 38,
+            "gate": 0.9,
+            "timing_ms": 5.41
+          },
+          "drums_b010_t072_p51": {
+            "velocity": 36,
+            "gate": 0.9,
+            "timing_ms": 1.2
+          },
+          "drums_b010_t096_p51": {
+            "velocity": 48,
+            "gate": 0.9,
+            "timing_ms": 1.93
+          },
+          "drums_b010_t120_p51": {
+            "velocity": 36,
+            "gate": 0.9,
+            "timing_ms": 1.62
+          },
+          "drums_b010_t144_p51": {
+            "velocity": 36,
+            "gate": 0.9,
+            "timing_ms": 2.13
+          },
+          "drums_b010_t168_p51": {
+            "velocity": 41,
+            "gate": 0.9,
+            "timing_ms": -0.1
+          },
+          "drums_b011_t000_p36": {
+            "velocity": 90,
+            "gate": 0.9,
+            "timing_ms": 2.37
+          },
+          "drums_b011_t120_p36": {
+            "velocity": 66,
+            "gate": 0.9,
+            "timing_ms": -2.57
+          },
+          "drums_b011_t096_p38": {
+            "velocity": 82,
+            "gate": 0.9,
+            "timing_ms": 1.9
+          },
+          "drums_b011_t000_p51": {
+            "velocity": 49,
+            "gate": 0.9,
+            "timing_ms": 2.37
+          },
+          "drums_b011_t024_p51": {
+            "velocity": 39,
+            "gate": 0.9,
+            "timing_ms": -0.18
+          },
+          "drums_b011_t048_p51": {
+            "velocity": 43,
+            "gate": 0.9,
+            "timing_ms": -1.17
+          },
+          "drums_b011_t072_p51": {
+            "velocity": 42,
+            "gate": 0.9,
+            "timing_ms": -0.52
+          },
+          "drums_b011_t096_p51": {
+            "velocity": 55,
+            "gate": 0.9,
+            "timing_ms": 1.9
+          },
+          "drums_b011_t120_p51": {
+            "velocity": 36,
+            "gate": 0.9,
+            "timing_ms": -2.57
+          },
+          "drums_b011_t144_p51": {
+            "velocity": 38,
+            "gate": 0.9,
+            "timing_ms": -1.59
+          },
+          "drums_b011_t168_p51": {
+            "velocity": 37,
+            "gate": 0.9,
+            "timing_ms": 5.69
+          },
+          "drums_b012_t000_p36": {
+            "velocity": 90,
+            "gate": 0.9,
+            "timing_ms": 3.63
+          },
+          "drums_b012_t096_p38": {
+            "velocity": 81,
+            "gate": 0.9,
+            "timing_ms": 2.93
+          },
+          "drums_b012_t120_p43": {
+            "velocity": 62,
+            "gate": 0.9,
+            "timing_ms": -1.09
+          },
+          "drums_b012_t144_p43": {
+            "velocity": 63,
+            "gate": 0.9,
+            "timing_ms": 0.1
+          },
+          "drums_b012_t168_p41": {
+            "velocity": 71,
+            "gate": 0.9,
+            "timing_ms": -2.17
+          },
+          "drums_b012_t180_p41": {
+            "velocity": 70,
+            "gate": 0.9,
+            "timing_ms": -0.35
+          }
+        },
+        "cc": [],
+        "swing": {
+          "ratio": 0.53,
+          "unit": 0.25
+        }
+      },
+      "mix": {
+        "level_dbfs": -21,
+        "reverb_db": -20,
+        "level_mode": "active_rms",
+        "pan": 0.0,
+        "highpass": 35,
+        "eq": [
+          [
+            4200,
+            -1.5
+          ]
+        ],
+        "saturate": 0.12
+      },
+      "soundfont": "rusty",
+      "patch": {
+        "bank": 0,
+        "program": 0
+      },
+      "program": 0,
+      "range": [
+        35,
+        59
+      ],
+      "drums": true
+    },
+    {
+      "id": "shaker",
+      "role": "drums",
+      "engine": "soundfont",
+      "notes": [
+        {
+          "id": "shaker_b001_t000_p69",
+          "on": 0.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b001_t024_p69",
+          "on": 0.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b001_t048_p69",
+          "on": 1.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b001_t072_p69",
+          "on": 1.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b001_t096_p69",
+          "on": 2.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b001_t120_p69",
+          "on": 2.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b001_t144_p69",
+          "on": 3.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b001_t168_p69",
+          "on": 3.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b002_t000_p69",
+          "on": 4.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b002_t024_p69",
+          "on": 4.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b002_t048_p69",
+          "on": 5.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b002_t072_p69",
+          "on": 5.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b002_t096_p69",
+          "on": 6.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b002_t120_p69",
+          "on": 6.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b002_t144_p69",
+          "on": 7.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b002_t168_p69",
+          "on": 7.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b003_t000_p69",
+          "on": 8.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b003_t024_p69",
+          "on": 8.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b003_t048_p69",
+          "on": 9.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b003_t072_p69",
+          "on": 9.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b003_t096_p69",
+          "on": 10.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b003_t120_p69",
+          "on": 10.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b003_t144_p69",
+          "on": 11.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b003_t168_p69",
+          "on": 11.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b004_t000_p69",
+          "on": 12.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b004_t024_p69",
+          "on": 12.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b004_t048_p69",
+          "on": 13.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b004_t072_p69",
+          "on": 13.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b004_t096_p69",
+          "on": 14.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b004_t120_p69",
+          "on": 14.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b004_t144_p69",
+          "on": 15.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b004_t168_p69",
+          "on": 15.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b005_t000_p69",
+          "on": 16.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b005_t024_p69",
+          "on": 16.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b005_t048_p69",
+          "on": 17.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b005_t072_p69",
+          "on": 17.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b005_t096_p69",
+          "on": 18.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b005_t120_p69",
+          "on": 18.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b005_t144_p69",
+          "on": 19.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b005_t168_p69",
+          "on": 19.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b006_t000_p69",
+          "on": 20.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b006_t024_p69",
+          "on": 20.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b006_t048_p69",
+          "on": 21.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b006_t072_p69",
+          "on": 21.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b006_t096_p69",
+          "on": 22.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b006_t120_p69",
+          "on": 22.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b006_t144_p69",
+          "on": 23.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b006_t168_p69",
+          "on": 23.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b007_t000_p69",
+          "on": 24.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b007_t024_p69",
+          "on": 24.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b007_t048_p69",
+          "on": 25.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b007_t072_p69",
+          "on": 25.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b007_t096_p69",
+          "on": 26.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b007_t120_p69",
+          "on": 26.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b007_t144_p69",
+          "on": 27.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b007_t168_p69",
+          "on": 27.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b008_t000_p69",
+          "on": 28.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b008_t024_p69",
+          "on": 28.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b008_t048_p69",
+          "on": 29.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b008_t072_p69",
+          "on": 29.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b008_t096_p69",
+          "on": 30.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b008_t120_p69",
+          "on": 30.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b008_t144_p69",
+          "on": 31.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b008_t168_p69",
+          "on": 31.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b009_t000_p69",
+          "on": 32.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b009_t024_p69",
+          "on": 32.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b009_t048_p69",
+          "on": 33.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b009_t072_p69",
+          "on": 33.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b009_t096_p69",
+          "on": 34.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b009_t120_p69",
+          "on": 34.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b009_t144_p69",
+          "on": 35.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b009_t168_p69",
+          "on": 35.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b010_t000_p69",
+          "on": 36.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b010_t024_p69",
+          "on": 36.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b010_t048_p69",
+          "on": 37.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b010_t072_p69",
+          "on": 37.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b010_t096_p69",
+          "on": 38.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b010_t120_p69",
+          "on": 38.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b010_t144_p69",
+          "on": 39.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b010_t168_p69",
+          "on": 39.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b011_t000_p69",
+          "on": 40.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b011_t024_p69",
+          "on": 40.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b011_t048_p69",
+          "on": 41.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b011_t072_p69",
+          "on": 41.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b011_t096_p69",
+          "on": 42.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b011_t120_p69",
+          "on": 42.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b011_t144_p69",
+          "on": 43.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b011_t168_p69",
+          "on": 43.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b012_t000_p69",
+          "on": 44.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b012_t024_p69",
+          "on": 44.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b012_t048_p69",
+          "on": 45.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b012_t072_p69",
+          "on": 45.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b012_t096_p69",
+          "on": 46.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b012_t120_p69",
+          "on": 46.5,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b012_t144_p69",
+          "on": 47.0,
+          "duration": 0.25,
+          "pitch": 69
+        },
+        {
+          "id": "shaker_b012_t168_p69",
+          "on": 47.5,
+          "duration": 0.25,
+          "pitch": 69
+        }
+      ],
+      "performance": {
+        "notes": {
+          "shaker_b001_t000_p69": {
+            "velocity": 79,
+            "gate": 0.9,
+            "timing_ms": 1.87
+          },
+          "shaker_b001_t024_p69": {
+            "velocity": 77,
+            "gate": 0.9,
+            "timing_ms": 0.77
+          },
+          "shaker_b001_t048_p69": {
+            "velocity": 80,
+            "gate": 0.9,
+            "timing_ms": -0.4
+          },
+          "shaker_b001_t072_p69": {
+            "velocity": 76,
+            "gate": 0.9,
+            "timing_ms": -2.42
+          },
+          "shaker_b001_t096_p69": {
+            "velocity": 83,
+            "gate": 0.9,
+            "timing_ms": -0.74
+          },
+          "shaker_b001_t120_p69": {
+            "velocity": 77,
+            "gate": 0.9,
+            "timing_ms": 0.97
+          },
+          "shaker_b001_t144_p69": {
+            "velocity": 79,
+            "gate": 0.9,
+            "timing_ms": -0.23
+          },
+          "shaker_b001_t168_p69": {
+            "velocity": 80,
+            "gate": 0.9,
+            "timing_ms": 1.01
+          },
+          "shaker_b002_t000_p69": {
+            "velocity": 85,
+            "gate": 0.9,
+            "timing_ms": 1.92
+          },
+          "shaker_b002_t024_p69": {
+            "velocity": 78,
+            "gate": 0.9,
+            "timing_ms": 5.66
+          },
+          "shaker_b002_t048_p69": {
+            "velocity": 88,
+            "gate": 0.9,
+            "timing_ms": 2.57
+          },
+          "shaker_b002_t072_p69": {
+            "velocity": 82,
+            "gate": 0.9,
+            "timing_ms": -0.47
+          },
+          "shaker_b002_t096_p69": {
+            "velocity": 84,
+            "gate": 0.9,
+            "timing_ms": 1.42
+          },
+          "shaker_b002_t120_p69": {
+            "velocity": 76,
+            "gate": 0.9,
+            "timing_ms": 0.41
+          },
+          "shaker_b002_t144_p69": {
+            "velocity": 84,
+            "gate": 0.9,
+            "timing_ms": -4.22
+          },
+          "shaker_b002_t168_p69": {
+            "velocity": 76,
+            "gate": 0.9,
+            "timing_ms": -6.97
+          },
+          "shaker_b003_t000_p69": {
+            "velocity": 82,
+            "gate": 0.9,
+            "timing_ms": -6.5
+          },
+          "shaker_b003_t024_p69": {
+            "velocity": 78,
+            "gate": 0.9,
+            "timing_ms": -0.35
+          },
+          "shaker_b003_t048_p69": {
+            "velocity": 84,
+            "gate": 0.9,
+            "timing_ms": -6.32
+          },
+          "shaker_b003_t072_p69": {
+            "velocity": 81,
+            "gate": 0.9,
+            "timing_ms": -8.09
+          },
+          "shaker_b003_t096_p69": {
+            "velocity": 86,
+            "gate": 0.9,
+            "timing_ms": -0.38
+          },
+          "shaker_b003_t120_p69": {
+            "velocity": 81,
+            "gate": 0.9,
+            "timing_ms": -2.09
+          },
+          "shaker_b003_t144_p69": {
+            "velocity": 84,
+            "gate": 0.9,
+            "timing_ms": 0.23
+          },
+          "shaker_b003_t168_p69": {
+            "velocity": 76,
+            "gate": 0.9,
+            "timing_ms": -0.1
+          },
+          "shaker_b004_t000_p69": {
+            "velocity": 82,
+            "gate": 0.9,
+            "timing_ms": 4.38
+          },
+          "shaker_b004_t024_p69": {
+            "velocity": 75,
+            "gate": 0.9,
+            "timing_ms": 1.65
+          },
+          "shaker_b004_t048_p69": {
+            "velocity": 86,
+            "gate": 0.9,
+            "timing_ms": -0.05
+          },
+          "shaker_b004_t072_p69": {
+            "velocity": 78,
+            "gate": 0.9,
+            "timing_ms": -2.9
+          },
+          "shaker_b004_t096_p69": {
+            "velocity": 82,
+            "gate": 0.9,
+            "timing_ms": -1.5
+          },
+          "shaker_b004_t120_p69": {
+            "velocity": 77,
+            "gate": 0.9,
+            "timing_ms": -0.62
+          },
+          "shaker_b004_t144_p69": {
+            "velocity": 82,
+            "gate": 0.9,
+            "timing_ms": -0.69
+          },
+          "shaker_b004_t168_p69": {
+            "velocity": 76,
+            "gate": 0.9,
+            "timing_ms": -1.63
+          },
+          "shaker_b005_t000_p69": {
+            "velocity": 84,
+            "gate": 0.9,
+            "timing_ms": 0.66
+          },
+          "shaker_b005_t024_p69": {
+            "velocity": 79,
+            "gate": 0.9,
+            "timing_ms": -0.08
+          },
+          "shaker_b005_t048_p69": {
+            "velocity": 81,
+            "gate": 0.9,
+            "timing_ms": 3.25
+          },
+          "shaker_b005_t072_p69": {
+            "velocity": 77,
+            "gate": 0.9,
+            "timing_ms": 5.18
+          },
+          "shaker_b005_t096_p69": {
+            "velocity": 79,
+            "gate": 0.9,
+            "timing_ms": 6.05
+          },
+          "shaker_b005_t120_p69": {
+            "velocity": 81,
+            "gate": 0.9,
+            "timing_ms": -1.0
+          },
+          "shaker_b005_t144_p69": {
+            "velocity": 81,
+            "gate": 0.9,
+            "timing_ms": -1.31
+          },
+          "shaker_b005_t168_p69": {
+            "velocity": 79,
+            "gate": 0.9,
+            "timing_ms": 4.73
+          },
+          "shaker_b006_t000_p69": {
+            "velocity": 78,
+            "gate": 0.9,
+            "timing_ms": 2.41
+          },
+          "shaker_b006_t024_p69": {
+            "velocity": 74,
+            "gate": 0.9,
+            "timing_ms": 2.1
+          },
+          "shaker_b006_t048_p69": {
+            "velocity": 84,
+            "gate": 0.9,
+            "timing_ms": 3.34
+          },
+          "shaker_b006_t072_p69": {
+            "velocity": 80,
+            "gate": 0.9,
+            "timing_ms": -0.32
+          },
+          "shaker_b006_t096_p69": {
+            "velocity": 86,
+            "gate": 0.9,
+            "timing_ms": -0.79
+          },
+          "shaker_b006_t120_p69": {
+            "velocity": 79,
+            "gate": 0.9,
+            "timing_ms": 1.21
+          },
+          "shaker_b006_t144_p69": {
+            "velocity": 85,
+            "gate": 0.9,
+            "timing_ms": -1.65
+          },
+          "shaker_b006_t168_p69": {
+            "velocity": 78,
+            "gate": 0.9,
+            "timing_ms": -1.37
+          },
+          "shaker_b007_t000_p69": {
+            "velocity": 86,
+            "gate": 0.9,
+            "timing_ms": 0.06
+          },
+          "shaker_b007_t024_p69": {
+            "velocity": 78,
+            "gate": 0.9,
+            "timing_ms": -0.89
+          },
+          "shaker_b007_t048_p69": {
+            "velocity": 83,
+            "gate": 0.9,
+            "timing_ms": 0.92
+          },
+          "shaker_b007_t072_p69": {
+            "velocity": 75,
+            "gate": 0.9,
+            "timing_ms": -3.23
+          },
+          "shaker_b007_t096_p69": {
+            "velocity": 83,
+            "gate": 0.9,
+            "timing_ms": -1.31
+          },
+          "shaker_b007_t120_p69": {
+            "velocity": 80,
+            "gate": 0.9,
+            "timing_ms": -0.61
+          },
+          "shaker_b007_t144_p69": {
+            "velocity": 84,
+            "gate": 0.9,
+            "timing_ms": 0.54
+          },
+          "shaker_b007_t168_p69": {
+            "velocity": 78,
+            "gate": 0.9,
+            "timing_ms": 2.88
+          },
+          "shaker_b008_t000_p69": {
+            "velocity": 81,
+            "gate": 0.9,
+            "timing_ms": 1.95
+          },
+          "shaker_b008_t024_p69": {
+            "velocity": 78,
+            "gate": 0.9,
+            "timing_ms": 1.34
+          },
+          "shaker_b008_t048_p69": {
+            "velocity": 83,
+            "gate": 0.9,
+            "timing_ms": -2.43
+          },
+          "shaker_b008_t072_p69": {
+            "velocity": 76,
+            "gate": 0.9,
+            "timing_ms": -0.75
+          },
+          "shaker_b008_t096_p69": {
+            "velocity": 80,
+            "gate": 0.9,
+            "timing_ms": -2.38
+          },
+          "shaker_b008_t120_p69": {
+            "velocity": 72,
+            "gate": 0.9,
+            "timing_ms": -4.84
+          },
+          "shaker_b008_t144_p69": {
+            "velocity": 79,
+            "gate": 0.9,
+            "timing_ms": -1.52
+          },
+          "shaker_b008_t168_p69": {
+            "velocity": 72,
+            "gate": 0.9,
+            "timing_ms": -0.45
+          },
+          "shaker_b009_t000_p69": {
+            "velocity": 81,
+            "gate": 0.9,
+            "timing_ms": -0.88
+          },
+          "shaker_b009_t024_p69": {
+            "velocity": 75,
+            "gate": 0.9,
+            "timing_ms": 0.42
+          },
+          "shaker_b009_t048_p69": {
+            "velocity": 84,
+            "gate": 0.9,
+            "timing_ms": 1.89
+          },
+          "shaker_b009_t072_p69": {
+            "velocity": 76,
+            "gate": 0.9,
+            "timing_ms": -0.43
+          },
+          "shaker_b009_t096_p69": {
+            "velocity": 79,
+            "gate": 0.9,
+            "timing_ms": -1.04
+          },
+          "shaker_b009_t120_p69": {
+            "velocity": 73,
+            "gate": 0.9,
+            "timing_ms": 3.23
+          },
+          "shaker_b009_t144_p69": {
+            "velocity": 78,
+            "gate": 0.9,
+            "timing_ms": 4.31
+          },
+          "shaker_b009_t168_p69": {
+            "velocity": 71,
+            "gate": 0.9,
+            "timing_ms": 7.4
+          },
+          "shaker_b010_t000_p69": {
+            "velocity": 80,
+            "gate": 0.9,
+            "timing_ms": 5.86
+          },
+          "shaker_b010_t024_p69": {
+            "velocity": 75,
+            "gate": 0.9,
+            "timing_ms": 6.49
+          },
+          "shaker_b010_t048_p69": {
+            "velocity": 82,
+            "gate": 0.9,
+            "timing_ms": 3.26
+          },
+          "shaker_b010_t072_p69": {
+            "velocity": 81,
+            "gate": 0.9,
+            "timing_ms": 2.55
+          },
+          "shaker_b010_t096_p69": {
+            "velocity": 79,
+            "gate": 0.9,
+            "timing_ms": 1.99
+          },
+          "shaker_b010_t120_p69": {
+            "velocity": 76,
+            "gate": 0.9,
+            "timing_ms": 1.34
+          },
+          "shaker_b010_t144_p69": {
+            "velocity": 79,
+            "gate": 0.9,
+            "timing_ms": 2.51
+          },
+          "shaker_b010_t168_p69": {
+            "velocity": 75,
+            "gate": 0.9,
+            "timing_ms": 1.34
+          },
+          "shaker_b011_t000_p69": {
+            "velocity": 83,
+            "gate": 0.9,
+            "timing_ms": -0.79
+          },
+          "shaker_b011_t024_p69": {
+            "velocity": 78,
+            "gate": 0.9,
+            "timing_ms": -0.76
+          },
+          "shaker_b011_t048_p69": {
+            "velocity": 82,
+            "gate": 0.9,
+            "timing_ms": 0.75
+          },
+          "shaker_b011_t072_p69": {
+            "velocity": 78,
+            "gate": 0.9,
+            "timing_ms": 3.2
+          },
+          "shaker_b011_t096_p69": {
+            "velocity": 81,
+            "gate": 0.9,
+            "timing_ms": 0.69
+          },
+          "shaker_b011_t120_p69": {
+            "velocity": 77,
+            "gate": 0.9,
+            "timing_ms": -1.23
+          },
+          "shaker_b011_t144_p69": {
+            "velocity": 79,
+            "gate": 0.9,
+            "timing_ms": -1.2
+          },
+          "shaker_b011_t168_p69": {
+            "velocity": 78,
+            "gate": 0.9,
+            "timing_ms": -2.54
+          },
+          "shaker_b012_t000_p69": {
+            "velocity": 82,
+            "gate": 0.9,
+            "timing_ms": -0.28
+          },
+          "shaker_b012_t024_p69": {
+            "velocity": 75,
+            "gate": 0.9,
+            "timing_ms": -2.79
+          },
+          "shaker_b012_t048_p69": {
+            "velocity": 78,
+            "gate": 0.9,
+            "timing_ms": -2.29
+          },
+          "shaker_b012_t072_p69": {
+            "velocity": 75,
+            "gate": 0.9,
+            "timing_ms": 0.87
+          },
+          "shaker_b012_t096_p69": {
+            "velocity": 80,
+            "gate": 0.9,
+            "timing_ms": -3.99
+          },
+          "shaker_b012_t120_p69": {
+            "velocity": 75,
+            "gate": 0.9,
+            "timing_ms": -4.65
+          },
+          "shaker_b012_t144_p69": {
+            "velocity": 80,
+            "gate": 0.9,
+            "timing_ms": -5.18
+          },
+          "shaker_b012_t168_p69": {
+            "velocity": 77,
+            "gate": 0.9,
+            "timing_ms": -5.85
+          }
+        },
+        "cc": [],
+        "swing": {
+          "ratio": 0.53,
+          "unit": 0.25
+        }
+      },
+      "mix": {
+        "level_dbfs": -30,
+        "reverb_db": -16,
+        "level_mode": "active_rms",
+        "pan": 0.3,
+        "highpass": 300,
+        "lowpass": 15000,
+        "eq": [
+          [
+            7500,
+            -1.5
+          ]
+        ]
+      },
+      "soundfont": "vcsl_world",
+      "patch": {
+        "bank": 128,
+        "program": 25
+      },
+      "program": 25,
+      "range": [
+        35,
+        84
+      ],
+      "drums": true
+    },
+    {
+      "id": "fx",
+      "role": "drums",
+      "engine": "soundfont",
+      "notes": [
+        {
+          "id": "fx_b001_t000_p84",
+          "on": 0.0,
+          "duration": 4.0,
+          "pitch": 84
+        },
+        {
+          "id": "fx_b004_t096_p80",
+          "on": 14.0,
+          "duration": 2.0,
+          "pitch": 80
+        },
+        {
+          "id": "fx_b005_t000_p84",
+          "on": 16.0,
+          "duration": 4.0,
+          "pitch": 84
+        },
+        {
+          "id": "fx_b008_t096_p80",
+          "on": 30.0,
+          "duration": 2.0,
+          "pitch": 80
+        },
+        {
+          "id": "fx_b009_t000_p84",
+          "on": 32.0,
+          "duration": 4.0,
+          "pitch": 84
+        }
+      ],
+      "performance": {
+        "notes": {
+          "fx_b001_t000_p84": {
+            "velocity": 119,
+            "gate": 0.9,
+            "timing_ms": -1.2
+          },
+          "fx_b004_t096_p80": {
+            "velocity": 113,
+            "gate": 0.9,
+            "timing_ms": -3.12
+          },
+          "fx_b005_t000_p84": {
+            "velocity": 122,
+            "gate": 0.9,
+            "timing_ms": -3.05
+          },
+          "fx_b008_t096_p80": {
+            "velocity": 110,
+            "gate": 0.9,
+            "timing_ms": 0.72
+          },
+          "fx_b009_t000_p84": {
+            "velocity": 118,
+            "gate": 0.9,
+            "timing_ms": -1.92
+          }
+        },
+        "cc": [],
+        "swing": {
+          "ratio": 0.53,
+          "unit": 0.25
+        }
+      },
+      "mix": {
+        "level_dbfs": -21,
+        "reverb_db": -9,
+        "level_mode": "peak",
+        "pan": 0.08,
+        "highpass": 250
+      },
+      "soundfont": "vcsl_world",
+      "patch": {
+        "bank": 128,
+        "program": 25
+      },
+      "program": 25,
+      "range": [
+        35,
+        84
+      ],
+      "drums": true
+    },
+    {
+      "id": "bass",
+      "role": "bass",
+      "engine": "soundfont",
+      "notes": [
+        {
+          "id": "bass_b001_t000_p36",
+          "on": 0.0,
+          "duration": 1.5,
+          "pitch": 36
+        },
+        {
+          "id": "bass_b001_t072_p31",
+          "on": 1.5,
+          "duration": 0.5,
+          "pitch": 31
+        },
+        {
+          "id": "bass_b001_t096_p36",
+          "on": 2.0,
+          "duration": 1.0,
+          "pitch": 36
+        },
+        {
+          "id": "bass_b001_t144_p36",
+          "on": 3.0,
+          "duration": 1.0,
+          "pitch": 36
+        },
+        {
+          "id": "bass_b002_t000_p31",
+          "on": 4.0,
+          "duration": 1.5,
+          "pitch": 31
+        },
+        {
+          "id": "bass_b002_t072_p38",
+          "on": 5.5,
+          "duration": 0.5,
+          "pitch": 38
+        },
+        {
+          "id": "bass_b002_t096_p31",
+          "on": 6.0,
+          "duration": 1.0,
+          "pitch": 31
+        },
+        {
+          "id": "bass_b002_t144_p31",
+          "on": 7.0,
+          "duration": 1.0,
+          "pitch": 31
+        },
+        {
+          "id": "bass_b003_t000_p38",
+          "on": 8.0,
+          "duration": 1.5,
+          "pitch": 38
+        },
+        {
+          "id": "bass_b003_t072_p33",
+          "on": 9.5,
+          "duration": 0.5,
+          "pitch": 33
+        },
+        {
+          "id": "bass_b003_t096_p38",
+          "on": 10.0,
+          "duration": 1.0,
+          "pitch": 38
+        },
+        {
+          "id": "bass_b003_t144_p33",
+          "on": 11.0,
+          "duration": 1.0,
+          "pitch": 33
+        },
+        {
+          "id": "bass_b004_t000_p28",
+          "on": 12.0,
+          "duration": 1.5,
+          "pitch": 28
+        },
+        {
+          "id": "bass_b004_t072_p35",
+          "on": 13.5,
+          "duration": 0.5,
+          "pitch": 35
+        },
+        {
+          "id": "bass_b004_t096_p28",
+          "on": 14.0,
+          "duration": 1.0,
+          "pitch": 28
+        },
+        {
+          "id": "bass_b004_t144_p35",
+          "on": 15.0,
+          "duration": 1.0,
+          "pitch": 35
+        },
+        {
+          "id": "bass_b005_t000_p36",
+          "on": 16.0,
+          "duration": 1.5,
+          "pitch": 36
+        },
+        {
+          "id": "bass_b005_t072_p31",
+          "on": 17.5,
+          "duration": 0.5,
+          "pitch": 31
+        },
+        {
+          "id": "bass_b005_t096_p36",
+          "on": 18.0,
+          "duration": 1.0,
+          "pitch": 36
+        },
+        {
+          "id": "bass_b005_t144_p36",
+          "on": 19.0,
+          "duration": 1.0,
+          "pitch": 36
+        },
+        {
+          "id": "bass_b006_t000_p31",
+          "on": 20.0,
+          "duration": 1.5,
+          "pitch": 31
+        },
+        {
+          "id": "bass_b006_t072_p38",
+          "on": 21.5,
+          "duration": 0.5,
+          "pitch": 38
+        },
+        {
+          "id": "bass_b006_t096_p31",
+          "on": 22.0,
+          "duration": 1.0,
+          "pitch": 31
+        },
+        {
+          "id": "bass_b006_t144_p38",
+          "on": 23.0,
+          "duration": 1.0,
+          "pitch": 38
+        },
+        {
+          "id": "bass_b007_t000_p33",
+          "on": 24.0,
+          "duration": 1.5,
+          "pitch": 33
+        },
+        {
+          "id": "bass_b007_t072_p40",
+          "on": 25.5,
+          "duration": 0.5,
+          "pitch": 40
+        },
+        {
+          "id": "bass_b007_t096_p33",
+          "on": 26.0,
+          "duration": 1.0,
+          "pitch": 33
+        },
+        {
+          "id": "bass_b007_t144_p40",
+          "on": 27.0,
+          "duration": 1.0,
+          "pitch": 40
+        },
+        {
+          "id": "bass_b008_t000_p38",
+          "on": 28.0,
+          "duration": 1.5,
+          "pitch": 38
+        },
+        {
+          "id": "bass_b008_t072_p33",
+          "on": 29.5,
+          "duration": 0.5,
+          "pitch": 33
+        },
+        {
+          "id": "bass_b008_t096_p38",
+          "on": 30.0,
+          "duration": 1.0,
+          "pitch": 38
+        },
+        {
+          "id": "bass_b008_t144_p33",
+          "on": 31.0,
+          "duration": 1.0,
+          "pitch": 33
+        },
+        {
+          "id": "bass_b009_t000_p28",
+          "on": 32.0,
+          "duration": 1.5,
+          "pitch": 28
+        },
+        {
+          "id": "bass_b009_t072_p35",
+          "on": 33.5,
+          "duration": 0.5,
+          "pitch": 35
+        },
+        {
+          "id": "bass_b009_t096_p28",
+          "on": 34.0,
+          "duration": 1.0,
+          "pitch": 28
+        },
+        {
+          "id": "bass_b009_t144_p35",
+          "on": 35.0,
+          "duration": 1.0,
+          "pitch": 35
+        },
+        {
+          "id": "bass_b010_t000_p28",
+          "on": 36.0,
+          "duration": 1.5,
+          "pitch": 28
+        },
+        {
+          "id": "bass_b010_t072_p35",
+          "on": 37.5,
+          "duration": 0.5,
+          "pitch": 35
+        },
+        {
+          "id": "bass_b010_t096_p28",
+          "on": 38.0,
+          "duration": 1.0,
+          "pitch": 28
+        },
+        {
+          "id": "bass_b010_t144_p35",
+          "on": 39.0,
+          "duration": 1.0,
+          "pitch": 35
+        },
+        {
+          "id": "bass_b011_t000_p36",
+          "on": 40.0,
+          "duration": 1.5,
+          "pitch": 36
+        },
+        {
+          "id": "bass_b011_t072_p31",
+          "on": 41.5,
+          "duration": 0.5,
+          "pitch": 31
+        },
+        {
+          "id": "bass_b011_t096_p36",
+          "on": 42.0,
+          "duration": 1.0,
+          "pitch": 36
+        },
+        {
+          "id": "bass_b011_t144_p31",
+          "on": 43.0,
+          "duration": 1.0,
+          "pitch": 31
+        },
+        {
+          "id": "bass_b012_t000_p38",
+          "on": 44.0,
+          "duration": 1.5,
+          "pitch": 38
+        },
+        {
+          "id": "bass_b012_t072_p33",
+          "on": 45.5,
+          "duration": 0.5,
+          "pitch": 33
+        },
+        {
+          "id": "bass_b012_t096_p38",
+          "on": 46.0,
+          "duration": 1.0,
+          "pitch": 38
+        },
+        {
+          "id": "bass_b012_t144_p33",
+          "on": 47.0,
+          "duration": 1.0,
+          "pitch": 33
+        }
+      ],
+      "performance": {
+        "notes": {
+          "bass_b001_t000_p36": {
+            "velocity": 88,
+            "gate": 0.925,
+            "timing_ms": 5.82
+          },
+          "bass_b001_t072_p31": {
+            "velocity": 71,
+            "gate": 0.7886,
+            "timing_ms": 7.81
+          },
+          "bass_b001_t096_p36": {
+            "velocity": 83,
+            "gate": 0.8929,
+            "timing_ms": 7.25
+          },
+          "bass_b001_t144_p36": {
+            "velocity": 69,
+            "gate": 0.8411,
+            "timing_ms": 2.62
+          },
+          "bass_b002_t000_p31": {
+            "velocity": 91,
+            "gate": 0.895,
+            "timing_ms": 2.76
+          },
+          "bass_b002_t072_p38": {
+            "velocity": 76,
+            "gate": 0.7941,
+            "timing_ms": 1.96
+          },
+          "bass_b002_t096_p31": {
+            "velocity": 89,
+            "gate": 0.9006,
+            "timing_ms": 1.92
+          },
+          "bass_b002_t144_p31": {
+            "velocity": 76,
+            "gate": 0.8713,
+            "timing_ms": 1.86
+          },
+          "bass_b003_t000_p38": {
+            "velocity": 94,
+            "gate": 0.9252,
+            "timing_ms": 2.15
+          },
+          "bass_b003_t072_p33": {
+            "velocity": 73,
+            "gate": 0.7948,
+            "timing_ms": 7.02
+          },
+          "bass_b003_t096_p38": {
+            "velocity": 87,
+            "gate": 0.8808,
+            "timing_ms": 8.18
+          },
+          "bass_b003_t144_p33": {
+            "velocity": 73,
+            "gate": 0.8438,
+            "timing_ms": 10.15
+          },
+          "bass_b004_t000_p28": {
+            "velocity": 93,
+            "gate": 0.8846,
+            "timing_ms": 7.75
+          },
+          "bass_b004_t072_p35": {
+            "velocity": 76,
+            "gate": 0.7779,
+            "timing_ms": 0.45
+          },
+          "bass_b004_t096_p28": {
+            "velocity": 87,
+            "gate": 0.876,
+            "timing_ms": -2.05
+          },
+          "bass_b004_t144_p35": {
+            "velocity": 73,
+            "gate": 0.8352,
+            "timing_ms": 4.51
+          },
+          "bass_b005_t000_p36": {
+            "velocity": 87,
+            "gate": 0.9058,
+            "timing_ms": 1.63
+          },
+          "bass_b005_t072_p31": {
+            "velocity": 74,
+            "gate": 0.8118,
+            "timing_ms": 3.96
+          },
+          "bass_b005_t096_p36": {
+            "velocity": 84,
+            "gate": 0.9197,
+            "timing_ms": 0.63
+          },
+          "bass_b005_t144_p36": {
+            "velocity": 68,
+            "gate": 0.8734,
+            "timing_ms": 0.28
+          },
+          "bass_b006_t000_p31": {
+            "velocity": 90,
+            "gate": 0.9694,
+            "timing_ms": -0.53
+          },
+          "bass_b006_t072_p38": {
+            "velocity": 73,
+            "gate": 0.817,
+            "timing_ms": 6.69
+          },
+          "bass_b006_t096_p31": {
+            "velocity": 84,
+            "gate": 0.9175,
+            "timing_ms": 4.37
+          },
+          "bass_b006_t144_p38": {
+            "velocity": 73,
+            "gate": 0.8792,
+            "timing_ms": 9.83
+          },
+          "bass_b007_t000_p33": {
+            "velocity": 92,
+            "gate": 0.9272,
+            "timing_ms": 8.69
+          },
+          "bass_b007_t072_p40": {
+            "velocity": 74,
+            "gate": 0.7958,
+            "timing_ms": 11.08
+          },
+          "bass_b007_t096_p33": {
+            "velocity": 81,
+            "gate": 0.8738,
+            "timing_ms": 8.93
+          },
+          "bass_b007_t144_p40": {
+            "velocity": 72,
+            "gate": 0.8368,
+            "timing_ms": 5.94
+          },
+          "bass_b008_t000_p38": {
+            "velocity": 94,
+            "gate": 0.9182,
+            "timing_ms": 11.57
+          },
+          "bass_b008_t072_p33": {
+            "velocity": 75,
+            "gate": 0.794,
+            "timing_ms": 10.57
+          },
+          "bass_b008_t096_p38": {
+            "velocity": 83,
+            "gate": 0.897,
+            "timing_ms": 8.23
+          },
+          "bass_b008_t144_p33": {
+            "velocity": 70,
+            "gate": 0.8438,
+            "timing_ms": 9.09
+          },
+          "bass_b009_t000_p28": {
+            "velocity": 90,
+            "gate": 0.8914,
+            "timing_ms": 2.17
+          },
+          "bass_b009_t072_p35": {
+            "velocity": 72,
+            "gate": 0.8074,
+            "timing_ms": 1.62
+          },
+          "bass_b009_t096_p28": {
+            "velocity": 81,
+            "gate": 0.9152,
+            "timing_ms": 3.4
+          },
+          "bass_b009_t144_p35": {
+            "velocity": 72,
+            "gate": 0.8658,
+            "timing_ms": -2.94
+          },
+          "bass_b010_t000_p28": {
+            "velocity": 92,
+            "gate": 0.919,
+            "timing_ms": 1.21
+          },
+          "bass_b010_t072_p35": {
+            "velocity": 74,
+            "gate": 0.7954,
+            "timing_ms": 5.2
+          },
+          "bass_b010_t096_p28": {
+            "velocity": 88,
+            "gate": 0.9154,
+            "timing_ms": 6.9
+          },
+          "bass_b010_t144_p35": {
+            "velocity": 77,
+            "gate": 0.8603,
+            "timing_ms": 9.57
+          },
+          "bass_b011_t000_p36": {
+            "velocity": 89,
+            "gate": 0.9279,
+            "timing_ms": 4.1
+          },
+          "bass_b011_t072_p31": {
+            "velocity": 78,
+            "gate": 0.8134,
+            "timing_ms": 4.41
+          },
+          "bass_b011_t096_p36": {
+            "velocity": 91,
+            "gate": 0.9268,
+            "timing_ms": 7.45
+          },
+          "bass_b011_t144_p31": {
+            "velocity": 76,
+            "gate": 0.869,
+            "timing_ms": 7.33
+          },
+          "bass_b012_t000_p38": {
+            "velocity": 98,
+            "gate": 0.9248,
+            "timing_ms": 5.48
+          },
+          "bass_b012_t072_p33": {
+            "velocity": 77,
+            "gate": 0.8006,
+            "timing_ms": 6.36
+          },
+          "bass_b012_t096_p38": {
+            "velocity": 88,
+            "gate": 0.9025,
+            "timing_ms": 5.88
+          },
+          "bass_b012_t144_p33": {
+            "velocity": 75,
+            "gate": 0.8349,
+            "timing_ms": 5.25
+          }
+        },
+        "cc": [],
+        "swing": {
+          "ratio": 0.53,
+          "unit": 0.25
+        }
+      },
+      "mix": {
+        "level_dbfs": -21.5,
+        "reverb_db": null,
+        "level_mode": "active_rms",
+        "pan": 0.0,
+        "highpass": 36,
+        "lowpass": 3500,
+        "eq": [
+          [
+            55,
+            -1.5
+          ],
+          [
+            800,
+            2.5
+          ]
+        ],
+        "saturate": 0.25
+      },
+      "soundfont": "bass_darkblack",
+      "patch": {
+        "bank": 0,
+        "program": 33
+      },
+      "program": 33,
+      "range": [
+        23,
+        64
+      ]
+    },
+    {
+      "id": "riff",
+      "role": "rhythm",
+      "engine": "soundfont",
+      "notes": [
+        {
+          "id": "riff_b002_t144_p43",
+          "on": 7.0,
+          "duration": 0.25,
+          "pitch": 43
+        },
+        {
+          "id": "riff_b002_t156_p45",
+          "on": 7.25,
+          "duration": 0.25,
+          "pitch": 45
+        },
+        {
+          "id": "riff_b002_t168_p47",
+          "on": 7.5,
+          "duration": 0.5,
+          "pitch": 47
+        },
+        {
+          "id": "riff_b004_t144_p43",
+          "on": 15.0,
+          "duration": 0.25,
+          "pitch": 43
+        },
+        {
+          "id": "riff_b004_t156_p45",
+          "on": 15.25,
+          "duration": 0.25,
+          "pitch": 45
+        },
+        {
+          "id": "riff_b004_t168_p47",
+          "on": 15.5,
+          "duration": 0.5,
+          "pitch": 47
+        },
+        {
+          "id": "riff_b006_t144_p43",
+          "on": 23.0,
+          "duration": 0.25,
+          "pitch": 43
+        },
+        {
+          "id": "riff_b006_t156_p45",
+          "on": 23.25,
+          "duration": 0.25,
+          "pitch": 45
+        },
+        {
+          "id": "riff_b006_t168_p47",
+          "on": 23.5,
+          "duration": 0.5,
+          "pitch": 47
+        },
+        {
+          "id": "riff_b008_t144_p43",
+          "on": 31.0,
+          "duration": 0.25,
+          "pitch": 43
+        },
+        {
+          "id": "riff_b008_t156_p45",
+          "on": 31.25,
+          "duration": 0.25,
+          "pitch": 45
+        },
+        {
+          "id": "riff_b008_t168_p47",
+          "on": 31.5,
+          "duration": 0.5,
+          "pitch": 47
+        },
+        {
+          "id": "riff_b010_t144_p43",
+          "on": 39.0,
+          "duration": 0.25,
+          "pitch": 43
+        },
+        {
+          "id": "riff_b010_t156_p45",
+          "on": 39.25,
+          "duration": 0.25,
+          "pitch": 45
+        },
+        {
+          "id": "riff_b010_t168_p47",
+          "on": 39.5,
+          "duration": 0.5,
+          "pitch": 47
+        },
+        {
+          "id": "riff_b012_t144_p43",
+          "on": 47.0,
+          "duration": 0.25,
+          "pitch": 43
+        },
+        {
+          "id": "riff_b012_t156_p45",
+          "on": 47.25,
+          "duration": 0.25,
+          "pitch": 45
+        },
+        {
+          "id": "riff_b012_t168_p47",
+          "on": 47.5,
+          "duration": 0.5,
+          "pitch": 47
+        }
+      ],
+      "performance": {
+        "notes": {
+          "riff_b002_t144_p43": {
+            "velocity": 79,
+            "gate": 0.5772,
+            "timing_ms": -4.61
+          },
+          "riff_b002_t156_p45": {
+            "velocity": 83,
+            "gate": 0.9652,
+            "timing_ms": -1.77
+          },
+          "riff_b002_t168_p47": {
+            "velocity": 90,
+            "gate": 0.8597,
+            "timing_ms": 1.75
+          },
+          "riff_b004_t144_p43": {
+            "velocity": 84,
+            "gate": 0.5897,
+            "timing_ms": 2.4
+          },
+          "riff_b004_t156_p45": {
+            "velocity": 88,
+            "gate": 0.977,
+            "timing_ms": 5.82
+          },
+          "riff_b004_t168_p47": {
+            "velocity": 92,
+            "gate": 0.8862,
+            "timing_ms": 3.75
+          },
+          "riff_b006_t144_p43": {
+            "velocity": 82,
+            "gate": 0.5821,
+            "timing_ms": 0.66
+          },
+          "riff_b006_t156_p45": {
+            "velocity": 87,
+            "gate": 0.9644,
+            "timing_ms": 3.22
+          },
+          "riff_b006_t168_p47": {
+            "velocity": 90,
+            "gate": 0.8783,
+            "timing_ms": 2.77
+          },
+          "riff_b008_t144_p43": {
+            "velocity": 80,
+            "gate": 0.5696,
+            "timing_ms": -4.51
+          },
+          "riff_b008_t156_p45": {
+            "velocity": 84,
+            "gate": 0.9519,
+            "timing_ms": -2.87
+          },
+          "riff_b008_t168_p47": {
+            "velocity": 94,
+            "gate": 0.8546,
+            "timing_ms": 0.98
+          },
+          "riff_b010_t144_p43": {
+            "velocity": 82,
+            "gate": 0.6037,
+            "timing_ms": 4.95
+          },
+          "riff_b010_t156_p45": {
+            "velocity": 87,
+            "gate": 0.9975,
+            "timing_ms": 4.76
+          },
+          "riff_b010_t168_p47": {
+            "velocity": 91,
+            "gate": 0.909,
+            "timing_ms": 5.18
+          },
+          "riff_b012_t144_p43": {
+            "velocity": 79,
+            "gate": 0.564,
+            "timing_ms": -5.62
+          },
+          "riff_b012_t156_p45": {
+            "velocity": 81,
+            "gate": 0.9422,
+            "timing_ms": -0.17
+          },
+          "riff_b012_t168_p47": {
+            "velocity": 89,
+            "gate": 0.8452,
+            "timing_ms": -4.6
+          }
+        },
+        "cc": [],
+        "legato": {
+          "max_interval": 3,
+          "glide_ms": 45,
+          "gap_ms": 30,
+          "max_notes": 2
+        },
+        "bend_range": 4,
+        "swing": {
+          "ratio": 0.53,
+          "unit": 0.25
+        }
+      },
+      "mix": {
+        "level_dbfs": -22.5,
+        "reverb_db": -18,
+        "level_mode": "active_rms",
+        "pan": -0.3,
+        "highpass": 70,
+        "lowpass": 5000,
+        "eq": [
+          [
+            220,
+            -1.5
+          ],
+          [
+            950,
+            1.5
+          ]
+        ],
+        "saturate": 0.2,
+        "width": 0.6
+      },
+      "soundfont": "fsbs_clean",
+      "patch": {
+        "bank": 0,
+        "program": 0
+      },
+      "program": 0,
+      "range": [
+        35,
+        86
+      ]
+    },
+    {
+      "id": "lead",
+      "role": "melody",
+      "engine": "soundfont",
+      "notes": [
+        {
+          "id": "lead_b001_t000_p76",
+          "on": 0.0,
+          "duration": 1.5,
+          "pitch": 76,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b001_t072_p74",
+          "on": 1.5,
+          "duration": 0.25,
+          "pitch": 74,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b001_t084_p72",
+          "on": 1.75,
+          "duration": 0.25,
+          "pitch": 72,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b001_t096_p71",
+          "on": 2.0,
+          "duration": 1.0,
+          "pitch": 71,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b001_t144_p67",
+          "on": 3.0,
+          "duration": 0.5,
+          "pitch": 67,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b001_t168_p69",
+          "on": 3.5,
+          "duration": 0.5,
+          "pitch": 69,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b002_t000_p71",
+          "on": 4.0,
+          "duration": 2.0,
+          "pitch": 71,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b002_t120_p71",
+          "on": 6.5,
+          "duration": 0.25,
+          "pitch": 71,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b002_t132_p74",
+          "on": 6.75,
+          "duration": 0.25,
+          "pitch": 74,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b002_t144_p76",
+          "on": 7.0,
+          "duration": 1.0,
+          "pitch": 76,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b003_t000_p74",
+          "on": 8.0,
+          "duration": 1.5,
+          "pitch": 74,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b003_t072_p76",
+          "on": 9.5,
+          "duration": 0.25,
+          "pitch": 76,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b003_t084_p74",
+          "on": 9.75,
+          "duration": 0.25,
+          "pitch": 74,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b003_t096_p69",
+          "on": 10.0,
+          "duration": 1.0,
+          "pitch": 69,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b003_t144_p66",
+          "on": 11.0,
+          "duration": 0.5,
+          "pitch": 66,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b003_t168_p69",
+          "on": 11.5,
+          "duration": 0.5,
+          "pitch": 69,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b004_t000_p71",
+          "on": 12.0,
+          "duration": 2.0,
+          "pitch": 71,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b004_t120_p74",
+          "on": 14.5,
+          "duration": 0.25,
+          "pitch": 74,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b004_t132_p76",
+          "on": 14.75,
+          "duration": 0.25,
+          "pitch": 76,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b004_t144_p79",
+          "on": 15.0,
+          "duration": 1.0,
+          "pitch": 79,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b007_t000_p72",
+          "on": 24.0,
+          "duration": 1.0,
+          "pitch": 72,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b007_t048_p76",
+          "on": 25.0,
+          "duration": 1.0,
+          "pitch": 76,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b007_t096_p69",
+          "on": 26.0,
+          "duration": 1.0,
+          "pitch": 69,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b007_t144_p72",
+          "on": 27.0,
+          "duration": 0.5,
+          "pitch": 72,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b007_t168_p71",
+          "on": 27.5,
+          "duration": 0.5,
+          "pitch": 71,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b008_t000_p69",
+          "on": 28.0,
+          "duration": 1.5,
+          "pitch": 69,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b008_t072_p66",
+          "on": 29.5,
+          "duration": 0.5,
+          "pitch": 66,
+          "phrase": "motif"
+        },
+        {
+          "id": "lead_b008_t096_p69",
+          "on": 30.0,
+          "duration": 2.0,
+          "pitch": 69,
+          "phrase": "motif"
+        }
+      ],
+      "performance": {
+        "notes": {
+          "lead_b001_t000_p76": {
+            "velocity": 96,
+            "gate": 0.9419,
+            "timing_ms": -0.62
+          },
+          "lead_b001_t072_p74": {
+            "velocity": 79,
+            "gate": 0.8311,
+            "timing_ms": 3.85
+          },
+          "lead_b001_t084_p72": {
+            "velocity": 77,
+            "gate": 0.8284,
+            "timing_ms": -0.3
+          },
+          "lead_b001_t096_p71": {
+            "velocity": 77,
+            "gate": 0.8818,
+            "timing_ms": -4.62
+          },
+          "lead_b001_t144_p67": {
+            "velocity": 73,
+            "gate": 0.867,
+            "timing_ms": -0.04
+          },
+          "lead_b001_t168_p69": {
+            "velocity": 76,
+            "gate": 0.8632,
+            "timing_ms": 2.87
+          },
+          "lead_b002_t000_p71": {
+            "velocity": 85,
+            "gate": 0.947,
+            "timing_ms": -1.62
+          },
+          "lead_b002_t120_p71": {
+            "velocity": 75,
+            "gate": 0.9025,
+            "timing_ms": -7.34
+          },
+          "lead_b002_t132_p74": {
+            "velocity": 85,
+            "gate": 0.882,
+            "timing_ms": -13.96
+          },
+          "lead_b002_t144_p76": {
+            "velocity": 88,
+            "gate": 0.9092,
+            "timing_ms": -8.37
+          },
+          "lead_b003_t000_p74": {
+            "velocity": 91,
+            "gate": 0.9194,
+            "timing_ms": -11.33
+          },
+          "lead_b003_t072_p76": {
+            "velocity": 88,
+            "gate": 0.8877,
+            "timing_ms": -6.18
+          },
+          "lead_b003_t084_p74": {
+            "velocity": 86,
+            "gate": 0.8899,
+            "timing_ms": -9.89
+          },
+          "lead_b003_t096_p69": {
+            "velocity": 87,
+            "gate": 0.9194,
+            "timing_ms": -1.33
+          },
+          "lead_b003_t144_p66": {
+            "velocity": 80,
+            "gate": 0.8923,
+            "timing_ms": -2.8
+          },
+          "lead_b003_t168_p69": {
+            "velocity": 83,
+            "gate": 0.8942,
+            "timing_ms": -8.45
+          },
+          "lead_b004_t000_p71": {
+            "velocity": 94,
+            "gate": 0.949,
+            "timing_ms": -3.62
+          },
+          "lead_b004_t120_p74": {
+            "velocity": 79,
+            "gate": 0.8769,
+            "timing_ms": 8.86
+          },
+          "lead_b004_t132_p76": {
+            "velocity": 86,
+            "gate": 0.8815,
+            "timing_ms": 7.8
+          },
+          "lead_b004_t144_p79": {
+            "velocity": 99,
+            "gate": 0.9176,
+            "timing_ms": 4.24
+          },
+          "lead_b007_t000_p72": {
+            "velocity": 83,
+            "gate": 0.9197,
+            "timing_ms": 8.27
+          },
+          "lead_b007_t048_p76": {
+            "velocity": 90,
+            "gate": 0.931,
+            "timing_ms": 2.86
+          },
+          "lead_b007_t096_p69": {
+            "velocity": 86,
+            "gate": 0.9236,
+            "timing_ms": 4.63
+          },
+          "lead_b007_t144_p72": {
+            "velocity": 83,
+            "gate": 0.8779,
+            "timing_ms": -1.4
+          },
+          "lead_b007_t168_p71": {
+            "velocity": 83,
+            "gate": 0.8712,
+            "timing_ms": -8.18
+          },
+          "lead_b008_t000_p69": {
+            "velocity": 88,
+            "gate": 0.9171,
+            "timing_ms": -11.67
+          },
+          "lead_b008_t072_p66": {
+            "velocity": 82,
+            "gate": 0.8511,
+            "timing_ms": -4.91
+          },
+          "lead_b008_t096_p69": {
+            "velocity": 90,
+            "gate": 0.9286,
+            "timing_ms": -7.17
+          }
+        },
+        "cc": [],
+        "bend_range": 3,
+        "swing": {
+          "ratio": 0.53,
+          "unit": 0.25
+        },
+        "bend": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.35,
+            0.0
+          ],
+          [
+            0.504321,
+            0.08
+          ],
+          [
+            0.658642,
+            0.0
+          ],
+          [
+            0.812963,
+            0.24
+          ],
+          [
+            0.967284,
+            0.0
+          ],
+          [
+            1.121605,
+            0.32
+          ],
+          [
+            1.275926,
+            0.0
+          ],
+          [
+            1.430247,
+            0.32
+          ],
+          [
+            1.45,
+            0.0
+          ],
+          [
+            4.35,
+            0.0
+          ],
+          [
+            4.504321,
+            0.08
+          ],
+          [
+            4.658642,
+            0.0
+          ],
+          [
+            4.812963,
+            0.24
+          ],
+          [
+            4.967284,
+            0.0
+          ],
+          [
+            5.121605,
+            0.32
+          ],
+          [
+            5.275926,
+            0.0
+          ],
+          [
+            5.430247,
+            0.32
+          ],
+          [
+            5.584568,
+            0.0
+          ],
+          [
+            5.738889,
+            0.32
+          ],
+          [
+            5.89321,
+            0.0
+          ],
+          [
+            5.95,
+            0.0
+          ],
+          [
+            6.975,
+            0.0
+          ],
+          [
+            6.975,
+            -2
+          ],
+          [
+            7.12,
+            0.0
+          ],
+          [
+            8.35,
+            0.0
+          ],
+          [
+            8.504321,
+            0.08
+          ],
+          [
+            8.658642,
+            0.0
+          ],
+          [
+            8.812963,
+            0.24
+          ],
+          [
+            8.967284,
+            0.0
+          ],
+          [
+            9.121605,
+            0.32
+          ],
+          [
+            9.275926,
+            0.0
+          ],
+          [
+            9.430247,
+            0.32
+          ],
+          [
+            9.45,
+            0.0
+          ],
+          [
+            12.35,
+            0.0
+          ],
+          [
+            12.504321,
+            0.08
+          ],
+          [
+            12.658642,
+            0.0
+          ],
+          [
+            12.812963,
+            0.24
+          ],
+          [
+            12.967284,
+            0.0
+          ],
+          [
+            13.121605,
+            0.32
+          ],
+          [
+            13.275926,
+            0.0
+          ],
+          [
+            13.430247,
+            0.32
+          ],
+          [
+            13.584568,
+            0.0
+          ],
+          [
+            13.738889,
+            0.32
+          ],
+          [
+            13.89321,
+            0.0
+          ],
+          [
+            13.95,
+            0.0
+          ],
+          [
+            14.975,
+            0.0
+          ],
+          [
+            14.975,
+            -2
+          ],
+          [
+            15.12,
+            0.0
+          ],
+          [
+            24.975,
+            0.0
+          ],
+          [
+            24.975,
+            -2
+          ],
+          [
+            25.12,
+            0.0
+          ],
+          [
+            28.35,
+            0.0
+          ],
+          [
+            28.504321,
+            0.08
+          ],
+          [
+            28.658642,
+            0.0
+          ],
+          [
+            28.812963,
+            0.24
+          ],
+          [
+            28.967284,
+            0.0
+          ],
+          [
+            29.121605,
+            0.32
+          ],
+          [
+            29.275926,
+            0.0
+          ],
+          [
+            29.430247,
+            0.32
+          ],
+          [
+            29.45,
+            0.0
+          ],
+          [
+            30.35,
+            0.0
+          ],
+          [
+            30.504321,
+            0.08
+          ],
+          [
+            30.658642,
+            0.0
+          ],
+          [
+            30.812963,
+            0.24
+          ],
+          [
+            30.967284,
+            0.0
+          ],
+          [
+            31.121605,
+            0.32
+          ],
+          [
+            31.275926,
+            0.0
+          ],
+          [
+            31.430247,
+            0.32
+          ],
+          [
+            31.584568,
+            0.0
+          ],
+          [
+            31.738889,
+            0.32
+          ],
+          [
+            31.89321,
+            0.0
+          ],
+          [
+            31.95,
+            0.0
+          ]
+        ]
+      },
+      "mix": {
+        "level_dbfs": -19.5,
+        "reverb_db": -13.5,
+        "level_mode": "active_rms",
+        "pan": 0.12,
+        "highpass": 170,
+        "lowpass": 9000,
+        "eq": [
+          [
+            3100,
+            -1.5
+          ]
+        ],
+        "saturate": 0.12,
+        "width": 0.45,
+        "delay": {
+          "beats": 0.75,
+          "feedback": 0.15,
+          "send_db": -22,
+          "highpass": 400,
+          "lowpass": 3000
+        }
+      },
+      "soundfont": "guitar_shiny",
+      "patch": {
+        "bank": 0,
+        "program": 26
+      },
+      "program": 26,
+      "range": [
+        35,
+        86
+      ]
+    },
+    {
+      "id": "slide",
+      "role": "countermelody",
+      "engine": "soundfont",
+      "notes": [
+        {
+          "id": "slide_b005_t096_p76",
+          "on": 18.0,
+          "duration": 2.0,
+          "pitch": 76,
+          "phrase": "motif"
+        },
+        {
+          "id": "slide_b006_t048_p74",
+          "on": 21.0,
+          "duration": 1.0,
+          "pitch": 74,
+          "phrase": "motif"
+        },
+        {
+          "id": "slide_b006_t096_p71",
+          "on": 22.0,
+          "duration": 2.0,
+          "pitch": 71,
+          "phrase": "motif"
+        },
+        {
+          "id": "slide_b009_t000_p71",
+          "on": 32.0,
+          "duration": 2.0,
+          "pitch": 71,
+          "phrase": "motif"
+        },
+        {
+          "id": "slide_b009_t096_p74",
+          "on": 34.0,
+          "duration": 1.0,
+          "pitch": 74,
+          "phrase": "motif"
+        },
+        {
+          "id": "slide_b009_t144_p76",
+          "on": 35.0,
+          "duration": 1.0,
+          "pitch": 76,
+          "phrase": "motif"
+        },
+        {
+          "id": "slide_b010_t000_p76",
+          "on": 36.0,
+          "duration": 2.0,
+          "pitch": 76,
+          "phrase": "motif"
+        },
+        {
+          "id": "slide_b011_t000_p67",
+          "on": 40.0,
+          "duration": 2.0,
+          "pitch": 67,
+          "phrase": "motif"
+        },
+        {
+          "id": "slide_b011_t096_p69",
+          "on": 42.0,
+          "duration": 1.0,
+          "pitch": 69,
+          "phrase": "motif"
+        },
+        {
+          "id": "slide_b011_t144_p71",
+          "on": 43.0,
+          "duration": 1.0,
+          "pitch": 71,
+          "phrase": "motif"
+        },
+        {
+          "id": "slide_b012_t000_p69",
+          "on": 44.0,
+          "duration": 2.0,
+          "pitch": 69,
+          "phrase": "motif"
+        }
+      ],
+      "performance": {
+        "notes": {
+          "slide_b005_t096_p76": {
+            "velocity": 83,
+            "gate": 0.92,
+            "timing_ms": -7.14
+          },
+          "slide_b006_t048_p74": {
+            "velocity": 81,
+            "gate": 0.92,
+            "timing_ms": 8.39
+          },
+          "slide_b006_t096_p71": {
+            "velocity": 83,
+            "gate": 0.92,
+            "timing_ms": 3.21
+          },
+          "slide_b009_t000_p71": {
+            "velocity": 78,
+            "gate": 0.92,
+            "timing_ms": -1.86
+          },
+          "slide_b009_t096_p74": {
+            "velocity": 81,
+            "gate": 0.92,
+            "timing_ms": -6.15
+          },
+          "slide_b009_t144_p76": {
+            "velocity": 88,
+            "gate": 0.92,
+            "timing_ms": -7.91
+          },
+          "slide_b010_t000_p76": {
+            "velocity": 85,
+            "gate": 0.92,
+            "timing_ms": -6.42
+          },
+          "slide_b011_t000_p67": {
+            "velocity": 74,
+            "gate": 0.92,
+            "timing_ms": -0.37
+          },
+          "slide_b011_t096_p69": {
+            "velocity": 78,
+            "gate": 0.92,
+            "timing_ms": 7.34
+          },
+          "slide_b011_t144_p71": {
+            "velocity": 82,
+            "gate": 0.92,
+            "timing_ms": 6.91
+          },
+          "slide_b012_t000_p69": {
+            "velocity": 82,
+            "gate": 0.92,
+            "timing_ms": 10.71
+          }
+        },
+        "cc": [],
+        "bend_range": 12,
+        "swing": {
+          "ratio": 0.53,
+          "unit": 0.25
+        },
+        "bend": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            17.975,
+            0.0
+          ],
+          [
+            17.975,
+            -5
+          ],
+          [
+            18.4,
+            0.0
+          ],
+          [
+            20.975,
+            0.0
+          ],
+          [
+            20.975,
+            -2
+          ],
+          [
+            21.12,
+            0.0
+          ],
+          [
+            22.35,
+            0.0
+          ],
+          [
+            22.504321,
+            0.08
+          ],
+          [
+            22.658642,
+            0.0
+          ],
+          [
+            22.812963,
+            0.24
+          ],
+          [
+            22.967284,
+            0.0
+          ],
+          [
+            23.121605,
+            0.32
+          ],
+          [
+            23.275926,
+            0.0
+          ],
+          [
+            23.430247,
+            0.32
+          ],
+          [
+            23.584568,
+            0.0
+          ],
+          [
+            23.738889,
+            0.32
+          ],
+          [
+            23.89321,
+            0.0
+          ],
+          [
+            23.95,
+            0.0
+          ],
+          [
+            31.975,
+            0.0
+          ],
+          [
+            31.975,
+            -2
+          ],
+          [
+            32.12,
+            0.0
+          ],
+          [
+            34.975,
+            0.0
+          ],
+          [
+            34.975,
+            -2
+          ],
+          [
+            35.12,
+            0.0
+          ],
+          [
+            36.35,
+            0.0
+          ],
+          [
+            36.504321,
+            0.08
+          ],
+          [
+            36.658642,
+            0.0
+          ],
+          [
+            36.812963,
+            0.24
+          ],
+          [
+            36.967284,
+            0.0
+          ],
+          [
+            37.121605,
+            0.32
+          ],
+          [
+            37.275926,
+            0.0
+          ],
+          [
+            37.430247,
+            0.32
+          ],
+          [
+            37.584568,
+            0.0
+          ],
+          [
+            37.738889,
+            0.32
+          ],
+          [
+            37.89321,
+            0.0
+          ],
+          [
+            37.95,
+            0.0
+          ],
+          [
+            39.975,
+            0.0
+          ],
+          [
+            39.975,
+            -2
+          ],
+          [
+            40.12,
+            0.0
+          ],
+          [
+            42.975,
+            0.0
+          ],
+          [
+            42.975,
+            -2
+          ],
+          [
+            43.12,
+            0.0
+          ],
+          [
+            44.35,
+            0.0
+          ],
+          [
+            44.504321,
+            0.08
+          ],
+          [
+            44.658642,
+            0.0
+          ],
+          [
+            44.812963,
+            0.24
+          ],
+          [
+            44.967284,
+            0.0
+          ],
+          [
+            45.121605,
+            0.32
+          ],
+          [
+            45.275926,
+            0.0
+          ],
+          [
+            45.430247,
+            0.32
+          ],
+          [
+            45.584568,
+            0.0
+          ],
+          [
+            45.738889,
+            0.32
+          ],
+          [
+            45.89321,
+            0.0
+          ],
+          [
+            45.95,
+            0.0
+          ]
+        ]
+      },
+      "mix": {
+        "level_dbfs": -22.5,
+        "reverb_db": -11,
+        "level_mode": "active_rms",
+        "pan": -0.12,
+        "highpass": 200,
+        "lowpass": 7500,
+        "eq": [
+          [
+            1250,
+            1.5
+          ],
+          [
+            3200,
+            -2.0
+          ]
+        ],
+        "saturate": 0.35,
+        "width": 0.45,
+        "bus": "lead",
+        "space": "plate",
+        "delay": {
+          "beats": 0.75,
+          "feedback": 0.28,
+          "send_db": -13,
+          "highpass": 350,
+          "lowpass": 3200
+        }
+      },
+      "soundfont": "fsbs_clean",
+      "patch": {
+        "bank": 0,
+        "program": 0
+      },
+      "program": 0,
+      "range": [
+        35,
+        86
+      ]
+    },
+    {
+      "id": "comp",
+      "role": "harmony",
+      "engine": "soundfont",
+      "notes": [
+        {
+          "id": "comp_b001_t000_p48",
+          "on": 0.0,
+          "duration": 1.5,
+          "pitch": 48
+        },
+        {
+          "id": "comp_b001_t000_p55",
+          "on": 0.0,
+          "duration": 1.5,
+          "pitch": 55
+        },
+        {
+          "id": "comp_b001_t000_p62",
+          "on": 0.0,
+          "duration": 1.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b001_t000_p64",
+          "on": 0.0,
+          "duration": 1.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b001_t072_p48",
+          "on": 1.5,
+          "duration": 0.5,
+          "pitch": 48
+        },
+        {
+          "id": "comp_b001_t072_p55",
+          "on": 1.5,
+          "duration": 0.5,
+          "pitch": 55
+        },
+        {
+          "id": "comp_b001_t072_p62",
+          "on": 1.5,
+          "duration": 0.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b001_t072_p64",
+          "on": 1.5,
+          "duration": 0.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b001_t096_p48",
+          "on": 2.0,
+          "duration": 1.5,
+          "pitch": 48
+        },
+        {
+          "id": "comp_b001_t096_p55",
+          "on": 2.0,
+          "duration": 1.5,
+          "pitch": 55
+        },
+        {
+          "id": "comp_b001_t096_p62",
+          "on": 2.0,
+          "duration": 1.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b001_t096_p64",
+          "on": 2.0,
+          "duration": 1.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b001_t168_p48",
+          "on": 3.5,
+          "duration": 0.5,
+          "pitch": 48
+        },
+        {
+          "id": "comp_b001_t168_p55",
+          "on": 3.5,
+          "duration": 0.5,
+          "pitch": 55
+        },
+        {
+          "id": "comp_b001_t168_p62",
+          "on": 3.5,
+          "duration": 0.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b001_t168_p64",
+          "on": 3.5,
+          "duration": 0.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b002_t000_p43",
+          "on": 4.0,
+          "duration": 1.5,
+          "pitch": 43
+        },
+        {
+          "id": "comp_b002_t000_p50",
+          "on": 4.0,
+          "duration": 1.5,
+          "pitch": 50
+        },
+        {
+          "id": "comp_b002_t000_p55",
+          "on": 4.0,
+          "duration": 1.5,
+          "pitch": 55
+        },
+        {
+          "id": "comp_b002_t000_p59",
+          "on": 4.0,
+          "duration": 1.5,
+          "pitch": 59
+        },
+        {
+          "id": "comp_b002_t000_p62",
+          "on": 4.0,
+          "duration": 1.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b002_t072_p43",
+          "on": 5.5,
+          "duration": 0.5,
+          "pitch": 43
+        },
+        {
+          "id": "comp_b002_t072_p50",
+          "on": 5.5,
+          "duration": 0.5,
+          "pitch": 50
+        },
+        {
+          "id": "comp_b002_t072_p55",
+          "on": 5.5,
+          "duration": 0.5,
+          "pitch": 55
+        },
+        {
+          "id": "comp_b002_t072_p59",
+          "on": 5.5,
+          "duration": 0.5,
+          "pitch": 59
+        },
+        {
+          "id": "comp_b002_t072_p62",
+          "on": 5.5,
+          "duration": 0.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b002_t096_p43",
+          "on": 6.0,
+          "duration": 1.5,
+          "pitch": 43
+        },
+        {
+          "id": "comp_b002_t096_p50",
+          "on": 6.0,
+          "duration": 1.5,
+          "pitch": 50
+        },
+        {
+          "id": "comp_b002_t096_p55",
+          "on": 6.0,
+          "duration": 1.5,
+          "pitch": 55
+        },
+        {
+          "id": "comp_b002_t096_p59",
+          "on": 6.0,
+          "duration": 1.5,
+          "pitch": 59
+        },
+        {
+          "id": "comp_b002_t096_p62",
+          "on": 6.0,
+          "duration": 1.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b002_t168_p43",
+          "on": 7.5,
+          "duration": 0.5,
+          "pitch": 43
+        },
+        {
+          "id": "comp_b002_t168_p50",
+          "on": 7.5,
+          "duration": 0.5,
+          "pitch": 50
+        },
+        {
+          "id": "comp_b002_t168_p55",
+          "on": 7.5,
+          "duration": 0.5,
+          "pitch": 55
+        },
+        {
+          "id": "comp_b002_t168_p59",
+          "on": 7.5,
+          "duration": 0.5,
+          "pitch": 59
+        },
+        {
+          "id": "comp_b002_t168_p62",
+          "on": 7.5,
+          "duration": 0.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b003_t000_p50",
+          "on": 8.0,
+          "duration": 1.5,
+          "pitch": 50
+        },
+        {
+          "id": "comp_b003_t000_p57",
+          "on": 8.0,
+          "duration": 1.5,
+          "pitch": 57
+        },
+        {
+          "id": "comp_b003_t000_p62",
+          "on": 8.0,
+          "duration": 1.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b003_t000_p66",
+          "on": 8.0,
+          "duration": 1.5,
+          "pitch": 66
+        },
+        {
+          "id": "comp_b003_t072_p50",
+          "on": 9.5,
+          "duration": 0.5,
+          "pitch": 50
+        },
+        {
+          "id": "comp_b003_t072_p57",
+          "on": 9.5,
+          "duration": 0.5,
+          "pitch": 57
+        },
+        {
+          "id": "comp_b003_t072_p62",
+          "on": 9.5,
+          "duration": 0.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b003_t072_p66",
+          "on": 9.5,
+          "duration": 0.5,
+          "pitch": 66
+        },
+        {
+          "id": "comp_b003_t096_p50",
+          "on": 10.0,
+          "duration": 1.5,
+          "pitch": 50
+        },
+        {
+          "id": "comp_b003_t096_p57",
+          "on": 10.0,
+          "duration": 1.5,
+          "pitch": 57
+        },
+        {
+          "id": "comp_b003_t096_p62",
+          "on": 10.0,
+          "duration": 1.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b003_t096_p66",
+          "on": 10.0,
+          "duration": 1.5,
+          "pitch": 66
+        },
+        {
+          "id": "comp_b003_t168_p50",
+          "on": 11.5,
+          "duration": 0.5,
+          "pitch": 50
+        },
+        {
+          "id": "comp_b003_t168_p57",
+          "on": 11.5,
+          "duration": 0.5,
+          "pitch": 57
+        },
+        {
+          "id": "comp_b003_t168_p62",
+          "on": 11.5,
+          "duration": 0.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b003_t168_p66",
+          "on": 11.5,
+          "duration": 0.5,
+          "pitch": 66
+        },
+        {
+          "id": "comp_b004_t000_p52",
+          "on": 12.0,
+          "duration": 1.5,
+          "pitch": 52
+        },
+        {
+          "id": "comp_b004_t000_p59",
+          "on": 12.0,
+          "duration": 1.5,
+          "pitch": 59
+        },
+        {
+          "id": "comp_b004_t000_p64",
+          "on": 12.0,
+          "duration": 1.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b004_t000_p67",
+          "on": 12.0,
+          "duration": 1.5,
+          "pitch": 67
+        },
+        {
+          "id": "comp_b004_t072_p52",
+          "on": 13.5,
+          "duration": 0.5,
+          "pitch": 52
+        },
+        {
+          "id": "comp_b004_t072_p59",
+          "on": 13.5,
+          "duration": 0.5,
+          "pitch": 59
+        },
+        {
+          "id": "comp_b004_t072_p64",
+          "on": 13.5,
+          "duration": 0.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b004_t072_p67",
+          "on": 13.5,
+          "duration": 0.5,
+          "pitch": 67
+        },
+        {
+          "id": "comp_b004_t096_p52",
+          "on": 14.0,
+          "duration": 1.5,
+          "pitch": 52
+        },
+        {
+          "id": "comp_b004_t096_p59",
+          "on": 14.0,
+          "duration": 1.5,
+          "pitch": 59
+        },
+        {
+          "id": "comp_b004_t096_p64",
+          "on": 14.0,
+          "duration": 1.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b004_t096_p67",
+          "on": 14.0,
+          "duration": 1.5,
+          "pitch": 67
+        },
+        {
+          "id": "comp_b004_t168_p52",
+          "on": 15.5,
+          "duration": 0.5,
+          "pitch": 52
+        },
+        {
+          "id": "comp_b004_t168_p59",
+          "on": 15.5,
+          "duration": 0.5,
+          "pitch": 59
+        },
+        {
+          "id": "comp_b004_t168_p64",
+          "on": 15.5,
+          "duration": 0.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b004_t168_p67",
+          "on": 15.5,
+          "duration": 0.5,
+          "pitch": 67
+        },
+        {
+          "id": "comp_b005_t000_p48",
+          "on": 16.0,
+          "duration": 1.5,
+          "pitch": 48
+        },
+        {
+          "id": "comp_b005_t000_p55",
+          "on": 16.0,
+          "duration": 1.5,
+          "pitch": 55
+        },
+        {
+          "id": "comp_b005_t000_p62",
+          "on": 16.0,
+          "duration": 1.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b005_t000_p64",
+          "on": 16.0,
+          "duration": 1.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b005_t072_p48",
+          "on": 17.5,
+          "duration": 0.5,
+          "pitch": 48
+        },
+        {
+          "id": "comp_b005_t072_p55",
+          "on": 17.5,
+          "duration": 0.5,
+          "pitch": 55
+        },
+        {
+          "id": "comp_b005_t072_p62",
+          "on": 17.5,
+          "duration": 0.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b005_t072_p64",
+          "on": 17.5,
+          "duration": 0.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b005_t096_p48",
+          "on": 18.0,
+          "duration": 1.5,
+          "pitch": 48
+        },
+        {
+          "id": "comp_b005_t096_p55",
+          "on": 18.0,
+          "duration": 1.5,
+          "pitch": 55
+        },
+        {
+          "id": "comp_b005_t096_p62",
+          "on": 18.0,
+          "duration": 1.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b005_t096_p64",
+          "on": 18.0,
+          "duration": 1.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b005_t168_p48",
+          "on": 19.5,
+          "duration": 0.5,
+          "pitch": 48
+        },
+        {
+          "id": "comp_b005_t168_p55",
+          "on": 19.5,
+          "duration": 0.5,
+          "pitch": 55
+        },
+        {
+          "id": "comp_b005_t168_p62",
+          "on": 19.5,
+          "duration": 0.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b005_t168_p64",
+          "on": 19.5,
+          "duration": 0.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b006_t000_p43",
+          "on": 20.0,
+          "duration": 1.5,
+          "pitch": 43
+        },
+        {
+          "id": "comp_b006_t000_p50",
+          "on": 20.0,
+          "duration": 1.5,
+          "pitch": 50
+        },
+        {
+          "id": "comp_b006_t000_p55",
+          "on": 20.0,
+          "duration": 1.5,
+          "pitch": 55
+        },
+        {
+          "id": "comp_b006_t000_p59",
+          "on": 20.0,
+          "duration": 1.5,
+          "pitch": 59
+        },
+        {
+          "id": "comp_b006_t000_p62",
+          "on": 20.0,
+          "duration": 1.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b006_t072_p43",
+          "on": 21.5,
+          "duration": 0.5,
+          "pitch": 43
+        },
+        {
+          "id": "comp_b006_t072_p50",
+          "on": 21.5,
+          "duration": 0.5,
+          "pitch": 50
+        },
+        {
+          "id": "comp_b006_t072_p55",
+          "on": 21.5,
+          "duration": 0.5,
+          "pitch": 55
+        },
+        {
+          "id": "comp_b006_t072_p59",
+          "on": 21.5,
+          "duration": 0.5,
+          "pitch": 59
+        },
+        {
+          "id": "comp_b006_t072_p62",
+          "on": 21.5,
+          "duration": 0.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b006_t096_p43",
+          "on": 22.0,
+          "duration": 1.5,
+          "pitch": 43
+        },
+        {
+          "id": "comp_b006_t096_p50",
+          "on": 22.0,
+          "duration": 1.5,
+          "pitch": 50
+        },
+        {
+          "id": "comp_b006_t096_p55",
+          "on": 22.0,
+          "duration": 1.5,
+          "pitch": 55
+        },
+        {
+          "id": "comp_b006_t096_p59",
+          "on": 22.0,
+          "duration": 1.5,
+          "pitch": 59
+        },
+        {
+          "id": "comp_b006_t096_p62",
+          "on": 22.0,
+          "duration": 1.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b006_t168_p43",
+          "on": 23.5,
+          "duration": 0.5,
+          "pitch": 43
+        },
+        {
+          "id": "comp_b006_t168_p50",
+          "on": 23.5,
+          "duration": 0.5,
+          "pitch": 50
+        },
+        {
+          "id": "comp_b006_t168_p55",
+          "on": 23.5,
+          "duration": 0.5,
+          "pitch": 55
+        },
+        {
+          "id": "comp_b006_t168_p59",
+          "on": 23.5,
+          "duration": 0.5,
+          "pitch": 59
+        },
+        {
+          "id": "comp_b006_t168_p62",
+          "on": 23.5,
+          "duration": 0.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b007_t000_p45",
+          "on": 24.0,
+          "duration": 1.5,
+          "pitch": 45
+        },
+        {
+          "id": "comp_b007_t000_p52",
+          "on": 24.0,
+          "duration": 1.5,
+          "pitch": 52
+        },
+        {
+          "id": "comp_b007_t000_p57",
+          "on": 24.0,
+          "duration": 1.5,
+          "pitch": 57
+        },
+        {
+          "id": "comp_b007_t000_p60",
+          "on": 24.0,
+          "duration": 1.5,
+          "pitch": 60
+        },
+        {
+          "id": "comp_b007_t000_p64",
+          "on": 24.0,
+          "duration": 1.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b007_t072_p45",
+          "on": 25.5,
+          "duration": 0.5,
+          "pitch": 45
+        },
+        {
+          "id": "comp_b007_t072_p52",
+          "on": 25.5,
+          "duration": 0.5,
+          "pitch": 52
+        },
+        {
+          "id": "comp_b007_t072_p57",
+          "on": 25.5,
+          "duration": 0.5,
+          "pitch": 57
+        },
+        {
+          "id": "comp_b007_t072_p60",
+          "on": 25.5,
+          "duration": 0.5,
+          "pitch": 60
+        },
+        {
+          "id": "comp_b007_t072_p64",
+          "on": 25.5,
+          "duration": 0.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b007_t096_p45",
+          "on": 26.0,
+          "duration": 1.5,
+          "pitch": 45
+        },
+        {
+          "id": "comp_b007_t096_p52",
+          "on": 26.0,
+          "duration": 1.5,
+          "pitch": 52
+        },
+        {
+          "id": "comp_b007_t096_p57",
+          "on": 26.0,
+          "duration": 1.5,
+          "pitch": 57
+        },
+        {
+          "id": "comp_b007_t096_p60",
+          "on": 26.0,
+          "duration": 1.5,
+          "pitch": 60
+        },
+        {
+          "id": "comp_b007_t096_p64",
+          "on": 26.0,
+          "duration": 1.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b007_t168_p45",
+          "on": 27.5,
+          "duration": 0.5,
+          "pitch": 45
+        },
+        {
+          "id": "comp_b007_t168_p52",
+          "on": 27.5,
+          "duration": 0.5,
+          "pitch": 52
+        },
+        {
+          "id": "comp_b007_t168_p57",
+          "on": 27.5,
+          "duration": 0.5,
+          "pitch": 57
+        },
+        {
+          "id": "comp_b007_t168_p60",
+          "on": 27.5,
+          "duration": 0.5,
+          "pitch": 60
+        },
+        {
+          "id": "comp_b007_t168_p64",
+          "on": 27.5,
+          "duration": 0.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b008_t000_p50",
+          "on": 28.0,
+          "duration": 1.5,
+          "pitch": 50
+        },
+        {
+          "id": "comp_b008_t000_p57",
+          "on": 28.0,
+          "duration": 1.5,
+          "pitch": 57
+        },
+        {
+          "id": "comp_b008_t000_p62",
+          "on": 28.0,
+          "duration": 1.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b008_t000_p66",
+          "on": 28.0,
+          "duration": 1.5,
+          "pitch": 66
+        },
+        {
+          "id": "comp_b008_t072_p50",
+          "on": 29.5,
+          "duration": 0.5,
+          "pitch": 50
+        },
+        {
+          "id": "comp_b008_t072_p57",
+          "on": 29.5,
+          "duration": 0.5,
+          "pitch": 57
+        },
+        {
+          "id": "comp_b008_t072_p62",
+          "on": 29.5,
+          "duration": 0.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b008_t072_p66",
+          "on": 29.5,
+          "duration": 0.5,
+          "pitch": 66
+        },
+        {
+          "id": "comp_b008_t096_p50",
+          "on": 30.0,
+          "duration": 1.5,
+          "pitch": 50
+        },
+        {
+          "id": "comp_b008_t096_p57",
+          "on": 30.0,
+          "duration": 1.5,
+          "pitch": 57
+        },
+        {
+          "id": "comp_b008_t096_p62",
+          "on": 30.0,
+          "duration": 1.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b008_t096_p66",
+          "on": 30.0,
+          "duration": 1.5,
+          "pitch": 66
+        },
+        {
+          "id": "comp_b008_t168_p50",
+          "on": 31.5,
+          "duration": 0.5,
+          "pitch": 50
+        },
+        {
+          "id": "comp_b008_t168_p57",
+          "on": 31.5,
+          "duration": 0.5,
+          "pitch": 57
+        },
+        {
+          "id": "comp_b008_t168_p62",
+          "on": 31.5,
+          "duration": 0.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b008_t168_p66",
+          "on": 31.5,
+          "duration": 0.5,
+          "pitch": 66
+        },
+        {
+          "id": "comp_b009_t000_p52",
+          "on": 32.0,
+          "duration": 1.5,
+          "pitch": 52
+        },
+        {
+          "id": "comp_b009_t000_p59",
+          "on": 32.0,
+          "duration": 1.5,
+          "pitch": 59
+        },
+        {
+          "id": "comp_b009_t000_p64",
+          "on": 32.0,
+          "duration": 1.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b009_t000_p67",
+          "on": 32.0,
+          "duration": 1.5,
+          "pitch": 67
+        },
+        {
+          "id": "comp_b009_t072_p52",
+          "on": 33.5,
+          "duration": 0.5,
+          "pitch": 52
+        },
+        {
+          "id": "comp_b009_t072_p59",
+          "on": 33.5,
+          "duration": 0.5,
+          "pitch": 59
+        },
+        {
+          "id": "comp_b009_t072_p64",
+          "on": 33.5,
+          "duration": 0.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b009_t072_p67",
+          "on": 33.5,
+          "duration": 0.5,
+          "pitch": 67
+        },
+        {
+          "id": "comp_b009_t096_p52",
+          "on": 34.0,
+          "duration": 1.5,
+          "pitch": 52
+        },
+        {
+          "id": "comp_b009_t096_p59",
+          "on": 34.0,
+          "duration": 1.5,
+          "pitch": 59
+        },
+        {
+          "id": "comp_b009_t096_p64",
+          "on": 34.0,
+          "duration": 1.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b009_t096_p67",
+          "on": 34.0,
+          "duration": 1.5,
+          "pitch": 67
+        },
+        {
+          "id": "comp_b009_t168_p52",
+          "on": 35.5,
+          "duration": 0.5,
+          "pitch": 52
+        },
+        {
+          "id": "comp_b009_t168_p59",
+          "on": 35.5,
+          "duration": 0.5,
+          "pitch": 59
+        },
+        {
+          "id": "comp_b009_t168_p64",
+          "on": 35.5,
+          "duration": 0.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b009_t168_p67",
+          "on": 35.5,
+          "duration": 0.5,
+          "pitch": 67
+        },
+        {
+          "id": "comp_b010_t000_p52",
+          "on": 36.0,
+          "duration": 1.5,
+          "pitch": 52
+        },
+        {
+          "id": "comp_b010_t000_p59",
+          "on": 36.0,
+          "duration": 1.5,
+          "pitch": 59
+        },
+        {
+          "id": "comp_b010_t000_p64",
+          "on": 36.0,
+          "duration": 1.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b010_t000_p67",
+          "on": 36.0,
+          "duration": 1.5,
+          "pitch": 67
+        },
+        {
+          "id": "comp_b010_t072_p52",
+          "on": 37.5,
+          "duration": 0.5,
+          "pitch": 52
+        },
+        {
+          "id": "comp_b010_t072_p59",
+          "on": 37.5,
+          "duration": 0.5,
+          "pitch": 59
+        },
+        {
+          "id": "comp_b010_t072_p64",
+          "on": 37.5,
+          "duration": 0.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b010_t072_p67",
+          "on": 37.5,
+          "duration": 0.5,
+          "pitch": 67
+        },
+        {
+          "id": "comp_b010_t096_p52",
+          "on": 38.0,
+          "duration": 1.5,
+          "pitch": 52
+        },
+        {
+          "id": "comp_b010_t096_p59",
+          "on": 38.0,
+          "duration": 1.5,
+          "pitch": 59
+        },
+        {
+          "id": "comp_b010_t096_p64",
+          "on": 38.0,
+          "duration": 1.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b010_t096_p67",
+          "on": 38.0,
+          "duration": 1.5,
+          "pitch": 67
+        },
+        {
+          "id": "comp_b010_t168_p52",
+          "on": 39.5,
+          "duration": 0.5,
+          "pitch": 52
+        },
+        {
+          "id": "comp_b010_t168_p59",
+          "on": 39.5,
+          "duration": 0.5,
+          "pitch": 59
+        },
+        {
+          "id": "comp_b010_t168_p64",
+          "on": 39.5,
+          "duration": 0.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b010_t168_p67",
+          "on": 39.5,
+          "duration": 0.5,
+          "pitch": 67
+        },
+        {
+          "id": "comp_b011_t000_p48",
+          "on": 40.0,
+          "duration": 1.5,
+          "pitch": 48
+        },
+        {
+          "id": "comp_b011_t000_p55",
+          "on": 40.0,
+          "duration": 1.5,
+          "pitch": 55
+        },
+        {
+          "id": "comp_b011_t000_p62",
+          "on": 40.0,
+          "duration": 1.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b011_t000_p64",
+          "on": 40.0,
+          "duration": 1.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b011_t072_p48",
+          "on": 41.5,
+          "duration": 0.5,
+          "pitch": 48
+        },
+        {
+          "id": "comp_b011_t072_p55",
+          "on": 41.5,
+          "duration": 0.5,
+          "pitch": 55
+        },
+        {
+          "id": "comp_b011_t072_p62",
+          "on": 41.5,
+          "duration": 0.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b011_t072_p64",
+          "on": 41.5,
+          "duration": 0.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b011_t096_p48",
+          "on": 42.0,
+          "duration": 1.5,
+          "pitch": 48
+        },
+        {
+          "id": "comp_b011_t096_p55",
+          "on": 42.0,
+          "duration": 1.5,
+          "pitch": 55
+        },
+        {
+          "id": "comp_b011_t096_p62",
+          "on": 42.0,
+          "duration": 1.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b011_t096_p64",
+          "on": 42.0,
+          "duration": 1.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b011_t168_p48",
+          "on": 43.5,
+          "duration": 0.5,
+          "pitch": 48
+        },
+        {
+          "id": "comp_b011_t168_p55",
+          "on": 43.5,
+          "duration": 0.5,
+          "pitch": 55
+        },
+        {
+          "id": "comp_b011_t168_p62",
+          "on": 43.5,
+          "duration": 0.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b011_t168_p64",
+          "on": 43.5,
+          "duration": 0.5,
+          "pitch": 64
+        },
+        {
+          "id": "comp_b012_t000_p50",
+          "on": 44.0,
+          "duration": 1.5,
+          "pitch": 50
+        },
+        {
+          "id": "comp_b012_t000_p57",
+          "on": 44.0,
+          "duration": 1.5,
+          "pitch": 57
+        },
+        {
+          "id": "comp_b012_t000_p62",
+          "on": 44.0,
+          "duration": 1.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b012_t000_p66",
+          "on": 44.0,
+          "duration": 1.5,
+          "pitch": 66
+        },
+        {
+          "id": "comp_b012_t072_p50",
+          "on": 45.5,
+          "duration": 0.5,
+          "pitch": 50
+        },
+        {
+          "id": "comp_b012_t072_p57",
+          "on": 45.5,
+          "duration": 0.5,
+          "pitch": 57
+        },
+        {
+          "id": "comp_b012_t072_p62",
+          "on": 45.5,
+          "duration": 0.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b012_t072_p66",
+          "on": 45.5,
+          "duration": 0.5,
+          "pitch": 66
+        },
+        {
+          "id": "comp_b012_t096_p50",
+          "on": 46.0,
+          "duration": 1.5,
+          "pitch": 50
+        },
+        {
+          "id": "comp_b012_t096_p57",
+          "on": 46.0,
+          "duration": 1.5,
+          "pitch": 57
+        },
+        {
+          "id": "comp_b012_t096_p62",
+          "on": 46.0,
+          "duration": 1.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b012_t096_p66",
+          "on": 46.0,
+          "duration": 1.5,
+          "pitch": 66
+        },
+        {
+          "id": "comp_b012_t168_p50",
+          "on": 47.5,
+          "duration": 0.5,
+          "pitch": 50
+        },
+        {
+          "id": "comp_b012_t168_p57",
+          "on": 47.5,
+          "duration": 0.5,
+          "pitch": 57
+        },
+        {
+          "id": "comp_b012_t168_p62",
+          "on": 47.5,
+          "duration": 0.5,
+          "pitch": 62
+        },
+        {
+          "id": "comp_b012_t168_p66",
+          "on": 47.5,
+          "duration": 0.5,
+          "pitch": 66
+        }
+      ],
+      "performance": {
+        "notes": {
+          "comp_b001_t000_p48": {
+            "velocity": 75,
+            "gate": 1.015,
+            "timing_ms": -3.89
+          },
+          "comp_b001_t000_p55": {
+            "velocity": 75,
+            "gate": 1.015,
+            "timing_ms": 5.13
+          },
+          "comp_b001_t000_p62": {
+            "velocity": 75,
+            "gate": 1.015,
+            "timing_ms": 13.09
+          },
+          "comp_b001_t000_p64": {
+            "velocity": 75,
+            "gate": 1.015,
+            "timing_ms": 23.12
+          },
+          "comp_b001_t072_p48": {
+            "velocity": 50,
+            "gate": 0.97,
+            "timing_ms": 24.87
+          },
+          "comp_b001_t072_p55": {
+            "velocity": 50,
+            "gate": 0.97,
+            "timing_ms": 16.82
+          },
+          "comp_b001_t072_p62": {
+            "velocity": 50,
+            "gate": 0.97,
+            "timing_ms": 10.1
+          },
+          "comp_b001_t072_p64": {
+            "velocity": 50,
+            "gate": 0.97,
+            "timing_ms": 2.74
+          },
+          "comp_b001_t096_p48": {
+            "velocity": 67,
+            "gate": 1.015,
+            "timing_ms": 2.12
+          },
+          "comp_b001_t096_p55": {
+            "velocity": 67,
+            "gate": 1.015,
+            "timing_ms": 11.04
+          },
+          "comp_b001_t096_p62": {
+            "velocity": 67,
+            "gate": 1.015,
+            "timing_ms": 20.89
+          },
+          "comp_b001_t096_p64": {
+            "velocity": 67,
+            "gate": 1.015,
+            "timing_ms": 28.67
+          },
+          "comp_b001_t168_p48": {
+            "velocity": 51,
+            "gate": 0.97,
+            "timing_ms": 28.37
+          },
+          "comp_b001_t168_p55": {
+            "velocity": 51,
+            "gate": 0.97,
+            "timing_ms": 21.12
+          },
+          "comp_b001_t168_p62": {
+            "velocity": 51,
+            "gate": 0.97,
+            "timing_ms": 13.54
+          },
+          "comp_b001_t168_p64": {
+            "velocity": 51,
+            "gate": 0.97,
+            "timing_ms": 7.2
+          },
+          "comp_b002_t000_p43": {
+            "velocity": 80,
+            "gate": 1.015,
+            "timing_ms": 7.82
+          },
+          "comp_b002_t000_p50": {
+            "velocity": 80,
+            "gate": 1.015,
+            "timing_ms": 16.01
+          },
+          "comp_b002_t000_p55": {
+            "velocity": 80,
+            "gate": 1.015,
+            "timing_ms": 25.68
+          },
+          "comp_b002_t000_p59": {
+            "velocity": 80,
+            "gate": 1.015,
+            "timing_ms": 33.72
+          },
+          "comp_b002_t000_p62": {
+            "velocity": 80,
+            "gate": 1.015,
+            "timing_ms": 42.94
+          },
+          "comp_b002_t072_p43": {
+            "velocity": 50,
+            "gate": 0.97,
+            "timing_ms": 37.89
+          },
+          "comp_b002_t072_p50": {
+            "velocity": 50,
+            "gate": 0.97,
+            "timing_ms": 30.73
+          },
+          "comp_b002_t072_p55": {
+            "velocity": 50,
+            "gate": 0.97,
+            "timing_ms": 23.74
+          },
+          "comp_b002_t072_p59": {
+            "velocity": 50,
+            "gate": 0.97,
+            "timing_ms": 15.83
+          },
+          "comp_b002_t072_p62": {
+            "velocity": 50,
+            "gate": 0.97,
+            "timing_ms": 7.97
+          },
+          "comp_b002_t096_p43": {
+            "velocity": 70,
+            "gate": 1.015,
+            "timing_ms": 0.88
+          },
+          "comp_b002_t096_p50": {
+            "velocity": 70,
+            "gate": 1.015,
+            "timing_ms": 10.79
+          },
+          "comp_b002_t096_p55": {
+            "velocity": 70,
+            "gate": 1.015,
+            "timing_ms": 18.81
+          },
+          "comp_b002_t096_p59": {
+            "velocity": 70,
+            "gate": 1.015,
+            "timing_ms": 28.17
+          },
+          "comp_b002_t096_p62": {
+            "velocity": 70,
+            "gate": 1.015,
+            "timing_ms": 35.99
+          },
+          "comp_b002_t168_p43": {
+            "velocity": 53,
+            "gate": 0.97,
+            "timing_ms": 24.17
+          },
+          "comp_b002_t168_p50": {
+            "velocity": 53,
+            "gate": 0.97,
+            "timing_ms": 17.66
+          },
+          "comp_b002_t168_p55": {
+            "velocity": 53,
+            "gate": 0.97,
+            "timing_ms": 10.73
+          },
+          "comp_b002_t168_p59": {
+            "velocity": 53,
+            "gate": 0.97,
+            "timing_ms": 2.52
+          },
+          "comp_b002_t168_p62": {
+            "velocity": 53,
+            "gate": 0.97,
+            "timing_ms": -3.7
+          },
+          "comp_b003_t000_p50": {
+            "velocity": 80,
+            "gate": 1.015,
+            "timing_ms": 1.97
+          },
+          "comp_b003_t000_p57": {
+            "velocity": 80,
+            "gate": 1.015,
+            "timing_ms": 10.49
+          },
+          "comp_b003_t000_p62": {
+            "velocity": 80,
+            "gate": 1.015,
+            "timing_ms": 18.42
+          },
+          "comp_b003_t000_p66": {
+            "velocity": 80,
+            "gate": 1.015,
+            "timing_ms": 27.15
+          },
+          "comp_b003_t072_p50": {
+            "velocity": 56,
+            "gate": 0.97,
+            "timing_ms": 8.96
+          },
+          "comp_b003_t072_p57": {
+            "velocity": 56,
+            "gate": 0.97,
+            "timing_ms": 2.84
+          },
+          "comp_b003_t072_p62": {
+            "velocity": 56,
+            "gate": 0.97,
+            "timing_ms": -3.89
+          },
+          "comp_b003_t072_p66": {
+            "velocity": 56,
+            "gate": 0.97,
+            "timing_ms": -10.69
+          },
+          "comp_b003_t096_p50": {
+            "velocity": 71,
+            "gate": 1.015,
+            "timing_ms": -10.63
+          },
+          "comp_b003_t096_p57": {
+            "velocity": 71,
+            "gate": 1.015,
+            "timing_ms": -2.4
+          },
+          "comp_b003_t096_p62": {
+            "velocity": 71,
+            "gate": 1.015,
+            "timing_ms": 6.21
+          },
+          "comp_b003_t096_p66": {
+            "velocity": 71,
+            "gate": 1.015,
+            "timing_ms": 14.39
+          },
+          "comp_b003_t168_p50": {
+            "velocity": 55,
+            "gate": 0.97,
+            "timing_ms": 5.55
+          },
+          "comp_b003_t168_p57": {
+            "velocity": 55,
+            "gate": 0.97,
+            "timing_ms": -0.73
+          },
+          "comp_b003_t168_p62": {
+            "velocity": 55,
+            "gate": 0.97,
+            "timing_ms": -8.59
+          },
+          "comp_b003_t168_p66": {
+            "velocity": 55,
+            "gate": 0.97,
+            "timing_ms": -15.16
+          },
+          "comp_b004_t000_p52": {
+            "velocity": 84,
+            "gate": 1.015,
+            "timing_ms": -8.93
+          },
+          "comp_b004_t000_p59": {
+            "velocity": 84,
+            "gate": 1.015,
+            "timing_ms": 1.28
+          },
+          "comp_b004_t000_p64": {
+            "velocity": 84,
+            "gate": 1.015,
+            "timing_ms": 9.48
+          },
+          "comp_b004_t000_p67": {
+            "velocity": 84,
+            "gate": 1.015,
+            "timing_ms": 19.81
+          },
+          "comp_b004_t072_p52": {
+            "velocity": 52,
+            "gate": 0.97,
+            "timing_ms": 21.79
+          },
+          "comp_b004_t072_p59": {
+            "velocity": 52,
+            "gate": 0.97,
+            "timing_ms": 14.04
+          },
+          "comp_b004_t072_p64": {
+            "velocity": 52,
+            "gate": 0.97,
+            "timing_ms": 5.88
+          },
+          "comp_b004_t072_p67": {
+            "velocity": 52,
+            "gate": 0.97,
+            "timing_ms": -0.37
+          },
+          "comp_b004_t096_p52": {
+            "velocity": 67,
+            "gate": 1.015,
+            "timing_ms": 5.45
+          },
+          "comp_b004_t096_p59": {
+            "velocity": 67,
+            "gate": 1.015,
+            "timing_ms": 13.47
+          },
+          "comp_b004_t096_p64": {
+            "velocity": 67,
+            "gate": 1.015,
+            "timing_ms": 21.45
+          },
+          "comp_b004_t096_p67": {
+            "velocity": 67,
+            "gate": 1.015,
+            "timing_ms": 29.33
+          },
+          "comp_b004_t168_p52": {
+            "velocity": 50,
+            "gate": 0.97,
+            "timing_ms": 23.82
+          },
+          "comp_b004_t168_p59": {
+            "velocity": 50,
+            "gate": 0.97,
+            "timing_ms": 16.46
+          },
+          "comp_b004_t168_p64": {
+            "velocity": 50,
+            "gate": 0.97,
+            "timing_ms": 10.32
+          },
+          "comp_b004_t168_p67": {
+            "velocity": 50,
+            "gate": 0.97,
+            "timing_ms": 3.31
+          },
+          "comp_b005_t000_p48": {
+            "velocity": 76,
+            "gate": 1.015,
+            "timing_ms": 6.16
+          },
+          "comp_b005_t000_p55": {
+            "velocity": 76,
+            "gate": 1.015,
+            "timing_ms": 15.98
+          },
+          "comp_b005_t000_p62": {
+            "velocity": 76,
+            "gate": 1.015,
+            "timing_ms": 24.65
+          },
+          "comp_b005_t000_p64": {
+            "velocity": 76,
+            "gate": 1.015,
+            "timing_ms": 34.21
+          },
+          "comp_b005_t072_p48": {
+            "velocity": 51,
+            "gate": 0.97,
+            "timing_ms": 27.15
+          },
+          "comp_b005_t072_p55": {
+            "velocity": 51,
+            "gate": 0.97,
+            "timing_ms": 19.44
+          },
+          "comp_b005_t072_p62": {
+            "velocity": 51,
+            "gate": 0.97,
+            "timing_ms": 12.29
+          },
+          "comp_b005_t072_p64": {
+            "velocity": 51,
+            "gate": 0.97,
+            "timing_ms": 5.6
+          },
+          "comp_b005_t096_p48": {
+            "velocity": 67,
+            "gate": 1.015,
+            "timing_ms": 0.48
+          },
+          "comp_b005_t096_p55": {
+            "velocity": 67,
+            "gate": 1.015,
+            "timing_ms": 8.95
+          },
+          "comp_b005_t096_p62": {
+            "velocity": 67,
+            "gate": 1.015,
+            "timing_ms": 17.01
+          },
+          "comp_b005_t096_p64": {
+            "velocity": 67,
+            "gate": 1.015,
+            "timing_ms": 26.57
+          },
+          "comp_b005_t168_p48": {
+            "velocity": 53,
+            "gate": 0.97,
+            "timing_ms": 22.33
+          },
+          "comp_b005_t168_p55": {
+            "velocity": 53,
+            "gate": 0.97,
+            "timing_ms": 15.58
+          },
+          "comp_b005_t168_p62": {
+            "velocity": 53,
+            "gate": 0.97,
+            "timing_ms": 8.24
+          },
+          "comp_b005_t168_p64": {
+            "velocity": 53,
+            "gate": 0.97,
+            "timing_ms": 1.26
+          },
+          "comp_b006_t000_p43": {
+            "velocity": 83,
+            "gate": 1.015,
+            "timing_ms": -3.6
+          },
+          "comp_b006_t000_p50": {
+            "velocity": 83,
+            "gate": 1.015,
+            "timing_ms": 6.21
+          },
+          "comp_b006_t000_p55": {
+            "velocity": 83,
+            "gate": 1.015,
+            "timing_ms": 15.82
+          },
+          "comp_b006_t000_p59": {
+            "velocity": 83,
+            "gate": 1.015,
+            "timing_ms": 25.35
+          },
+          "comp_b006_t000_p62": {
+            "velocity": 83,
+            "gate": 1.015,
+            "timing_ms": 33.42
+          },
+          "comp_b006_t072_p43": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": 30.3
+          },
+          "comp_b006_t072_p50": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": 22.67
+          },
+          "comp_b006_t072_p55": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": 16.17
+          },
+          "comp_b006_t072_p59": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": 8.03
+          },
+          "comp_b006_t072_p62": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": 1.84
+          },
+          "comp_b006_t096_p43": {
+            "velocity": 70,
+            "gate": 1.015,
+            "timing_ms": 4.75
+          },
+          "comp_b006_t096_p50": {
+            "velocity": 70,
+            "gate": 1.015,
+            "timing_ms": 13.73
+          },
+          "comp_b006_t096_p55": {
+            "velocity": 70,
+            "gate": 1.015,
+            "timing_ms": 22.06
+          },
+          "comp_b006_t096_p59": {
+            "velocity": 70,
+            "gate": 1.015,
+            "timing_ms": 31.69
+          },
+          "comp_b006_t096_p62": {
+            "velocity": 70,
+            "gate": 1.015,
+            "timing_ms": 42.01
+          },
+          "comp_b006_t168_p43": {
+            "velocity": 55,
+            "gate": 0.97,
+            "timing_ms": 34.4
+          },
+          "comp_b006_t168_p50": {
+            "velocity": 55,
+            "gate": 0.97,
+            "timing_ms": 26.24
+          },
+          "comp_b006_t168_p55": {
+            "velocity": 55,
+            "gate": 0.97,
+            "timing_ms": 18.53
+          },
+          "comp_b006_t168_p59": {
+            "velocity": 55,
+            "gate": 0.97,
+            "timing_ms": 11.55
+          },
+          "comp_b006_t168_p62": {
+            "velocity": 55,
+            "gate": 0.97,
+            "timing_ms": 4.08
+          },
+          "comp_b007_t000_p45": {
+            "velocity": 82,
+            "gate": 1.015,
+            "timing_ms": -3.05
+          },
+          "comp_b007_t000_p52": {
+            "velocity": 82,
+            "gate": 1.015,
+            "timing_ms": 5.92
+          },
+          "comp_b007_t000_p57": {
+            "velocity": 82,
+            "gate": 1.015,
+            "timing_ms": 15.56
+          },
+          "comp_b007_t000_p60": {
+            "velocity": 82,
+            "gate": 1.015,
+            "timing_ms": 24.39
+          },
+          "comp_b007_t000_p64": {
+            "velocity": 82,
+            "gate": 1.015,
+            "timing_ms": 34.61
+          },
+          "comp_b007_t072_p45": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": 28.53
+          },
+          "comp_b007_t072_p52": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": 20.29
+          },
+          "comp_b007_t072_p57": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": 12.58
+          },
+          "comp_b007_t072_p60": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": 5.28
+          },
+          "comp_b007_t072_p64": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": -1.17
+          },
+          "comp_b007_t096_p45": {
+            "velocity": 72,
+            "gate": 1.015,
+            "timing_ms": -1.39
+          },
+          "comp_b007_t096_p52": {
+            "velocity": 72,
+            "gate": 1.015,
+            "timing_ms": 8.34
+          },
+          "comp_b007_t096_p57": {
+            "velocity": 72,
+            "gate": 1.015,
+            "timing_ms": 18.57
+          },
+          "comp_b007_t096_p60": {
+            "velocity": 72,
+            "gate": 1.015,
+            "timing_ms": 26.91
+          },
+          "comp_b007_t096_p64": {
+            "velocity": 72,
+            "gate": 1.015,
+            "timing_ms": 35.4
+          },
+          "comp_b007_t168_p45": {
+            "velocity": 52,
+            "gate": 0.97,
+            "timing_ms": 35.63
+          },
+          "comp_b007_t168_p52": {
+            "velocity": 52,
+            "gate": 0.97,
+            "timing_ms": 28.81
+          },
+          "comp_b007_t168_p57": {
+            "velocity": 52,
+            "gate": 0.97,
+            "timing_ms": 21.18
+          },
+          "comp_b007_t168_p60": {
+            "velocity": 52,
+            "gate": 0.97,
+            "timing_ms": 14.1
+          },
+          "comp_b007_t168_p64": {
+            "velocity": 52,
+            "gate": 0.97,
+            "timing_ms": 6.7
+          },
+          "comp_b008_t000_p50": {
+            "velocity": 85,
+            "gate": 1.015,
+            "timing_ms": 7.82
+          },
+          "comp_b008_t000_p57": {
+            "velocity": 85,
+            "gate": 1.015,
+            "timing_ms": 17.35
+          },
+          "comp_b008_t000_p62": {
+            "velocity": 85,
+            "gate": 1.015,
+            "timing_ms": 25.2
+          },
+          "comp_b008_t000_p66": {
+            "velocity": 85,
+            "gate": 1.015,
+            "timing_ms": 34.68
+          },
+          "comp_b008_t072_p50": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": 28.56
+          },
+          "comp_b008_t072_p57": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": 20.8
+          },
+          "comp_b008_t072_p62": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": 14.42
+          },
+          "comp_b008_t072_p66": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": 7.57
+          },
+          "comp_b008_t096_p50": {
+            "velocity": 72,
+            "gate": 1.015,
+            "timing_ms": 3.38
+          },
+          "comp_b008_t096_p57": {
+            "velocity": 72,
+            "gate": 1.015,
+            "timing_ms": 12.92
+          },
+          "comp_b008_t096_p62": {
+            "velocity": 72,
+            "gate": 1.015,
+            "timing_ms": 21.47
+          },
+          "comp_b008_t096_p66": {
+            "velocity": 72,
+            "gate": 1.015,
+            "timing_ms": 31.57
+          },
+          "comp_b008_t168_p50": {
+            "velocity": 50,
+            "gate": 0.97,
+            "timing_ms": 22.93
+          },
+          "comp_b008_t168_p57": {
+            "velocity": 50,
+            "gate": 0.97,
+            "timing_ms": 16.75
+          },
+          "comp_b008_t168_p62": {
+            "velocity": 50,
+            "gate": 0.97,
+            "timing_ms": 9.58
+          },
+          "comp_b008_t168_p66": {
+            "velocity": 50,
+            "gate": 0.97,
+            "timing_ms": 1.68
+          },
+          "comp_b009_t000_p52": {
+            "velocity": 76,
+            "gate": 1.015,
+            "timing_ms": -1.97
+          },
+          "comp_b009_t000_p59": {
+            "velocity": 76,
+            "gate": 1.015,
+            "timing_ms": 8.24
+          },
+          "comp_b009_t000_p64": {
+            "velocity": 76,
+            "gate": 1.015,
+            "timing_ms": 16.93
+          },
+          "comp_b009_t000_p67": {
+            "velocity": 76,
+            "gate": 1.015,
+            "timing_ms": 24.79
+          },
+          "comp_b009_t072_p52": {
+            "velocity": 52,
+            "gate": 0.97,
+            "timing_ms": 25.09
+          },
+          "comp_b009_t072_p59": {
+            "velocity": 52,
+            "gate": 0.97,
+            "timing_ms": 17.84
+          },
+          "comp_b009_t072_p64": {
+            "velocity": 52,
+            "gate": 0.97,
+            "timing_ms": 10.19
+          },
+          "comp_b009_t072_p67": {
+            "velocity": 52,
+            "gate": 0.97,
+            "timing_ms": 2.09
+          },
+          "comp_b009_t096_p52": {
+            "velocity": 69,
+            "gate": 1.015,
+            "timing_ms": 0.5
+          },
+          "comp_b009_t096_p59": {
+            "velocity": 69,
+            "gate": 1.015,
+            "timing_ms": 9.95
+          },
+          "comp_b009_t096_p64": {
+            "velocity": 69,
+            "gate": 1.015,
+            "timing_ms": 19.05
+          },
+          "comp_b009_t096_p67": {
+            "velocity": 69,
+            "gate": 1.015,
+            "timing_ms": 26.76
+          },
+          "comp_b009_t168_p52": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": 20.4
+          },
+          "comp_b009_t168_p59": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": 13.65
+          },
+          "comp_b009_t168_p64": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": 6.71
+          },
+          "comp_b009_t168_p67": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": -1.24
+          },
+          "comp_b010_t000_p52": {
+            "velocity": 78,
+            "gate": 1.015,
+            "timing_ms": 0.35
+          },
+          "comp_b010_t000_p59": {
+            "velocity": 78,
+            "gate": 1.015,
+            "timing_ms": 9.69
+          },
+          "comp_b010_t000_p64": {
+            "velocity": 78,
+            "gate": 1.015,
+            "timing_ms": 17.81
+          },
+          "comp_b010_t000_p67": {
+            "velocity": 78,
+            "gate": 1.015,
+            "timing_ms": 26.76
+          },
+          "comp_b010_t072_p52": {
+            "velocity": 55,
+            "gate": 0.97,
+            "timing_ms": 14.97
+          },
+          "comp_b010_t072_p59": {
+            "velocity": 55,
+            "gate": 0.97,
+            "timing_ms": 8.15
+          },
+          "comp_b010_t072_p64": {
+            "velocity": 55,
+            "gate": 0.97,
+            "timing_ms": 0.55
+          },
+          "comp_b010_t072_p67": {
+            "velocity": 55,
+            "gate": 0.97,
+            "timing_ms": -5.94
+          },
+          "comp_b010_t096_p52": {
+            "velocity": 77,
+            "gate": 1.015,
+            "timing_ms": -7.24
+          },
+          "comp_b010_t096_p59": {
+            "velocity": 77,
+            "gate": 1.015,
+            "timing_ms": 1.68
+          },
+          "comp_b010_t096_p64": {
+            "velocity": 77,
+            "gate": 1.015,
+            "timing_ms": 9.71
+          },
+          "comp_b010_t096_p67": {
+            "velocity": 77,
+            "gate": 1.015,
+            "timing_ms": 17.82
+          },
+          "comp_b010_t168_p52": {
+            "velocity": 53,
+            "gate": 0.97,
+            "timing_ms": 21.8
+          },
+          "comp_b010_t168_p59": {
+            "velocity": 53,
+            "gate": 0.97,
+            "timing_ms": 14.72
+          },
+          "comp_b010_t168_p64": {
+            "velocity": 53,
+            "gate": 0.97,
+            "timing_ms": 7.33
+          },
+          "comp_b010_t168_p67": {
+            "velocity": 53,
+            "gate": 0.97,
+            "timing_ms": 0.56
+          },
+          "comp_b011_t000_p48": {
+            "velocity": 82,
+            "gate": 1.015,
+            "timing_ms": 1.72
+          },
+          "comp_b011_t000_p55": {
+            "velocity": 82,
+            "gate": 1.015,
+            "timing_ms": 10.71
+          },
+          "comp_b011_t000_p62": {
+            "velocity": 82,
+            "gate": 1.015,
+            "timing_ms": 18.68
+          },
+          "comp_b011_t000_p64": {
+            "velocity": 82,
+            "gate": 1.015,
+            "timing_ms": 27.91
+          },
+          "comp_b011_t072_p48": {
+            "velocity": 56,
+            "gate": 0.97,
+            "timing_ms": 25.62
+          },
+          "comp_b011_t072_p55": {
+            "velocity": 56,
+            "gate": 0.97,
+            "timing_ms": 17.62
+          },
+          "comp_b011_t072_p62": {
+            "velocity": 56,
+            "gate": 0.97,
+            "timing_ms": 11.07
+          },
+          "comp_b011_t072_p64": {
+            "velocity": 56,
+            "gate": 0.97,
+            "timing_ms": 3.48
+          },
+          "comp_b011_t096_p48": {
+            "velocity": 70,
+            "gate": 1.015,
+            "timing_ms": 6.08
+          },
+          "comp_b011_t096_p55": {
+            "velocity": 70,
+            "gate": 1.015,
+            "timing_ms": 14.82
+          },
+          "comp_b011_t096_p62": {
+            "velocity": 70,
+            "gate": 1.015,
+            "timing_ms": 23.64
+          },
+          "comp_b011_t096_p64": {
+            "velocity": 70,
+            "gate": 1.015,
+            "timing_ms": 33.08
+          },
+          "comp_b011_t168_p48": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": 19.72
+          },
+          "comp_b011_t168_p55": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": 12.84
+          },
+          "comp_b011_t168_p62": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": 4.71
+          },
+          "comp_b011_t168_p64": {
+            "velocity": 54,
+            "gate": 0.97,
+            "timing_ms": -2.16
+          },
+          "comp_b012_t000_p50": {
+            "velocity": 86,
+            "gate": 1.015,
+            "timing_ms": 3.03
+          },
+          "comp_b012_t000_p57": {
+            "velocity": 86,
+            "gate": 1.015,
+            "timing_ms": 11.14
+          },
+          "comp_b012_t000_p62": {
+            "velocity": 86,
+            "gate": 1.015,
+            "timing_ms": 20.17
+          },
+          "comp_b012_t000_p66": {
+            "velocity": 86,
+            "gate": 1.015,
+            "timing_ms": 28.37
+          },
+          "comp_b012_t072_p50": {
+            "velocity": 52,
+            "gate": 0.97,
+            "timing_ms": 21.21
+          },
+          "comp_b012_t072_p57": {
+            "velocity": 52,
+            "gate": 0.97,
+            "timing_ms": 13.09
+          },
+          "comp_b012_t072_p62": {
+            "velocity": 52,
+            "gate": 0.97,
+            "timing_ms": 5.53
+          },
+          "comp_b012_t072_p66": {
+            "velocity": 52,
+            "gate": 0.97,
+            "timing_ms": -2.14
+          },
+          "comp_b012_t096_p50": {
+            "velocity": 72,
+            "gate": 1.015,
+            "timing_ms": -5.04
+          },
+          "comp_b012_t096_p57": {
+            "velocity": 72,
+            "gate": 1.015,
+            "timing_ms": 2.74
+          },
+          "comp_b012_t096_p62": {
+            "velocity": 72,
+            "gate": 1.015,
+            "timing_ms": 10.85
+          },
+          "comp_b012_t096_p66": {
+            "velocity": 72,
+            "gate": 1.015,
+            "timing_ms": 20.7
+          },
+          "comp_b012_t168_p50": {
+            "velocity": 53,
+            "gate": 0.97,
+            "timing_ms": 24.63
+          },
+          "comp_b012_t168_p57": {
+            "velocity": 53,
+            "gate": 0.97,
+            "timing_ms": 17.03
+          },
+          "comp_b012_t168_p62": {
+            "velocity": 53,
+            "gate": 0.97,
+            "timing_ms": 8.86
+          },
+          "comp_b012_t168_p66": {
+            "velocity": 53,
+            "gate": 0.97,
+            "timing_ms": 0.86
+          }
+        },
+        "cc": [],
+        "swing": {
+          "ratio": 0.53,
+          "unit": 0.25
+        }
+      },
+      "mix": {
+        "level_dbfs": -27,
+        "reverb_db": -15,
+        "level_mode": "active_rms",
+        "pan": 0.38,
+        "highpass": 150,
+        "eq": [
+          [
+            320,
+            -2.0
+          ],
+          [
+            2800,
+            -1.0
+          ]
+        ],
+        "width": 0.6,
+        "bus": "rhythm",
+        "space": "room"
+      },
+      "soundfont": "guitar_shiny",
+      "patch": {
+        "bank": 0,
+        "program": 25
+      },
+      "program": 25,
+      "range": [
+        35,
+        86
+      ]
+    },
+    {
+      "id": "pad",
+      "role": "texture",
+      "engine": "surge",
+      "notes": [
+        {
+          "id": "pad_b001_t000_p48",
+          "on": 0.0,
+          "duration": 4.0,
+          "pitch": 48
+        },
+        {
+          "id": "pad_b001_t000_p55",
+          "on": 0.0,
+          "duration": 4.0,
+          "pitch": 55
+        },
+        {
+          "id": "pad_b001_t000_p59",
+          "on": 0.0,
+          "duration": 4.0,
+          "pitch": 59
+        },
+        {
+          "id": "pad_b001_t000_p64",
+          "on": 0.0,
+          "duration": 4.0,
+          "pitch": 64
+        },
+        {
+          "id": "pad_b002_t000_p55",
+          "on": 4.0,
+          "duration": 4.0,
+          "pitch": 55
+        },
+        {
+          "id": "pad_b002_t000_p59",
+          "on": 4.0,
+          "duration": 4.0,
+          "pitch": 59
+        },
+        {
+          "id": "pad_b002_t000_p62",
+          "on": 4.0,
+          "duration": 4.0,
+          "pitch": 62
+        },
+        {
+          "id": "pad_b002_t000_p66",
+          "on": 4.0,
+          "duration": 4.0,
+          "pitch": 66
+        },
+        {
+          "id": "pad_b003_t000_p50",
+          "on": 8.0,
+          "duration": 4.0,
+          "pitch": 50
+        },
+        {
+          "id": "pad_b003_t000_p57",
+          "on": 8.0,
+          "duration": 4.0,
+          "pitch": 57
+        },
+        {
+          "id": "pad_b003_t000_p62",
+          "on": 8.0,
+          "duration": 4.0,
+          "pitch": 62
+        },
+        {
+          "id": "pad_b003_t000_p66",
+          "on": 8.0,
+          "duration": 4.0,
+          "pitch": 66
+        },
+        {
+          "id": "pad_b004_t000_p52",
+          "on": 12.0,
+          "duration": 4.0,
+          "pitch": 52
+        },
+        {
+          "id": "pad_b004_t000_p59",
+          "on": 12.0,
+          "duration": 4.0,
+          "pitch": 59
+        },
+        {
+          "id": "pad_b004_t000_p62",
+          "on": 12.0,
+          "duration": 4.0,
+          "pitch": 62
+        },
+        {
+          "id": "pad_b004_t000_p67",
+          "on": 12.0,
+          "duration": 4.0,
+          "pitch": 67
+        },
+        {
+          "id": "pad_b005_t000_p48",
+          "on": 16.0,
+          "duration": 4.0,
+          "pitch": 48
+        },
+        {
+          "id": "pad_b005_t000_p55",
+          "on": 16.0,
+          "duration": 4.0,
+          "pitch": 55
+        },
+        {
+          "id": "pad_b005_t000_p59",
+          "on": 16.0,
+          "duration": 4.0,
+          "pitch": 59
+        },
+        {
+          "id": "pad_b005_t000_p64",
+          "on": 16.0,
+          "duration": 4.0,
+          "pitch": 64
+        },
+        {
+          "id": "pad_b006_t000_p55",
+          "on": 20.0,
+          "duration": 4.0,
+          "pitch": 55
+        },
+        {
+          "id": "pad_b006_t000_p59",
+          "on": 20.0,
+          "duration": 4.0,
+          "pitch": 59
+        },
+        {
+          "id": "pad_b006_t000_p62",
+          "on": 20.0,
+          "duration": 4.0,
+          "pitch": 62
+        },
+        {
+          "id": "pad_b006_t000_p66",
+          "on": 20.0,
+          "duration": 4.0,
+          "pitch": 66
+        },
+        {
+          "id": "pad_b007_t000_p57",
+          "on": 24.0,
+          "duration": 4.0,
+          "pitch": 57
+        },
+        {
+          "id": "pad_b007_t000_p60",
+          "on": 24.0,
+          "duration": 4.0,
+          "pitch": 60
+        },
+        {
+          "id": "pad_b007_t000_p64",
+          "on": 24.0,
+          "duration": 4.0,
+          "pitch": 64
+        },
+        {
+          "id": "pad_b007_t000_p67",
+          "on": 24.0,
+          "duration": 4.0,
+          "pitch": 67
+        },
+        {
+          "id": "pad_b008_t000_p50",
+          "on": 28.0,
+          "duration": 4.0,
+          "pitch": 50
+        },
+        {
+          "id": "pad_b008_t000_p57",
+          "on": 28.0,
+          "duration": 4.0,
+          "pitch": 57
+        },
+        {
+          "id": "pad_b008_t000_p62",
+          "on": 28.0,
+          "duration": 4.0,
+          "pitch": 62
+        },
+        {
+          "id": "pad_b008_t000_p66",
+          "on": 28.0,
+          "duration": 4.0,
+          "pitch": 66
+        },
+        {
+          "id": "pad_b009_t000_p52",
+          "on": 32.0,
+          "duration": 8.0,
+          "pitch": 52
+        },
+        {
+          "id": "pad_b009_t000_p59",
+          "on": 32.0,
+          "duration": 8.0,
+          "pitch": 59
+        },
+        {
+          "id": "pad_b009_t000_p62",
+          "on": 32.0,
+          "duration": 8.0,
+          "pitch": 62
+        },
+        {
+          "id": "pad_b009_t000_p67",
+          "on": 32.0,
+          "duration": 8.0,
+          "pitch": 67
+        },
+        {
+          "id": "pad_b011_t000_p48",
+          "on": 40.0,
+          "duration": 4.0,
+          "pitch": 48
+        },
+        {
+          "id": "pad_b011_t000_p55",
+          "on": 40.0,
+          "duration": 4.0,
+          "pitch": 55
+        },
+        {
+          "id": "pad_b011_t000_p59",
+          "on": 40.0,
+          "duration": 4.0,
+          "pitch": 59
+        },
+        {
+          "id": "pad_b011_t000_p64",
+          "on": 40.0,
+          "duration": 4.0,
+          "pitch": 64
+        },
+        {
+          "id": "pad_b012_t000_p50",
+          "on": 44.0,
+          "duration": 4.0,
+          "pitch": 50
+        },
+        {
+          "id": "pad_b012_t000_p57",
+          "on": 44.0,
+          "duration": 4.0,
+          "pitch": 57
+        },
+        {
+          "id": "pad_b012_t000_p62",
+          "on": 44.0,
+          "duration": 4.0,
+          "pitch": 62
+        },
+        {
+          "id": "pad_b012_t000_p66",
+          "on": 44.0,
+          "duration": 4.0,
+          "pitch": 66
+        }
+      ],
+      "performance": {
+        "notes": {
+          "pad_b001_t000_p48": {
+            "velocity": 74,
+            "gate": 0.9544,
+            "timing_ms": -0.77
+          },
+          "pad_b001_t000_p55": {
+            "velocity": 74,
+            "gate": 0.9544,
+            "timing_ms": -9.35
+          },
+          "pad_b001_t000_p59": {
+            "velocity": 74,
+            "gate": 0.9544,
+            "timing_ms": -5.36
+          },
+          "pad_b001_t000_p64": {
+            "velocity": 74,
+            "gate": 0.9544,
+            "timing_ms": -10.15
+          },
+          "pad_b002_t000_p55": {
+            "velocity": 70,
+            "gate": 0.9882,
+            "timing_ms": 6.49
+          },
+          "pad_b002_t000_p59": {
+            "velocity": 70,
+            "gate": 0.9882,
+            "timing_ms": -2.92
+          },
+          "pad_b002_t000_p62": {
+            "velocity": 70,
+            "gate": 0.9882,
+            "timing_ms": 5.9
+          },
+          "pad_b002_t000_p66": {
+            "velocity": 70,
+            "gate": 0.9882,
+            "timing_ms": -3.72
+          },
+          "pad_b003_t000_p50": {
+            "velocity": 70,
+            "gate": 1.0232,
+            "timing_ms": -2.38
+          },
+          "pad_b003_t000_p57": {
+            "velocity": 70,
+            "gate": 1.0232,
+            "timing_ms": -9.66
+          },
+          "pad_b003_t000_p62": {
+            "velocity": 70,
+            "gate": 1.0232,
+            "timing_ms": -4.06
+          },
+          "pad_b003_t000_p66": {
+            "velocity": 70,
+            "gate": 1.0232,
+            "timing_ms": -12.87
+          },
+          "pad_b004_t000_p52": {
+            "velocity": 69,
+            "gate": 1.0177,
+            "timing_ms": 10.14
+          },
+          "pad_b004_t000_p59": {
+            "velocity": 69,
+            "gate": 1.0177,
+            "timing_ms": 11.57
+          },
+          "pad_b004_t000_p62": {
+            "velocity": 69,
+            "gate": 1.0177,
+            "timing_ms": 9.7
+          },
+          "pad_b004_t000_p67": {
+            "velocity": 69,
+            "gate": 1.0177,
+            "timing_ms": 0.13
+          },
+          "pad_b005_t000_p48": {
+            "velocity": 71,
+            "gate": 0.9962,
+            "timing_ms": -1.4
+          },
+          "pad_b005_t000_p55": {
+            "velocity": 71,
+            "gate": 0.9962,
+            "timing_ms": -4.76
+          },
+          "pad_b005_t000_p59": {
+            "velocity": 71,
+            "gate": 0.9962,
+            "timing_ms": 1.74
+          },
+          "pad_b005_t000_p64": {
+            "velocity": 71,
+            "gate": 0.9962,
+            "timing_ms": -7.51
+          },
+          "pad_b006_t000_p55": {
+            "velocity": 75,
+            "gate": 1.0346,
+            "timing_ms": -3.65
+          },
+          "pad_b006_t000_p59": {
+            "velocity": 75,
+            "gate": 1.0346,
+            "timing_ms": 0.74
+          },
+          "pad_b006_t000_p62": {
+            "velocity": 75,
+            "gate": 1.0346,
+            "timing_ms": -1.26
+          },
+          "pad_b006_t000_p66": {
+            "velocity": 75,
+            "gate": 1.0346,
+            "timing_ms": -6.89
+          },
+          "pad_b007_t000_p57": {
+            "velocity": 74,
+            "gate": 0.9622,
+            "timing_ms": -7.58
+          },
+          "pad_b007_t000_p60": {
+            "velocity": 74,
+            "gate": 0.9622,
+            "timing_ms": -7.48
+          },
+          "pad_b007_t000_p64": {
+            "velocity": 74,
+            "gate": 0.9622,
+            "timing_ms": -8.52
+          },
+          "pad_b007_t000_p67": {
+            "velocity": 74,
+            "gate": 0.9622,
+            "timing_ms": -9.42
+          },
+          "pad_b008_t000_p50": {
+            "velocity": 73,
+            "gate": 0.9884,
+            "timing_ms": 2.31
+          },
+          "pad_b008_t000_p57": {
+            "velocity": 73,
+            "gate": 0.9884,
+            "timing_ms": 8.99
+          },
+          "pad_b008_t000_p62": {
+            "velocity": 73,
+            "gate": 0.9884,
+            "timing_ms": 6.44
+          },
+          "pad_b008_t000_p66": {
+            "velocity": 73,
+            "gate": 0.9884,
+            "timing_ms": 0.0
+          },
+          "pad_b009_t000_p52": {
+            "velocity": 70,
+            "gate": 0.9662,
+            "timing_ms": 9.51
+          },
+          "pad_b009_t000_p59": {
+            "velocity": 70,
+            "gate": 0.9662,
+            "timing_ms": -0.92
+          },
+          "pad_b009_t000_p62": {
+            "velocity": 70,
+            "gate": 0.9662,
+            "timing_ms": 1.68
+          },
+          "pad_b009_t000_p67": {
+            "velocity": 70,
+            "gate": 0.9662,
+            "timing_ms": -2.14
+          },
+          "pad_b011_t000_p48": {
+            "velocity": 73,
+            "gate": 1.0553,
+            "timing_ms": -1.16
+          },
+          "pad_b011_t000_p55": {
+            "velocity": 73,
+            "gate": 1.0553,
+            "timing_ms": -4.79
+          },
+          "pad_b011_t000_p59": {
+            "velocity": 73,
+            "gate": 1.0553,
+            "timing_ms": -3.64
+          },
+          "pad_b011_t000_p64": {
+            "velocity": 73,
+            "gate": 1.0553,
+            "timing_ms": -7.06
+          },
+          "pad_b012_t000_p50": {
+            "velocity": 74,
+            "gate": 0.9615,
+            "timing_ms": -1.62
+          },
+          "pad_b012_t000_p57": {
+            "velocity": 74,
+            "gate": 0.9615,
+            "timing_ms": -2.85
+          },
+          "pad_b012_t000_p62": {
+            "velocity": 74,
+            "gate": 0.9615,
+            "timing_ms": -1.07
+          },
+          "pad_b012_t000_p66": {
+            "velocity": 74,
+            "gate": 0.9615,
+            "timing_ms": -12.52
+          }
+        },
+        "cc": []
+      },
+      "mix": {
+        "level_dbfs": -28.5,
+        "reverb_db": -10,
+        "level_mode": "active_rms",
+        "pan": 0.0,
+        "highpass": 150,
+        "lowpass": 6000,
+        "width": 0.6
+      },
+      "surge": {
+        "preset": "ghost_pad"
+      },
+      "range": [
+        36,
+        84
+      ]
+    }
+  ],
+  "mix": {
+    "chain": "bus",
+    "rules": 2,
+    "target_lufs": -17.0,
+    "dynamics": "glue",
+    "mono_below_hz": 120
+  },
+  "brief": "Scarbound (mobile idle arcade RPG, wasteland road, Mustang pickup): dusty western / desert blues groove, 100 BPM, E minor, warm muted baritone riff, sparse slide guitar, round bass, soft dry drums and shakers, wood and metal percussion, a delicate pad. Open horizon sketch (12 bars, loops from bar 1).",
+  "loop": {
+    "start_bar": 0
+  },
+  "style": {
+    "primary": "jazz/blues",
+    "borrow": {
+      "form": "game/overworld"
+    }
+  },
+  "harmony": [
+    {
+      "bar": 1,
+      "beat": 0,
+      "symbol": "Cmaj7"
+    },
+    {
+      "bar": 2,
+      "beat": 0,
+      "symbol": "Gmaj7"
+    },
+    {
+      "bar": 3,
+      "beat": 0,
+      "symbol": "D6"
+    },
+    {
+      "bar": 4,
+      "beat": 0,
+      "symbol": "Em7"
+    },
+    {
+      "bar": 5,
+      "beat": 0,
+      "symbol": "Cmaj7"
+    },
+    {
+      "bar": 6,
+      "beat": 0,
+      "symbol": "Gmaj7"
+    },
+    {
+      "bar": 7,
+      "beat": 0,
+      "symbol": "Am7"
+    },
+    {
+      "bar": 8,
+      "beat": 0,
+      "symbol": "D6"
+    },
+    {
+      "bar": 9,
+      "beat": 0,
+      "symbol": "Em7"
+    },
+    {
+      "bar": 10,
+      "beat": 0,
+      "symbol": "Em7"
+    },
+    {
+      "bar": 11,
+      "beat": 0,
+      "symbol": "Cmaj7"
+    },
+    {
+      "bar": 12,
+      "beat": 0,
+      "symbol": "D6"
+    }
+  ],
+  "association": {
+    "source": "user",
+    "words": [
+      "canyon",
+      "ramp",
+      "scrap",
+      "pickup",
+      "harpoon",
+      "hunchback",
+      "mesa",
+      "dust",
+      "garage",
+      "road",
+      "hood",
+      "wasteland"
+    ],
+    "whole": "A battered Mustang pickup rolls out of a dusty garage onto the canyon road; the hunchback mechanic rides the bed behind his harpoon turret, the little hood gun ticks, scrap clinks in the back, the truck takes a ramp, the mesa opens up and the wasteland goes quiet for a moment before the road picks up again.",
+    "gives": [
+      {
+        "level": "rhythm",
+        "what": "the road: a riff that rises into beat 2 and leaves the rest of the bar to the drums; light sixteenth swing like wheels on washboard dirt",
+        "where": "A sections"
+      },
+      {
+        "level": "sounds",
+        "what": "scrap and the garage: brake drum and anvil accents, a guiro scrape, slit drums; the harpoon turret as the slide guitar",
+        "where": "perc, slide"
+      },
+      {
+        "level": "form",
+        "what": "canyon road, ramp and open mesa, back to the road: riff/theme, the open-road lift, a dust-quiet stretch, the return",
+        "where": "all sections"
+      },
+      {
+        "level": "harmony",
+        "what": "the mesa opens: bVI-bIII-bVII-i (C G D Em) over the riff's E drone",
+        "where": "open road"
+      }
+    ]
+  },
+  "decisions": [
+    "highpass:bass: 36 Hz keeps the E1 fundamental within about 2 dB and keeps sub-bass out of a phone game mix, as the brief asks.",
+    "highpass:riff: the baritone riff leaves its lowest fundamentals to the bass on purpose (a 70 Hz high-pass).",
+    "stiffness:pad: the pad is the delicate bed the brief asks for; its chords are held blocks under a moving band.",
+    "melody_velocities:slide: the slide guitar plays few, sparse accents; their shape is in the pitch bends.",
+    "melody_durations:slide: the same.",
+    "plan.missing: a 12-bar sketch for choosing a direction; the full loop carries the plan.",
+    "loop_seam.timbre: the lead and the slide rest across the loop point; the pauses between the motif's appearances are part of the brief."
+  ]
+}

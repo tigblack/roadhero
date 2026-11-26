@@ -1,0 +1,131 @@
+[
+ {
+  "file": "ArtSource/Audio/Music/sketches/01_road_blues_groove.wav",
+  "sample_rate": 44100,
+  "channels": 2,
+  "subtype": "PCM_16",
+  "frames": 1270080,
+  "seconds": 28.8,
+  "gain_db": 0.0,
+  "lufs_i": -16.95,
+  "lra_lu": 2.65,
+  "true_peak_dbtp": -1.56,
+  "sample_peak_dbfs": -1.56,
+  "lr_correlation": 0.872,
+  "mono_fold_db": -0.29,
+  "phone_lufs": -24.5,
+  "phone_loss_db": 7.55,
+  "band_share_pct": {
+   "20-60": 11.5,
+   "60-250": 53.8,
+   "250-800": 20.0,
+   "800-2.5k": 7.1,
+   "2.5-6k": 4.3,
+   "6-16k": 3.3
+  },
+  "seam": {
+   "jump": 0.00464,
+   "local_p999_step": 0.4088,
+   "jump_vs_local": 0.011,
+   "rms_last_50ms_db": -21.91,
+   "rms_first_50ms_db": -13.81,
+   "step_db_at_seam": 8.11,
+   "p99_step_db_50ms": 19.3,
+   "quietest_200ms_db": -30.7,
+   "first_frame": [
+    0.03305,
+    0.10129
+   ],
+   "last_frame": [
+    0.02841,
+    0.10281
+   ]
+  }
+ },
+ {
+  "file": "ArtSource/Audio/Music/sketches/02_open_horizon.wav",
+  "sample_rate": 44100,
+  "channels": 2,
+  "subtype": "PCM_16",
+  "frames": 1270080,
+  "seconds": 28.8,
+  "gain_db": 0.0,
+  "lufs_i": -16.9,
+  "lra_lu": 1.56,
+  "true_peak_dbtp": -2.05,
+  "sample_peak_dbfs": -2.06,
+  "lr_correlation": 0.842,
+  "mono_fold_db": -0.36,
+  "phone_lufs": -22.45,
+  "phone_loss_db": 5.55,
+  "band_share_pct": {
+   "20-60": 7.2,
+   "60-250": 34.9,
+   "250-800": 30.5,
+   "800-2.5k": 17.3,
+   "2.5-6k": 7.2,
+   "6-16k": 2.9
+  },
+  "seam": {
+   "jump": 0.01071,
+   "local_p999_step": 0.37627,
+   "jump_vs_local": 0.028,
+   "rms_last_50ms_db": -20.73,
+   "rms_first_50ms_db": -13.94,
+   "step_db_at_seam": 6.79,
+   "p99_step_db_50ms": 11.97,
+   "quietest_200ms_db": -25.7,
+   "first_frame": [
+    0.04663,
+    0.00031
+   ],
+   "last_frame": [
+    0.05252,
+    0.01102
+   ]
+  }
+ },
+ {
+  "file": "ArtSource/Audio/Music/sketches/03_scrap_machine.wav",
+  "sample_rate": 44100,
+  "channels": 2,
+  "subtype": "PCM_16",
+  "frames": 1270080,
+  "seconds": 28.8,
+  "gain_db": 0.0,
+  "lufs_i": -16.95,
+  "lra_lu": 1.85,
+  "true_peak_dbtp": -2.07,
+  "sample_peak_dbfs": -2.32,
+  "lr_correlation": 0.729,
+  "mono_fold_db": -0.63,
+  "phone_lufs": -26.45,
+  "phone_loss_db": 9.51,
+  "band_share_pct": {
+   "20-60": 9.2,
+   "60-250": 63.9,
+   "250-800": 8.7,
+   "800-2.5k": 6.5,
+   "2.5-6k": 3.4,
+   "6-16k": 8.2
+  },
+  "seam": {
+   "jump": 0.00388,
+   "local_p999_step": 0.58633,
+   "jump_vs_local": 0.007,
+   "rms_last_50ms_db": -20.75,
+   "rms_first_50ms_db": -14.39,
+   "step_db_at_seam": 6.36,
+   "p99_step_db_50ms": 14.37,
+   "quietest_200ms_db": -26.2,
+   "first_frame": [
+    -0.11621,
+    -0.04977
+   ],
+   "last_frame": [
+    -0.1163,
+    -0.0459
+   ]
+  }
+ }
+]

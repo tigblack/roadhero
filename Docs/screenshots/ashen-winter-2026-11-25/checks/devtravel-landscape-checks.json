@@ -1,0 +1,31 @@
+{
+    "mode": "devtravel",
+    "checks": [
+        "a new save: the intro runs, every gate closed (car at (-0.06, 0.00, -236.93))",
+        "the DEV panel opens and pauses the game",
+        "«Зона 3 — Пепельная зима» is available at once (closed story gate)",
+        "the DEV card fits the screen (1170x540: (411.26, 13.25) .. (758.74, 526.75))",
+        "a repeated tap moves the car once (1)",
+        "the panel closes and the game runs again",
+        "the car stands on the Ashen Winter pad heading north ((-41.00, 0.00, 322.00), heading 0.0)",
+        "on the floor (y 0.00), at rest, not flying",
+        "no unlock, no boss win; test access in session memory (unlocked 0, test 2)",
+        "the game speed (2x) and John Wick are kept",
+        "aim cleared, input held for a moment after the move",
+        "the unfinished intro is set aside: no intro jump, the save keeps the intro ahead",
+        "the camera follows to the new place ((-41.00, 35.26, 296.38))",
+        "the goal widget shows this zone's boss as a test visit (Boss, zone 2: Тестовый визит: прогресс не засчитывается)",
+        "autosave and minimize keep the allowed checkpoint (0, -78; unlocked 0)",
+        "the save still has the intro ahead",
+        "«Зона 1» takes the car back to the Dust Flats pad ((-20.00, 0.00, -76.00))",
+        "speed and John Wick still kept",
+        "«Зона 2» takes the car to the Toxic Wetlands pad ((37.00, 0.00, 122.00))"
+    ],
+    "failures": [],
+    "notes": [
+        "checkpoint at start: 0.0, -78.0",
+        "shot dev_panel t=2.01",
+        "shot arrived_zone3 t=2.61",
+        "shot back_zone1 t=16.21"
+    ]
+}

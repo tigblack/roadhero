@@ -1,0 +1,38 @@
+{
+  "sourceFile": "/Users/arthuri/Unity Projects/RoadGame/ArtSource/Levels/AshenWinter/AshenWinter_Zone02_v1.blend",
+  "sourceSha256": "6bc0cefc11389ac136d037880e5cdc8b0d389acd1e584ce40792efde3564ae68",
+  "nodes": 589,
+  "meshObjects": 420,
+  "uniqueMeshes": 395,
+  "materials": 3,
+  "textures": {
+    "T_Ground_Ashen_BaseMap_2K": {
+      "file": "T_Ground_Ashen_BaseMap_2K.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "c0145a9910343f30bd814f9cede5b7d91247a6feaab7654fc3fa57e875697bf8"
+    },
+    "T_Trim_Ashen_BaseMap_2K": {
+      "file": "T_Trim_Ashen_BaseMap_2K.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "3baca82112bdeba3e2e3aeaa05a2b221006566fc36764f8c1fae69bf2aa873aa"
+    }
+  },
+  "collisionProxies": 84,
+  "spawnRoots": 140,
+  "lodObjects": 24,
+  "counts": {
+    "sourceCorners": 982234,
+    "splitVertices": 331675,
+    "triangles": 425398,
+    "removedDegenerates": 482,
+    "repairedNormalCorners": 3560
+  },
+  "binaryBytes": 23683316,
+  "elapsedSeconds": 2.11
+}

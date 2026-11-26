@@ -1,0 +1,42 @@
+RoadGame MUTANTS_SHOT 01_Scav_a_approach t=3.62 draws=295 setpass=39 tris=311437 active=80
+RoadGame MUTANTS_SHOT 01_Scav_b_attack t=3.92 draws=302 setpass=43 tris=310361 active=80
+RoadGame MUTANTS_SHOT 01_Scav_c_strike t=5.58 draws=302 setpass=39 tris=307903 active=80
+RoadGame MUTANTS_SHOT 01_Scav_d_death t=9.75 draws=296 setpass=41 tris=313809 active=80
+RoadGame MUTANTS_SHOT 02_Raider_a_approach t=13.63 draws=341 setpass=41 tris=508378 active=80
+RoadGame MUTANTS_SHOT 02_Raider_b_attack t=14.02 draws=335 setpass=39 tris=507682 active=80
+RoadGame MUTANTS_SHOT 02_Raider_c_strike t=14.14 draws=352 setpass=59 tris=507686 active=80
+RoadGame MUTANTS_SHOT 02_Raider_d_death t=19.76 draws=350 setpass=60 tris=507064 active=80
+RoadGame MUTANTS_SHOT 03_Spearman_a_approach t=23.63 draws=364 setpass=62 tris=496353 active=79
+RoadGame MUTANTS_SHOT 03_Spearman_b_attack t=25.22 draws=350 setpass=41 tris=496047 active=79
+RoadGame MUTANTS_SHOT 03_Spearman_c_strike t=25.42 draws=347 setpass=40 tris=496777 active=79
+RoadGame MUTANTS_SHOT 03_Spearman_d_death t=29.76 draws=377 setpass=64 tris=485324 active=79
+RoadGame MUTANTS_SHOT 04_Crossbow_a_approach t=33.63 draws=336 setpass=38 tris=448829 active=78
+RoadGame MUTANTS_SHOT 04_Crossbow_b_attack t=35.60 draws=345 setpass=42 tris=448283 active=78
+RoadGame MUTANTS_SHOT 04_Crossbow_c_strike t=35.77 draws=344 setpass=40 tris=449053 active=78
+RoadGame MUTANTS_SHOT 04_Crossbow_d_death t=39.75 draws=347 setpass=54 tris=449071 active=78
+RoadGame MUTANTS_SHOT 05_Brute_a_approach t=43.62 draws=350 setpass=40 tris=702644 active=85
+RoadGame MUTANTS_SHOT 05_Brute_b_attack t=47.93 draws=352 setpass=45 tris=701148 active=85
+RoadGame MUTANTS_SHOT 05_Brute_c_strike t=48.17 draws=349 setpass=40 tris=701250 active=85
+RoadGame MUTANTS_SHOT 05_Brute_d_death t=49.74 draws=355 setpass=45 tris=701126 active=85
+RoadGame MUTANTS_SHOT 06_Buggy_a_approach t=53.62 draws=310 setpass=44 tris=425138 active=92
+RoadGame MUTANTS_SHOT 06_Buggy_b_attack t=55.23 draws=306 setpass=41 tris=424918 active=92
+RoadGame MUTANTS_SHOT 06_Buggy_c_strike t=55.37 draws=312 setpass=44 tris=425364 active=92
+RoadGame MUTANTS_SHOT 06_Buggy_d_death t=59.75 draws=310 setpass=60 tris=420102 active=91
+RoadGame MUTANTS_SHOT 07_BossBaron_a_approach t=63.70 draws=265 setpass=41 tris=380991 active=67
+RoadGame MUTANTS_SHOT 07_BossBaron_b_stomp t=64.87 draws=268 setpass=43 tris=381115 active=67
+RoadGame MUTANTS_SHOT 07_BossBaron_c_rearup_slam t=69.28 draws=271 setpass=47 tris=381205 active=67
+RoadGame MUTANTS_SHOT 07_BossBaron_d_death t=79.56 draws=273 setpass=40 tris=384693 active=67
+RoadGame PERF shot=0 quality=Mobile renderMs median=1.41 p90=1.67 enemyMoveMsPerFrame=0.042 enemies=79 draws=365 setpass=67 tris=716994 verts=576912 shadowCasters=234 carVerts=545564 carTris=520635
+RoadGame PERF shot=0 quality=Mobile renderMs median=1.13 p90=1.28 enemyMoveMsPerFrame=0.042 enemies=63 draws=283 setpass=39 tris=711144 verts=850504 shadowCasters=125 carVerts=545564 carTris=520635
+RoadGame PERF shot=1 quality=Mobile renderMs median=1.26 p90=1.50 enemyMoveMsPerFrame=0.047 enemies=89 draws=340 setpass=42 tris=622920 verts=520126 shadowCasters=207 carVerts=545564 carTris=520635
+RoadGame PERF shot=2 quality=Mobile renderMs median=1.23 p90=1.48 enemyMoveMsPerFrame=0.055 enemies=93 draws=295 setpass=44 tris=537570 verts=488147 shadowCasters=142 carVerts=545564 carTris=520635
+RoadGame PERF shot=3 quality=Mobile renderMs median=1.23 p90=1.85 enemyMoveMsPerFrame=0.071 enemies=103 draws=288 setpass=44 tris=422234 verts=380145 shadowCasters=122 carVerts=545564 carTris=520635
+RoadGame PERF shot=4 quality=Mobile renderMs median=1.38 p90=1.77 enemyMoveMsPerFrame=0.050 enemies=80 draws=338 setpass=43 tris=354523 verts=350295 shadowCasters=132 carVerts=545564 carTris=520635
+RoadGame PERF shot=5 quality=Mobile renderMs median=1.16 p90=1.75 enemyMoveMsPerFrame=0.051 enemies=91 draws=282 setpass=37 tris=446787 verts=407967 shadowCasters=115 carVerts=545564 carTris=520635
+RoadGame PERF shot=6 quality=Mobile renderMs median=1.21 p90=1.40 enemyMoveMsPerFrame=0.050 enemies=91 draws=258 setpass=40 tris=415289 verts=405745 shadowCasters=97 carVerts=545564 carTris=520635
+RoadGame PERF shot=7 quality=Mobile renderMs median=1.12 p90=1.33 enemyMoveMsPerFrame=0.043 enemies=72 draws=254 setpass=37 tris=342586 verts=360428 shadowCasters=93 carVerts=545564 carTris=520635
+RoadGame PERF shot=8 quality=Mobile renderMs median=1.29 p90=1.51 enemyMoveMsPerFrame=0.033 enemies=62 draws=315 setpass=42 tris=557574 verts=497305 shadowCasters=127 carVerts=545564 carTris=520635
+RoadGame PERF shot=9 quality=Mobile renderMs median=1.20 p90=1.53 enemyMoveMsPerFrame=0.044 enemies=74 draws=297 setpass=40 tris=486232 verts=435533 shadowCasters=164 carVerts=545564 carTris=520635
+RoadGame PERF shot=10 quality=Mobile renderMs median=1.27 p90=1.47 enemyMoveMsPerFrame=0.040 enemies=66 draws=344 setpass=38 tris=754626 verts=682792 shadowCasters=179 carVerts=545564 carTris=520635
+RoadGame PERF shot=11 quality=Mobile renderMs median=1.29 p90=1.44 enemyMoveMsPerFrame=0.039 enemies=64 draws=339 setpass=42 tris=951126 verts=833456 shadowCasters=179 carVerts=545564 carTris=520635
+RoadGame PERF shot=12 quality=Mobile renderMs median=1.26 p90=1.46 enemyMoveMsPerFrame=0.035 enemies=64 draws=340 setpass=40 tris=899004 verts=805099 shadowCasters=177 carVerts=545564 carTris=520635

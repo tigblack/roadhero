@@ -1,0 +1,897 @@
+{
+  "capturedDate": "2026-11-26",
+  "purpose": "Editable external Blender masters and required relative dependencies, copied without re-saving models or regenerating runtime assets.",
+  "copiedRoots": [
+    {
+      "source": "/Users/arthuri/Blender Proj/New Folder(1)/DustFlats_Level_v13_SmoothPass.blend",
+      "destination": "ArtSource/ImportedMasters/DustFlats/DustFlats_Level_v13_SmoothPass.blend"
+    },
+    {
+      "source": "/Users/arthuri/Blender Proj/New Folder(1)/ArtPass_v13/source/v12_live_snapshot.blend",
+      "destination": "ArtSource/ImportedMasters/DustFlats/ArtPass_v13/source/v12_live_snapshot.blend"
+    },
+    {
+      "source": "/Users/arthuri/Blender Proj/New Folder(1)/ArtPass_v13/scripts",
+      "destination": "ArtSource/ImportedMasters/DustFlats/ArtPass_v13/scripts"
+    },
+    {
+      "source": "/Users/arthuri/Blender Proj/New Folder(1)/ArtPass_v13/stats/baseline_v12_fingerprint.json",
+      "destination": "ArtSource/ImportedMasters/DustFlats/ArtPass_v13/stats/baseline_v12_fingerprint.json"
+    },
+    {
+      "source": "/Users/arthuri/Blender Proj/New Folder(1)/ArtPass_v13/README_ArtPass_v13.md",
+      "destination": "ArtSource/ImportedMasters/DustFlats/ArtPass_v13/README_ArtPass_v13.md"
+    },
+    {
+      "source": "/Users/arthuri/Blender Proj/New Folder(1)/ArtPass_v12/README_ArtPass_v12.md",
+      "destination": "ArtSource/ImportedMasters/DustFlats/ArtPass_v12/README_ArtPass_v12.md"
+    },
+    {
+      "source": "/Users/arthuri/Blender Proj/New Folder(1)/ArtPass_v11/textures/basemap",
+      "destination": "ArtSource/ImportedMasters/DustFlats/ArtPass_v11/textures/basemap"
+    },
+    {
+      "source": "/Users/arthuri/Blender Proj/New Folder(1)/ArtPass_v12/data/changes_overlay.json",
+      "destination": "ArtSource/ImportedMasters/DustFlats/ArtPass_v12/data/changes_overlay.json"
+    },
+    {
+      "source": "/Users/arthuri/Blender Proj/New Folder(1)/ArtPass_v12/data/plan_overlay.json",
+      "destination": "ArtSource/ImportedMasters/DustFlats/ArtPass_v12/data/plan_overlay.json"
+    },
+    {
+      "source": "/Users/arthuri/Blender Proj/New Folder(1)/ArtPass_v12/data/river_v12.json",
+      "destination": "ArtSource/ImportedMasters/DustFlats/ArtPass_v12/data/river_v12.json"
+    },
+    {
+      "source": "/Users/arthuri/Blender Proj/car/Scarbound_Car_v10_DetailedCar.blend",
+      "destination": "ArtSource/ImportedMasters/PlayerCar/Scarbound_Car_v10_DetailedCar.blend"
+    },
+    {
+      "source": "/Users/arthuri/Blender Proj/car/Scarbound_Car_v10.blend",
+      "destination": "ArtSource/ImportedMasters/PlayerCar/Scarbound_Car_v10.blend"
+    },
+    {
+      "source": "/Users/arthuri/Blender Proj/car/Scarbound_Car_v10_DetailedCar_Export/Textures",
+      "destination": "ArtSource/ImportedMasters/PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures"
+    },
+    {
+      "source": "/Users/arthuri/Blender Proj/car/Scarbound_Car_v10_DetailedCar_Export/README_DetailedCar.md",
+      "destination": "ArtSource/ImportedMasters/PlayerCar/Scarbound_Car_v10_DetailedCar_Export/README_DetailedCar.md"
+    },
+    {
+      "source": "/Users/arthuri/Blender Proj/car/Scarbound_Car_v10_DetailedCar_Scripts",
+      "destination": "ArtSource/ImportedMasters/PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts"
+    }
+  ],
+  "files": [
+    {
+      "path": "DustFlats/ArtPass_v11/README_ArtPass_v11.md",
+      "bytes": 18205,
+      "sha256": "0d98fed6a3105da255048fdc5df4191e5b0c28719514f8b58f8377018e8fe670"
+    },
+    {
+      "path": "DustFlats/ArtPass_v11/textures/basemap/T_Ground_DustFlats_BaseMap_2K.png",
+      "bytes": 1679546,
+      "sha256": "fecee0d0b7ad6d9176223a4f4171b6e51c6e1bd5107cabfe06e2bace1309c535"
+    },
+    {
+      "path": "DustFlats/ArtPass_v11/textures/basemap/T_Road_Asphalt_BaseMap_1Kx2K.png",
+      "bytes": 1906873,
+      "sha256": "85576737749ce3d732727a09462e0c6972512351822f5e513997fc978f9f2c9c"
+    },
+    {
+      "path": "DustFlats/ArtPass_v11/textures/basemap/T_Rock_Strata_BaseMap_1K.png",
+      "bytes": 1028060,
+      "sha256": "70349c98aac3dbc01f2b9249a234dd47f4a11a9be46c39da75dffdb0beda2b3b"
+    },
+    {
+      "path": "DustFlats/ArtPass_v11/textures/basemap/T_Trim_Structures_BaseMap_2K.png",
+      "bytes": 1697058,
+      "sha256": "88bf5dd14b6301a9e80c0944b9558a6da390d9aa43078747092d24dc24deb935"
+    },
+    {
+      "path": "DustFlats/ArtPass_v12/README_ArtPass_v12.md",
+      "bytes": 20024,
+      "sha256": "ad16dd55a3cecebc3a44415bbf9302a6a72368d581b74abfded5b93fa7af6150"
+    },
+    {
+      "path": "DustFlats/ArtPass_v12/data/changes_overlay.json",
+      "bytes": 374004,
+      "sha256": "28af667baaa539a4dafd9cc5fd615d1d72de4c6572b114740f6745db3728ebf0"
+    },
+    {
+      "path": "DustFlats/ArtPass_v12/data/plan_overlay.json",
+      "bytes": 181978,
+      "sha256": "5f24f75498399cecfc465e384526c67d0b65231b7e49410fd41c79cda8f35d8e"
+    },
+    {
+      "path": "DustFlats/ArtPass_v12/data/river_v12.json",
+      "bytes": 221940,
+      "sha256": "a66b0ad8e4cb8f92174be9ac6a69a40f5ae8277bc0205f5cddf0373ad0cc5025"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/README_ArtPass_v13.md",
+      "bytes": 25593,
+      "sha256": "803f0526465c34c849399d309cb0f9eacbaf2470298902880914f333138e923f"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/baseline13.py",
+      "bytes": 612,
+      "sha256": "f3e35ad592a36f4a07b3fd35a13249e162ba1133002ddd7fd10c63601b6f67cc"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/build_v12.py",
+      "bytes": 2853,
+      "sha256": "44bc98ebdfdfeac6513d4528d5d60f9a0f840cdb54b8a4ca616da1f6051be1a0"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/build_v13.py",
+      "bytes": 2781,
+      "sha256": "b73732b46a9e5a4b8d8dbf6f5f80eb9227d747bc4c3a83633bde4575e8701959"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/changes_map.py",
+      "bytes": 1605,
+      "sha256": "0d6d2392bc75a0f6dfa67709db67dfa7c409892e7a3f284294badb3d692659b4"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/closeups.py",
+      "bytes": 1782,
+      "sha256": "d87ccc1904acfab91104f2f98134f85c2190fbf6a2af7149767e3963a28ce546"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/compare12.py",
+      "bytes": 2523,
+      "sha256": "6eb58e197cb07ac9cc9347889230534d865026d9f15eccdff2d6c12c3df9a2c0"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/compare13.py",
+      "bytes": 1301,
+      "sha256": "385428e2e92a852e87d5bfff011e55ed1e1ca23f3fa2ee4a088aaa4c4a78d849"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/compare_closeups.py",
+      "bytes": 1009,
+      "sha256": "c66478a21d00aea5886e8c783fb98047896e2a33aaac6c45d724813b25aea06b"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/export_col13.py",
+      "bytes": 1316,
+      "sha256": "a3d931cfb2dfd5485e9d3a4b016343de1ebc86c3440e56e0b1730452fbbfe78f"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/export_fbx.py",
+      "bytes": 1241,
+      "sha256": "7c2d7453d4dadcbc993b522091dbfd28bf35c8998b81df404f2284432eb5e12a"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/export_integration.py",
+      "bytes": 3587,
+      "sha256": "5b19b8aec18a444a8625895cdc2f94d75ae1b79f101c2c7d6a878e445124d024"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/fingerprint.py",
+      "bytes": 1880,
+      "sha256": "808bf87900078e996e4f9cc284fe793c191105e28ad7cefd36b8ce3b4c3d7427"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/imgtools.py",
+      "bytes": 5806,
+      "sha256": "b7674f6c73e769675d858cfca2fe91429421f0bf0f3287ec97a46485941876e0"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/make_overlay.py",
+      "bytes": 1273,
+      "sha256": "41d91a7a60c7544b15d876603dd787e13764670e30e1ad1fe980965d6d641239"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/planmap.py",
+      "bytes": 3239,
+      "sha256": "ad7894b7b3cc3419c5e2b51c927b77396ba7b1a8e09d5b01a4f5219a7dbf42c4"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/render12.py",
+      "bytes": 1894,
+      "sha256": "c396a3e66e1a145a4c7007b93ff43fb4bb58e5209d67e09cfc47129800119511"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/render13.py",
+      "bytes": 3985,
+      "sha256": "f85f94af100ea3ca8e40d0c52a53b92ca3656492222a6286061a645a2d4068a4"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/render_shots.py",
+      "bytes": 1949,
+      "sha256": "aeb6b342cf123f44ff691e89b46593dfc698c4c813f1c201148aa083186886e3"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/rg_baseline.py",
+      "bytes": 8982,
+      "sha256": "a40012f54189b06f9444ce9ebd3869de1677f5a2accad48c48f3c7d8f02c4dd1"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/rg_cams.py",
+      "bytes": 4941,
+      "sha256": "528d9fc023bbf5b5667a663f4c4cb159baccc082be9a2c6b16784e9be4900409"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/rg_check13.py",
+      "bytes": 6415,
+      "sha256": "b8c2f21dfd3e84ebed62266ee0418df1ba7b0c5034ada4541f06e478514e0515"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/rg_kit.py",
+      "bytes": 8439,
+      "sha256": "88335dc49e2963116bc3e493f839e922c323d9c072ca5281e6ae32fd157f2670"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/rg_layout12.py",
+      "bytes": 10102,
+      "sha256": "ac219978db9a51ed6464133c0caae161441187735252ec99c63bb3365aa33168"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/rg_level.py",
+      "bytes": 3707,
+      "sha256": "815a7021e33388b36ae4faed50cd9923938ffb422fda9bcae65f4d56fba9ba66"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/rg_lib.py",
+      "bytes": 20074,
+      "sha256": "e5362c3ac2eb75481ff1005d74ca3c248d60598b1ef389763c400272d32a49ae"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/rg_light.py",
+      "bytes": 4221,
+      "sha256": "a797557edd00eebcb4935895e4ca97e5330e156b76d6ee1276586ee48db97515"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/rg_massif.py",
+      "bytes": 14977,
+      "sha256": "6abf68a2034f4a1b5b892573dfffce9af75c5f56b9e95de1ea7a72f218e29ee2"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/rg_rocks.py",
+      "bytes": 13046,
+      "sha256": "23602b1bb8fec1f6db2340f94b184377db965faab5b7c001a8e2b7da00caae42"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/rg_round.py",
+      "bytes": 14821,
+      "sha256": "6e1766cdc232679ff7237095c0bed8a1679310a50305ed99defef22f35bca46c"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/rg_sculpt.py",
+      "bytes": 15052,
+      "sha256": "4080c2a10e38fe847136038b728db6984645ad94a2cd99b56dcd654f70d31934"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/rg_shots13.py",
+      "bytes": 2726,
+      "sha256": "5c847cb14807277b28da93cbb6a5356c73dc07a15da72d0189e929b53dec5bc8"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/sheet_cli.py",
+      "bytes": 391,
+      "sha256": "8a31e6a803758d79bbe5e8d34019ae1d8242df9686341a13584ae4fe8b8ee2c0"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/stats.py",
+      "bytes": 3263,
+      "sha256": "d5a6229dafb6c291ee03a57a580a179ef9e4dd9f81d0074b46f736deec3fc5db"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/stats12.py",
+      "bytes": 1979,
+      "sha256": "8b6314f5a611554f30daace072e629437e32d2e99b9502f6ff39980bd3b88c08"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step12_bridges.py",
+      "bytes": 22198,
+      "sha256": "2992cd4a27a471ef47228777082b7bfd5fd843f1fdca64cd998e10d2967964d9"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step12_buildings.py",
+      "bytes": 24411,
+      "sha256": "aa038ca7dbb5be74a069dd5523961f5792a9ad6a409baac0ebc749597fec7c3f"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step12_finalize.py",
+      "bytes": 8698,
+      "sha256": "4d143c21eeaa2fa617f50836cb4edf3c01e5d21b90a1b6ae0add454ace3b012f"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step12_materials.py",
+      "bytes": 3055,
+      "sha256": "c72e9c9bf0ebf2807271412b695e8ddb9d3678d6b06d9508342207973e605a80"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step12_outline.py",
+      "bytes": 20870,
+      "sha256": "c6052752dc81525d816f3de7c26a7e93268830a11154d76d1da10f21f065ebae"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step12_presentation.py",
+      "bytes": 5376,
+      "sha256": "111d4a0dde81a58e2562fe4750ee941afb33c0d317c2e31090b4b592c8b9aafc"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step12_props.py",
+      "bytes": 9165,
+      "sha256": "3acccf423a0ae1751e3a2c62df45cdcdfee41590a2f7815aadbd8a9079314621"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step12_ramps.py",
+      "bytes": 17049,
+      "sha256": "836e7c179840148bb635abce80279c7aa57cc8df910afe1fbc39d5e55b12df48"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step12_river.py",
+      "bytes": 17984,
+      "sha256": "fa4a766e3368e2c80b61147aeaf1025a4066a5c76ae5c415130997773a5a7f81"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step13_buildings.py",
+      "bytes": 4018,
+      "sha256": "96eb1b2e20be3c310755835eb87ce8ebe56dfeb6312fbdcd077135f4a5fc78a1"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step13_finalize.py",
+      "bytes": 4394,
+      "sha256": "74ae16bf0531f0c50cc7d9d8c200178d21e93fc250c2adef766b7bef59db0fc1"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step13_lod.py",
+      "bytes": 3516,
+      "sha256": "a00fddb82fa1e796baaa0f5b1497c78cc59d5d627edd2d0dd5bdb5c7b00b19e8"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step13_massif.py",
+      "bytes": 21060,
+      "sha256": "e1af02cabe7cb993cb768067e6075685abcd3dfe846135bad3502e6a471b5f41"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step13_perimeter.py",
+      "bytes": 14549,
+      "sha256": "522c0aad16473ef3ce9658d8daf1aec000c95c12fb0e60765d5111da721bf70b"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step13_props.py",
+      "bytes": 10292,
+      "sha256": "4bed968383de494b4b1914f40c737473839079075669d4ed4f37f137d794caf1"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step13_ramps.py",
+      "bytes": 13058,
+      "sha256": "18d82b8b9b8669c60bfaf5e56f697198f1995a01b114cfe27bcbed9e9ef1052f"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step13_river.py",
+      "bytes": 1331,
+      "sha256": "82497b70fe06318176a5a348b2d72ced467c10ea87a65e903e56e94be6742850"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step13_roads.py",
+      "bytes": 14938,
+      "sha256": "ba91494294733e20afaab9002b110468015e27ed9f9056e8de6b8664ef058d38"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step13_terrain.py",
+      "bytes": 8671,
+      "sha256": "41520c7f3d28541ed6a46e024d3281cbd258a0e5e8fb27d287410a14a096253f"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step_ground.py",
+      "bytes": 10355,
+      "sha256": "8a18b76cde476240b89a3297dd234206e856084d2fee87d011e4ccd40d009305"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step_materials.py",
+      "bytes": 7721,
+      "sha256": "e663130b444f3d87abd84274a93624ea0157972e539a0899360b8ad5529c899c"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step_props.py",
+      "bytes": 16978,
+      "sha256": "9e7063f640ea8542601bb523167eff9c10c47ef51fcb71417afaebf20a17cdf1"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step_roads.py",
+      "bytes": 12216,
+      "sha256": "c6aee508fefca5bcfcedf6655246ff022d85ef553c97bb7d523e48da4eaff3b4"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step_rocks.py",
+      "bytes": 12762,
+      "sha256": "7a5df809bfb2621c6c69b7b9fb3b6e6b20a6a0b3dc113cc2ab714f05db4f56fb"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step_structures.py",
+      "bytes": 34772,
+      "sha256": "75676c20a34aadc9612c5d99a83b4f70f246e8cce9c294de1c4ae9aa2a533d7d"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/step_works.py",
+      "bytes": 18314,
+      "sha256": "f7d0fd5b442cbdb0a4b9d91740ea5fbf39a4a05e6ecaa25a8fc100acb310d1cb"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/scripts/tex_gen.py",
+      "bytes": 26994,
+      "sha256": "639d64c7664f3393a35a09d2c9bfb05648b09646d22421de1a0b4fe8cfb713a2"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/source/v12_live_snapshot.blend",
+      "bytes": 35133721,
+      "sha256": "6d435b4d51d2582df4c73787cb781cdf63da763e578396e4a2cb859dccaa67ec"
+    },
+    {
+      "path": "DustFlats/ArtPass_v13/stats/baseline_v12_fingerprint.json",
+      "bytes": 343908,
+      "sha256": "f136a485685f65bd552da78ec1d4ccb9b89d4e59edc5ca773fd0593f97207f10"
+    },
+    {
+      "path": "DustFlats/DustFlats_Level_v13_SmoothPass.blend",
+      "bytes": 60509689,
+      "sha256": "3e5c69fae07b6b638e931db51673af2bc069e2ddc1ca826ddc06b93183a27651"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10.blend",
+      "bytes": 1164482,
+      "sha256": "18da90f5031b86a36fa26ff0112063ae5be10e90db6a111d87d10b8370880a24"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar.blend",
+      "bytes": 14266947,
+      "sha256": "97b46d4d9ebf075d774d78333c9c1984bc397509b53dbc2c0d36d0b0b3663522"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/README_DetailedCar.md",
+      "bytes": 9528,
+      "sha256": "be8a4e8b6a2962ba91c159980214b9278e8b7ea2a66ac15e23a80c3cac78dcbc"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_CarBody_AO.png",
+      "bytes": 3578445,
+      "sha256": "f8ad6d2ebf12d648bab9bf4528d07591a14e71065ac2778e32e03930b9edccaa"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_CarBody_BaseColor.png",
+      "bytes": 4498089,
+      "sha256": "54a92131bce50bbbaed451fdbaffba526e647e671e41e84c05cd4d379fafe1d4"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_CarBody_Emission.png",
+      "bytes": 220209,
+      "sha256": "cfa2a02075b3ff02ea44d921846e237a53b29db5709b12f55734eed98a6fac64"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_CarBody_Metallic.png",
+      "bytes": 1051741,
+      "sha256": "cfbcf2f86b3d86bd02e823fae68654fbcfbe414b8250d289314ed8930c05285b"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_CarBody_MetallicSmoothness.png",
+      "bytes": 5676847,
+      "sha256": "33a30726df309b233f85d2f69d6ecf2335b2144cbe0646fa2e74580c29e636d4"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_CarBody_Normal.png",
+      "bytes": 742235,
+      "sha256": "4908d4b324453d5e874d7c0052f39f44f6ed1b72489b08d7678c61621d12f47b"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_CarBody_ORM.png",
+      "bytes": 7584280,
+      "sha256": "d5b383f8079e63bdcc7d411c3e3b2e5022eda0777f2ed7780455648ce50d493a"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_CarBody_Roughness.png",
+      "bytes": 4598374,
+      "sha256": "2b1c4d7ede570bcde44d4ebe084b5ff132b1e11b85c55c155a9d25b58b539c83"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_CarDetails_AO.png",
+      "bytes": 2441785,
+      "sha256": "2fc35d36807a7487618040b129062f5ebf875307db55e89c717b43076682527f"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_CarDetails_BaseColor.png",
+      "bytes": 2551631,
+      "sha256": "842a47df4fb6902e25ed4c895cf24f973d25af738886690fc3425ed351c001d9"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_CarDetails_Emission.png",
+      "bytes": 158538,
+      "sha256": "16daf7f30cae3cdff11c00d9fc8e16275e49270dcb5d946cac2f275ca3b3735e"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_CarDetails_Metallic.png",
+      "bytes": 594347,
+      "sha256": "a81678ea15844b4618d7ee30344b6511a83b52c3a7a0dbd5478608aa8c961f8f"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_CarDetails_MetallicSmoothness.png",
+      "bytes": 2820357,
+      "sha256": "ae51b16b2dac9ae9950a264219ed67aa2259b05e7167a69b6e51247b40290c94"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_CarDetails_Normal.png",
+      "bytes": 1347134,
+      "sha256": "576088f9903fae15a28521b34fdbb8f78e81c1433764997533a8774063b3bd76"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_CarDetails_ORM.png",
+      "bytes": 4038506,
+      "sha256": "512b632bc508e0dbcc700e94901505ac2b34f26a3860c807959902bf8926d713"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_CarDetails_Roughness.png",
+      "bytes": 2390811,
+      "sha256": "527d56be6d887d6760ae382cbb2bc155a8835d9c61e32da7d04386b4cca94617"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Harpoon_AO.png",
+      "bytes": 1725401,
+      "sha256": "c5b6cb0f612427877f8270138e5a7aae19367ac4af317e82a6a2a8b1744aba8e"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Harpoon_BaseColor.png",
+      "bytes": 1988214,
+      "sha256": "0bc80318fd97d8a3c47ff9692079e84b9e9bab076973498a73ce22766548866f"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Harpoon_Emission.png",
+      "bytes": 55235,
+      "sha256": "5630edf42913f842e57308503a7e0977e721d09027a12c453b8878c22108cd37"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Harpoon_Metallic.png",
+      "bytes": 200816,
+      "sha256": "e4cb174dbf4f9a981966d132ed2012b887d33ae8a1c2a89a95b60c110a39589f"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Harpoon_MetallicSmoothness.png",
+      "bytes": 1852178,
+      "sha256": "1722994a6700839e2719cc8b22848a4818faca9eca7858ce5239eba61ad74858"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Harpoon_Normal.png",
+      "bytes": 455460,
+      "sha256": "14cf0a0b66d11defd9c335f0b73424fa2583ae8bf4e369d0e0b584713da8bc2e"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Harpoon_ORM.png",
+      "bytes": 2867369,
+      "sha256": "603adeede96e95f70c525b588cc2c4e8909953750de04fbe8a72a173c03b3d4b"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Harpoon_Roughness.png",
+      "bytes": 1703385,
+      "sha256": "90ad730db9d735672506f808cb184ac6fc1e882c5e5bcbf04d41521123ae9ca8"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_HoodGun_AO.png",
+      "bytes": 2175733,
+      "sha256": "e4c4e7d398d151b4cd5b0d8a422a5018e0aea7925a68427d1a4a7bd60ebfed76"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_HoodGun_BaseColor.png",
+      "bytes": 2118935,
+      "sha256": "e38a6519b0587f7ef606d809c7d1bd1fb83d27f810dee97bdbf21ba56fc18ac6"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_HoodGun_Emission.png",
+      "bytes": 55235,
+      "sha256": "5630edf42913f842e57308503a7e0977e721d09027a12c453b8878c22108cd37"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_HoodGun_Metallic.png",
+      "bytes": 263543,
+      "sha256": "1636b373b8bf62b6cedd9d569227a8ef5c50c93953a4f6055bf21f33f848a170"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_HoodGun_MetallicSmoothness.png",
+      "bytes": 2528468,
+      "sha256": "da17cf2d8b5b49dccff88bd21bbbe353359fad6862f8429f1c335c4210375721"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_HoodGun_Normal.png",
+      "bytes": 824796,
+      "sha256": "c24d85f7c054890abb825ec6f56c226cb48279066357cab534fc7071da03c39c"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_HoodGun_ORM.png",
+      "bytes": 3753795,
+      "sha256": "8e96be003ed457866d4548d378c93d49df52c9f741f44a5c43bf909c16db319b"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_HoodGun_Roughness.png",
+      "bytes": 2290953,
+      "sha256": "ce2aaeab62463e8ca9215b35c2a3a6b518826aafd8a91bc7e6b7a4f59807b0ab"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Quasimodo_AO.png",
+      "bytes": 2456828,
+      "sha256": "f571953fb810b09b73ae95cbef7a18271473aec16c1efe6b301d9bb5566ba1d6"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Quasimodo_BaseColor.png",
+      "bytes": 2582715,
+      "sha256": "dee5789254784fb691ef397a4ca4602905aca5a9102f059235a80ec5a241f4fd"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Quasimodo_Emission.png",
+      "bytes": 55235,
+      "sha256": "5630edf42913f842e57308503a7e0977e721d09027a12c453b8878c22108cd37"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Quasimodo_Metallic.png",
+      "bytes": 74761,
+      "sha256": "7cd1c9324a88a40d4e66c56af43b3d72af5465a935fb08119a13e5997f0222da"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Quasimodo_MetallicSmoothness.png",
+      "bytes": 1043370,
+      "sha256": "977595e5c378f7982dbf1abd556dc4cf6bf62241417dfe5bdee7906303992cf4"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Quasimodo_Normal.png",
+      "bytes": 1375200,
+      "sha256": "14a5f50307719905b829a5d369a82ecb270d861f73c25200d881a6be091fb545"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Quasimodo_ORM.png",
+      "bytes": 2928556,
+      "sha256": "b5c3be757a1e72e09cd0d64d104a223c29ad3efdafb15aaa89545a25fd56d843"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Quasimodo_Roughness.png",
+      "bytes": 1000735,
+      "sha256": "aa0fdee1e52cad0d2e8854a7a63aae9ed4cb60582940c46402cf17d21d1dbf6f"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Wheels_AO.png",
+      "bytes": 2245659,
+      "sha256": "36dfc0ff746f1c0a3c1065006c624b320166c5cffa839df4465bb8dae045d9eb"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Wheels_BaseColor.png",
+      "bytes": 2664307,
+      "sha256": "2d4c2cb89bdac2f919310e59b9ebff2c6e9fa78071e2111e806ed30124b0a26f"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Wheels_Emission.png",
+      "bytes": 55235,
+      "sha256": "5630edf42913f842e57308503a7e0977e721d09027a12c453b8878c22108cd37"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Wheels_Metallic.png",
+      "bytes": 246820,
+      "sha256": "54031f4252d65d0efd6534ae51537688077f50bbbf7d5a8ef7bbc0e6903ad7a7"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Wheels_MetallicSmoothness.png",
+      "bytes": 2485434,
+      "sha256": "5422bf5b5f80a327618b824de8d86ac4f60f5f4166d83573364e42f5970bff80"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Wheels_Normal.png",
+      "bytes": 536568,
+      "sha256": "887d516ed906e21babf2df2d3086daa438da7ad0a44c8574c9f5295cb80a880a"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Wheels_ORM.png",
+      "bytes": 3723529,
+      "sha256": "6b81fd2e428c1c63017bb21d83d23739f340328f853eaa0739589665442af1c6"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Export/Textures/T_Wheels_Roughness.png",
+      "bytes": 2290309,
+      "sha256": "a7ae109296f3185b5077ff417d080533bd48111176ac5a2b891efa7b95b6dce6"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/README.txt",
+      "bytes": 638,
+      "sha256": "12374097025710c1e2e9c56e84b7c638b8090eab28d7ea0dd8f7571a0454589a"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/apply_body.py",
+      "bytes": 969,
+      "sha256": "1f9ffbaaccf043b91897b1f38ce703768bf4c2a9cdd3891ff06f5b03d5dcf885"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/apply_details.py",
+      "bytes": 684,
+      "sha256": "0b94d37abcfb2921ea4eaf1509c5e26addabf30c687a60e9e1a643045b5a5ad7"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/apply_gun.py",
+      "bytes": 2410,
+      "sha256": "2a8990210a77c3687061a2ef8ffdc5d8857134e9e4bca0c5ba14dea59afcf911"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/apply_harpoon.py",
+      "bytes": 970,
+      "sha256": "9699a348c64233734042f9d7fc9874ad31117a33e37bddd1fe24bd8e64fbc4f6"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/apply_quasi_body.py",
+      "bytes": 990,
+      "sha256": "283083b82233fa5619d0b3973250c67026eff24502ee0e666393a25760030d79"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/apply_quasi_head.py",
+      "bytes": 527,
+      "sha256": "2ebc97a910c632bef1923f37de9f9623e73f77bffc025bb24a3c72949704caa4"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/apply_quasi_limbs.py",
+      "bytes": 1335,
+      "sha256": "ce1ee5768ec70a41def2615c8108f994a2499f176c73f35d45e925ca6160004b"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/apply_under.py",
+      "bytes": 814,
+      "sha256": "e493585d15f709cb2384e4cda7d4c03088e3fd1146faa71944e220a1f9fe7f6b"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/apply_wheels.py",
+      "bytes": 2953,
+      "sha256": "db77140196a8a5a54629257e189695db8deaab59766fe9f5c84bf324fe5222b2"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/bake.py",
+      "bytes": 6897,
+      "sha256": "db70223b4a3ed2eb2902c13c7e8284bb514c8a8abfa79115936494d4fef57340"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/baked_mats.py",
+      "bytes": 1996,
+      "sha256": "3a5abb7b03eedf11554175717c4b79240fefa05d1f784d8466e26917292fbfd3"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/bb.py",
+      "bytes": 2613,
+      "sha256": "be77bb6e4e10e2ed20bf9c1d8ac3ed5c98016a87e8510ef62e155c85c85d32aa"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/compare.sh",
+      "bytes": 774,
+      "sha256": "f680790ca98e2417e3447d3f783a47f0dd999ac5a98aa88c9ae1471b2d252f99"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/export_fbx.py",
+      "bytes": 2735,
+      "sha256": "61328b81dcfab9e4d34bb9e331d26088ee06fd19b52dd14162388c9550026f4d"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/lib/carshape.py",
+      "bytes": 3152,
+      "sha256": "c002456bec0c7da9446159cf502afaee468b6c834e64710bfb03bc31944baa2b"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/lib/mats.py",
+      "bytes": 16461,
+      "sha256": "a4c18e527cb54707c29a4a78702f525f4d9d73509a6bb3c01009feb25fc80fdd"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/lib/mb.py",
+      "bytes": 26907,
+      "sha256": "36cd22b44c3eeed523a9d61f7bd4311ac7b4186467edf6f51e2a67936ed0a50e"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/lib/organic.py",
+      "bytes": 4644,
+      "sha256": "f9ac3779b6aa649a63c685e9ce2d2c5889febacca2ee97412d2d666d0b5c0704"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/lib/parts_body.py",
+      "bytes": 20256,
+      "sha256": "4edc37000cb7161182f5434c2338996c7597e31a6ced2a14383881682915ad4b"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/lib/parts_details.py",
+      "bytes": 25163,
+      "sha256": "8ebdd13443c5da3a65f91a89fc76fc0b96e09ae98b1fed4b0cb19d1953e2b9e6"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/lib/parts_gun.py",
+      "bytes": 15009,
+      "sha256": "22cf17a6ee76998caff07ef185f68a9032e84ffa04d09139030b702cb0a5e18f"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/lib/parts_harpoon.py",
+      "bytes": 6548,
+      "sha256": "9866382d16f598293acbb7d872bf5552b5c44c02835198a8172395b467bfa865"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/lib/parts_quasi.py",
+      "bytes": 18720,
+      "sha256": "f9b012f1f5ba8363fddbee569b9658a0b9401985207a05ff1d7eaa77b3fe5449"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/lib/parts_quasi_head.py",
+      "bytes": 8933,
+      "sha256": "56874d2f707d2434114d04b8d75f88367708d05f9b1b0d4651d90b25493a5b0d"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/lib/parts_quasi_limbs.py",
+      "bytes": 15024,
+      "sha256": "d821ca243d5643ffddfe0d64d7a16696797c210db94810b1cbf88ebabcb8f687"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/lib/parts_under.py",
+      "bytes": 5065,
+      "sha256": "94c2bbbea8c00a1e3a31671a29f1beb2370c089077a426545f4463290651aae4"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/lib/parts_wheels.py",
+      "bytes": 8241,
+      "sha256": "c32a47282ae25d5954cb02f1817288c5cd0f16d8d33c12acb9d0178461d78414"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/make_labels.py",
+      "bytes": 1729,
+      "sha256": "0850881e2427cfeb0f58abf7e6cdb0fe6e49f5ae4e111cd646c1b289b31837f5"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/make_lods.py",
+      "bytes": 4992,
+      "sha256": "be5a45897353a676d5c05bcd16228cec42d3f53ce0d04b46f6a6485b1c2b1180"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/prelude.py",
+      "bytes": 889,
+      "sha256": "ff250d86e135236635a06a5ab331c1e7f08c7e0923d7117ec4c2055bfd00214c",
+      "originalSourceSha256": "3155531fafaf6e97f480f6a794b30658122cfa77e37520843a1bc44c8ebae32a",
+      "adaptation": "Use script-relative paths instead of an expired Claude scratch directory."
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/qa_aim.py",
+      "bytes": 1950,
+      "sha256": "412b504b5f63ed5c7af99e28a4b2ddb9c9674269754e8e9aaec697db05660b07"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/qa_aim2.py",
+      "bytes": 1861,
+      "sha256": "64b689b023d6f1230dcbee984ca8dacf7225240088448f2c2090670c177e8223"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/qa_run.sh",
+      "bytes": 1180,
+      "sha256": "4238f942d614b9d2bbb163be5d40216bfa708ac7a6af170e5085b1f568cc306b"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/render_views.py",
+      "bytes": 10710,
+      "sha256": "442545717e96c3038de8b36d64cb9d202e0d8bdea6191549e190981ec5a9f421"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/tsets.py",
+      "bytes": 504,
+      "sha256": "64fd1a3efc5a426ba1669c701fa8bd89e19cc165d985523af0052e5ceeea70c1"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/uv_fill.py",
+      "bytes": 657,
+      "sha256": "80788e24291bf92c68664eb3f99ea3f08749dc8771ba33c02cdb3f8a1b2e1ad4"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/uv_final.py",
+      "bytes": 1209,
+      "sha256": "cd5c7059818e4585f42ada14c03479d037516ab7a6ecf755eece922f32e1e814"
+    },
+    {
+      "path": "PlayerCar/Scarbound_Car_v10_DetailedCar_Scripts/verify_fbx.py",
+      "bytes": 2195,
+      "sha256": "15891a58b0fe4fe5672520899e8bb2de22e3b23fe633b07913f7ae597434e4b5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3198,
+      "sha256": "eb6c59646f223ab2871089f4d4e5c163d26300b9a886feec2a8b4d5f10e5b2aa"
+    }
+  ],
+  "runtimeCarRecordedSourceSha256": "9d9e51f16b68428645285dfe90931f889d83b853d66ca8b3909359bbad70d6a1",
+  "currentExternalCarSha256": "97b46d4d9ebf075d774d78333c9c1984bc397509b53dbc2c0d36d0b0b3663522"
+}

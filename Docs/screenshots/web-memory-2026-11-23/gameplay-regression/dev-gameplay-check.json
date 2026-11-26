@@ -1,0 +1,3083 @@
+{
+    "version": "DevGameplayCheck/1",
+    "createdUtc": "2026-11-23T10:44:18.9157860Z",
+    "saveSuffix": "_devcheck20261121",
+    "targetHitMethod": "Target.Hit(1,false,player.Pos); Mammoth uses a real Turret round",
+    "passed": true,
+    "exception": "",
+    "checks": [
+        {
+            "name": "fresh_locked_gate",
+            "details": "New isolated game; Mammoth alive and second zone locked.",
+            "passed": true,
+            "gameSeconds": 0.0,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "work_audio_muted",
+            "details": "Editor master audio muted; Sound/Music save settings remain untouched.",
+            "passed": true,
+            "gameSeconds": 0.0,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "speed_1",
+            "details": "Expected Time.timeScale=1; actual=1; selected=1",
+            "passed": true,
+            "gameSeconds": 0.0,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "speed_2",
+            "details": "Expected Time.timeScale=2; actual=2; selected=2",
+            "passed": true,
+            "gameSeconds": 0.0,
+            "timeScale": 2.0,
+            "speed": 2.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "scaled_clock_2",
+            "details": "Measured Time.time/Time.unscaledTime ratio=2.000 over 0.614 unscaled seconds.",
+            "passed": true,
+            "gameSeconds": 1.2272074222564697,
+            "timeScale": 2.0,
+            "speed": 2.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "speed_4",
+            "details": "Expected Time.timeScale=4; actual=4; selected=4",
+            "passed": true,
+            "gameSeconds": 1.2272074222564697,
+            "timeScale": 4.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "scaled_clock_4",
+            "details": "Measured Time.time/Time.unscaledTime ratio=4.000 over 0.400 unscaled seconds.",
+            "passed": true,
+            "gameSeconds": 2.827207088470459,
+            "timeScale": 4.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pause_at_4",
+            "details": "Expected Time.timeScale=0; actual=0; selected=4",
+            "passed": true,
+            "gameSeconds": 2.827207088470459,
+            "timeScale": 0.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "resume_at_4",
+            "details": "Expected Time.timeScale=4; actual=4; selected=4",
+            "passed": true,
+            "gameSeconds": 2.827207088470459,
+            "timeScale": 4.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "speed_change_keeps_pause",
+            "details": "Expected Time.timeScale=0; actual=0; selected=2",
+            "passed": true,
+            "gameSeconds": 2.827207088470459,
+            "timeScale": 0.0,
+            "speed": 2.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "resume_changed_speed",
+            "details": "Expected Time.timeScale=2; actual=2; selected=2",
+            "passed": true,
+            "gameSeconds": 2.827207088470459,
+            "timeScale": 2.0,
+            "speed": 2.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "slowmo_uses_modifier",
+            "details": "Slow motion temporarily lowers selected speed4; actual=1.2",
+            "passed": true,
+            "gameSeconds": 2.8671677112579346,
+            "timeScale": 1.2000000476837158,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "slowmo_restores_4",
+            "details": "Expected Time.timeScale=4; actual=4; selected=4",
+            "passed": true,
+            "gameSeconds": 5.000382900238037,
+            "timeScale": 4.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pointer_event_system",
+            "details": "Production EventSystem uses InputSystemUIInputModule; mouse events below are queued, not direct onClick invocations.",
+            "passed": true,
+            "gameSeconds": 5.000382900238037,
+            "timeScale": 4.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pointer_dev_button_raycast",
+            "details": "Screen=640x480 point=(603.82, 174.39) topRaycast=Dev expectedButton=Dev",
+            "passed": true,
+            "gameSeconds": 5.033788204193115,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pointer_dev_button_press_received",
+            "details": "Player input update consumed leftButton=1 at (603.82, 174.39); deviceId=4 update=Dynamic sample=6",
+            "passed": true,
+            "gameSeconds": 5.10038948059082,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pointer_dev_button_release_received",
+            "details": "Player input update consumed leftButton=0 at (603.82, 174.39); EventSystem processed a full pointer click; update=Dynamic",
+            "passed": true,
+            "gameSeconds": 5.117092132568359,
+            "timeScale": 0.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pointer_dev_opens_panel",
+            "details": "A queued mouse press/release at the visible Dev button opens the actual modal and pauses gameplay.",
+            "passed": true,
+            "gameSeconds": 5.117092132568359,
+            "timeScale": 0.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pointer_speed_4_raycast",
+            "details": "Screen=640x480 point=(422.38, 291.58) topRaycast=Speed4 expectedButton=Speed4",
+            "passed": true,
+            "gameSeconds": 5.117092132568359,
+            "timeScale": 0.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pointer_speed_4_press_received",
+            "details": "Player input update consumed leftButton=1 at (422.38, 291.58); deviceId=4 update=Dynamic sample=12",
+            "passed": true,
+            "gameSeconds": 5.117092132568359,
+            "timeScale": 0.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pointer_speed_4_release_received",
+            "details": "Player input update consumed leftButton=0 at (422.38, 291.58); EventSystem processed a full pointer click; update=Dynamic",
+            "passed": true,
+            "gameSeconds": 5.117092132568359,
+            "timeScale": 0.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pointer_speed_4_selected",
+            "details": "A queued mouse click on Speed4 changes selected speed through the real UI input module while the modal stays paused.",
+            "passed": true,
+            "gameSeconds": 5.117092132568359,
+            "timeScale": 0.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pointer_john_wick_raycast",
+            "details": "Screen=640x480 point=(423.92, 189.96) topRaycast=JohnWickToggle expectedButton=JohnWickToggle",
+            "passed": true,
+            "gameSeconds": 5.117092132568359,
+            "timeScale": 0.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pointer_john_wick_press_received",
+            "details": "Player input update consumed leftButton=1 at (423.92, 189.96); deviceId=4 update=Dynamic sample=18",
+            "passed": true,
+            "gameSeconds": 5.117092132568359,
+            "timeScale": 0.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pointer_john_wick_release_received",
+            "details": "Player input update consumed leftButton=0 at (423.92, 189.96); EventSystem processed a full pointer click; update=Dynamic",
+            "passed": true,
+            "gameSeconds": 5.117092132568359,
+            "timeScale": 0.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pointer_john_wick_enabled",
+            "details": "A queued mouse click on JohnWickToggle enables one-hit mode through EventSystem.",
+            "passed": true,
+            "gameSeconds": 5.117092132568359,
+            "timeScale": 0.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pointer_done_raycast",
+            "details": "Screen=640x480 point=(320.00, 116.83) topRaycast=Done expectedButton=Done",
+            "passed": true,
+            "gameSeconds": 5.117092132568359,
+            "timeScale": 0.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pointer_done_press_received",
+            "details": "Player input update consumed leftButton=1 at (320.00, 116.83); deviceId=4 update=Dynamic sample=24",
+            "passed": true,
+            "gameSeconds": 5.117092132568359,
+            "timeScale": 0.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pointer_done_release_received",
+            "details": "Player input update consumed leftButton=0 at (320.00, 116.83); EventSystem processed a full pointer click; update=Dynamic",
+            "passed": true,
+            "gameSeconds": 5.183855056762695,
+            "timeScale": 4.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "pointer_done_closes_panel",
+            "details": "A queued mouse click on Done closes the modal and resumes selected speed4.",
+            "passed": true,
+            "gameSeconds": 5.183855056762695,
+            "timeScale": 4.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "dev_panel_pauses",
+            "details": "Real DevPanel is open and gameplay is paused.",
+            "passed": true,
+            "gameSeconds": 5.317025661468506,
+            "timeScale": 0.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "dev_ui_speed_2",
+            "details": "Real Speed2 button updates selected speed while keeping the modal paused.",
+            "passed": true,
+            "gameSeconds": 5.317025661468506,
+            "timeScale": 0.0,
+            "speed": 2.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "dev_ui_john_wick_toggle",
+            "details": "Real JohnWickToggle and Speed4 buttons update session settings.",
+            "passed": true,
+            "gameSeconds": 5.317025661468506,
+            "timeScale": 0.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "dev_ui_done_closes",
+            "details": "Real Done button closes the Dev panel.",
+            "passed": true,
+            "gameSeconds": 5.317025661468506,
+            "timeScale": 4.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "dev_panel_resume_4",
+            "details": "Expected Time.timeScale=4; actual=4; selected=4",
+            "passed": true,
+            "gameSeconds": 5.317025661468506,
+            "timeScale": 4.0,
+            "speed": 4.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "ordinary_hit_prop",
+            "details": "Cactus: before=21 after=20; normal hit damage1 with John Wick OFF.",
+            "passed": true,
+            "gameSeconds": 5.317025661468506,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "ordinary_hit_enemy",
+            "details": "Scavenger: before=18 after=17; normal hit damage1 with John Wick OFF.",
+            "passed": true,
+            "gameSeconds": 5.317025661468506,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "john_wick_prop",
+            "details": "Cactus: before=20 after=0; one production Hit with damage1 and John Wick ON.",
+            "passed": true,
+            "gameSeconds": 5.317025661468506,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "john_wick_foot",
+            "details": "Scavenger: before=17 after=0; one production Hit with damage1 and John Wick ON.",
+            "passed": true,
+            "gameSeconds": 5.317025661468506,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "john_wick_vehicle",
+            "details": "Buggy: before=380 after=0; one production Hit with damage1 and John Wick ON.",
+            "passed": true,
+            "gameSeconds": 5.317025661468506,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "navigation_built_before_boss",
+            "details": "Both adjacent navigation grids exist while Gate1 is still closed.",
+            "passed": true,
+            "gameSeconds": 5.317025661468506,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "mammoth_before_real_shot",
+            "details": "Boss id=9500 hp=4000; no direct Hit has been applied to it.",
+            "passed": true,
+            "gameSeconds": 5.317025661468506,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                0.0,
+                0.0,
+                -78.0
+            ]
+        },
+        {
+            "name": "john_wick_mammoth_real_turret",
+            "details": "Real Turret round: shotsDelta=1 hitsDelta=1 gunDamageStat=6.5",
+            "passed": true,
+            "gameSeconds": 5.6247124671936035,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                56.5,
+                -4.5,
+                62.0
+            ]
+        },
+        {
+            "name": "boss_progression",
+            "details": "Mammoth first kill grants bossKills[0]=1 and unlockedZone=1 through OnBossKilled.",
+            "passed": true,
+            "gameSeconds": 5.6247124671936035,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                56.5,
+                -4.5,
+                62.0
+            ]
+        },
+        {
+            "name": "gate_opens_on_boss_kill",
+            "details": "Gate1 receives its opening state from the real progression event; collision stays closed until the animation finishes.",
+            "passed": true,
+            "gameSeconds": 5.6247124671936035,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                56.5,
+                -4.5,
+                62.0
+            ]
+        },
+        {
+            "name": "gate_animation_finishes",
+            "details": "Barrier lowered/hidden after its normal opening animation.",
+            "passed": true,
+            "gameSeconds": 7.643214702606201,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                56.5,
+                -4.5,
+                62.0
+            ]
+        },
+        {
+            "name": "gate_invalidates_navigation",
+            "details": "Both cached grid arrays were discarded/replaced after the gate cleared; independent of whether HUD already rebuilt them.",
+            "passed": true,
+            "gameSeconds": 7.643214702606201,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                56.5,
+                -4.5,
+                62.0
+            ]
+        },
+        {
+            "name": "save_load_boss_unlock",
+            "details": "SaveSystem.Load returns the persisted Mammoth kill and zone unlock.",
+            "passed": true,
+            "gameSeconds": 7.643214702606201,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                56.5,
+                -4.5,
+                62.0
+            ]
+        },
+        {
+            "name": "legacy_boss_unlock_repaired_on_load",
+            "details": "A deliberately stale isolated save with bossKills[0]=1 and unlockedZone=0 is repaired by SaveSystem.Load/Sanitize.",
+            "passed": true,
+            "gameSeconds": 7.643214702606201,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                56.5,
+                -4.5,
+                62.0
+            ]
+        },
+        {
+            "name": "drive_starts_zone_0",
+            "details": "Only setup teleport: (22.00, 0.00, 90.00); no teleport is used from this point until after reload.",
+            "passed": true,
+            "gameSeconds": 7.695123195648193,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                22.0,
+                0.0,
+                90.00000762939453
+            ]
+        },
+        {
+            "name": "drive_crosses_gate_without_teleport",
+            "details": "Physical car drive from (22.00, 0.00, 90.00) to (22.00, 0.00, 124.14) in 3.51 real seconds; samples=210",
+            "passed": true,
+            "gameSeconds": 11.228408813476563,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                22.0,
+                0.0,
+                124.13792419433594
+            ]
+        },
+        {
+            "name": "zone_1_live_spawns",
+            "details": "Targetable living zone1 targets after actual arrival=43",
+            "passed": true,
+            "gameSeconds": 11.228408813476563,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                22.0,
+                0.0,
+                124.13792419433594
+            ]
+        },
+        {
+            "name": "toxic_wetlands_bundle",
+            "details": "Zone1 art bundle and matching driving surfaces are active.",
+            "passed": true,
+            "gameSeconds": 11.228408813476563,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                22.0,
+                0.0,
+                124.13792419433594
+            ]
+        },
+        {
+            "name": "reload_keeps_boss_unlock",
+            "details": "A new Game instance loaded boss kill, zone unlock and Mammoth respawn timer from isolated save.",
+            "passed": true,
+            "gameSeconds": 0.0,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                22.0,
+                0.0,
+                124.19552612304688
+            ]
+        },
+        {
+            "name": "reload_keeps_gate_open",
+            "details": "Freshly generated World applies the saved open Gate1 state.",
+            "passed": true,
+            "gameSeconds": 0.0,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                22.0,
+                0.0,
+                124.19552612304688
+            ]
+        },
+        {
+            "name": "reload_keeps_zone_1_position",
+            "details": "Reloaded player position=(22.00, 0.00, 124.20)",
+            "passed": true,
+            "gameSeconds": 0.0,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                22.0,
+                0.0,
+                124.19552612304688
+            ]
+        },
+        {
+            "name": "reload_zone_1_live_spawns",
+            "details": "Zone1 targets remain live after new World construction.",
+            "passed": true,
+            "gameSeconds": 0.0,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                22.0,
+                0.0,
+                124.19552612304688
+            ]
+        },
+        {
+            "name": "final_speed_1",
+            "details": "Expected Time.timeScale=1; actual=1; selected=1",
+            "passed": true,
+            "gameSeconds": 0.0,
+            "timeScale": 1.0,
+            "speed": 1.0,
+            "playerPosition": [
+                22.0,
+                0.0,
+                124.19552612304688
+            ]
+        }
+    ],
+    "northGateDrive": [
+        {
+            "realSeconds": 0.000003832999937003478,
+            "gameSeconds": 7.695123195648193,
+            "speed": 5.0,
+            "position": [
+                22.0,
+                0.0,
+                90.00000762939453
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.0035620001144707203,
+            "gameSeconds": 7.722563743591309,
+            "speed": 5.063544273376465,
+            "position": [
+                22.0,
+                0.0,
+                90.04873657226563
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.017747875303030014,
+            "gameSeconds": 7.737411975860596,
+            "speed": 5.133458614349365,
+            "position": [
+                22.0,
+                0.0,
+                90.1242446899414
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.034434251487255096,
+            "gameSeconds": 7.754113674163818,
+            "speed": 5.208990097045898,
+            "position": [
+                21.999998092651367,
+                0.0,
+                90.2100601196289
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.05052916705608368,
+            "gameSeconds": 7.770707607269287,
+            "speed": 5.208990097045898,
+            "position": [
+                22.0,
+                0.0,
+                90.29650115966797
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.10619112849235535,
+            "gameSeconds": 7.787417411804199,
+            "speed": 5.28874397277832,
+            "position": [
+                22.0,
+                0.0,
+                90.38469696044922
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.11003212630748749,
+            "gameSeconds": 7.828473091125488,
+            "speed": 5.443799018859863,
+            "position": [
+                22.0,
+                0.0,
+                90.60589599609375
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.12515458464622498,
+            "gameSeconds": 7.845114231109619,
+            "speed": 5.516581058502197,
+            "position": [
+                22.0,
+                0.0,
+                90.69737243652344
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.14175061881542206,
+            "gameSeconds": 7.861714839935303,
+            "speed": 5.589793682098389,
+            "position": [
+                22.0,
+                0.0,
+                90.78959655761719
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.15845054388046265,
+            "gameSeconds": 7.878415107727051,
+            "speed": 5.663360595703125,
+            "position": [
+                22.0,
+                0.0,
+                90.88334655761719
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.17494024336338043,
+            "gameSeconds": 7.895107269287109,
+            "speed": 5.74771785736084,
+            "position": [
+                22.0,
+                0.0,
+                90.97806549072266
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.1907459944486618,
+            "gameSeconds": 7.91171407699585,
+            "speed": 5.74771785736084,
+            "position": [
+                22.0,
+                0.0,
+                91.0735092163086
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.20784138143062592,
+            "gameSeconds": 7.928409099578857,
+            "speed": 5.822003364562988,
+            "position": [
+                22.0,
+                0.0,
+                91.17061614990234
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.22324000298976898,
+            "gameSeconds": 7.944909572601318,
+            "speed": 5.906836986541748,
+            "position": [
+                22.0,
+                0.0,
+                91.2677001953125
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.24064195156097412,
+            "gameSeconds": 7.961712837219238,
+            "speed": 5.993758678436279,
+            "position": [
+                22.0,
+                0.0,
+                91.36771392822266
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.2567444443702698,
+            "gameSeconds": 7.978402614593506,
+            "speed": 6.080198764801025,
+            "position": [
+                22.0,
+                0.0,
+                91.46821594238281
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.2734394967556,
+            "gameSeconds": 7.995102405548096,
+            "speed": 6.166086673736572,
+            "position": [
+                22.0,
+                0.0,
+                91.56993865966797
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.289936363697052,
+            "gameSeconds": 8.011720657348633,
+            "speed": 6.166086673736572,
+            "position": [
+                22.0,
+                0.0,
+                91.67240905761719
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.30705350637435913,
+            "gameSeconds": 8.028416633605957,
+            "speed": 6.251365661621094,
+            "position": [
+                22.0,
+                0.0,
+                91.77667999267578
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.32363951206207275,
+            "gameSeconds": 8.045101165771484,
+            "speed": 6.3359904289245605,
+            "position": [
+                22.0,
+                0.0,
+                91.88201904296875
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.3402397036552429,
+            "gameSeconds": 8.061710357666016,
+            "speed": 6.419923305511475,
+            "position": [
+                22.0,
+                0.0,
+                91.98798370361328
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.3570629060268402,
+            "gameSeconds": 8.07840347290039,
+            "speed": 6.5031328201293945,
+            "position": [
+                22.0,
+                0.0,
+                92.0956039428711
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.3737505376338959,
+            "gameSeconds": 8.095114707946777,
+            "speed": 6.585592269897461,
+            "position": [
+                22.0,
+                0.0,
+                92.2044677734375
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.3901456296443939,
+            "gameSeconds": 8.111699104309082,
+            "speed": 6.585592269897461,
+            "position": [
+                22.0,
+                0.0,
+                92.31368255615234
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.4071522057056427,
+            "gameSeconds": 8.12844181060791,
+            "speed": 6.6672773361206055,
+            "position": [
+                22.0,
+                0.0,
+                92.42521667480469
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.4236375093460083,
+            "gameSeconds": 8.145110130310059,
+            "speed": 6.748168468475342,
+            "position": [
+                22.0,
+                0.0,
+                92.53732299804688
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.44024163484573364,
+            "gameSeconds": 8.161704063415527,
+            "speed": 6.8282470703125,
+            "position": [
+                22.0,
+                0.0,
+                92.65001678466797
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.4570540487766266,
+            "gameSeconds": 8.178412437438965,
+            "speed": 6.907496929168701,
+            "position": [
+                22.0,
+                0.0,
+                92.76454162597656
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.4745369255542755,
+            "gameSeconds": 8.19511604309082,
+            "speed": 6.985903263092041,
+            "position": [
+                22.0,
+                0.0,
+                92.88009643554688
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.4901256263256073,
+            "gameSeconds": 8.211718559265137,
+            "speed": 6.985903263092041,
+            "position": [
+                22.0,
+                0.0,
+                92.9960708618164
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.5070390701293945,
+            "gameSeconds": 8.228403091430664,
+            "speed": 7.063453197479248,
+            "position": [
+                22.0,
+                0.0,
+                93.11383056640625
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.5236479640007019,
+            "gameSeconds": 8.24510669708252,
+            "speed": 7.140135288238525,
+            "position": [
+                22.0,
+                0.0,
+                93.23274230957031
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.5402430295944214,
+            "gameSeconds": 8.261714935302734,
+            "speed": 7.215938091278076,
+            "position": [
+                22.0,
+                0.0,
+                93.35198974609375
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.5570514798164368,
+            "gameSeconds": 8.278410911560059,
+            "speed": 7.290853977203369,
+            "position": [
+                22.0,
+                0.0,
+                93.47286987304688
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.5741483569145203,
+            "gameSeconds": 8.295111656188965,
+            "speed": 7.364874362945557,
+            "position": [
+                22.0,
+                0.0,
+                93.59480285644531
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.5902276039123535,
+            "gameSeconds": 8.31170654296875,
+            "speed": 7.364874362945557,
+            "position": [
+                22.0,
+                0.0,
+                93.7170181274414
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.6070420145988464,
+            "gameSeconds": 8.328409194946289,
+            "speed": 7.43799352645874,
+            "position": [
+                22.0,
+                0.0,
+                93.8411636352539
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.6237512230873108,
+            "gameSeconds": 8.345110893249512,
+            "speed": 7.5102057456970215,
+            "position": [
+                22.0,
+                0.0,
+                93.96627807617188
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.6402363181114197,
+            "gameSeconds": 8.361712455749512,
+            "speed": 7.583712100982666,
+            "position": [
+                22.0,
+                0.0,
+                94.09159851074219
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.6569305658340454,
+            "gameSeconds": 8.37842082977295,
+            "speed": 7.656295299530029,
+            "position": [
+                22.0,
+                0.0,
+                94.21871185302734
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.6736457347869873,
+            "gameSeconds": 8.395111083984375,
+            "speed": 7.7279510498046875,
+            "position": [
+                22.0,
+                0.0,
+                94.3466567993164
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.6909525990486145,
+            "gameSeconds": 8.411713600158691,
+            "speed": 7.7279510498046875,
+            "position": [
+                22.0,
+                0.0,
+                94.47496032714844
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.7071585059165955,
+            "gameSeconds": 8.428418159484863,
+            "speed": 7.798675537109375,
+            "position": [
+                22.0,
+                0.0,
+                94.60514831542969
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.723641037940979,
+            "gameSeconds": 8.445117950439453,
+            "speed": 7.868466854095459,
+            "position": [
+                22.0,
+                0.0,
+                94.73623657226563
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.7402411699295044,
+            "gameSeconds": 8.461709976196289,
+            "speed": 7.9373250007629395,
+            "position": [
+                22.0,
+                0.0,
+                94.86739349365234
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.7569287419319153,
+            "gameSeconds": 8.478409767150879,
+            "speed": 7.924251079559326,
+            "position": [
+                22.0,
+                0.0,
+                94.99987030029297
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.7736501097679138,
+            "gameSeconds": 8.495121955871582,
+            "speed": 7.9112091064453125,
+            "position": [
+                22.0,
+                0.0,
+                95.13227081298828
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.790233314037323,
+            "gameSeconds": 8.51170825958252,
+            "speed": 7.9112091064453125,
+            "position": [
+                22.0,
+                0.0,
+                95.26349639892578
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.8069241046905518,
+            "gameSeconds": 8.528422355651855,
+            "speed": 7.898199081420898,
+            "position": [
+                22.0,
+                0.0,
+                95.39552307128906
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.8236389756202698,
+            "gameSeconds": 8.545108795166016,
+            "speed": 7.885221481323242,
+            "position": [
+                22.0,
+                0.0,
+                95.52716064453125
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.8402516841888428,
+            "gameSeconds": 8.561708450317383,
+            "speed": 7.8722758293151855,
+            "position": [
+                22.0,
+                0.0,
+                95.65794372558594
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.8569377064704895,
+            "gameSeconds": 8.578408241271973,
+            "speed": 7.85936164855957,
+            "position": [
+                22.0,
+                0.0,
+                95.78934478759766
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.8736444711685181,
+            "gameSeconds": 8.595110893249512,
+            "speed": 7.846479415893555,
+            "position": [
+                22.0,
+                0.0,
+                95.92058563232422
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.8901399374008179,
+            "gameSeconds": 8.611708641052246,
+            "speed": 7.846479415893555,
+            "position": [
+                22.0,
+                0.0,
+                96.05081939697266
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.9068358540534973,
+            "gameSeconds": 8.628408432006836,
+            "speed": 7.8336286544799805,
+            "position": [
+                22.0,
+                0.0,
+                96.18165588378906
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.9234482645988464,
+            "gameSeconds": 8.64511489868164,
+            "speed": 7.820809364318848,
+            "position": [
+                22.0,
+                0.0,
+                96.3123779296875
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.9400387406349182,
+            "gameSeconds": 8.66171932220459,
+            "speed": 7.881868839263916,
+            "position": [
+                22.0,
+                0.0,
+                96.4427719116211
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.9567548632621765,
+            "gameSeconds": 8.678412437438965,
+            "speed": 7.943174362182617,
+            "position": [
+                22.0,
+                0.0,
+                96.5746841430664
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.9734499454498291,
+            "gameSeconds": 8.695119857788086,
+            "speed": 8.004640579223633,
+            "position": [
+                22.0,
+                0.0,
+                96.70752716064453
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 0.9898262619972229,
+            "gameSeconds": 8.711709976196289,
+            "speed": 8.004640579223633,
+            "position": [
+                22.0,
+                0.0,
+                96.84033203125
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.0067392587661743,
+            "gameSeconds": 8.728414535522461,
+            "speed": 8.066198348999023,
+            "position": [
+                22.0,
+                0.0,
+                96.97499084472656
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.0235506296157837,
+            "gameSeconds": 8.745100975036621,
+            "speed": 8.127786636352539,
+            "position": [
+                22.0,
+                0.0,
+                97.11033630371094
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.0400469303131104,
+            "gameSeconds": 8.761716842651367,
+            "speed": 8.189359664916992,
+            "position": [
+                22.0,
+                0.0,
+                97.24592590332031
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.0567350387573242,
+            "gameSeconds": 8.77840805053711,
+            "speed": 8.250876426696777,
+            "position": [
+                22.0,
+                0.0,
+                97.3829574584961
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.073546290397644,
+            "gameSeconds": 8.795111656188965,
+            "speed": 8.312302589416504,
+            "position": [
+                22.0,
+                0.0,
+                97.52091217041016
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.090026617050171,
+            "gameSeconds": 8.811723709106445,
+            "speed": 8.312302589416504,
+            "position": [
+                22.0,
+                0.0,
+                97.65898895263672
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.1065433025360107,
+            "gameSeconds": 8.828149795532227,
+            "speed": 8.373607635498047,
+            "position": [
+                22.0,
+                0.0,
+                97.79646301269531
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.1245372295379639,
+            "gameSeconds": 8.845113754272461,
+            "speed": 8.43476676940918,
+            "position": [
+                22.0,
+                0.0,
+                97.93925476074219
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.140151023864746,
+            "gameSeconds": 8.861715316772461,
+            "speed": 8.495750427246094,
+            "position": [
+                22.0,
+                0.0,
+                98.07981872558594
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.1568371057510376,
+            "gameSeconds": 8.878417015075684,
+            "speed": 8.55653190612793,
+            "position": [
+                22.0,
+                0.0,
+                98.22203826904297
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.1734566688537598,
+            "gameSeconds": 8.895116806030273,
+            "speed": 8.617085456848145,
+            "position": [
+                22.0,
+                0.0,
+                98.36506652832031
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.1899431943893433,
+            "gameSeconds": 8.911711692810059,
+            "speed": 8.617085456848145,
+            "position": [
+                22.0,
+                0.0,
+                98.508056640625
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.2067421674728394,
+            "gameSeconds": 8.928404808044434,
+            "speed": 8.677390098571777,
+            "position": [
+                22.0,
+                0.0,
+                98.65283966064453
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.2234385013580322,
+            "gameSeconds": 8.945130348205566,
+            "speed": 8.737428665161133,
+            "position": [
+                22.0,
+                0.0,
+                98.7987060546875
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.2400405406951904,
+            "gameSeconds": 8.961706161499023,
+            "speed": 8.797183990478516,
+            "position": [
+                22.0,
+                0.0,
+                98.94406127929688
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.2567559480667114,
+            "gameSeconds": 8.978408813476563,
+            "speed": 8.856642723083496,
+            "position": [
+                22.0,
+                0.0,
+                99.09132385253906
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.273440957069397,
+            "gameSeconds": 8.9951171875,
+            "speed": 8.915791511535645,
+            "position": [
+                22.0,
+                0.0,
+                99.23943328857422
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.2927769422531128,
+            "gameSeconds": 9.011707305908203,
+            "speed": 8.915791511535645,
+            "position": [
+                22.0,
+                0.0,
+                99.3873519897461
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.3067494630813599,
+            "gameSeconds": 9.028412818908691,
+            "speed": 8.97461986541748,
+            "position": [
+                22.0,
+                0.0,
+                99.53719329833984
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.3234432935714722,
+            "gameSeconds": 9.045105934143066,
+            "speed": 9.033116340637207,
+            "position": [
+                22.0,
+                0.0,
+                99.68772888183594
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.3413532972335815,
+            "gameSeconds": 9.0617094039917,
+            "speed": 9.091272354125977,
+            "position": [
+                22.0,
+                0.0,
+                99.83822631835938
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.3567430973052979,
+            "gameSeconds": 9.078412055969238,
+            "speed": 9.149078369140625,
+            "position": [
+                22.0,
+                0.0,
+                99.99038696289063
+            ],
+            "zone": 0
+        },
+        {
+            "realSeconds": 1.3747450113296509,
+            "gameSeconds": 9.095108032226563,
+            "speed": 9.206527709960938,
+            "position": [
+                22.0,
+                0.0,
+                100.14326477050781
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.390342116355896,
+            "gameSeconds": 9.111708641052246,
+            "speed": 9.206527709960938,
+            "position": [
+                22.0,
+                0.0,
+                100.29608917236328
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.4072483777999878,
+            "gameSeconds": 9.128413200378418,
+            "speed": 9.263612747192383,
+            "position": [
+                22.0,
+                0.0,
+                100.45077514648438
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.423859715461731,
+            "gameSeconds": 9.145108222961426,
+            "speed": 9.320327758789063,
+            "position": [
+                22.0,
+                0.0,
+                100.60610961914063
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.4404438734054565,
+            "gameSeconds": 9.161714553833008,
+            "speed": 9.376667022705078,
+            "position": [
+                22.0,
+                0.0,
+                100.76138305664063
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.457239031791687,
+            "gameSeconds": 9.178418159484863,
+            "speed": 9.432624816894531,
+            "position": [
+                22.0,
+                0.0,
+                100.91832733154297
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.4738491773605347,
+            "gameSeconds": 9.195108413696289,
+            "speed": 9.488197326660156,
+            "position": [
+                22.000001907348633,
+                0.0,
+                101.07588195800781
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.4903419017791748,
+            "gameSeconds": 9.211710929870605,
+            "speed": 9.488197326660156,
+            "position": [
+                22.0,
+                0.0,
+                101.23340606689453
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.5071287155151367,
+            "gameSeconds": 9.228411674499512,
+            "speed": 9.543380737304688,
+            "position": [
+                22.0,
+                0.0,
+                101.39271545410156
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.5238418579101563,
+            "gameSeconds": 9.245105743408203,
+            "speed": 9.598169326782227,
+            "position": [
+                22.0,
+                0.0,
+                101.55270385742188
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.5404491424560547,
+            "gameSeconds": 9.261703491210938,
+            "speed": 9.652559280395508,
+            "position": [
+                22.0,
+                0.0,
+                101.71248626708984
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.5720542669296265,
+            "gameSeconds": 9.278409004211426,
+            "speed": 9.706548690795898,
+            "position": [
+                22.0,
+                0.0,
+                101.8740234375
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.5738521814346313,
+            "gameSeconds": 9.294327735900879,
+            "speed": 9.760137557983398,
+            "position": [
+                22.0,
+                0.0,
+                102.02861785888672
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.590145230293274,
+            "gameSeconds": 9.311713218688965,
+            "speed": 9.760137557983398,
+            "position": [
+                22.0,
+                0.0,
+                102.19830322265625
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.6068499088287354,
+            "gameSeconds": 9.328418731689453,
+            "speed": 9.81332015991211,
+            "position": [
+                22.0,
+                0.0,
+                102.36217498779297
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.6237637996673584,
+            "gameSeconds": 9.345101356506348,
+            "speed": 9.866095542907715,
+            "position": [
+                22.0,
+                0.0,
+                102.52652740478516
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.640442132949829,
+            "gameSeconds": 9.36170768737793,
+            "speed": 9.918460845947266,
+            "position": [
+                22.0,
+                0.0,
+                102.69083404541016
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.656740427017212,
+            "gameSeconds": 9.378405570983887,
+            "speed": 9.970415115356445,
+            "position": [
+                22.0,
+                0.0,
+                102.85672760009766
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.6734408140182495,
+            "gameSeconds": 9.395111083984375,
+            "speed": 10.021957397460938,
+            "position": [
+                22.0,
+                0.0,
+                103.02340698242188
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.6899458169937134,
+            "gameSeconds": 9.411713600158691,
+            "speed": 10.021957397460938,
+            "position": [
+                22.0,
+                0.0,
+                103.1897964477539
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.7068488597869873,
+            "gameSeconds": 9.428403854370117,
+            "speed": 10.073086738586426,
+            "position": [
+                22.0,
+                0.0,
+                103.35785675048828
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.7234479188919067,
+            "gameSeconds": 9.445115089416504,
+            "speed": 10.123801231384277,
+            "position": [
+                22.0,
+                0.0,
+                103.52680969238281
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.7400469779968262,
+            "gameSeconds": 9.461709976196289,
+            "speed": 10.174100875854492,
+            "position": [
+                22.0,
+                0.0,
+                103.69525146484375
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.7568514347076416,
+            "gameSeconds": 9.478416442871094,
+            "speed": 10.223984718322754,
+            "position": [
+                22.0,
+                0.0,
+                103.8655014038086
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.7733407020568848,
+            "gameSeconds": 9.49499797821045,
+            "speed": 10.273452758789063,
+            "position": [
+                22.0,
+                0.0,
+                104.03514099121094
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.7899377346038818,
+            "gameSeconds": 9.511710166931152,
+            "speed": 10.273452758789063,
+            "position": [
+                22.0,
+                0.0,
+                104.20682525634766
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.8068486452102661,
+            "gameSeconds": 9.528411865234375,
+            "speed": 10.322505950927734,
+            "position": [
+                22.0,
+                0.0,
+                104.3791732788086
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.8234429359436035,
+            "gameSeconds": 9.545108795166016,
+            "speed": 10.371143341064453,
+            "position": [
+                22.0,
+                0.0,
+                104.55210876464844
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.8400472402572632,
+            "gameSeconds": 9.561705589294434,
+            "speed": 10.419364929199219,
+            "position": [
+                22.0,
+                0.0,
+                104.72465515136719
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.8568497896194458,
+            "gameSeconds": 9.57840633392334,
+            "speed": 10.467170715332031,
+            "position": [
+                22.0,
+                0.0,
+                104.89893341064453
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.8734279870986938,
+            "gameSeconds": 9.595104217529297,
+            "speed": 10.514561653137207,
+            "position": [
+                22.000001907348633,
+                0.0,
+                105.07382202148438
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.8899381160736084,
+            "gameSeconds": 9.611710548400879,
+            "speed": 10.514561653137207,
+            "position": [
+                22.0,
+                0.0,
+                105.24842834472656
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.9067367315292358,
+            "gameSeconds": 9.628398895263672,
+            "speed": 10.561539649963379,
+            "position": [
+                22.0,
+                0.0,
+                105.42462158203125
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.923440933227539,
+            "gameSeconds": 9.645106315612793,
+            "speed": 10.60810375213623,
+            "position": [
+                22.0,
+                0.0,
+                105.60163116455078
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.9400498867034912,
+            "gameSeconds": 9.66170883178711,
+            "speed": 10.654255867004395,
+            "position": [
+                22.0,
+                0.0,
+                105.77816009521484
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.956746220588684,
+            "gameSeconds": 9.678406715393066,
+            "speed": 10.699996948242188,
+            "position": [
+                22.0,
+                0.0,
+                105.95630645751953
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.9748566150665283,
+            "gameSeconds": 9.695103645324707,
+            "speed": 10.745328903198242,
+            "position": [
+                22.0,
+                0.0,
+                106.13506317138672
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 1.9899230003356934,
+            "gameSeconds": 9.711709976196289,
+            "speed": 10.745328903198242,
+            "position": [
+                22.0,
+                0.0,
+                106.31350708007813
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.0068459510803223,
+            "gameSeconds": 9.728410720825195,
+            "speed": 10.790252685546875,
+            "position": [
+                22.0,
+                0.0,
+                106.49365997314453
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.0234262943267822,
+            "gameSeconds": 9.745112419128418,
+            "speed": 10.834768295288086,
+            "position": [
+                22.0,
+                0.0,
+                106.67442321777344
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.040147304534912,
+            "gameSeconds": 9.761713981628418,
+            "speed": 10.87887954711914,
+            "position": [
+                22.0,
+                0.0,
+                106.85469055175781
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.0567314624786377,
+            "gameSeconds": 9.77841854095459,
+            "speed": 10.922586441040039,
+            "position": [
+                22.0,
+                0.0,
+                107.0366439819336
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.0734286308288574,
+            "gameSeconds": 9.795114517211914,
+            "speed": 10.96589183807373,
+            "position": [
+                22.0,
+                0.0,
+                107.21910858154297
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.089925765991211,
+            "gameSeconds": 9.811714172363281,
+            "speed": 10.96589183807373,
+            "position": [
+                22.0,
+                0.0,
+                107.401123046875
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.1068389415740967,
+            "gameSeconds": 9.828408241271973,
+            "speed": 11.008796691894531,
+            "position": [
+                22.0,
+                0.0,
+                107.58485412597656
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.1235551834106445,
+            "gameSeconds": 9.845111846923828,
+            "speed": 11.05130386352539,
+            "position": [
+                22.0,
+                0.0,
+                107.7692642211914
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.140148162841797,
+            "gameSeconds": 9.861712455749512,
+            "speed": 11.093414306640625,
+            "position": [
+                22.0,
+                0.0,
+                107.95308685302734
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.156728506088257,
+            "gameSeconds": 9.878412246704102,
+            "speed": 11.1351318359375,
+            "position": [
+                22.0,
+                0.0,
+                108.13858032226563
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.1739437580108643,
+            "gameSeconds": 9.895115852355957,
+            "speed": 11.176456451416016,
+            "position": [
+                22.0,
+                0.0,
+                108.32466125488281
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.1901438236236572,
+            "gameSeconds": 9.911717414855957,
+            "speed": 11.176456451416016,
+            "position": [
+                22.0,
+                0.0,
+                108.51020050048828
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.207050323486328,
+            "gameSeconds": 9.928418159484863,
+            "speed": 11.217391967773438,
+            "position": [
+                22.0,
+                0.0,
+                108.69749450683594
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.2236459255218506,
+            "gameSeconds": 9.94511890411377,
+            "speed": 11.195117950439453,
+            "position": [
+                22.0,
+                0.0,
+                108.88456726074219
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.240149974822998,
+            "gameSeconds": 9.961712837219238,
+            "speed": 11.172913551330566,
+            "position": [
+                22.0,
+                0.0,
+                109.07012939453125
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.2567331790924072,
+            "gameSeconds": 9.978410720825195,
+            "speed": 11.150778770446777,
+            "position": [
+                22.0,
+                0.0,
+                109.25657653808594
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.2734429836273193,
+            "gameSeconds": 9.995111465454102,
+            "speed": 11.128714561462402,
+            "position": [
+                22.000001907348633,
+                0.0,
+                109.44276428222656
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.2899293899536133,
+            "gameSeconds": 10.01170825958252,
+            "speed": 11.128714561462402,
+            "position": [
+                22.0,
+                0.0,
+                109.6274642944336
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.306837558746338,
+            "gameSeconds": 10.028414726257324,
+            "speed": 11.106719017028809,
+            "position": [
+                22.0,
+                0.0,
+                109.81304931640625
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.3236331939697266,
+            "gameSeconds": 10.04511833190918,
+            "speed": 11.084792137145996,
+            "position": [
+                22.0,
+                0.0,
+                109.99829864501953
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.3404390811920166,
+            "gameSeconds": 10.061723709106445,
+            "speed": 11.062933921813965,
+            "position": [
+                22.0,
+                0.0,
+                110.18217468261719
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.357250452041626,
+            "gameSeconds": 10.078423500061035,
+            "speed": 11.041142463684082,
+            "position": [
+                22.0,
+                0.0,
+                110.3667984008789
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.3741376399993896,
+            "gameSeconds": 10.095132827758789,
+            "speed": 11.01941967010498,
+            "position": [
+                22.0,
+                0.0,
+                110.55126190185547
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.3903393745422363,
+            "gameSeconds": 10.111725807189941,
+            "speed": 11.01941967010498,
+            "position": [
+                22.0,
+                0.0,
+                110.73410034179688
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.4073405265808105,
+            "gameSeconds": 10.128430366516113,
+            "speed": 11.056168556213379,
+            "position": [
+                22.0,
+                0.0,
+                110.91874694824219
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.4240639209747314,
+            "gameSeconds": 10.145130157470703,
+            "speed": 11.093175888061523,
+            "position": [
+                22.0,
+                0.0,
+                111.10383605957031
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.4405481815338135,
+            "gameSeconds": 10.16173267364502,
+            "speed": 11.13037395477295,
+            "position": [
+                22.0,
+                0.0,
+                111.28833770751953
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.456845998764038,
+            "gameSeconds": 10.1784086227417,
+            "speed": 11.167707443237305,
+            "position": [
+                22.0,
+                0.0,
+                111.47415161132813
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.47365140914917,
+            "gameSeconds": 10.195110321044922,
+            "speed": 11.205130577087402,
+            "position": [
+                22.0,
+                0.0,
+                111.6607437133789
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.4897313117980957,
+            "gameSeconds": 10.211482048034668,
+            "speed": 11.205130577087402,
+            "position": [
+                22.0,
+                0.0,
+                111.84420013427734
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.5068247318267822,
+            "gameSeconds": 10.228414535522461,
+            "speed": 11.242605209350586,
+            "position": [
+                22.0,
+                0.0,
+                112.03451538085938
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.5236525535583496,
+            "gameSeconds": 10.24501895904541,
+            "speed": 11.280099868774414,
+            "position": [
+                22.0,
+                0.0,
+                112.22164154052734
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.5401394367218018,
+            "gameSeconds": 10.261720657348633,
+            "speed": 11.317586898803711,
+            "position": [
+                22.0,
+                0.0,
+                112.41036987304688
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.5568578243255615,
+            "gameSeconds": 10.278407096862793,
+            "speed": 11.355045318603516,
+            "position": [
+                22.0,
+                0.0,
+                112.59942626953125
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.5735509395599365,
+            "gameSeconds": 10.295112609863281,
+            "speed": 11.3924560546875,
+            "position": [
+                22.0,
+                0.0,
+                112.78919982910156
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.590134382247925,
+            "gameSeconds": 10.31171703338623,
+            "speed": 11.3924560546875,
+            "position": [
+                22.0,
+                0.0,
+                112.9783706665039
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.6069493293762207,
+            "gameSeconds": 10.328412055969238,
+            "speed": 11.429802894592285,
+            "position": [
+                22.0,
+                0.0,
+                113.16914367675781
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.623551368713379,
+            "gameSeconds": 10.345108985900879,
+            "speed": 11.467072486877441,
+            "position": [
+                22.0,
+                0.0,
+                113.36044311523438
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.6402533054351807,
+            "gameSeconds": 10.361711502075195,
+            "speed": 11.504253387451172,
+            "position": [
+                22.0,
+                0.0,
+                113.55115509033203
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.656731605529785,
+            "gameSeconds": 10.378414154052734,
+            "speed": 11.54133415222168,
+            "position": [
+                22.0,
+                0.0,
+                113.74352264404297
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.6735353469848633,
+            "gameSeconds": 10.395113945007324,
+            "speed": 11.578307151794434,
+            "position": [
+                22.0,
+                0.0,
+                113.93634033203125
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.6899402141571045,
+            "gameSeconds": 10.411703109741211,
+            "speed": 11.578307151794434,
+            "position": [
+                22.0,
+                0.0,
+                114.12841033935547
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.7067270278930664,
+            "gameSeconds": 10.428407669067383,
+            "speed": 11.615164756774902,
+            "position": [
+                22.0,
+                0.0,
+                114.32239532470703
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.723552942276001,
+            "gameSeconds": 10.445110321044922,
+            "speed": 11.651897430419922,
+            "position": [
+                22.0,
+                0.0,
+                114.516845703125
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.7400426864624023,
+            "gameSeconds": 10.461712837219238,
+            "speed": 11.688497543334961,
+            "position": [
+                22.0,
+                0.0,
+                114.71061706542969
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.7567343711853027,
+            "gameSeconds": 10.478407859802246,
+            "speed": 11.724958419799805,
+            "position": [
+                22.0,
+                0.0,
+                114.90596008300781
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.773625373840332,
+            "gameSeconds": 10.495118141174316,
+            "speed": 11.761273384094238,
+            "position": [
+                22.0,
+                0.0,
+                115.10196685791016
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.7899396419525146,
+            "gameSeconds": 10.51170539855957,
+            "speed": 11.761273384094238,
+            "position": [
+                22.0,
+                0.0,
+                115.29705047607422
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.8070554733276367,
+            "gameSeconds": 10.52839469909668,
+            "speed": 11.797438621520996,
+            "position": [
+                22.0,
+                0.0,
+                115.49388885498047
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.823551893234253,
+            "gameSeconds": 10.545110702514648,
+            "speed": 11.83344841003418,
+            "position": [
+                22.0,
+                0.0,
+                115.69154357910156
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.8401355743408203,
+            "gameSeconds": 10.561711311340332,
+            "speed": 11.86929988861084,
+            "position": [
+                22.0,
+                0.0,
+                115.88829803466797
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.8568403720855713,
+            "gameSeconds": 10.578411102294922,
+            "speed": 11.904989242553711,
+            "position": [
+                22.0,
+                0.0,
+                116.08670043945313
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.873537540435791,
+            "gameSeconds": 10.59509563446045,
+            "speed": 11.94051456451416,
+            "position": [
+                22.0,
+                0.0,
+                116.28540802001953
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.8899483680725098,
+            "gameSeconds": 10.61170768737793,
+            "speed": 11.94051456451416,
+            "position": [
+                22.0,
+                0.0,
+                116.48375701904297
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.9067282676696777,
+            "gameSeconds": 10.628410339355469,
+            "speed": 11.975873947143555,
+            "position": [
+                22.0,
+                0.0,
+                116.68374633789063
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.9234416484832764,
+            "gameSeconds": 10.645105361938477,
+            "speed": 12.011065483093262,
+            "position": [
+                22.0,
+                0.0,
+                116.88410949707031
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.940152645111084,
+            "gameSeconds": 10.661718368530273,
+            "speed": 12.046086311340332,
+            "position": [
+                22.0,
+                0.0,
+                117.08396911621094
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.9567501544952393,
+            "gameSeconds": 10.678409576416016,
+            "speed": 12.080936431884766,
+            "position": [
+                22.0,
+                0.0,
+                117.28520202636719
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.9734480381011963,
+            "gameSeconds": 10.69510555267334,
+            "speed": 12.11561393737793,
+            "position": [
+                22.0,
+                0.0,
+                117.48698425292969
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 2.990046739578247,
+            "gameSeconds": 10.711710929870605,
+            "speed": 12.11561393737793,
+            "position": [
+                22.0,
+                0.0,
+                117.68817138671875
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.0102503299713135,
+            "gameSeconds": 10.72840404510498,
+            "speed": 12.150117874145508,
+            "position": [
+                22.0,
+                0.0,
+                117.89094543457031
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.023031234741211,
+            "gameSeconds": 10.744690895080566,
+            "speed": 12.184446334838867,
+            "position": [
+                22.0,
+                0.0,
+                118.08924865722656
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.040489435195923,
+            "gameSeconds": 10.761723518371582,
+            "speed": 12.217825889587402,
+            "position": [
+                22.0,
+                0.0,
+                118.29706573486328
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.0567450523376465,
+            "gameSeconds": 10.778404235839844,
+            "speed": 12.250138282775879,
+            "position": [
+                22.0,
+                0.0,
+                118.50105285644531
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.073442220687866,
+            "gameSeconds": 10.795112609863281,
+            "speed": 12.281418800354004,
+            "position": [
+                22.0,
+                0.0,
+                118.70579528808594
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.08994460105896,
+            "gameSeconds": 10.811713218688965,
+            "speed": 12.281418800354004,
+            "position": [
+                22.0,
+                0.0,
+                118.90967559814453
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.106949806213379,
+            "gameSeconds": 10.828400611877441,
+            "speed": 12.311698913574219,
+            "position": [
+                22.0,
+                0.0,
+                119.11508178710938
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.1234450340270996,
+            "gameSeconds": 10.84511947631836,
+            "speed": 12.341011047363281,
+            "position": [
+                22.0,
+                0.0,
+                119.32127380371094
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.1400439739227295,
+            "gameSeconds": 10.861706733703613,
+            "speed": 12.369385719299316,
+            "position": [
+                22.0,
+                0.0,
+                119.52622985839844
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.156747341156006,
+            "gameSeconds": 10.878406524658203,
+            "speed": 12.396851539611816,
+            "position": [
+                22.0,
+                0.0,
+                119.73296356201172
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.1734304428100586,
+            "gameSeconds": 10.895108222961426,
+            "speed": 12.423439979553223,
+            "position": [
+                22.0,
+                0.0,
+                119.9400634765625
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.1899452209472656,
+            "gameSeconds": 10.911701202392578,
+            "speed": 12.423439979553223,
+            "position": [
+                22.0,
+                0.0,
+                120.14620971679688
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.207042694091797,
+            "gameSeconds": 10.92840576171875,
+            "speed": 12.449177742004395,
+            "position": [
+                22.0,
+                0.0,
+                120.35413360595703
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.2239701747894287,
+            "gameSeconds": 10.945111274719238,
+            "speed": 12.474093437194824,
+            "position": [
+                22.0,
+                0.0,
+                120.56240844726563
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.240039348602295,
+            "gameSeconds": 10.961709976196289,
+            "speed": 12.498212814331055,
+            "position": [
+                22.0,
+                0.0,
+                120.76966857910156
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.2567288875579834,
+            "gameSeconds": 10.978418350219727,
+            "speed": 12.521561622619629,
+            "position": [
+                22.0,
+                0.0,
+                120.97862243652344
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.2734553813934326,
+            "gameSeconds": 10.995108604431152,
+            "speed": 12.54416561126709,
+            "position": [
+                21.999998092651367,
+                0.0,
+                121.18766784667969
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.2899556159973145,
+            "gameSeconds": 11.011714935302734,
+            "speed": 12.54416561126709,
+            "position": [
+                22.0,
+                0.0,
+                121.39598846435547
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.306745767593384,
+            "gameSeconds": 11.028409957885742,
+            "speed": 12.566048622131348,
+            "position": [
+                22.0,
+                0.0,
+                121.60574340820313
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.3234403133392334,
+            "gameSeconds": 11.045109748840332,
+            "speed": 12.587233543395996,
+            "position": [
+                22.0,
+                0.0,
+                121.81584930419922
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.3400442600250244,
+            "gameSeconds": 11.061708450317383,
+            "speed": 12.607744216918945,
+            "position": [
+                22.0,
+                0.0,
+                122.02496337890625
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.356752872467041,
+            "gameSeconds": 11.078407287597656,
+            "speed": 12.625398635864258,
+            "position": [
+                22.0,
+                0.0,
+                122.235595703125
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.3738512992858887,
+            "gameSeconds": 11.095500946044922,
+            "speed": 12.642487525939941,
+            "position": [
+                22.0,
+                0.0,
+                122.45146179199219
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.3899478912353516,
+            "gameSeconds": 11.111703872680664,
+            "speed": 12.642487525939941,
+            "position": [
+                22.0,
+                0.0,
+                122.65631103515625
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.4072368144989014,
+            "gameSeconds": 11.128408432006836,
+            "speed": 12.659029006958008,
+            "position": [
+                22.0,
+                0.0,
+                122.86775207519531
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.4234416484832764,
+            "gameSeconds": 11.145102500915527,
+            "speed": 12.675042152404785,
+            "position": [
+                22.0,
+                0.0,
+                123.07928466796875
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.4402410984039307,
+            "gameSeconds": 11.161710739135742,
+            "speed": 12.690545082092285,
+            "position": [
+                22.0,
+                0.0,
+                123.2899169921875
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.456951379776001,
+            "gameSeconds": 11.178412437438965,
+            "speed": 12.705554962158203,
+            "position": [
+                22.0,
+                0.0,
+                123.501953125
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.4734461307525635,
+            "gameSeconds": 11.195112228393555,
+            "speed": 12.720087051391602,
+            "position": [
+                22.0,
+                0.0,
+                123.71416473388672
+            ],
+            "zone": 1
+        },
+        {
+            "realSeconds": 3.4899444580078125,
+            "gameSeconds": 11.211711883544922,
+            "speed": 12.720087051391602,
+            "position": [
+                22.0,
+                0.0,
+                123.9253158569336
+            ],
+            "zone": 1
+        }
+    ],
+    "screenshots": [
+        "00-dev-panel.png",
+        "01-mammoth-one-shot.png",
+        "02-gate-open.png",
+        "03-toxic-wetlands-arrival.png",
+        "04-reloaded-zone.png"
+    ]
+}

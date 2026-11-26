@@ -1,0 +1,508 @@
+{
+ "version": 1,
+ "zone": 2,
+ "source": "scene.json",
+ "arena": {
+  "x": 8.4,
+  "z": 464.0,
+  "radius": 20.0,
+  "height": 1.2,
+  "rampLength": 11.0,
+  "rampHalfWidth": 5.8,
+  "ramps": [
+   {
+    "x": 9.673,
+    "z": 439.133,
+    "yaw": -2.929,
+    "halfX": 5.8,
+    "halfZ": 5.5,
+    "angle": -87.07,
+    "roadHeading": 1.27
+   },
+   {
+    "x": 8.115,
+    "z": 488.898,
+    "yaw": 179.344,
+    "halfX": 5.8,
+    "halfZ": 5.5,
+    "angle": 90.66,
+    "roadHeading": 6.53
+   }
+  ]
+ },
+ "bunker": {
+  "innerHalfWidth": 6.6,
+  "halfLength": 8.0,
+  "height": 5.6,
+  "wall": 1.4,
+  "moundHalfX": 19.0,
+  "moundHalfZ": 11.5,
+  "z0": 361.0,
+  "z1": 377.0,
+  "x": 2.918,
+  "z": 369.0,
+  "yaw": 0.196
+ },
+ "jump": {
+  "x": 28.0,
+  "z": 330.0,
+  "yaw": 0.0,
+  "halfWidth": 3.8,
+  "length": 10.0,
+  "height": 2.2,
+  "boost": 13.5
+ },
+ "pad": {
+  "x": 28.0,
+  "z": 349.0,
+  "radius": 10.0
+ },
+ "ravine": {
+  "z0": 331.5,
+  "z1": 339.5,
+  "x0": 19.0,
+  "x1": 37.0,
+  "depth": 0.85
+ },
+ "landmarks": {
+  "tower": {
+   "x": -38.0,
+   "z": 488.0,
+   "rBase": 10.0,
+   "rWaist": 7.4,
+   "rTop": 8.4,
+   "height": 26.0
+  },
+  "workshop": {
+   "x": -8.0,
+   "z": 493.0,
+   "halfX": 10.0,
+   "halfZ": 5.5,
+   "height": 13.0
+  },
+  "chimney": {
+   "x": 34.0,
+   "z": 492.0,
+   "rBase": 2.0,
+   "rTop": 1.35,
+   "height": 34.0
+  },
+  "pipeSupports": [
+   {
+    "x": 21.0,
+    "z": 492.0
+   },
+   {
+    "x": 29.0,
+    "z": 492.5
+   }
+  ],
+  "pylons": [
+   {
+    "x": 62.0,
+    "z": 345.0
+   },
+   {
+    "x": -52.0,
+    "z": 398.0
+   },
+   {
+    "x": 76.0,
+    "z": 474.0
+   },
+   {
+    "x": -54.0,
+    "z": 334.0
+   }
+  ],
+  "viaduct": {
+   "x": -88.5,
+   "piers": [
+    338.0,
+    356.0,
+    374.0,
+    412.0,
+    430.0
+   ],
+   "spans": [
+    [
+     338.0,
+     356.0
+    ],
+    [
+     356.0,
+     374.0
+    ],
+    [
+     412.0,
+     430.0
+    ]
+   ],
+   "stubs": [
+    [
+     374.0,
+     383.0
+    ],
+    [
+     430.0,
+     437.0
+    ]
+   ]
+  }
+ },
+ "exclusions": [
+  {
+   "name": "AshenBunker",
+   "x": 2.918,
+   "z": 369.0,
+   "halfX": 20.5,
+   "halfZ": 13.0,
+   "yaw": 0.196
+  },
+  {
+   "name": "AshenArenaDeck",
+   "x": 8.4,
+   "z": 464.0,
+   "halfX": 23.0,
+   "halfZ": 23.0,
+   "yaw": 0.0
+  },
+  {
+   "name": "AshenArenaRamp0",
+   "x": 9.673,
+   "z": 439.133,
+   "halfX": 7.3,
+   "halfZ": 7.5,
+   "yaw": -2.929
+  },
+  {
+   "name": "AshenArenaRamp1",
+   "x": 8.115,
+   "z": 488.898,
+   "halfX": 7.3,
+   "halfZ": 7.5,
+   "yaw": 179.344
+  },
+  {
+   "name": "AshenJump",
+   "x": 28.0,
+   "z": 331.5,
+   "halfX": 9.0,
+   "halfZ": 27.5,
+   "yaw": 0.0
+  },
+  {
+   "name": "AshenTower",
+   "x": -38.0,
+   "z": 488.0,
+   "halfX": 11.5,
+   "halfZ": 11.5,
+   "yaw": 0.0
+  },
+  {
+   "name": "AshenWorkshop",
+   "x": -8.0,
+   "z": 493.0,
+   "halfX": 11.5,
+   "halfZ": 7.0,
+   "yaw": 0.0
+  },
+  {
+   "name": "AshenChimney",
+   "x": 34.0,
+   "z": 492.0,
+   "halfX": 4.0,
+   "halfZ": 4.0,
+   "yaw": 0.0
+  },
+  {
+   "name": "AshenPipeSupport0",
+   "x": 21.0,
+   "z": 492.0,
+   "halfX": 2.0,
+   "halfZ": 2.0,
+   "yaw": 0.0
+  },
+  {
+   "name": "AshenPipeSupport1",
+   "x": 29.0,
+   "z": 492.5,
+   "halfX": 2.0,
+   "halfZ": 2.0,
+   "yaw": 0.0
+  },
+  {
+   "name": "AshenPylon0",
+   "x": 62.0,
+   "z": 345.0,
+   "halfX": 3.5,
+   "halfZ": 3.5,
+   "yaw": 0.0
+  },
+  {
+   "name": "AshenPylon1",
+   "x": -52.0,
+   "z": 398.0,
+   "halfX": 3.5,
+   "halfZ": 3.5,
+   "yaw": 0.0
+  },
+  {
+   "name": "AshenPylon2",
+   "x": 76.0,
+   "z": 474.0,
+   "halfX": 3.5,
+   "halfZ": 3.5,
+   "yaw": 0.0
+  },
+  {
+   "name": "AshenPylon3",
+   "x": -54.0,
+   "z": 334.0,
+   "halfX": 3.5,
+   "halfZ": 3.5,
+   "yaw": 0.0
+  },
+  {
+   "name": "AshenViaductPier0",
+   "x": -88.5,
+   "z": 338.0,
+   "halfX": 3.0,
+   "halfZ": 2.6,
+   "yaw": 0.0
+  },
+  {
+   "name": "AshenViaductPier1",
+   "x": -88.5,
+   "z": 356.0,
+   "halfX": 3.0,
+   "halfZ": 2.6,
+   "yaw": 0.0
+  },
+  {
+   "name": "AshenViaductPier2",
+   "x": -88.5,
+   "z": 374.0,
+   "halfX": 3.0,
+   "halfZ": 2.6,
+   "yaw": 0.0
+  },
+  {
+   "name": "AshenViaductPier3",
+   "x": -88.5,
+   "z": 412.0,
+   "halfX": 3.0,
+   "halfZ": 2.6,
+   "yaw": 0.0
+  },
+  {
+   "name": "AshenViaductPier4",
+   "x": -88.5,
+   "z": 430.0,
+   "halfX": 3.0,
+   "halfZ": 2.6,
+   "yaw": 0.0
+  }
+ ],
+ "marks": [
+  {
+   "name": "AshenArena",
+   "x": 8.4,
+   "z": 464.0,
+   "halfX": 20.0,
+   "halfZ": 20.0,
+   "yaw": 0.0,
+   "r": 0.7,
+   "g": 0.7,
+   "b": 0.68
+  },
+  {
+   "name": "AshenArenaRamp0",
+   "x": 9.673,
+   "z": 439.133,
+   "halfX": 5.8,
+   "halfZ": 5.5,
+   "yaw": -2.929,
+   "r": 0.62,
+   "g": 0.62,
+   "b": 0.6
+  },
+  {
+   "name": "AshenArenaRamp1",
+   "x": 8.115,
+   "z": 488.898,
+   "halfX": 5.8,
+   "halfZ": 5.5,
+   "yaw": 179.344,
+   "r": 0.62,
+   "g": 0.62,
+   "b": 0.6
+  },
+  {
+   "name": "AshenBunker",
+   "x": 2.918,
+   "z": 369.0,
+   "halfX": 19.0,
+   "halfZ": 11.5,
+   "yaw": 0.196,
+   "r": 0.82,
+   "g": 0.83,
+   "b": 0.86
+  },
+  {
+   "name": "AshenJump",
+   "x": 28.0,
+   "z": 325.0,
+   "halfX": 3.8,
+   "halfZ": 5.0,
+   "yaw": 0.0,
+   "r": 0.95,
+   "g": 0.75,
+   "b": 0.25
+  },
+  {
+   "name": "AshenPad",
+   "x": 28.0,
+   "z": 349.0,
+   "halfX": 8.0,
+   "halfZ": 8.0,
+   "yaw": 0.0,
+   "r": 0.66,
+   "g": 0.66,
+   "b": 0.64
+  },
+  {
+   "name": "AshenTower",
+   "x": -38.0,
+   "z": 488.0,
+   "halfX": 8.0,
+   "halfZ": 8.0,
+   "yaw": 0.0,
+   "r": 0.55,
+   "g": 0.55,
+   "b": 0.56
+  },
+  {
+   "name": "AshenWorkshop",
+   "x": -8.0,
+   "z": 493.0,
+   "halfX": 10.0,
+   "halfZ": 5.5,
+   "yaw": 0.0,
+   "r": 0.45,
+   "g": 0.4,
+   "b": 0.38
+  }
+ ],
+ "spawnY": [
+  {
+   "id": 29500,
+   "y": 1.2
+  }
+ ],
+ "report": {
+  "moved": [
+   [
+    "AshenBunker",
+    20082,
+    "SaltRock"
+   ],
+   [
+    "AshenBunker",
+    20095,
+    "RibCage"
+   ],
+   [
+    "AshenBunker",
+    20101,
+    "Turbine"
+   ],
+   [
+    "AshenArenaDeck",
+    20036,
+    "Skull"
+   ],
+   [
+    "AshenArenaDeck",
+    20051,
+    "Crates"
+   ],
+   [
+    "AshenArenaDeck",
+    20098,
+    "Turbine"
+   ],
+   [
+    "AshenArenaDeck",
+    20181,
+    "Buggy"
+   ],
+   [
+    "AshenArenaDeck",
+    20182,
+    "Buggy"
+   ],
+   [
+    "AshenArenaDeck",
+    20183,
+    "Buggy"
+   ],
+   [
+    "AshenArenaRamp0",
+    20107,
+    "CarWreck"
+   ],
+   [
+    "AshenArenaRamp0",
+    20183,
+    "Buggy"
+   ],
+   [
+    "AshenJump",
+    20025,
+    "SaltCrystal"
+   ],
+   [
+    "AshenJump",
+    20072,
+    "Tires"
+   ],
+   [
+    "AshenJump",
+    20144,
+    "Scav"
+   ],
+   [
+    "AshenTower",
+    20086,
+    "SaltRock"
+   ],
+   [
+    "AshenWorkshop",
+    20028,
+    "SaltCrystal"
+   ],
+   [
+    "AshenChimney",
+    20112,
+    "Barrels"
+   ],
+   [
+    "AshenPylon1",
+    20091,
+    "RibCage"
+   ],
+   [
+    "AshenViaductPier2",
+    20008,
+    "SaltCrystal"
+   ],
+   [
+    "AshenViaductPier4",
+    20006,
+    "SaltCrystal"
+   ]
+  ],
+  "roadHits": []
+ }
+}

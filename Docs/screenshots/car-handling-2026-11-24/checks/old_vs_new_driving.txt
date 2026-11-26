@@ -1,0 +1,120 @@
+## jumps (takeoff speed / air time / distance / impact)
+run 0: base v=13.0 air=0.83 dist=10.5 imp=8.2 | new v=13.0 air=0.83 dist=10.5 imp=8.2
+run 1: base v=13.0 air=0.83 dist=10.5 imp=8.2 | new v=13.0 air=0.83 dist=10.5 imp=8.2
+run 2: base v=13.0 air=0.85 dist=10.7 imp=8.2 | new v=13.0 air=0.83 dist=10.5 imp=8.2
+run 3: base v=12.5 air=0.62 dist=7.5 imp=5.0 | new v=12.5 air=0.63 dist=7.7 imp=5.0
+run 4: base v=12.5 air=0.63 dist=7.7 imp=5.0 | new v=12.5 air=0.62 dist=7.5 imp=5.0
+run 5: base v=12.5 air=1.03 dist=12.4 imp=9.5 | new v=12.5 air=1.03 dist=12.4 imp=9.5
+run 6: base v=12.5 air=0.92 dist=11.0 imp=8.6 | new v=12.5 air=0.93 dist=11.2 imp=8.6
+## flip (RUN end)
+roof_fall_slow:
+   base land=1 crest=0 tumble=180 roof=2.00 flipBack=1 selfRight=0 wheels=True pos=(-81.70, 0.00, 52.68)
+   new  land=1 crest=0 tumble=180 roof=2.00 flipBack=1 selfRight=0 wheels=True pos=(-81.56, 0.00, 53.52)
+drive_off_fast:
+   base land=1 crest=0 tumble=28 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(-76.00, 0.00, 41.71)
+   new  land=1 crest=0 tumble=29 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(-76.00, 0.00, 42.19)
+roof_roll_selfright:
+   base land=1 crest=0 tumble=179 roof=0.34 flipBack=0 selfRight=1 wheels=True pos=(-84.00, 0.00, 46.00)
+   new  land=1 crest=0 tumble=179 roof=0.34 flipBack=0 selfRight=1 wheels=True pos=(-84.00, 0.00, 46.00)
+air_barrel_roll:
+   base land=1 crest=0 tumble=177 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(38.49, -0.22, -33.44)
+   new  land=1 crest=0 tumble=177 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(38.00, 0.00, -38.96)
+kicker_at_angle:
+   base land=1 crest=0 tumble=18 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(-39.60, 0.00, 6.10)
+   new  land=1 crest=0 tumble=20 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(-34.73, 0.00, 17.06)
+hill_flank_lean:
+   base land=0 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(92.52, 0.00, -85.99)
+   new  land=0 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(92.87, 0.00, -86.10)
+roof_on_ledge:
+   base land=0 crest=0 tumble=180 roof=2.00 flipBack=1 selfRight=0 wheels=True pos=(-44.90, 2.70, 88.25)
+   new  land=0 crest=0 tumble=180 roof=2.00 flipBack=1 selfRight=0 wheels=True pos=(-44.90, 2.70, 88.25)
+hairpin_slide_off:
+   base land=1 crest=0 tumble=54 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(-77.42, 0.00, 43.45)
+   new  land=1 crest=0 tumble=54 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(-77.94, 0.00, 41.20)
+## terrain (RUN end)
+road_hill_full:
+   base land=0 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(-47.56, 0.00, -17.72)
+   new  land=0 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(-47.55, 0.00, -17.74)
+bumps_row:
+   base land=5 crest=5 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(58.28, 0.00, -54.91)
+   new  land=5 crest=5 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(57.49, 0.00, -53.96)
+Kicker0a:
+   base land=1 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(29.03, 0.00, -59.72)
+   new  land=1 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(29.01, 0.00, -59.73)
+Kicker0a_slow:
+   base land=1 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(27.70, 0.00, -63.34)
+   new  land=1 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(28.06, 0.00, -62.35)
+Kicker0b:
+   base land=1 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(-22.61, 0.00, -41.57)
+   new  land=1 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(-18.06, 0.00, -37.08)
+Kicker0b_slow:
+   base land=1 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(-30.20, 0.00, -49.20)
+   new  land=1 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(-29.65, 0.00, -48.65)
+BigJump0_full:
+   base land=1 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(39.22, -0.20, -23.77)
+   new  land=1 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(38.05, -0.43, -28.00)
+BigJump0_slow:
+   base land=1 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(38.21, -0.19, -23.59)
+   new  land=1 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(38.01, -0.28, -32.77)
+BigJump1_full:
+   base land=1 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(63.64, 0.00, 248.98)
+   new  land=1 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(64.63, 0.00, 247.87)
+BigJump3_full:
+   base land=1 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(-25.57, 0.00, 578.33)
+   new  land=1 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(-28.03, 0.00, 574.32)
+ridge_pass:
+   base land=2 crest=2 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(55.90, 0.00, -54.13)
+   new  land=3 crest=3 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(55.90, 0.00, -54.13)
+hill_crest_full:
+   base land=2 crest=2 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(95.90, 0.00, -76.25)
+   new  land=2 crest=2 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(95.93, 0.00, -76.37)
+mesa_summit_jump:
+   base land=1 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(-85.96, 0.00, 32.21)
+   new  land=1 crest=0 tumble=0 roof=0.00 flipBack=0 selfRight=0 wheels=True pos=(-85.74, 0.00, 31.71)
+## mesa
+base: 16 MESA lines; last: RoadGame MESA summit reached t=22.6s height=8.00
+   waypoints logged: 14, last: RoadGame MESA waypoint 13 t=22.6s pos=(-74.69, 8.00, 88.86) floor=8.00 piece=MesaTop
+new: 18 MESA lines; last: RoadGame MESA land air=1.00s dist=9.6 impact=13.8 kind=1 at=(-92.86, 0.95, 52.29)
+   waypoints logged: 14, last: RoadGame MESA waypoint 13 t=24.3s pos=(-74.12, 8.00, 88.49) floor=8.00 piece=MesaTop
+## rocks
+base: ROCKS start car_boundary_west at=(-80.00, 0.00, -60.00) yaw=270
+base: ROCKS car car_boundary_west maxPenetration=0.00m noseDepth=0.00m on= gapWhenStopped=-m moved=18.6m end=(-98.58, 0.00, -60.74)
+base: ROCKS start car_south_wall at=(40.00, 0.00, -90.00) yaw=180
+base: ROCKS car car_south_wall maxPenetration=0.00m noseDepth=0.00m on= gapWhenStopped=-m moved=9.5m end=(40.63, 0.00, -99.50)
+base: ROCKS start car_rocktunnel_side at=(14.00, 0.00, 186.00) yaw=270
+base: ROCKS car car_rocktunnel_side maxPenetration=0.38m noseDepth=1.51m on=RockMassE gapWhenStopped=0.03m moved=11.3m end=(3.44, 0.00, 181.96)
+base: ROCKS start car_plateau_skirt at=(84.00, 0.00, -11.00) yaw=180
+base: ROCKS car car_plateau_skirt maxPenetration=0.04m noseDepth=0.00m on=Plateau gapWhenStopped=0.19m moved=10.3m end=(84.72, 0.00, -21.26)
+base: ROCKS start car_ridge0 at=(24.00, 0.00, -70.00) yaw=0
+base: ROCKS car car_ridge0 maxPenetration=0.01m noseDepth=0.00m on=Ridge0 gapWhenStopped=0.91m moved=13.5m end=(17.84, 0.00, -57.93)
+base: ROCKS start car_ridge0_pass at=(56.00, 0.00, -70.00) yaw=0
+base: ROCKS car car_ridge0_pass maxPenetration=0.00m noseDepth=0.00m on= gapWhenStopped=-m moved=15.9m end=(55.93, 0.00, -54.13)
+base: ROCKS start car_mesa_face at=(-82.00, 0.00, 44.00) yaw=0
+base: ROCKS car car_mesa_face maxPenetration=0.01m noseDepth=0.00m on=MesaRock gapWhenStopped=2.05m moved=9.0m end=(-81.85, 0.00, 53.00)
+base: ROCKS start car_mesa_s1_side at=(-32.00, 0.00, 70.00) yaw=270
+base: ROCKS car car_mesa_s1_side maxPenetration=0.00m noseDepth=0.00m on= gapWhenStopped=0.20m moved=8.4m end=(-40.38, -0.13, 69.99)
+new: ROCKS start car_boundary_west at=(-80.00, 0.00, -60.00) yaw=270
+new: ROCKS car car_boundary_west maxPenetration=0.00m noseDepth=0.00m on= gapWhenStopped=-m moved=18.3m end=(-98.25, 0.00, -61.07)
+new: ROCKS start car_south_wall at=(40.00, 0.00, -90.00) yaw=180
+new: ROCKS car car_south_wall maxPenetration=0.00m noseDepth=0.00m on= gapWhenStopped=2.99m moved=9.6m end=(40.76, 0.00, -99.56)
+new: ROCKS start car_rocktunnel_side at=(14.00, 0.00, 186.00) yaw=270
+new: ROCKS car car_rocktunnel_side maxPenetration=0.00m noseDepth=0.00m on= gapWhenStopped=1.52m moved=9.3m end=(4.75, 0.00, 185.05)
+new: ROCKS start car_plateau_skirt at=(84.00, 0.00, -11.00) yaw=180
+new: ROCKS car car_plateau_skirt maxPenetration=0.03m noseDepth=0.00m on=Plateau gapWhenStopped=0.18m moved=10.3m end=(84.83, 0.00, -21.28)
+new: ROCKS start car_ridge0 at=(24.00, 0.00, -70.00) yaw=0
+new: ROCKS car car_ridge0 maxPenetration=0.03m noseDepth=0.00m on=Ridge0 gapWhenStopped=0.78m moved=11.0m end=(21.45, 0.00, -59.32)
+new: ROCKS start car_ridge0_pass at=(56.00, 0.00, -70.00) yaw=0
+new: ROCKS car car_ridge0_pass maxPenetration=0.00m noseDepth=0.00m on= gapWhenStopped=-m moved=15.9m end=(55.93, 0.00, -54.13)
+new: ROCKS start car_mesa_face at=(-82.00, 0.00, 44.00) yaw=0
+new: ROCKS car car_mesa_face maxPenetration=0.01m noseDepth=0.00m on=MesaRock gapWhenStopped=1.24m moved=9.5m end=(-81.99, 0.00, 53.53)
+new: ROCKS start car_mesa_s1_side at=(-32.00, 0.00, 70.00) yaw=270
+new: ROCKS car car_mesa_s1_side maxPenetration=0.00m noseDepth=0.00m on=MesaRock gapWhenStopped=0.20m moved=8.4m end=(-40.38, -0.13, 69.99)
+## underground
+base: UG waypoint 3/2 pos=(35.02, -4.50, 57.61) under=True | UG waypoint 3/3 pos=(30.41, -3.07, 67.27) under=True | UG waypoint 3/4 pos=(31.96, 0.00, 80.85) under=False | UG waypoint 3/5 pos=(24.63, 0.00, 85.81) under=False | UG waypoint 3/6 pos=(14.98, 0.00, 89.00) under=False | UG out on the surface t=42.4 pos=(14.98, 0.00, 89.00) under=False
+new: UG waypoint 0/4 pos=(48.87, -4.50, 41.86) under=True | UG waypoint 0/5 pos=(55.94, -4.50, 43.94) under=True | UG waypoint 0/6 pos=(56.39, -4.50, 55.20) under=True | UG in the hangar, fight starts t=10.0 | UG boss killed t=27.8 unlockedZone=1 hammer=1 | UG reward in, driving out t=31.8 maxHp=3043 dmg=98.0 gems=50
+## intro (phase changes)
+base: -@0.00s v=0.0, Fight@0.25s v=0.0, ToRamp@6.50s v=13.1, Air@12.47s v=13.0, -@13.50s v=12.4
+new: -@0.00s v=0.0, Fight@0.25s v=0.0, ToRamp@6.74s v=13.0, Air@13.02s v=12.9, -@13.79s v=12.2
+## drive (each second: u / gear / heading)
+base: 0:0.0/1/2 1:0.6/1/2 2:5.3/2/2 3:7.8/2/2 4:9.7/3/2 5:12.0/4/2 6:10.3/4/52 7:0.1/-1/101 8:-2.6/-1/123 9:-3.5/-1/184 10:0.0/1/197 11:1.1/1/197 12:6.0/2/188 13:9.0/3/184 14:10.5/4/182 15:5.8/3/93 16:6.8/3/49 17:6.8/3/48 18:1.0/1/48 19:0.0/1/48
+new: 0:0.0/1/2 1:0.0/1/2 2:4.4/1/2 3:7.2/2/2 4:8.2/3/2 5:11.0/4/5 6:9.8/4/61 7:10.6/4/86 8:2.5/1/88 9:-1.2/-1/88 10:-3.2/-1/90 11:-4.3/-1/91 12:-0.1/-1/88 13:-0.1/-1/88 14:-0.1/-1/89 15:0.2/1/89 16:4.6/2/70 17:4.9/2/55 18:4.0/2/50 19:0.0/1/50

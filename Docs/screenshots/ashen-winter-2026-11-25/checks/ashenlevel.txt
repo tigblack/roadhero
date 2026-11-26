@@ -1,0 +1,44 @@
+RoadGame ASHEN_CHECK PASS work run is muted
+RoadGame ASHEN_CHECK PASS Ashen Winter bundle applied as the third zone's (zone index 2)
+RoadGame ASHEN_CHECK PASS every snapshot ID of the third zone resolves (unmapped=0, replaced=20, added=260)
+RoadGame ASHEN_CHECK PASS Dust Flats bundle still the first zone's, all IDs resolve (replaced=129)
+RoadGame ASHEN_CHECK PASS Toxic Wetlands bundle still the second zone's, all IDs resolve (replaced=62)
+RoadGame ASHEN_CHECK PASS ForZone maps 0 / 1 / 2 to their own bundles, the fourth zone to none
+RoadGame ASHEN_CHECK PASS the third zone is ASHEN WINTER, still four zones
+RoadGame ASHEN_CHECK PASS Ashen Winter floors: the arena deck, its two ramps and the jump
+RoadGame ASHEN_CHECK PASS the arena deck is 1.20 m high
+RoadGame ASHEN_CHECK PASS outside the deck the valley floor is at 0
+RoadGame ASHEN_CHECK PASS arena ramp at (9.67, 0.00, 439.13) rises 0 -> 1.20 m (middle 0.60)
+RoadGame ASHEN_CHECK PASS arena ramp at (8.12, 0.00, 488.90) rises 0 -> 1.20 m (middle 0.60)
+RoadGame ASHEN_CHECK PASS jump ramp: launch floor 2.2 m, boost 13.5
+RoadGame ASHEN_CHECK PASS the ravine under the jump dips to -0.85 m
+RoadGame ASHEN_CHECK PASS the boss stands on the deck (spawn y 1.20)
+RoadGame ASHEN_CHECK PASS old canopy colliders off (6/6)
+RoadGame ASHEN_CHECK PASS third zone keeps its 187 spawns (187)
+RoadGame ASHEN_CHECK PASS no third-zone spawn stands inside a collider (0)
+RoadGame ASHEN_CHECK PASS only the spawns that stood in a new structure moved (15, IDs kept)
+RoadGame ASHEN_CHECK PASS the repair pad at (-41.00, 0.00, 322.00) is clear of level solids within 9 m (0)
+RoadGame ASHEN_CHECK PASS live third-zone props draw the Ashen Winter meshes (26/26)
+RoadGame ASHEN_CHECK PASS live third-zone enemies draw the Ashen Winter creatures (14/14)
+RoadGame ASHEN_CHECK PASS the bunker's roof is a registered occluder (fades over the car)
+RoadGame ASHEN_DRIVE start phase=0 at=(28.00, 0.00, 307.50)
+RoadGame ASHEN_CHECK PASS the car takes off at the jump's lip (z 330.0)
+RoadGame ASHEN_CHECK PASS it clears the ravine and lands on the pad side (z 341.2, air 3.4 m)
+RoadGame ASHEN_CHECK PASS no recovery teleport, the car is fine after the jump
+RoadGame ASHEN_DRIVE jump takeoffZ=330.0 maxAir=3.40 landZ=341.2 landed=True recovered=False end=(27.84, 0.00, 365.94)
+RoadGame ASHEN_DRIVE start phase=1 at=(2.86, 1.34, 352.00)
+RoadGame ASHEN_CHECK PASS the car drives through the bunker without hitting it (min speed 10.8, end z 402.0)
+RoadGame ASHEN_CHECK PASS the bunker roof fades over the car (min alpha 0.09)
+RoadGame ASHEN_DRIVE tunnel minSpeed=10.8 x=3.0..3.1 roofMinAlpha=0.09 end=(3.15, 0.00, 402.05)
+RoadGame ASHEN_DRIVE start phase=2 at=(10.11, 0.00, 430.64)
+RoadGame ASHEN_CHECK PASS up the ramp onto the deck (29605 frames at 1.2 m)
+RoadGame ASHEN_CHECK PASS across the deck and down the north ramp (end (7.05, 0.04, 493.02), floor 0.04)
+RoadGame ASHEN_DRIVE arena framesOnDeck=29605 maxFloor=1.20 end=(7.05, 0.04, 493.02) recovered=False
+RoadGame ASHEN_DRIVE start phase=3 at=(8.40, 1.20, 464.00)
+RoadGame ASHEN_CHECK PASS the parapet keeps the car on the deck (max x 25.5, floor 1.20)
+RoadGame ASHEN_DRIVE parapet maxX=25.5 floor=1.20 end=(25.45, 1.20, 464.01)
+RoadGame ASHEN_DRIVE start phase=4 at=(44.00, 0.00, 464.00)
+RoadGame ASHEN_CHECK PASS the deck's face stops a car below (min x 31.4, floor 0.00)
+RoadGame ASHEN_DRIVE face minX=31.4 floor=0.00 end=(31.42, 0.00, 464.57)
+RoadGame ASHEN_DRIVE start phase=5 at=(31.42, 0.00, 464.57)
+RoadGame ASHEN_RESULT checks=32 failures=0

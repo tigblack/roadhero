@@ -1,0 +1,2817 @@
+{
+  "validation": {
+    "tracks": 11,
+    "notes": 2598,
+    "bars": 48,
+    "seconds": 127.2,
+    "sections": 7,
+    "warnings": []
+  },
+  "title": "Scarbound - Dust Road Groove (in-game loop)",
+  "tracks": [
+    {
+      "id": "drums",
+      "role": "drums",
+      "engine": "soundfont",
+      "notes": 699,
+      "pitch_range": [
+        36,
+        57
+      ],
+      "duration_values": {
+        "0.5": 277,
+        "0.25": 419,
+        "2.0": 3
+      },
+      "velocity_range": [
+        17,
+        103
+      ],
+      "median_performed_key_gap_ms": 25.63,
+      "step_or_repeat_fraction": 0.439,
+      "phrase_labels": {
+        "unassigned": 699
+      },
+      "same_key_retrigger_trims": 6
+    },
+    {
+      "id": "shaker",
+      "role": "drums",
+      "engine": "soundfont",
+      "notes": 721,
+      "pitch_range": [
+        69,
+        72
+      ],
+      "duration_values": {
+        "0.25": 720,
+        "2.0": 1
+      },
+      "velocity_range": [
+        67,
+        113
+      ],
+      "median_performed_key_gap_ms": 15.62,
+      "step_or_repeat_fraction": 0.999,
+      "phrase_labels": {
+        "unassigned": 721
+      },
+      "same_key_retrigger_trims": 0
+    },
+    {
+      "id": "metal",
+      "role": "drums",
+      "engine": "soundfont",
+      "notes": 22,
+      "pitch_range": [
+        78,
+        79
+      ],
+      "duration_values": {
+        "1.0": 19,
+        "1.5": 2,
+        "0.5": 1
+      },
+      "velocity_range": [
+        48,
+        97
+      ],
+      "median_performed_key_gap_ms": 4258.75,
+      "step_or_repeat_fraction": 1.0,
+      "phrase_labels": {
+        "unassigned": 22
+      },
+      "same_key_retrigger_trims": 0
+    },
+    {
+      "id": "wood",
+      "role": "drums",
+      "engine": "soundfont",
+      "notes": 22,
+      "pitch_range": [
+        35,
+        77
+      ],
+      "duration_values": {
+        "0.75": 10,
+        "1.5": 6,
+        "0.5": 6
+      },
+      "velocity_range": [
+        74,
+        112
+      ],
+      "median_performed_key_gap_ms": 691.25,
+      "step_or_repeat_fraction": 0.905,
+      "phrase_labels": {
+        "unassigned": 22
+      },
+      "same_key_retrigger_trims": 0
+    },
+    {
+      "id": "fx",
+      "role": "drums",
+      "engine": "soundfont",
+      "notes": 6,
+      "pitch_range": [
+        74,
+        84
+      ],
+      "duration_values": {
+        "1.0": 2,
+        "4.0": 2,
+        "2.0": 2
+      },
+      "velocity_range": [
+        110,
+        120
+      ],
+      "median_performed_key_gap_ms": 4858.75,
+      "step_or_repeat_fraction": 0.2,
+      "phrase_labels": {
+        "unassigned": 6
+      },
+      "same_key_retrigger_trims": 0
+    },
+    {
+      "id": "bass",
+      "role": "bass",
+      "engine": "soundfont",
+      "notes": 235,
+      "pitch_range": [
+        28,
+        50
+      ],
+      "duration_values": {
+        "1.25": 34,
+        "0.5": 176,
+        "0.75": 8,
+        "0.25": 8,
+        "3.5": 6,
+        "1.0": 3
+      },
+      "velocity_range": [
+        56,
+        103
+      ],
+      "median_performed_key_gap_ms": 89.69,
+      "step_or_repeat_fraction": 0.517,
+      "phrase_labels": {
+        "unassigned": 235
+      },
+      "same_key_retrigger_trims": 0
+    },
+    {
+      "id": "riff",
+      "role": "rhythm",
+      "engine": "soundfont",
+      "notes": 314,
+      "pitch_range": [
+        38,
+        57
+      ],
+      "duration_values": {
+        "0.5": 72,
+        "0.25": 234,
+        "0.75": 8
+      },
+      "velocity_range": [
+        49,
+        107
+      ],
+      "median_performed_key_gap_ms": 197.5,
+      "step_or_repeat_fraction": 0.629,
+      "phrase_labels": {
+        "unassigned": 314
+      },
+      "same_key_retrigger_trims": 0
+    },
+    {
+      "id": "lead",
+      "role": "melody",
+      "engine": "soundfont",
+      "notes": 96,
+      "pitch_range": [
+        62,
+        79
+      ],
+      "duration_values": {
+        "0.25": 32,
+        "0.75": 8,
+        "1.5": 10,
+        "2.0": 9,
+        "0.5": 21,
+        "1.0": 16
+      },
+      "velocity_range": [
+        68,
+        111
+      ],
+      "median_performed_key_gap_ms": 31.25,
+      "step_or_repeat_fraction": 0.6,
+      "phrase_labels": {
+        "motif": 96
+      },
+      "same_key_retrigger_trims": 0
+    },
+    {
+      "id": "slide",
+      "role": "countermelody",
+      "engine": "soundfont",
+      "notes": 51,
+      "pitch_range": [
+        59,
+        76
+      ],
+      "duration_values": {
+        "1.5": 8,
+        "2.0": 10,
+        "1.0": 10,
+        "0.25": 15,
+        "0.75": 3,
+        "0.5": 5
+      },
+      "velocity_range": [
+        69,
+        96
+      ],
+      "median_performed_key_gap_ms": 46.25,
+      "step_or_repeat_fraction": 0.42,
+      "phrase_labels": {
+        "slide_rise": 1,
+        "motif": 50
+      },
+      "same_key_retrigger_trims": 0
+    },
+    {
+      "id": "comp",
+      "role": "harmony",
+      "engine": "soundfont",
+      "notes": 312,
+      "pitch_range": [
+        45,
+        67
+      ],
+      "duration_values": {
+        "1.0": 102,
+        "0.5": 128,
+        "2.0": 18,
+        "1.5": 64
+      },
+      "velocity_range": [
+        49,
+        86
+      ],
+      "median_performed_key_gap_ms": -285.0,
+      "step_or_repeat_fraction": 0.209,
+      "phrase_labels": {
+        "unassigned": 312
+      },
+      "same_key_retrigger_trims": 130
+    },
+    {
+      "id": "pad",
+      "role": "texture",
+      "engine": "surge",
+      "notes": 120,
+      "pitch_range": [
+        55,
+        67
+      ],
+      "duration_values": {
+        "8.0": 24,
+        "4.0": 96
+      },
+      "velocity_range": [
+        56,
+        86
+      ],
+      "median_performed_key_gap_ms": -2363.12,
+      "step_or_repeat_fraction": 0.053,
+      "phrase_labels": {
+        "unassigned": 120
+      },
+      "same_key_retrigger_trims": 15
+    }
+  ],
+  "sections": [
+    {
+      "id": "ignition",
+      "start_bar": 0,
+      "bars": 4,
+      "intent": "groove from the first beat: riff, bass, drums with side stick, shaker",
+      "start_seconds": 0.0,
+      "end_seconds": 9.6,
+      "active_tracks": [
+        "drums",
+        "shaker",
+        "metal",
+        "wood",
+        "bass",
+        "riff",
+        "pad"
+      ],
+      "onsets_by_role": {
+        "drums": 119,
+        "bass": 20,
+        "rhythm": 27,
+        "texture": 9
+      }
+    },
+    {
+      "id": "theme",
+      "start_bar": 4,
+      "bars": 8,
+      "intent": "the motif (call), a slide answer, the motif up a third, its answer",
+      "start_seconds": 9.6,
+      "end_seconds": 28.8,
+      "active_tracks": [
+        "drums",
+        "shaker",
+        "metal",
+        "wood",
+        "bass",
+        "riff",
+        "lead",
+        "slide",
+        "pad"
+      ],
+      "onsets_by_role": {
+        "drums": 254,
+        "bass": 40,
+        "rhythm": 58,
+        "melody": 24,
+        "countermelody": 1,
+        "texture": 18
+      }
+    },
+    {
+      "id": "open_road",
+      "start_bar": 12,
+      "bars": 8,
+      "intent": "the lift: snare and ride, strummed archtop, the road melody",
+      "start_seconds": 28.8,
+      "end_seconds": 48.0,
+      "active_tracks": [
+        "drums",
+        "shaker",
+        "bass",
+        "riff",
+        "lead",
+        "slide",
+        "comp",
+        "pad"
+      ],
+      "onsets_by_role": {
+        "drums": 248,
+        "bass": 56,
+        "rhythm": 64,
+        "melody": 28,
+        "countermelody": 5,
+        "harmony": 192,
+        "texture": 24
+      }
+    },
+    {
+      "id": "scrapyard",
+      "start_bar": 20,
+      "bars": 8,
+      "intent": "the motif on the slide guitar, then only its falling tail; metal and wood percussion; the lead answers",
+      "start_seconds": 48.0,
+      "end_seconds": 67.2,
+      "active_tracks": [
+        "drums",
+        "shaker",
+        "metal",
+        "wood",
+        "fx",
+        "bass",
+        "riff",
+        "lead",
+        "slide",
+        "pad"
+      ],
+      "onsets_by_role": {
+        "drums": 320,
+        "bass": 40,
+        "rhythm": 58,
+        "melody": 15,
+        "countermelody": 15,
+        "texture": 18
+      }
+    },
+    {
+      "id": "dust",
+      "start_bar": 28,
+      "bars": 8,
+      "intent": "calm: pad, ringing arpeggios, the call slowed down; drums rebuild in the last two bars",
+      "start_seconds": 67.2,
+      "end_seconds": 86.4,
+      "active_tracks": [
+        "drums",
+        "shaker",
+        "wood",
+        "fx",
+        "bass",
+        "riff",
+        "lead",
+        "slide",
+        "comp",
+        "pad"
+      ],
+      "onsets_by_role": {
+        "drums": 142,
+        "bass": 19,
+        "rhythm": 18,
+        "melody": 5,
+        "countermelody": 8,
+        "harmony": 24,
+        "texture": 24
+      }
+    },
+    {
+      "id": "return",
+      "start_bar": 36,
+      "bars": 8,
+      "intent": "the high point: the motif with a second voice, the full band, the call reaches G5",
+      "start_seconds": 86.4,
+      "end_seconds": 105.6,
+      "active_tracks": [
+        "drums",
+        "shaker",
+        "metal",
+        "wood",
+        "bass",
+        "riff",
+        "lead",
+        "slide",
+        "comp",
+        "pad"
+      ],
+      "onsets_by_role": {
+        "drums": 267,
+        "bass": 40,
+        "rhythm": 58,
+        "melody": 24,
+        "countermelody": 20,
+        "harmony": 96,
+        "texture": 18
+      }
+    },
+    {
+      "id": "turnaround",
+      "start_bar": 44,
+      "bars": 4,
+      "intent": "back to the road texture; one slide accent; a light fill into bar 1",
+      "start_seconds": 105.6,
+      "end_seconds": 115.2,
+      "active_tracks": [
+        "drums",
+        "shaker",
+        "metal",
+        "wood",
+        "bass",
+        "riff",
+        "slide",
+        "pad"
+      ],
+      "onsets_by_role": {
+        "drums": 120,
+        "bass": 20,
+        "rhythm": 31,
+        "countermelody": 2,
+        "texture": 9
+      }
+    }
+  ],
+  "prompts": [],
+  "not_a_perceptual_quality_score": true,
+  "questions": [],
+  "answered": [
+    {
+      "id": "highpass:bass",
+      "text": "bass: its high-pass at 36 Hz takes 2.0 dB from the fundamental of its lowest note (E1, 41 Hz); at 21 Hz, an octave under that note, it takes 0.3 dB.",
+      "reason": "36 Hz keeps the E1 fundamental within about 2 dB and keeps sub-bass out of a phone game mix, as the brief asks."
+    },
+    {
+      "id": "highpass:riff",
+      "text": "riff: its high-pass at 70 Hz takes 2.6 dB from the fundamental of its lowest note (D2, 73 Hz); at 37 Hz, an octave under that note, it takes 0.3 dB.",
+      "reason": "the baritone riff leaves its lowest fundamentals to the bass on purpose (a 70 Hz high-pass)."
+    },
+    {
+      "id": "highpass:slide",
+      "text": "slide: its high-pass at 200 Hz takes 1.6 dB from the fundamental of its lowest note (B3, 247 Hz); at 123 Hz, an octave under that note, it takes 0.3 dB.",
+      "reason": "200 Hz keeps the slide's low B3 within 1.6 dB; the part is a thin, high accent."
+    },
+    {
+      "id": "highpass:comp",
+      "text": "comp: its high-pass at 90 Hz takes 1.6 dB from the fundamental of its lowest note (A2, 110 Hz); at 55 Hz, an octave under that note, it takes 0.3 dB.",
+      "reason": "the comp's rare low notes (A2 in the dust arpeggio) are allowed to lose some weight."
+    },
+    {
+      "id": "outside_chord.melody",
+      "text": "1 melody note on strong positions sits outside the written chord and is not resolved by step (most in slide; first E5 on Gmaj9 at bar 18 beat 4 (note slide_b018_t144_p76)). The others outside it are named in outside_chord as passing, neighbour, appoggiatura, escape, suspension, retardation, pedal or anticipation notes (Open Music Theory, Embellishing Tones). In rock, melodies leave such notes unresolved, mostly in pentatonic verses (Temperley 2007; rock-and-metal.md); elsewhere resolve each by step, change the chord under it, or write a colour tone that is meant to stay into the symbol (Cadd9, C6, Csus4).",
+      "reason": "the melody is pentatonic over a drone-like riff; its unresolved ninths and sixths (E over D, B over C) are the colour of the style, as in rock and blues verses."
+    },
+    {
+      "id": "parallels",
+      "text": "11 times two parts move in parallel fifths or octaves (most between bass / riff; first octaves at bar 4 beat 4.5). Where the parts are independent voices (baroque, classical, chorale and chamber writing), two perfect consonances of the same size in a row fuse the voices and are avoided (Open Music Theory, First-Species Counterpoint): move one voice the other way or to a third or sixth. Power chords and lines doubled on purpose move in parallel; octaves inside a line doubled at the octave are left out (baroque.md).",
+      "reason": "the bass and the riff double the last pickup into each downbeat at the octave on purpose."
+    },
+    {
+      "id": "low_intervals",
+      "text": "39 close intervals sound under their low interval limit, where voicings turn muddy (most between bass / riff; furthest under, a perfect fifth E1-B1 at bar 30 beat 4, whose limit is Bb1). Spread the voicing or move the upper note an octave up, leaving the low register to the bass. The limits are guides: soft, dark sounds bear more than loud, bright ones, and a low rumble can be meant (Hoffmann; arrangement.md, Spacing).",
+      "reason": "the riff is a baritone part and sits above the bass by design; the pad was moved out of the low register (three upper chord tones) after the first review."
+    },
+    {
+      "id": "stiffness:pad",
+      "text": "pad: 100% of its 40 chords are struck and released as one block. Hold a common tone over the change, move an inner voice, break the chord or vary its rhythm (development-and-groove.md; musiclib.voicing voices chords to move smoothly).",
+      "reason": "the pad is the delicate bed the brief asks for; its chords are held blocks under a moving band."
+    },
+    {
+      "id": "loop_seam.timbre",
+      "text": "Loop seam: parts leaving: metal, slide. Confirm the change of instruments at the loop point is meant.",
+      "reason": "the slide's last fall (bar 47) and the brake drum of bar 48 do not sound in the first second of bar 1; the riff, bass, kit, shaker and pad carry the seam."
+    }
+  ],
+  "style": {
+    "primary": "jazz/blues",
+    "borrow": {
+      "form": "game/overworld"
+    }
+  },
+  "limits": {
+    "checks": {
+      "vertical": {
+        "axis": "harmony",
+        "params": {
+          "sustain_beats": 0.75,
+          "overlap_beats": 0.5
+        },
+        "ask": true,
+        "origin": "ours",
+        "source": null,
+        "set_by": null
+      },
+      "outside_chord": {
+        "axis": "harmony",
+        "params": {},
+        "ask": true,
+        "origin": "source",
+        "source": "Open Music Theory, Embellishing Tones (the kinds); Longuet-Higgins and Lee 1984 (strong positions); Temperley 2007 (rock melodies leave them unresolved)",
+        "set_by": null
+      },
+      "parallels": {
+        "axis": "harmony",
+        "params": {
+          "window": 8,
+          "doubled_share": 0.75
+        },
+        "ask": true,
+        "origin": "source",
+        "source": "Open Music Theory, First-Species Counterpoint (the rule, for independent voices); the window and the doubled share are ours",
+        "set_by": null
+      },
+      "low_intervals": {
+        "axis": "harmony",
+        "params": {},
+        "ask": true,
+        "origin": "source",
+        "source": "Hoffmann's low interval limits (arrangement.md, Spacing)",
+        "set_by": null
+      },
+      "static_texture": {
+        "axis": "form",
+        "params": {
+          "static_bars": 16,
+          "processes_vary": false
+        },
+        "ask": true,
+        "origin": "ours",
+        "source": null,
+        "set_by": null
+      },
+      "repetition": {
+        "axis": "form",
+        "params": {
+          "pitched_loop_bars": 24,
+          "percussion_loop_bars": 33
+        },
+        "ask": true,
+        "origin": "ours",
+        "source": null,
+        "set_by": null
+      },
+      "literal_returns": {
+        "axis": "form",
+        "params": {},
+        "ask": true,
+        "origin": "ours",
+        "source": null,
+        "set_by": null
+      },
+      "arrivals_thinner": {
+        "axis": "form",
+        "params": {
+          "lower_measures": 2
+        },
+        "ask": true,
+        "origin": "ours",
+        "source": null,
+        "set_by": null
+      },
+      "sections_alike": {
+        "axis": "form",
+        "params": {
+          "density_share": 0.1,
+          "velocity": 3
+        },
+        "ask": true,
+        "origin": "ours",
+        "source": null,
+        "set_by": null
+      },
+      "stiffness": {
+        "axis": "harmony",
+        "params": {
+          "block_share": 0.9,
+          "min_chords": 8
+        },
+        "ask": true,
+        "origin": "ours",
+        "source": null,
+        "set_by": null
+      },
+      "pushes": {
+        "axis": "rhythm",
+        "params": {},
+        "ask": true,
+        "origin": "source",
+        "source": "Tan, Lustig and Temperley 2019 (rock and pop melodies anticipate strong beats); Witek et al. 2014 (moderate syncopation)",
+        "set_by": null
+      },
+      "restatement": {
+        "axis": "melody",
+        "params": {
+          "min_bars": 8
+        },
+        "ask": true,
+        "origin": "source",
+        "source": "Summach 2011 (pop sections state and restate an idea); Caplin 1998 (the sentence); the 8 bars are ours",
+        "set_by": null
+      },
+      "melody_durations": {
+        "axis": "melody",
+        "params": {
+          "min_categories": 3
+        },
+        "ask": true,
+        "origin": "ours",
+        "source": null,
+        "set_by": null
+      },
+      "melody_velocities": {
+        "axis": "melody",
+        "params": {
+          "min_values": 4
+        },
+        "ask": true,
+        "origin": "ours",
+        "source": null,
+        "set_by": null
+      },
+      "transposed_samples": {
+        "axis": null,
+        "params": {
+          "limit_semitones": 4
+        },
+        "ask": true,
+        "origin": "ours",
+        "source": null,
+        "set_by": null
+      },
+      "highpass": {
+        "axis": null,
+        "params": {
+          "loss_db": 1.5
+        },
+        "ask": true,
+        "origin": "ours",
+        "source": null,
+        "set_by": null
+      },
+      "widespread_lowpass": {
+        "axis": "mix",
+        "params": {
+          "below_hz": 12000,
+          "share": 0.5,
+          "min_parts": 3
+        },
+        "ask": true,
+        "origin": "source",
+        "source": "Senior 2012 (Sound On Sound, Q&A): widespread low-pass filtering seldom helps a mix and easily dulls it; the 12 kHz (the lower edge of air in the mixing books listed by Moffat, De Man and Reiss 2022), the half and the three parts are ours",
+        "set_by": null
+      },
+      "tempo_range": {
+        "axis": "tempo",
+        "params": {},
+        "ask": true,
+        "origin": "source",
+        "source": "the tempo ranges the entries' sources give (their maps' tempo cells, `tempo_bpm`); reading half and double time as inside is ours",
+        "set_by": null
+      }
+    },
+    "ours": [
+      "arrivals_thinner",
+      "highpass",
+      "literal_returns",
+      "melody_durations",
+      "melody_velocities",
+      "repetition",
+      "sections_alike",
+      "static_texture",
+      "stiffness",
+      "transposed_samples",
+      "vertical"
+    ]
+  },
+  "vertical_minor_seconds_ninths": {
+    "count": 0,
+    "foreground_count": 0,
+    "by_parts": {},
+    "examples": []
+  },
+  "outside_chord": {
+    "count": 1,
+    "not_resolved_by_step": {
+      "melody": {
+        "count": 1,
+        "most_in": "slide",
+        "first": {
+          "track": "slide",
+          "role": "countermelody",
+          "at": "bar 18 beat 4",
+          "beat": 71.0,
+          "id": "slide_b018_t144_p76",
+          "struck": "bar 18 beat 4",
+          "pitch": 76,
+          "note": "E5",
+          "chord": "Gmaj9",
+          "held_into_chord": false,
+          "approach": "step up",
+          "departure": "a rest"
+        }
+      }
+    },
+    "tracks": {
+      "lead": {
+        "role": "melody",
+        "outside_chord": {
+          "neighbour": 1,
+          "passing": 1
+        }
+      },
+      "slide": {
+        "role": "countermelody",
+        "outside_chord": {
+          "not resolved by step": 1,
+          "passing": 1
+        }
+      }
+    },
+    "examples": [
+      {
+        "track": "slide",
+        "role": "countermelody",
+        "at": "bar 18 beat 4",
+        "beat": 71.0,
+        "id": "slide_b018_t144_p76",
+        "struck": "bar 18 beat 4",
+        "pitch": 76,
+        "note": "E5",
+        "chord": "Gmaj9",
+        "held_into_chord": false,
+        "approach": "step up",
+        "departure": "a rest"
+      }
+    ],
+    "unparsed_symbols": []
+  },
+  "parallel_fifths_octaves": {
+    "count": 11,
+    "by_pair": {
+      "bass / riff": 10,
+      "lead / riff": 1
+    },
+    "examples": [
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 4 beat 4.5",
+        "beat": 15.5,
+        "interval": "octaves",
+        "pitches": [
+          [
+            33,
+            45
+          ],
+          [
+            35,
+            47
+          ]
+        ]
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 5 beat 1",
+        "beat": 16.0,
+        "interval": "octaves",
+        "pitches": [
+          [
+            35,
+            47
+          ],
+          [
+            28,
+            40
+          ]
+        ]
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 12 beat 4.5",
+        "beat": 47.5,
+        "interval": "octaves",
+        "pitches": [
+          [
+            33,
+            45
+          ],
+          [
+            35,
+            47
+          ]
+        ]
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 13 beat 1",
+        "beat": 48.0,
+        "interval": "octaves",
+        "pitches": [
+          [
+            35,
+            47
+          ],
+          [
+            36,
+            48
+          ]
+        ]
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 16 beat 4.5",
+        "beat": 63.5,
+        "interval": "octaves",
+        "pitches": [
+          [
+            28,
+            40
+          ],
+          [
+            35,
+            47
+          ]
+        ]
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 17 beat 1",
+        "beat": 64.0,
+        "interval": "octaves",
+        "pitches": [
+          [
+            35,
+            47
+          ],
+          [
+            36,
+            48
+          ]
+        ]
+      },
+      {
+        "parts": [
+          "lead",
+          "riff"
+        ],
+        "at": "bar 20 beat 1",
+        "beat": 76.0,
+        "interval": "fifths",
+        "pitches": [
+          [
+            71,
+            52
+          ],
+          [
+            69,
+            50
+          ]
+        ]
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 24 beat 4.5",
+        "beat": 95.5,
+        "interval": "octaves",
+        "pitches": [
+          [
+            33,
+            45
+          ],
+          [
+            35,
+            47
+          ]
+        ]
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 25 beat 1",
+        "beat": 96.0,
+        "interval": "octaves",
+        "pitches": [
+          [
+            35,
+            47
+          ],
+          [
+            28,
+            40
+          ]
+        ]
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 40 beat 4.5",
+        "beat": 159.5,
+        "interval": "octaves",
+        "pitches": [
+          [
+            33,
+            45
+          ],
+          [
+            35,
+            47
+          ]
+        ]
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 41 beat 1",
+        "beat": 160.0,
+        "interval": "octaves",
+        "pitches": [
+          [
+            35,
+            47
+          ],
+          [
+            28,
+            40
+          ]
+        ]
+      }
+    ],
+    "octaves_in_doublings": {}
+  },
+  "low_intervals": {
+    "count": 39,
+    "by_parts": {
+      "bass / riff": 17,
+      "bass / comp": 14,
+      "comp / riff": 5,
+      "bass": 3
+    },
+    "furthest_below": {
+      "parts": [
+        "bass"
+      ],
+      "at": "bar 30 beat 4",
+      "beat": 119.0,
+      "interval": "perfect fifth",
+      "notes": [
+        "E1",
+        "B1"
+      ],
+      "limit": "Bb1",
+      "below_limit": 6
+    },
+    "examples": [
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 2 beat 3.5",
+        "beat": 6.5,
+        "interval": "perfect fifth",
+        "notes": [
+          "A1",
+          "E2"
+        ],
+        "limit": "Bb1",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 4 beat 2.5",
+        "beat": 13.5,
+        "interval": "major sixth",
+        "notes": [
+          "D2",
+          "B2"
+        ],
+        "limit": "F2",
+        "below_limit": 3
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 6 beat 3.5",
+        "beat": 22.5,
+        "interval": "perfect fifth",
+        "notes": [
+          "A1",
+          "E2"
+        ],
+        "limit": "Bb1",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 8 beat 2.5",
+        "beat": 29.5,
+        "interval": "major sixth",
+        "notes": [
+          "D2",
+          "B2"
+        ],
+        "limit": "F2",
+        "below_limit": 3
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 10 beat 3.5",
+        "beat": 38.5,
+        "interval": "perfect fifth",
+        "notes": [
+          "A1",
+          "E2"
+        ],
+        "limit": "Bb1",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 12 beat 2.5",
+        "beat": 45.5,
+        "interval": "major sixth",
+        "notes": [
+          "D2",
+          "B2"
+        ],
+        "limit": "F2",
+        "below_limit": 3
+      },
+      {
+        "parts": [
+          "bass",
+          "comp"
+        ],
+        "at": "bar 13 beat 4.5",
+        "beat": 51.5,
+        "interval": "minor tenth",
+        "notes": [
+          "A1",
+          "C3"
+        ],
+        "limit": "C2",
+        "below_limit": 3
+      },
+      {
+        "parts": [
+          "bass",
+          "comp"
+        ],
+        "at": "bar 14 beat 4.5",
+        "beat": 55.5,
+        "interval": "minor seventh",
+        "notes": [
+          "E2",
+          "D3"
+        ],
+        "limit": "F2",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "bass",
+          "comp"
+        ],
+        "at": "bar 15 beat 4.5",
+        "beat": 59.5,
+        "interval": "minor tenth",
+        "notes": [
+          "B1",
+          "D3"
+        ],
+        "limit": "C2",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "bass",
+          "comp"
+        ],
+        "at": "bar 17 beat 4.5",
+        "beat": 67.5,
+        "interval": "minor tenth",
+        "notes": [
+          "A1",
+          "C3"
+        ],
+        "limit": "C2",
+        "below_limit": 3
+      },
+      {
+        "parts": [
+          "bass",
+          "comp"
+        ],
+        "at": "bar 18 beat 4.5",
+        "beat": 71.5,
+        "interval": "minor tenth",
+        "notes": [
+          "B1",
+          "D3"
+        ],
+        "limit": "C2",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "bass",
+          "comp"
+        ],
+        "at": "bar 20 beat 4.5",
+        "beat": 79.5,
+        "interval": "minor tenth",
+        "notes": [
+          "B1",
+          "D3"
+        ],
+        "limit": "C2",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 22 beat 3.5",
+        "beat": 86.5,
+        "interval": "perfect fifth",
+        "notes": [
+          "A1",
+          "E2"
+        ],
+        "limit": "Bb1",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 24 beat 2.5",
+        "beat": 93.5,
+        "interval": "major sixth",
+        "notes": [
+          "D2",
+          "B2"
+        ],
+        "limit": "F2",
+        "below_limit": 3
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 26 beat 3.5",
+        "beat": 102.5,
+        "interval": "perfect fifth",
+        "notes": [
+          "A1",
+          "E2"
+        ],
+        "limit": "Bb1",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 28 beat 2.5",
+        "beat": 109.5,
+        "interval": "major sixth",
+        "notes": [
+          "D2",
+          "B2"
+        ],
+        "limit": "F2",
+        "below_limit": 3
+      },
+      {
+        "parts": [
+          "bass"
+        ],
+        "at": "bar 30 beat 4",
+        "beat": 119.0,
+        "interval": "perfect fifth",
+        "notes": [
+          "E1",
+          "B1"
+        ],
+        "limit": "Bb1",
+        "below_limit": 6
+      },
+      {
+        "parts": [
+          "bass"
+        ],
+        "at": "bar 32 beat 4",
+        "beat": 127.0,
+        "interval": "perfect fifth",
+        "notes": [
+          "E1",
+          "B1"
+        ],
+        "limit": "Bb1",
+        "below_limit": 6
+      },
+      {
+        "parts": [
+          "bass"
+        ],
+        "at": "bar 34 beat 4",
+        "beat": 135.0,
+        "interval": "perfect fifth",
+        "notes": [
+          "E1",
+          "B1"
+        ],
+        "limit": "Bb1",
+        "below_limit": 6
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 36 beat 2.5",
+        "beat": 141.5,
+        "interval": "major sixth",
+        "notes": [
+          "D2",
+          "B2"
+        ],
+        "limit": "F2",
+        "below_limit": 3
+      },
+      {
+        "parts": [
+          "bass",
+          "comp"
+        ],
+        "at": "bar 37 beat 4.25",
+        "beat": 147.25,
+        "interval": "major ninth",
+        "notes": [
+          "D2",
+          "E3"
+        ],
+        "limit": "Eb2",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 38 beat 3.5",
+        "beat": 150.5,
+        "interval": "perfect fifth",
+        "notes": [
+          "A1",
+          "E2"
+        ],
+        "limit": "Bb1",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "bass",
+          "comp"
+        ],
+        "at": "bar 38 beat 4.5",
+        "beat": 151.5,
+        "interval": "major ninth",
+        "notes": [
+          "D2",
+          "E3"
+        ],
+        "limit": "Eb2",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "comp",
+          "riff"
+        ],
+        "at": "bar 39 beat 1",
+        "beat": 152.0,
+        "interval": "perfect fourth",
+        "notes": [
+          "G2",
+          "C3"
+        ],
+        "limit": "Bb2",
+        "below_limit": 3
+      },
+      {
+        "parts": [
+          "bass",
+          "comp"
+        ],
+        "at": "bar 39 beat 4.5",
+        "beat": 155.5,
+        "interval": "minor tenth",
+        "notes": [
+          "A1",
+          "C3"
+        ],
+        "limit": "C2",
+        "below_limit": 3
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 40 beat 2.5",
+        "beat": 157.5,
+        "interval": "major sixth",
+        "notes": [
+          "D2",
+          "B2"
+        ],
+        "limit": "F2",
+        "below_limit": 3
+      },
+      {
+        "parts": [
+          "comp",
+          "riff"
+        ],
+        "at": "bar 40 beat 2.5",
+        "beat": 157.5,
+        "interval": "minor third",
+        "notes": [
+          "B2",
+          "D3"
+        ],
+        "limit": "C3",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "bass",
+          "comp"
+        ],
+        "at": "bar 40 beat 4.5",
+        "beat": 159.5,
+        "interval": "minor tenth",
+        "notes": [
+          "B1",
+          "D3"
+        ],
+        "limit": "C2",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "comp",
+          "riff"
+        ],
+        "at": "bar 40 beat 4.5",
+        "beat": 159.5,
+        "interval": "minor third",
+        "notes": [
+          "B2",
+          "D3"
+        ],
+        "limit": "C3",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "bass",
+          "comp"
+        ],
+        "at": "bar 41 beat 4.25",
+        "beat": 163.25,
+        "interval": "major ninth",
+        "notes": [
+          "D2",
+          "E3"
+        ],
+        "limit": "Eb2",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 42 beat 3.5",
+        "beat": 166.5,
+        "interval": "perfect fifth",
+        "notes": [
+          "A1",
+          "E2"
+        ],
+        "limit": "Bb1",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "bass",
+          "comp"
+        ],
+        "at": "bar 42 beat 4.5",
+        "beat": 167.5,
+        "interval": "major ninth",
+        "notes": [
+          "D2",
+          "E3"
+        ],
+        "limit": "Eb2",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "comp",
+          "riff"
+        ],
+        "at": "bar 43 beat 1",
+        "beat": 168.0,
+        "interval": "perfect fourth",
+        "notes": [
+          "G2",
+          "C3"
+        ],
+        "limit": "Bb2",
+        "below_limit": 3
+      },
+      {
+        "parts": [
+          "bass",
+          "comp"
+        ],
+        "at": "bar 43 beat 4.5",
+        "beat": 171.5,
+        "interval": "minor tenth",
+        "notes": [
+          "A1",
+          "C3"
+        ],
+        "limit": "C2",
+        "below_limit": 3
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 44 beat 2.5",
+        "beat": 173.5,
+        "interval": "major sixth",
+        "notes": [
+          "D2",
+          "B2"
+        ],
+        "limit": "F2",
+        "below_limit": 3
+      },
+      {
+        "parts": [
+          "comp",
+          "riff"
+        ],
+        "at": "bar 44 beat 2.5",
+        "beat": 173.5,
+        "interval": "minor third",
+        "notes": [
+          "B2",
+          "D3"
+        ],
+        "limit": "C3",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "bass",
+          "comp"
+        ],
+        "at": "bar 44 beat 4.5",
+        "beat": 175.5,
+        "interval": "minor tenth",
+        "notes": [
+          "B1",
+          "D3"
+        ],
+        "limit": "C2",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 46 beat 3.5",
+        "beat": 182.5,
+        "interval": "perfect fifth",
+        "notes": [
+          "A1",
+          "E2"
+        ],
+        "limit": "Bb1",
+        "below_limit": 1
+      },
+      {
+        "parts": [
+          "bass",
+          "riff"
+        ],
+        "at": "bar 48 beat 2.5",
+        "beat": 189.5,
+        "interval": "major sixth",
+        "notes": [
+          "D2",
+          "B2"
+        ],
+        "limit": "F2",
+        "below_limit": 3
+      }
+    ]
+  },
+  "repetition": {
+    "static_spans": [],
+    "part_loops": [],
+    "literal_returns": [],
+    "arrivals_thinner_than_before": [],
+    "sections_alike": [],
+    "energy": [
+      {
+        "section": "ignition",
+        "bars": 4,
+        "notes_per_bar": 43.75,
+        "parts": [
+          "drums",
+          "shaker",
+          "metal",
+          "wood",
+          "bass",
+          "riff",
+          "pad"
+        ],
+        "mean_velocity": 72.9
+      },
+      {
+        "section": "theme",
+        "bars": 8,
+        "notes_per_bar": 49.38,
+        "parts": [
+          "drums",
+          "shaker",
+          "metal",
+          "wood",
+          "bass",
+          "riff",
+          "lead",
+          "slide",
+          "pad"
+        ],
+        "mean_velocity": 74.4
+      },
+      {
+        "section": "open_road",
+        "bars": 8,
+        "notes_per_bar": 77.12,
+        "parts": [
+          "drums",
+          "shaker",
+          "bass",
+          "riff",
+          "lead",
+          "slide",
+          "comp",
+          "pad"
+        ],
+        "mean_velocity": 69.4
+      },
+      {
+        "section": "scrapyard",
+        "bars": 8,
+        "notes_per_bar": 58.25,
+        "parts": [
+          "drums",
+          "shaker",
+          "metal",
+          "wood",
+          "fx",
+          "bass",
+          "riff",
+          "lead",
+          "slide",
+          "pad"
+        ],
+        "mean_velocity": 69.9
+      },
+      {
+        "section": "dust",
+        "bars": 8,
+        "notes_per_bar": 30.0,
+        "parts": [
+          "drums",
+          "shaker",
+          "wood",
+          "fx",
+          "bass",
+          "riff",
+          "lead",
+          "slide",
+          "comp",
+          "pad"
+        ],
+        "mean_velocity": 72.9
+      },
+      {
+        "section": "return",
+        "bars": 8,
+        "notes_per_bar": 65.38,
+        "parts": [
+          "drums",
+          "shaker",
+          "metal",
+          "wood",
+          "bass",
+          "riff",
+          "lead",
+          "slide",
+          "comp",
+          "pad"
+        ],
+        "mean_velocity": 75.9
+      },
+      {
+        "section": "turnaround",
+        "bars": 4,
+        "notes_per_bar": 45.5,
+        "parts": [
+          "drums",
+          "shaker",
+          "metal",
+          "wood",
+          "bass",
+          "riff",
+          "slide",
+          "pad"
+        ],
+        "mean_velocity": 74.0
+      }
+    ]
+  },
+  "low_passes": {
+    "below_hz": 12000,
+    "parts": 10,
+    "under": {
+      "riff": 5000,
+      "lead": 9000,
+      "slide": 7500,
+      "pad": 6000
+    },
+    "most": false
+  },
+  "stiffness": {
+    "block_chord_parts": [
+      {
+        "track": "pad",
+        "role": "texture",
+        "chords": 40,
+        "block_share": 1.0,
+        "median_beats": 4.0,
+        "one_length_share": 0.8
+      }
+    ],
+    "parts": {
+      "bass": {
+        "role": "bass",
+        "attacks": 235,
+        "syncopated_pct": 21.3,
+        "downbeat_pushes_pct": 11.1
+      },
+      "riff": {
+        "role": "rhythm",
+        "attacks": 314,
+        "syncopated_pct": 11.1,
+        "downbeat_pushes_pct": 8.6
+      },
+      "lead": {
+        "role": "melody",
+        "attacks": 96,
+        "syncopated_pct": 14.6,
+        "downbeat_pushes_pct": 0.0
+      },
+      "slide": {
+        "role": "countermelody",
+        "attacks": 51,
+        "syncopated_pct": 17.6,
+        "downbeat_pushes_pct": 0.0
+      },
+      "comp": {
+        "role": "harmony",
+        "attacks": 96,
+        "syncopated_pct": 19.8,
+        "downbeat_pushes_pct": 17.7
+      },
+      "pad": {
+        "role": "texture",
+        "attacks": 40,
+        "syncopated_pct": 0.0,
+        "downbeat_pushes_pct": 0.0
+      }
+    },
+    "no_pushes_anywhere": false
+  },
+  "melody_sections": [
+    {
+      "section": "ignition"
+    },
+    {
+      "section": "theme",
+      "phrases": 5,
+      "longest_without_breath_beats": 5.5,
+      "longest_without_breath_s": 3.3,
+      "leaps": 1,
+      "bars_restated": 1,
+      "bars_compared": 6,
+      "peak": "G5",
+      "peak_times": 1,
+      "peak_first_at_pct": 59,
+      "phrase_starts_beats": {
+        "5/2": 40.0,
+        "3/2": 40.0,
+        "2": 20.0
+      }
+    },
+    {
+      "section": "open_road",
+      "phrases": 7,
+      "longest_without_breath_beats": 5.5,
+      "longest_without_breath_s": 3.3,
+      "leaps": 3,
+      "bars_restated": 1,
+      "bars_compared": 6,
+      "peak": "G5",
+      "peak_times": 1,
+      "peak_first_at_pct": 47,
+      "phrase_starts_beats": {
+        "3/2": 42.9,
+        "0": 28.6,
+        "5/2": 28.6
+      }
+    },
+    {
+      "section": "scrapyard",
+      "phrases": 2,
+      "longest_without_breath_beats": 5.5,
+      "longest_without_breath_s": 3.3,
+      "leaps": 0,
+      "bars_restated": 1,
+      "bars_compared": 4,
+      "peak": "B4",
+      "peak_times": 1,
+      "peak_first_at_pct": 34,
+      "phrase_starts_beats": {
+        "2": 100.0
+      }
+    },
+    {
+      "section": "dust",
+      "phrases": 2,
+      "longest_without_breath_beats": 5.0,
+      "longest_without_breath_s": 3.0,
+      "leaps": 0,
+      "bars_restated": 0,
+      "bars_compared": 2,
+      "peak": "C5",
+      "peak_times": 1,
+      "peak_first_at_pct": 53,
+      "phrase_starts_beats": {
+        "1": 50.0,
+        "2": 50.0
+      }
+    },
+    {
+      "section": "return",
+      "phrases": 5,
+      "longest_without_breath_beats": 5.5,
+      "longest_without_breath_s": 3.3,
+      "leaps": 1,
+      "bars_restated": 1,
+      "bars_compared": 6,
+      "peak": "G5",
+      "peak_times": 1,
+      "peak_first_at_pct": 59,
+      "phrase_starts_beats": {
+        "5/2": 40.0,
+        "3/2": 40.0,
+        "2": 20.0
+      }
+    },
+    {
+      "section": "turnaround"
+    }
+  ],
+  "transposed_samples": {
+    "limit_semitones": 4,
+    "count": 0,
+    "by_track": {},
+    "examples": [],
+    "outside_preset": [],
+    "outside_count": 0
+  },
+  "cannot_render": [],
+  "loop_seam": {
+    "windows_seconds": {
+      "before": [
+        110.2,
+        115.2
+      ],
+      "after": [
+        0.0,
+        1.0
+      ]
+    },
+    "meter": {
+      "bpm_at_end": 100.0,
+      "bpm_at_start": 100.0,
+      "same_tempo": true,
+      "on_bar_line": true
+    },
+    "timbre": {
+      "before": [
+        "bass",
+        "drums",
+        "metal",
+        "pad",
+        "riff",
+        "shaker",
+        "slide"
+      ],
+      "after": [
+        "bass",
+        "drums",
+        "pad",
+        "riff",
+        "shaker"
+      ],
+      "continuing": [
+        "bass",
+        "drums",
+        "pad",
+        "riff",
+        "shaker"
+      ],
+      "entering": [],
+      "leaving": [
+        "metal",
+        "slide"
+      ]
+    },
+    "pitch": {
+      "after": [
+        "D",
+        "E",
+        "G",
+        "A",
+        "B"
+      ],
+      "before": [
+        "C",
+        "D",
+        "E",
+        "F#",
+        "G",
+        "A",
+        "B"
+      ],
+      "not_before": [],
+      "share_after_in_before": 1.0
+    },
+    "abruptness": {
+      "sounding_at_end": {
+        "pad": 3
+      }
+    }
+  },
+  "views": {
+    "parts_by_section": [
+      {
+        "section": "ignition",
+        "bars": 4,
+        "parts": {
+          "drums": {
+            "role": "drums",
+            "attacks": 52,
+            "held_in": 0,
+            "notes_per_bar": 13.0,
+            "velocity": 52.1
+          },
+          "shaker": {
+            "role": "drums",
+            "attacks": 64,
+            "held_in": 0,
+            "notes_per_bar": 16.0,
+            "velocity": 87.7
+          },
+          "metal": {
+            "role": "drums",
+            "attacks": 2,
+            "held_in": 0,
+            "notes_per_bar": 0.5,
+            "velocity": 49.5
+          },
+          "wood": {
+            "role": "drums",
+            "attacks": 1,
+            "held_in": 0,
+            "notes_per_bar": 0.25,
+            "velocity": 77.0
+          },
+          "bass": {
+            "role": "bass",
+            "attacks": 20,
+            "held_in": 0,
+            "notes_per_bar": 5.0,
+            "low": 28,
+            "high": 40,
+            "velocity": 78.3
+          },
+          "riff": {
+            "role": "rhythm",
+            "attacks": 27,
+            "held_in": 0,
+            "notes_per_bar": 6.75,
+            "low": 38,
+            "high": 50,
+            "velocity": 80.6
+          },
+          "pad": {
+            "role": "texture",
+            "attacks": 9,
+            "held_in": 0,
+            "notes_per_bar": 2.25,
+            "low": 55,
+            "high": 67,
+            "velocity": 58.0
+          }
+        }
+      },
+      {
+        "section": "theme",
+        "bars": 8,
+        "parts": {
+          "drums": {
+            "role": "drums",
+            "attacks": 120,
+            "held_in": 0,
+            "notes_per_bar": 15.0,
+            "velocity": 50.8
+          },
+          "shaker": {
+            "role": "drums",
+            "attacks": 128,
+            "held_in": 0,
+            "notes_per_bar": 16.0,
+            "velocity": 90.8
+          },
+          "metal": {
+            "role": "drums",
+            "attacks": 4,
+            "held_in": 1,
+            "notes_per_bar": 0.5,
+            "velocity": 52.5
+          },
+          "wood": {
+            "role": "drums",
+            "attacks": 2,
+            "held_in": 0,
+            "notes_per_bar": 0.25,
+            "velocity": 75.5
+          },
+          "bass": {
+            "role": "bass",
+            "attacks": 40,
+            "held_in": 0,
+            "notes_per_bar": 5.0,
+            "low": 28,
+            "high": 40,
+            "velocity": 79.3
+          },
+          "riff": {
+            "role": "rhythm",
+            "attacks": 58,
+            "held_in": 0,
+            "notes_per_bar": 7.25,
+            "low": 38,
+            "high": 50,
+            "velocity": 84.3
+          },
+          "lead": {
+            "role": "melody",
+            "attacks": 24,
+            "held_in": 0,
+            "notes_per_bar": 3.0,
+            "low": 62,
+            "high": 79,
+            "velocity": 85.4
+          },
+          "slide": {
+            "role": "countermelody",
+            "attacks": 1,
+            "held_in": 0,
+            "notes_per_bar": 0.12,
+            "low": 64,
+            "high": 64,
+            "velocity": 79.0
+          },
+          "pad": {
+            "role": "texture",
+            "attacks": 18,
+            "held_in": 0,
+            "notes_per_bar": 2.25,
+            "low": 55,
+            "high": 67,
+            "velocity": 62.8
+          }
+        }
+      },
+      {
+        "section": "open_road",
+        "bars": 8,
+        "parts": {
+          "drums": {
+            "role": "drums",
+            "attacks": 120,
+            "held_in": 0,
+            "notes_per_bar": 15.0,
+            "velocity": 56.6
+          },
+          "shaker": {
+            "role": "drums",
+            "attacks": 128,
+            "held_in": 0,
+            "notes_per_bar": 16.0,
+            "velocity": 77.4
+          },
+          "metal": {
+            "role": "drums",
+            "attacks": 0,
+            "held_in": 1,
+            "notes_per_bar": 0.0
+          },
+          "bass": {
+            "role": "bass",
+            "attacks": 56,
+            "held_in": 0,
+            "notes_per_bar": 7.0,
+            "low": 28,
+            "high": 50,
+            "velocity": 79.5
+          },
+          "riff": {
+            "role": "rhythm",
+            "attacks": 64,
+            "held_in": 0,
+            "notes_per_bar": 8.0,
+            "low": 40,
+            "high": 57,
+            "velocity": 71.3
+          },
+          "lead": {
+            "role": "melody",
+            "attacks": 28,
+            "held_in": 0,
+            "notes_per_bar": 3.5,
+            "low": 66,
+            "high": 79,
+            "velocity": 86.5
+          },
+          "slide": {
+            "role": "countermelody",
+            "attacks": 5,
+            "held_in": 0,
+            "notes_per_bar": 0.62,
+            "low": 71,
+            "high": 76,
+            "velocity": 85.4
+          },
+          "comp": {
+            "role": "harmony",
+            "attacks": 192,
+            "held_in": 0,
+            "notes_per_bar": 24.0,
+            "low": 48,
+            "high": 67,
+            "velocity": 65.2
+          },
+          "pad": {
+            "role": "texture",
+            "attacks": 24,
+            "held_in": 0,
+            "notes_per_bar": 3.0,
+            "low": 55,
+            "high": 67,
+            "velocity": 72.9
+          }
+        }
+      },
+      {
+        "section": "scrapyard",
+        "bars": 8,
+        "parts": {
+          "drums": {
+            "role": "drums",
+            "attacks": 177,
+            "held_in": 1,
+            "notes_per_bar": 22.12,
+            "velocity": 45.6
+          },
+          "shaker": {
+            "role": "drums",
+            "attacks": 128,
+            "held_in": 0,
+            "notes_per_bar": 16.0,
+            "velocity": 93.0
+          },
+          "metal": {
+            "role": "drums",
+            "attacks": 9,
+            "held_in": 0,
+            "notes_per_bar": 1.12,
+            "velocity": 64.0
+          },
+          "wood": {
+            "role": "drums",
+            "attacks": 4,
+            "held_in": 0,
+            "notes_per_bar": 0.5,
+            "velocity": 80.0
+          },
+          "fx": {
+            "role": "drums",
+            "attacks": 2,
+            "held_in": 0,
+            "notes_per_bar": 0.25,
+            "velocity": 111.0
+          },
+          "bass": {
+            "role": "bass",
+            "attacks": 40,
+            "held_in": 0,
+            "notes_per_bar": 5.0,
+            "low": 28,
+            "high": 40,
+            "velocity": 79.5
+          },
+          "riff": {
+            "role": "rhythm",
+            "attacks": 58,
+            "held_in": 0,
+            "notes_per_bar": 7.25,
+            "low": 38,
+            "high": 50,
+            "velocity": 83.3
+          },
+          "lead": {
+            "role": "melody",
+            "attacks": 15,
+            "held_in": 0,
+            "notes_per_bar": 1.88,
+            "low": 62,
+            "high": 71,
+            "velocity": 76.4
+          },
+          "slide": {
+            "role": "countermelody",
+            "attacks": 15,
+            "held_in": 0,
+            "notes_per_bar": 1.88,
+            "low": 64,
+            "high": 76,
+            "velocity": 82.6
+          },
+          "pad": {
+            "role": "texture",
+            "attacks": 18,
+            "held_in": 0,
+            "notes_per_bar": 2.25,
+            "low": 55,
+            "high": 67,
+            "velocity": 60.0
+          }
+        }
+      },
+      {
+        "section": "dust",
+        "bars": 8,
+        "parts": {
+          "drums": {
+            "role": "drums",
+            "attacks": 45,
+            "held_in": 0,
+            "notes_per_bar": 5.62,
+            "velocity": 51.2
+          },
+          "shaker": {
+            "role": "drums",
+            "attacks": 81,
+            "held_in": 0,
+            "notes_per_bar": 10.12,
+            "velocity": 79.2
+          },
+          "metal": {
+            "role": "drums",
+            "attacks": 0,
+            "held_in": 2,
+            "notes_per_bar": 0.0
+          },
+          "wood": {
+            "role": "drums",
+            "attacks": 12,
+            "held_in": 0,
+            "notes_per_bar": 1.5,
+            "velocity": 102.8
+          },
+          "fx": {
+            "role": "drums",
+            "attacks": 4,
+            "held_in": 0,
+            "notes_per_bar": 0.5,
+            "velocity": 115.2
+          },
+          "bass": {
+            "role": "bass",
+            "attacks": 19,
+            "held_in": 0,
+            "notes_per_bar": 2.38,
+            "low": 28,
+            "high": 38,
+            "velocity": 68.3
+          },
+          "riff": {
+            "role": "rhythm",
+            "attacks": 18,
+            "held_in": 0,
+            "notes_per_bar": 2.25,
+            "low": 38,
+            "high": 50,
+            "velocity": 73.4
+          },
+          "lead": {
+            "role": "melody",
+            "attacks": 5,
+            "held_in": 0,
+            "notes_per_bar": 0.62,
+            "low": 64,
+            "high": 72,
+            "velocity": 72.4
+          },
+          "slide": {
+            "role": "countermelody",
+            "attacks": 8,
+            "held_in": 0,
+            "notes_per_bar": 1.0,
+            "low": 64,
+            "high": 76,
+            "velocity": 81.1
+          },
+          "comp": {
+            "role": "harmony",
+            "attacks": 24,
+            "held_in": 0,
+            "notes_per_bar": 3.0,
+            "low": 45,
+            "high": 67,
+            "velocity": 61.5
+          },
+          "pad": {
+            "role": "texture",
+            "attacks": 24,
+            "held_in": 0,
+            "notes_per_bar": 3.0,
+            "low": 55,
+            "high": 67,
+            "velocity": 82.6
+          }
+        }
+      },
+      {
+        "section": "return",
+        "bars": 8,
+        "parts": {
+          "drums": {
+            "role": "drums",
+            "attacks": 132,
+            "held_in": 1,
+            "notes_per_bar": 16.5,
+            "velocity": 55.7
+          },
+          "shaker": {
+            "role": "drums",
+            "attacks": 128,
+            "held_in": 0,
+            "notes_per_bar": 16.0,
+            "velocity": 95.3
+          },
+          "metal": {
+            "role": "drums",
+            "attacks": 5,
+            "held_in": 0,
+            "notes_per_bar": 0.62,
+            "velocity": 68.4
+          },
+          "wood": {
+            "role": "drums",
+            "attacks": 2,
+            "held_in": 0,
+            "notes_per_bar": 0.25,
+            "velocity": 81.5
+          },
+          "bass": {
+            "role": "bass",
+            "attacks": 40,
+            "held_in": 0,
+            "notes_per_bar": 5.0,
+            "low": 28,
+            "high": 40,
+            "velocity": 83.5
+          },
+          "riff": {
+            "role": "rhythm",
+            "attacks": 58,
+            "held_in": 0,
+            "notes_per_bar": 7.25,
+            "low": 38,
+            "high": 50,
+            "velocity": 84.8
+          },
+          "lead": {
+            "role": "melody",
+            "attacks": 24,
+            "held_in": 0,
+            "notes_per_bar": 3.0,
+            "low": 62,
+            "high": 79,
+            "velocity": 89.3
+          },
+          "slide": {
+            "role": "countermelody",
+            "attacks": 20,
+            "held_in": 0,
+            "notes_per_bar": 2.5,
+            "low": 59,
+            "high": 76,
+            "velocity": 77.3
+          },
+          "comp": {
+            "role": "harmony",
+            "attacks": 96,
+            "held_in": 0,
+            "notes_per_bar": 12.0,
+            "low": 48,
+            "high": 67,
+            "velocity": 66.8
+          },
+          "pad": {
+            "role": "texture",
+            "attacks": 18,
+            "held_in": 0,
+            "notes_per_bar": 2.25,
+            "low": 55,
+            "high": 67,
+            "velocity": 71.8
+          }
+        }
+      },
+      {
+        "section": "turnaround",
+        "bars": 4,
+        "parts": {
+          "drums": {
+            "role": "drums",
+            "attacks": 53,
+            "held_in": 0,
+            "notes_per_bar": 13.25,
+            "velocity": 52.1
+          },
+          "shaker": {
+            "role": "drums",
+            "attacks": 64,
+            "held_in": 0,
+            "notes_per_bar": 16.0,
+            "velocity": 91.1
+          },
+          "metal": {
+            "role": "drums",
+            "attacks": 2,
+            "held_in": 1,
+            "notes_per_bar": 0.5,
+            "velocity": 48.5
+          },
+          "wood": {
+            "role": "drums",
+            "attacks": 1,
+            "held_in": 0,
+            "notes_per_bar": 0.25,
+            "velocity": 74.0
+          },
+          "bass": {
+            "role": "bass",
+            "attacks": 20,
+            "held_in": 0,
+            "notes_per_bar": 5.0,
+            "low": 28,
+            "high": 40,
+            "velocity": 79.0
+          },
+          "riff": {
+            "role": "rhythm",
+            "attacks": 31,
+            "held_in": 0,
+            "notes_per_bar": 7.75,
+            "low": 38,
+            "high": 50,
+            "velocity": 79.7
+          },
+          "slide": {
+            "role": "countermelody",
+            "attacks": 2,
+            "held_in": 0,
+            "notes_per_bar": 0.5,
+            "low": 59,
+            "high": 64,
+            "velocity": 72.0
+          },
+          "pad": {
+            "role": "texture",
+            "attacks": 9,
+            "held_in": 0,
+            "notes_per_bar": 2.25,
+            "low": 55,
+            "high": 67,
+            "velocity": 56.3
+          }
+        }
+      }
+    ],
+    "part_sets": 7,
+    "harmony_pace": {
+      "entries": 48,
+      "changes": 39,
+      "entries_per_bar": 1.0,
+      "changes_per_bar": 0.81,
+      "kinds": {
+        "seventh": 14,
+        "extended": 15,
+        "added": 11
+      },
+      "unknown": [],
+      "sections": [
+        {
+          "section": "ignition",
+          "bars": 4,
+          "entries": 4,
+          "changes": 2,
+          "changes_per_bar": 0.5,
+          "kinds": {
+            "seventh": 1,
+            "extended": 1,
+            "added": 1
+          }
+        },
+        {
+          "section": "theme",
+          "bars": 8,
+          "entries": 8,
+          "changes": 6,
+          "changes_per_bar": 0.75,
+          "kinds": {
+            "seventh": 2,
+            "extended": 2,
+            "added": 2
+          }
+        },
+        {
+          "section": "open_road",
+          "bars": 8,
+          "entries": 8,
+          "changes": 8,
+          "changes_per_bar": 1.0,
+          "kinds": {
+            "extended": 4,
+            "added": 2,
+            "seventh": 2
+          }
+        },
+        {
+          "section": "scrapyard",
+          "bars": 8,
+          "entries": 8,
+          "changes": 6,
+          "changes_per_bar": 0.75,
+          "kinds": {
+            "seventh": 2,
+            "extended": 2,
+            "added": 2
+          }
+        },
+        {
+          "section": "dust",
+          "bars": 8,
+          "entries": 8,
+          "changes": 8,
+          "changes_per_bar": 1.0,
+          "kinds": {
+            "extended": 3,
+            "seventh": 4,
+            "added": 1
+          }
+        },
+        {
+          "section": "return",
+          "bars": 8,
+          "entries": 8,
+          "changes": 6,
+          "changes_per_bar": 0.75,
+          "kinds": {
+            "seventh": 2,
+            "extended": 2,
+            "added": 2
+          }
+        },
+        {
+          "section": "turnaround",
+          "bars": 4,
+          "entries": 4,
+          "changes": 3,
+          "changes_per_bar": 0.75,
+          "kinds": {
+            "seventh": 1,
+            "extended": 1,
+            "added": 1
+          }
+        }
+      ]
+    },
+    "melody_rhythm": [
+      {
+        "part": "lead",
+        "attacks": 96,
+        "syncopated_pct": 14.6,
+        "pushes_pct": 0.0,
+        "longest_run": {
+          "beats": 8.0,
+          "seconds": 4.8,
+          "from_bar": 19,
+          "to_bar": 20
+        },
+        "bar_rhythms": 11,
+        "sections": [
+          {
+            "section": "ignition",
+            "attacks": 0,
+            "syncopated": 0,
+            "pushes": 0,
+            "rests": 0,
+            "phrases": 0
+          },
+          {
+            "section": "theme",
+            "attacks": 24,
+            "syncopated": 3,
+            "pushes": 0,
+            "rests": 3,
+            "phrases": 5
+          },
+          {
+            "section": "open_road",
+            "attacks": 28,
+            "syncopated": 2,
+            "pushes": 0,
+            "rests": 3,
+            "phrases": 7
+          },
+          {
+            "section": "scrapyard",
+            "attacks": 15,
+            "syncopated": 4,
+            "pushes": 0,
+            "rests": 3,
+            "phrases": 2
+          },
+          {
+            "section": "dust",
+            "attacks": 5,
+            "syncopated": 1,
+            "pushes": 0,
+            "rests": 1,
+            "phrases": 2
+          },
+          {
+            "section": "return",
+            "attacks": 24,
+            "syncopated": 4,
+            "pushes": 0,
+            "rests": 2,
+            "phrases": 5
+          },
+          {
+            "section": "turnaround",
+            "attacks": 0,
+            "syncopated": 0,
+            "pushes": 0,
+            "rests": 0,
+            "phrases": 0
+          }
+        ]
+      }
+    ]
+  },
+  "plan": {
+    "identity": "a baritone riff on an open E that rises into beat 2 and leaves the bar's second half to the drums; a five-note call (B D | E . D B ... E) that starts in that space and slides into its high note; G-major pitch classes only",
+    "high_point": {
+      "section": "return",
+      "means": "the call with a second voice, the full kit with snare and crash, strums, and the call's high variant reaching G5",
+      "in_piece": true
+    },
+    "sections": [
+      {
+        "section": "ignition",
+        "in_piece": true,
+        "what_differs": "the loop's first bar: groove at once, no melody",
+        "kept": [
+          "sounds",
+          "leads riff"
+        ],
+        "differs": [],
+        "unread": []
+      },
+      {
+        "section": "theme",
+        "in_piece": true,
+        "what_differs": "the call enters in the riff's space; ghost hats; a slide answer",
+        "kept": [
+          "sounds",
+          "leads lead",
+          "answers slide"
+        ],
+        "differs": [],
+        "unread": []
+      },
+      {
+        "section": "open_road",
+        "in_piece": true,
+        "what_differs": "C G D Em: the relative-major lift, a chord every bar, snare and ride, strums, the road melody",
+        "kept": [
+          "sounds",
+          "leads lead",
+          "harmony faster"
+        ],
+        "differs": [],
+        "unread": []
+      },
+      {
+        "section": "scrapyard",
+        "in_piece": true,
+        "what_differs": "the motif moves to the slide guitar; brake drum, guiro, anvil; side stick again",
+        "kept": [
+          "sounds",
+          "leads slide",
+          "answers lead",
+          "harmony slower"
+        ],
+        "differs": [],
+        "unread": []
+      },
+      {
+        "section": "dust",
+        "in_piece": true,
+        "what_differs": "no riff for six bars, pad and ringing arpeggios, the call in long notes; the drums rebuild in its last two bars",
+        "kept": [
+          "sounds",
+          "leads slide"
+        ],
+        "differs": [],
+        "unread": []
+      },
+      {
+        "section": "return",
+        "in_piece": true,
+        "what_differs": "the motif with a second voice, snare backbeat, crash, strums",
+        "kept": [
+          "sounds",
+          "leads lead",
+          "answers slide",
+          "dynamics louder"
+        ],
+        "differs": [],
+        "unread": []
+      },
+      {
+        "section": "turnaround",
+        "in_piece": true,
+        "what_differs": "the ignition texture again, one slide accent, a light fill into bar 1",
+        "kept": [
+          "sounds",
+          "leads riff"
+        ],
+        "differs": [],
+        "unread": []
+      }
+    ],
+    "commitments": 20,
+    "kept": 20,
+    "differences": 0
+  }
+}

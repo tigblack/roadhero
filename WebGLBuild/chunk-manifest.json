@@ -1,0 +1,39 @@
+{
+  "format": 1,
+  "maxPartBytes": 25165824,
+  "files": {
+    "Build/320adde4f16be342e9b3b2a1e132f4c1.data.unityweb": {
+      "bytes": 122520956,
+      "sha256": "709222d16111320f06e612ff9ebbff2ce539a5202acf7817aa5f26a4bce7ce66",
+      "parts": [
+        {
+          "url": "Build/320adde4f16be342e9b3b2a1e132f4c1.data.unityweb.part000.bin",
+          "bytes": 25165824,
+          "sha256": "f8fb1001a824505dd1896d3be16102ddfd86301b9a1edbc49916b307647875ca"
+        },
+        {
+          "url": "Build/320adde4f16be342e9b3b2a1e132f4c1.data.unityweb.part001.bin",
+          "bytes": 25165824,
+          "sha256": "5d2c81c4a2f6e1235695605d369840c8e3d6d5361c3bca011e53afde88eaf822"
+        },
+        {
+          "url": "Build/320adde4f16be342e9b3b2a1e132f4c1.data.unityweb.part002.bin",
+          "bytes": 25165824,
+          "sha256": "7f8d82eb6af03028c6da099c165c99ad78f0affc195a3c842342cdab2b1feabb"
+        },
+        {
+          "url": "Build/320adde4f16be342e9b3b2a1e132f4c1.data.unityweb.part003.bin",
+          "bytes": 25165824,
+          "sha256": "309b8f63334f1a3b4887c846af1c045c6e6f982973ea9e1bd3fef99c69e7064d"
+        },
+        {
+          "url": "Build/320adde4f16be342e9b3b2a1e132f4c1.data.unityweb.part004.bin",
+          "bytes": 21857660,
+          "sha256": "db6411bf17881c3d82c333701dc60441abc92e115e4249c32e0fcb4ac45b8741"
+        }
+      ],
+      "uncompressedBytes": 153173874,
+      "uncompressedSha256": "a997f574eff098b5714926f8276670eba91dc261401f5613fad2f75c56345e14"
+    }
+  }
+}

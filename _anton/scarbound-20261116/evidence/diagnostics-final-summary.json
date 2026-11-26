@@ -1,0 +1,550 @@
+{
+  "scope": "Scripted editor diagnostics; no live novice hands-on session. No gameplay code edits.",
+  "all_unity_process_exit_codes": 0,
+  "all_source_and_sites_dist_hashes_unchanged": true,
+  "main_player_save_present_before_core_and_after_all": false,
+  "retained_test_save_key": "roadgame_save_v1_anton_core",
+  "scenarios": {
+    "intro": {
+      "done": true,
+      "audio_muted": true,
+      "runtime_or_compile_errors": [],
+      "licensing_entitlement_404_count": 8,
+      "shots": [
+        {
+          "capture_mark_seconds": 1,
+          "file": "_anton/scarbound-20261116/evidence/intro/intro_00.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "8562983d6fcfc32dd00d4838c9df1618ef896c41ad7be8346ab106f59b479a99",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/intro/intro_00.png | fps~60 hp=100/100 dmg=5.5 kills=0 pos=(0.00, 0.00, -237.97) active=2 draws=141 setpass=28 tris=201474 enemyShots=0 gunShots=0 gunHits=0 gunYaw=4 harpoonYaw=24 harpoons=0 reeled=0 harpoonAimErrMax=0.0"
+        },
+        {
+          "capture_mark_seconds": 3,
+          "file": "_anton/scarbound-20261116/evidence/intro/intro_01.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "9c5c5cb00524cad5da38b80a5133af4cb657c469232749d21df4a425c2bf257d",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/intro/intro_01.png | fps~60 hp=100/100 dmg=5.5 kills=0 pos=(0.00, 0.00, -227.93) active=2 draws=147 setpass=29 tris=202532 enemyShots=0 gunShots=0 gunHits=0 gunYaw=6 harpoonYaw=26 harpoons=0 reeled=0 harpoonAimErrMax=0.0"
+        },
+        {
+          "capture_mark_seconds": 5,
+          "file": "_anton/scarbound-20261116/evidence/intro/intro_02.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "1e8f7a5221ed141d4db647da8f8e600eebcfd45278c95c1bf9de4118696929e5",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/intro/intro_02.png | fps~60 hp=100/100 dmg=5.5 kills=1 pos=(0.00, 0.00, -206.95) active=2 draws=156 setpass=37 tris=190098 enemyShots=0 gunShots=2 gunHits=2 gunYaw=70 harpoonYaw=104 harpoons=0 reeled=0 harpoonAimErrMax=0.0"
+        },
+        {
+          "capture_mark_seconds": 6.5,
+          "file": "_anton/scarbound-20261116/evidence/intro/intro_03.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "d99ed3d6920c5283925120dcaa705e9c20dece128089b8f2539afd9449d839be",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/intro/intro_03.png | fps~60 hp=100/100 dmg=6.0 kills=2 pos=(0.00, 0.00, -187.66) active=1 draws=158 setpass=35 tris=179722 enemyShots=0 gunShots=4 gunHits=4 gunYaw=67 harpoonYaw=172 harpoons=2 reeled=1 harpoonAimErrMax=8.0"
+        },
+        {
+          "capture_mark_seconds": 10,
+          "file": "_anton/scarbound-20261116/evidence/intro/intro_04.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "4e01765dd7076ccc69feb3a8415aa2d778c868e67c01fc44dcdf533fb3495dbf",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/intro/intro_04.png | fps~59 hp=100/100 dmg=6.5 kills=2 pos=(0.00, 0.00, -141.55) active=2 draws=146 setpass=28 tris=257896 enemyShots=0 gunShots=4 gunHits=4 gunYaw=-5 harpoonYaw=-26 harpoons=2 reeled=2 harpoonAimErrMax=8.0"
+        },
+        {
+          "capture_mark_seconds": 12.5,
+          "file": "_anton/scarbound-20261116/evidence/intro/intro_05.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "bf3c040ae91563cd3dd8c752275bbb2c18b08d54baf53688df4dbd670255240e",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/intro/intro_05.png | fps~60 hp=100/100 dmg=6.5 kills=2 pos=(0.00, 2.28, -108.63) active=22 draws=180 setpass=29 tris=272072 enemyShots=0 gunShots=4 gunHits=4 gunYaw=-6 harpoonYaw=-2 harpoons=2 reeled=2 harpoonAimErrMax=8.0"
+        },
+        {
+          "capture_mark_seconds": 13.5,
+          "file": "_anton/scarbound-20261116/evidence/intro/intro_06.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "44c994015da23b3d80b02312aaec2f2b71b3973e1919b4dc538129a77309ef03",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/intro/intro_06.png | fps~60 hp=100/100 dmg=6.5 kills=2 pos=(0.00, 0.00, -96.09) active=32 draws=183 setpass=31 tris=240290 enemyShots=0 gunShots=4 gunHits=4 gunYaw=-5 harpoonYaw=10 harpoons=2 reeled=2 harpoonAimErrMax=8.0"
+        },
+        {
+          "capture_mark_seconds": 20,
+          "file": "_anton/scarbound-20261116/evidence/intro/intro_07.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "0953b2f7df7fbb2c485fb29633942f52444b99f67383adcd203346e4acf46b14",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/intro/intro_07.png | fps~60 hp=100/100 dmg=6.5 kills=2 pos=(-0.11, 0.00, -39.24) active=72 draws=226 setpass=36 tris=205942 enemyShots=0 gunShots=11 gunHits=11 gunYaw=-73 harpoonYaw=-46 harpoons=2 reeled=2 harpoonAimErrMax=8.0"
+        },
+        {
+          "capture_mark_seconds": 30,
+          "file": "_anton/scarbound-20261116/evidence/intro/intro_08.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "2b3612e9a5f3d47262eb8f56ae342cded14d66acaea4b6e97de75ea56a7ea3c6",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/intro/intro_08.png | fps~60 hp=102/102 dmg=7.5 kills=6 pos=(10.75, 0.00, -20.90) active=86 draws=220 setpass=39 tris=216648 enemyShots=0 gunShots=27 gunHits=27 gunYaw=101 harpoonYaw=142 harpoons=6 reeled=5 harpoonAimErrMax=8.0"
+        }
+      ]
+    },
+    "flip": {
+      "done": true,
+      "audio_muted": true,
+      "runtime_or_compile_errors": [],
+      "licensing_entitlement_404_count": 8,
+      "shots": [
+        {
+          "capture_mark_seconds": 3,
+          "file": "_anton/scarbound-20261116/evidence/flip/flip_00.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "05eb0931b04e3cb98cbcf12fc50afb97ffb36741f2277795124ffad274013c4f",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/flip/flip_00.png | fps~60 hp=500/500 dmg=6.0 kills=0 pos=(-78.00, 7.10, 60.99) active=58 draws=164 setpass=28 tris=344958 enemyShots=0 gunShots=0 gunHits=0 gunYaw=6 harpoonYaw=27 harpoons=0 reeled=0 harpoonAimErrMax=0.0"
+        },
+        {
+          "capture_mark_seconds": 6,
+          "file": "_anton/scarbound-20261116/evidence/flip/flip_01.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "2ef930ecce02d9fe8740822511b4ef3ab12bcbfa53ab801ef981ebdcc66bf6bd",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/flip/flip_01.png | fps~60 hp=500/500 dmg=6.0 kills=0 pos=(-78.00, 0.94, 58.83) active=58 draws=152 setpass=28 tris=321258 enemyShots=0 gunShots=0 gunHits=0 gunYaw=4 harpoonYaw=-1 harpoons=0 reeled=0 harpoonAimErrMax=0.0"
+        },
+        {
+          "capture_mark_seconds": 9,
+          "file": "_anton/scarbound-20261116/evidence/flip/flip_02.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "2a46b8f33e1c8e7e1206d3dd5238c643d2cd6810335a87efab3fd008711db5df",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/flip/flip_02.png | fps~60 hp=500/500 dmg=6.0 kills=0 pos=(-78.00, 0.00, 58.83) active=58 draws=181 setpass=28 tris=364376 enemyShots=0 gunShots=0 gunHits=0 gunYaw=-2 harpoonYaw=-28 harpoons=0 reeled=0 harpoonAimErrMax=0.0"
+        },
+        {
+          "capture_mark_seconds": 14,
+          "file": "_anton/scarbound-20261116/evidence/flip/flip_03.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "9eaf5e8a3cf747d2a14807ff8ff8c844c0b0c7a5e9ca0f2b75a9adf2ff8952f2",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/flip/flip_03.png | fps~60 hp=500/500 dmg=6.0 kills=0 pos=(-76.00, 0.00, 43.59) active=59 draws=257 setpass=28 tris=381694 enemyShots=0 gunShots=0 gunHits=0 gunYaw=-5 harpoonYaw=13 harpoons=0 reeled=0 harpoonAimErrMax=0.0"
+        },
+        {
+          "capture_mark_seconds": 21,
+          "file": "_anton/scarbound-20261116/evidence/flip/flip_04.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "09cbd026176ef4a1d9f61f2b5af345138be3259e921a90dc164cf433a7e53444",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/flip/flip_04.png | fps~60 hp=505/505 dmg=6.0 kills=1 pos=(-84.00, 0.00, 46.00) active=58 draws=174 setpass=28 tris=363936 enemyShots=0 gunShots=5 gunHits=5 gunYaw=6 harpoonYaw=-14 harpoons=1 reeled=1 harpoonAimErrMax=0.0"
+        },
+        {
+          "capture_mark_seconds": 27,
+          "file": "_anton/scarbound-20261116/evidence/flip/flip_05.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "3b13b43f0493de0a879b9173cb037532fdd37b1cd882ac4ca4ec6399a095912f",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/flip/flip_05.png | fps~60 hp=505/505 dmg=6.0 kills=1 pos=(38.00, 0.89, -49.63) active=66 draws=235 setpass=30 tris=223120 enemyShots=0 gunShots=7 gunHits=7 gunYaw=-2 harpoonYaw=2 harpoons=1 reeled=1 harpoonAimErrMax=0.0"
+        },
+        {
+          "capture_mark_seconds": 34,
+          "file": "_anton/scarbound-20261116/evidence/flip/flip_06.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "234e7eb5ffbcb86f4fcfe629bdde40ee618db3068b184b94c530cbe3e7e1d068",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/flip/flip_06.png | fps~60 hp=508/508 dmg=6.0 kills=2 pos=(-40.37, 0.00, 3.76) active=102 draws=303 setpass=37 tris=304720 enemyShots=1 gunShots=17 gunHits=17 gunYaw=85 harpoonYaw=118 harpoons=2 reeled=2 harpoonAimErrMax=7.9"
+        },
+        {
+          "capture_mark_seconds": 40,
+          "file": "_anton/scarbound-20261116/evidence/flip/flip_07.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "7b501f2c70258d90646eb0cf3b23f87dd3bb02d03e718a6531d166d8d1ef0a67",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/flip/flip_07.png | fps~60 hp=490/508 dmg=6.0 kills=2 pos=(86.73, 0.22, -84.19) active=34 draws=193 setpass=28 tris=252110 enemyShots=6 gunShots=21 gunHits=21 gunYaw=6 harpoonYaw=-10 harpoons=2 reeled=2 harpoonAimErrMax=7.9"
+        },
+        {
+          "capture_mark_seconds": 46,
+          "file": "_anton/scarbound-20261116/evidence/flip/flip_08.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "63fa3884b4449bbb784483094c0b987002cd3ea748581dd73976a6a9ce5011ed",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/flip/flip_08.png | fps~60 hp=490/508 dmg=6.0 kills=2 pos=(-44.90, 2.70, 88.25) active=67 draws=257 setpass=28 tris=405092 enemyShots=6 gunShots=21 gunHits=21 gunYaw=-4 harpoonYaw=20 harpoons=2 reeled=2 harpoonAimErrMax=7.9"
+        },
+        {
+          "capture_mark_seconds": 54,
+          "file": "_anton/scarbound-20261116/evidence/flip/flip_09.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "10666fbfd5f8dc6c7021094e358fd6f7bb28928baac10176c4c8b2502fdcb01f",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/flip/flip_09.png | fps~60 hp=490/508 dmg=6.0 kills=2 pos=(-71.74, 0.00, 43.88) active=59 draws=263 setpass=28 tris=378182 enemyShots=6 gunShots=21 gunHits=21 gunYaw=3 harpoonYaw=-10 harpoons=2 reeled=2 harpoonAimErrMax=7.9"
+        },
+        {
+          "capture_mark_seconds": 62,
+          "file": "_anton/scarbound-20261116/evidence/flip/flip_10.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "0043038faae351b6409dc6549d1abbfc018ec7047039c4797451859932f3e85e",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/flip/flip_10.png | fps~60 hp=490/508 dmg=6.0 kills=2 pos=(0.00, 0.00, -85.47) active=42 draws=199 setpass=34 tris=219060 enemyShots=6 gunShots=21 gunHits=21 gunYaw=-1 harpoonYaw=-3 harpoons=2 reeled=2 harpoonAimErrMax=7.9"
+        },
+        {
+          "capture_mark_seconds": 64,
+          "file": "_anton/scarbound-20261116/evidence/flip/flip_11.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "5948a9912f5c722d0314e689334b257fe45a674b4efb6050568ce1931b495e41",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/flip/flip_11.png | fps~60 hp=490/508 dmg=6.0 kills=2 pos=(0.00, 0.00, -82.97) active=44 draws=218 setpass=29 tris=235790 enemyShots=6 gunShots=21 gunHits=21 gunYaw=-4 harpoonYaw=-24 harpoons=2 reeled=2 harpoonAimErrMax=7.9"
+        }
+      ]
+    },
+    "terrain": {
+      "done": true,
+      "audio_muted": true,
+      "runtime_or_compile_errors": [],
+      "licensing_entitlement_404_count": 8,
+      "shots": [
+        {
+          "capture_mark_seconds": 5,
+          "file": "_anton/scarbound-20261116/evidence/terrain/terrain_00.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "c7349c03a555b8b671f9bf57e74c3da25a70ee9e9d1357a340f77a55191fbe82",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/terrain/terrain_00.png | fps~60 hp=500/500 dmg=6.0 kills=0 pos=(-35.16, 0.00, -33.60) active=89 draws=293 setpass=35 tris=294926 enemyShots=0 gunShots=3 gunHits=3 gunYaw=29 harpoonYaw=20 harpoons=0 reeled=0 harpoonAimErrMax=0.0"
+        },
+        {
+          "capture_mark_seconds": 10,
+          "file": "_anton/scarbound-20261116/evidence/terrain/terrain_01.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "d11ea0f20f5895df1369aa9dac9667fe9adc15ce901acb0f3eae9bbbe7fd81bb",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/terrain/terrain_01.png | fps~60 hp=491/500 dmg=6.0 kills=0 pos=(56.98, 0.82, -62.11) active=53 draws=264 setpass=37 tris=268248 enemyShots=3 gunShots=11 gunHits=10 gunYaw=-123 harpoonYaw=-106 harpoons=0 reeled=0 harpoonAimErrMax=0.0"
+        },
+        {
+          "capture_mark_seconds": 17,
+          "file": "_anton/scarbound-20261116/evidence/terrain/terrain_02.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "d1ff0042d4241faea03f652d41af09e0a803a5fd77b75a4a3490cf83b9248d97",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/terrain/terrain_02.png | fps~60 hp=492/503 dmg=6.0 kills=2 pos=(29.27, 0.00, -59.03) active=62 draws=207 setpass=31 tris=192660 enemyShots=4 gunShots=18 gunHits=18 gunYaw=-70 harpoonYaw=-124 harpoons=1 reeled=1 harpoonAimErrMax=0.0"
+        },
+        {
+          "capture_mark_seconds": 23,
+          "file": "_anton/scarbound-20261116/evidence/terrain/terrain_03.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "447d26e9ed60d79f0ca74c40a4d0ef33f94d4f907b4adc0dfdefb4548eee6055",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/terrain/terrain_03.png | fps~60 hp=495/505 dmg=6.0 kills=2 pos=(27.41, 0.00, -64.13) active=57 draws=206 setpass=28 tris=190668 enemyShots=4 gunShots=18 gunHits=18 gunYaw=5 harpoonYaw=-28 harpoons=2 reeled=2 harpoonAimErrMax=7.7"
+        },
+        {
+          "capture_mark_seconds": 29,
+          "file": "_anton/scarbound-20261116/evidence/terrain/terrain_04.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "afcb33614f0b5953b3ed4b714883982fad5d1bb4a2b1fc985fb5a63739c7204f",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/terrain/terrain_04.png | fps~60 hp=493/505 dmg=6.0 kills=2 pos=(-22.94, 0.00, -41.89) active=76 draws=247 setpass=28 tris=246478 enemyShots=5 gunShots=23 gunHits=23 gunYaw=-5 harpoonYaw=23 harpoons=2 reeled=2 harpoonAimErrMax=7.7"
+        },
+        {
+          "capture_mark_seconds": 35,
+          "file": "_anton/scarbound-20261116/evidence/terrain/terrain_05.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "608734ecd92d6afecc4eec214048a88acf9a230ba5d2e03b2eac1107c23bbd66",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/terrain/terrain_05.png | fps~60 hp=496/508 dmg=6.0 kills=3 pos=(38.00, 0.00, -96.00) active=72 draws=288 setpass=37 tris=308164 enemyShots=5 gunShots=32 gunHits=31 gunYaw=-128 harpoonYaw=-118 harpoons=3 reeled=3 harpoonAimErrMax=7.7"
+        },
+        {
+          "capture_mark_seconds": 42,
+          "file": "_anton/scarbound-20261116/evidence/terrain/terrain_06.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "67c3365f5ff277ef1f3101cad471602e1f46c2e966187c149b352472aad26cb3",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/terrain/terrain_06.png | fps~60 hp=494/508 dmg=6.0 kills=3 pos=(38.00, 0.00, -75.30) active=54 draws=216 setpass=32 tris=264710 enemyShots=6 gunShots=39 gunHits=38 gunYaw=119 harpoonYaw=99 harpoons=3 reeled=3 harpoonAimErrMax=7.7"
+        },
+        {
+          "capture_mark_seconds": 49,
+          "file": "_anton/scarbound-20261116/evidence/terrain/terrain_07.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "40730962d9a77507c6f1cb514496d949aaf4e82e4ad69c86423d9be7a5c2846c",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/terrain/terrain_07.png | fps~60 hp=498/513 dmg=6.0 kills=4 pos=(23.15, 0.00, 245.00) active=74 draws=207 setpass=28 tris=319952 enemyShots=7 gunShots=43 gunHits=42 gunYaw=30 harpoonYaw=-14 harpoons=4 reeled=4 harpoonAimErrMax=7.7"
+        },
+        {
+          "capture_mark_seconds": 55,
+          "file": "_anton/scarbound-20261116/evidence/terrain/terrain_08.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "6998a07477649b45903a6050d1fd0b1ce0704a6214467dd72bb8835553de9113",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/terrain/terrain_08.png | fps~58 hp=498/513 dmg=6.0 kills=4 pos=(-30.00, 0.00, 521.51) active=77 draws=307 setpass=28 tris=406640 enemyShots=7 gunShots=50 gunHits=49 gunYaw=203 harpoonYaw=4 harpoons=4 reeled=4 harpoonAimErrMax=7.7"
+        },
+        {
+          "capture_mark_seconds": 62,
+          "file": "_anton/scarbound-20261116/evidence/terrain/terrain_09.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "cd8de03e368491e5f4db6e438603439f3ab8129a6cebd6d8974bae8387d8eadd",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/terrain/terrain_09.png | fps~60 hp=498/513 dmg=6.0 kills=4 pos=(55.95, 0.62, -63.13) active=52 draws=288 setpass=36 tris=257360 enemyShots=7 gunShots=59 gunHits=58 gunYaw=-122 harpoonYaw=-101 harpoons=4 reeled=4 harpoonAimErrMax=7.7"
+        },
+        {
+          "capture_mark_seconds": 68,
+          "file": "_anton/scarbound-20261116/evidence/terrain/terrain_10.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "bccdf1c80453b06e6254ff01ef9d37e184084b3bd9bf45745f97e44851935563",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/terrain/terrain_10.png | fps~60 hp=497/515 dmg=6.0 kills=5 pos=(70.59, 2.10, -77.20) active=51 draws=236 setpass=31 tris=266924 enemyShots=9 gunShots=66 gunHits=65 gunYaw=-5 harpoonYaw=-9 harpoons=5 reeled=5 harpoonAimErrMax=7.7"
+        },
+        {
+          "capture_mark_seconds": 75,
+          "file": "_anton/scarbound-20261116/evidence/terrain/terrain_11.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "0611e4c3a8de08fb1bcbf2579cbb23a65cf21d5e0d1d6c302ae3df4a6eb1c6e8",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/terrain/terrain_11.png | fps~60 hp=497/515 dmg=6.0 kills=5 pos=(-86.00, 4.27, 51.13) active=55 draws=165 setpass=28 tris=365414 enemyShots=9 gunShots=68 gunHits=67 gunYaw=6 harpoonYaw=9 harpoons=5 reeled=5 harpoonAimErrMax=7.7"
+        },
+        {
+          "capture_mark_seconds": 82,
+          "file": "_anton/scarbound-20261116/evidence/terrain/terrain_12.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "fbc5fc802eed5636e8ef7473efb4893d60550107472406872f3eab68a7ccfc9e",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/terrain/terrain_12.png | fps~60 hp=479/517 dmg=6.0 kills=6 pos=(-24.68, 0.00, 12.14) active=100 draws=281 setpass=30 tris=312126 enemyShots=16 gunShots=78 gunHits=76 gunYaw=-111 harpoonYaw=-61 harpoons=6 reeled=6 harpoonAimErrMax=7.7"
+        },
+        {
+          "capture_mark_seconds": 86,
+          "file": "_anton/scarbound-20261116/evidence/terrain/terrain_13.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "84f7ea14df2a581aad4530d12b4dc59e9a98140a824074edeeff404905774a39",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/terrain/terrain_13.png | fps~60 hp=461/517 dmg=6.0 kills=6 pos=(-22.58, 0.00, 27.34) active=92 draws=278 setpass=34 tris=269414 enemyShots=22 gunShots=85 gunHits=82 gunYaw=-21 harpoonYaw=-8 harpoons=6 reeled=6 harpoonAimErrMax=7.7"
+        }
+      ]
+    },
+    "core": {
+      "done": true,
+      "audio_muted": true,
+      "runtime_or_compile_errors": [],
+      "licensing_entitlement_404_count": 8,
+      "shots": [
+        {
+          "capture_mark_seconds": 1,
+          "file": "_anton/scarbound-20261116/evidence/core/start_00.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "554e1f99d92d1a841404f8bd9944c2e359e424d565d3868a8eb42f1a8c83cfb9",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/core/start_00.png | fps~7 hp=100/100 dmg=5.5 kills=0 pos=(-20.00, 0.00, -75.50) active=0 draws=112 setpass=24 tris=227520 enemyShots=0 gunShots=0 gunHits=0 gunYaw=0 harpoonYaw=0 harpoons=0 reeled=0 harpoonAimErrMax=0.0"
+        },
+        {
+          "capture_mark_seconds": 15,
+          "file": "_anton/scarbound-20261116/evidence/core/start_01.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "f50b4ed4cd6f548040b3a25273513a23131ddcb683e803698d63e8d726818bd1",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/core/start_01.png | fps~60 hp=108/108 dmg=5.5 kills=3 pos=(-39.98, 0.00, -49.03) active=70 draws=310 setpass=33 tris=309392 enemyShots=0 gunShots=12 gunHits=12 gunYaw=-6 harpoonYaw=4 harpoons=3 reeled=3 harpoonAimErrMax=0.1"
+        },
+        {
+          "capture_mark_seconds": 30,
+          "file": "_anton/scarbound-20261116/evidence/core/start_02.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "1a1c0075c512bb293f45229fe87e1eb5556a66068c5fa2b7737bff46d2be5e6e",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/core/start_02.png | fps~60 hp=112/112 dmg=6.5 kills=7 pos=(-64.00, 0.00, -62.83) active=61 draws=316 setpass=35 tris=342866 enemyShots=0 gunShots=34 gunHits=34 gunYaw=-17 harpoonYaw=0 harpoons=7 reeled=7 harpoonAimErrMax=3.0"
+        },
+        {
+          "capture_mark_seconds": 45,
+          "file": "_anton/scarbound-20261116/evidence/core/start_03.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "214acd67bd9802e83cf564120f76180fe1190a8393039263e68430c55cb6da3b",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/core/start_03.png | fps~60 hp=120/120 dmg=7.0 kills=10 pos=(-78.92, 0.00, -55.76) active=53 draws=370 setpass=29 tris=355902 enemyShots=0 gunShots=57 gunHits=57 gunYaw=128 harpoonYaw=107 harpoons=10 reeled=10 harpoonAimErrMax=3.0"
+        },
+        {
+          "capture_mark_seconds": 60,
+          "file": "_anton/scarbound-20261116/evidence/core/start_04.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "474286c16dc01319d4fd96c813aa53c1ed8a7a2299fc376a9635c0efd032f1ab",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/core/start_04.png | fps~60 hp=110/120 dmg=7.5 kills=11 pos=(-78.54, 0.00, -55.78) active=55 draws=319 setpass=34 tris=355504 enemyShots=0 gunShots=81 gunHits=81 gunYaw=-15 harpoonYaw=-3 harpoons=11 reeled=11 harpoonAimErrMax=3.0"
+        },
+        {
+          "capture_mark_seconds": 90,
+          "file": "_anton/scarbound-20261116/evidence/core/start_05.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "3c9565256a8c0d085deab08d1d464b3a0cff6ed83b2cee3bffa75ada0a6f88ac",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/core/start_05.png | fps~60 hp=59/120 dmg=7.5 kills=11 pos=(-78.54, 0.00, -55.78) active=61 draws=328 setpass=30 tris=378898 enemyShots=0 gunShots=128 gunHits=128 gunYaw=-15 harpoonYaw=-3 harpoons=11 reeled=11 harpoonAimErrMax=3.0"
+        },
+        {
+          "capture_mark_seconds": 120,
+          "file": "_anton/scarbound-20261116/evidence/core/start_06.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "18bfd314845e9d215df35941712166195a280b7d782aa949e141f161c44072fc",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/core/start_06.png | fps~60 hp=77/121 dmg=10.0 kills=16 pos=(-73.80, 0.00, -7.08) active=70 draws=361 setpass=35 tris=374548 enemyShots=0 gunShots=163 gunHits=163 gunYaw=-5 harpoonYaw=0 harpoons=16 reeled=15 harpoonAimErrMax=6.8"
+        },
+        {
+          "capture_mark_seconds": 180,
+          "file": "_anton/scarbound-20261116/evidence/core/start_07.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "1d7a73f5ae1ee4f05b6839eb39a3283ac5c038c3db03a8052499698753343db4",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/core/start_07.png | fps~60 hp=105/134 dmg=12.5 kills=27 pos=(-44.95, 0.00, -71.75) active=46 draws=258 setpass=33 tris=272118 enemyShots=12 gunShots=221 gunHits=221 gunYaw=10 harpoonYaw=4 harpoons=27 reeled=27 harpoonAimErrMax=7.9"
+        },
+        {
+          "capture_mark_seconds": 240,
+          "file": "_anton/scarbound-20261116/evidence/core/start_08.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "a21c7387e3235ce162a9a905b49672588812ec7dd75369c190b0566bf6059532",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/core/start_08.png | fps~60 hp=97/151 dmg=15.5 kills=46 pos=(-72.44, 0.00, -6.53) active=55 draws=355 setpass=32 tris=372456 enemyShots=30 gunShots=297 gunHits=297 gunYaw=5 harpoonYaw=21 harpoons=46 reeled=46 harpoonAimErrMax=8.0"
+        },
+        {
+          "capture_mark_seconds": 300,
+          "file": "_anton/scarbound-20261116/evidence/core/start_09.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "35475d7a3b7dd2affcb1750700ae7548433c0de9fe076dfb4961a43d6d3bbc47",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/core/start_09.png | fps~60 hp=154/154 dmg=16.5 kills=50 pos=(-73.87, 0.00, 4.64) active=70 draws=289 setpass=31 tris=324262 enemyShots=30 gunShots=316 gunHits=316 gunYaw=-5 harpoonYaw=11 harpoons=50 reeled=50 harpoonAimErrMax=8.0"
+        },
+        {
+          "capture_mark_seconds": 420,
+          "file": "_anton/scarbound-20261116/evidence/core/start_10.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "492a691ab9851c0fb1861c14c3998c9cce064fec3ced71578e5516c5b8ee5f8e",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/core/start_10.png | fps~60 hp=174/174 dmg=24.5 kills=69 pos=(-78.97, 0.00, -57.18) active=47 draws=339 setpass=30 tris=339190 enemyShots=73 gunShots=426 gunHits=426 gunYaw=-13 harpoonYaw=-2 harpoons=69 reeled=69 harpoonAimErrMax=8.0"
+        },
+        {
+          "capture_mark_seconds": 600,
+          "file": "_anton/scarbound-20261116/evidence/core/start_11.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "77b5ae61ce9bbc8450a9164bd2d724a4525b6f36e057952b5401ee1cd69d2dd7",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/core/start_11.png | fps~60 hp=234/241 dmg=38.0 kills=119 pos=(-58.54, 0.00, -45.09) active=51 draws=227 setpass=31 tris=249186 enemyShots=101 gunShots=542 gunHits=542 gunYaw=4 harpoonYaw=-13 harpoons=119 reeled=119 harpoonAimErrMax=8.0"
+        }
+      ]
+    },
+    "garagefresh": {
+      "done": true,
+      "audio_muted": true,
+      "runtime_or_compile_errors": [],
+      "licensing_entitlement_404_count": 8,
+      "shots": [
+        {
+          "capture_mark_seconds": 4,
+          "file": "_anton/scarbound-20261116/evidence/garagefresh/garagefresh_00.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "5e6314e519de15fc9d1019ba0c0a21ee194fbac6b313f6595de16808794826f2",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/garagefresh/garagefresh_00.png | fps~10000 hp=100/100 dmg=5.5 kills=0 pos=(-20.00, 0.00, -75.48) active=61 draws=274 setpass=29 tris=292170 enemyShots=0 gunShots=0 gunHits=0 gunYaw=3 harpoonYaw=16 harpoons=0 reeled=0 harpoonAimErrMax=0.0"
+        }
+      ]
+    },
+    "shopfresh": {
+      "done": true,
+      "audio_muted": true,
+      "runtime_or_compile_errors": [],
+      "licensing_entitlement_404_count": 8,
+      "shots": [
+        {
+          "capture_mark_seconds": 4,
+          "file": "_anton/scarbound-20261116/evidence/shopfresh/shopfresh_00.png",
+          "width": 540,
+          "height": 1170,
+          "sha256": "62af57810dfbeaf47b9471e7bda41ccd5907baa5aae840a28df9da2662cb5ae2",
+          "log": "RoadGame AutoCapture: /Users/arthuri/Unity Projects/RoadGame/_anton/scarbound-20261116/evidence/shopfresh/shopfresh_00.png | fps~10000 hp=100/100 dmg=5.5 kills=0 pos=(-20.00, 0.00, -75.48) active=61 draws=278 setpass=29 tris=292028 enemyShots=0 gunShots=0 gunHits=0 gunYaw=3 harpoonYaw=16 harpoons=0 reeled=0 harpoonAimErrMax=0.0"
+        }
+      ]
+    }
+  },
+  "core": {
+    "capture_clock": "Editor wall time after PrepareCapture; first 1s frame was loading. Gameplay ran at timeScale=1, no video fixed frame step, no stats or level presets.",
+    "last_persisted_autosave": {
+      "playTime": 596.3127642900217,
+      "hp": 227.2548820773138,
+      "maxHp": 241.0,
+      "regen": 3.300000000000002,
+      "dmg": [
+        38.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "totalKills": 119,
+      "gems": 0,
+      "weaponLevel": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "weaponCopies": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "armorLevel": [
+        0,
+        0
+      ],
+      "armorCopies": [
+        0,
+        0
+      ],
+      "unlockedZone": 0,
+      "bossKills": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "px": -63.03230285644531,
+      "pz": -50.068119049072266,
+      "tutorialDone": false,
+      "introPending": false
+    },
+    "last_persisted_autosave_file": "_anton/scarbound-20261116/evidence/core/final-save.json",
+    "terminal_600s_frame": {
+      "hp_rounded": 234,
+      "maxHp": 241,
+      "gunShots": 542,
+      "gunHits": 542,
+      "totalTargetsKilled": 119,
+      "harpoons": 119,
+      "reeled": 119,
+      "gunDamage": 38.0,
+      "enemyShots": 101,
+      "position": [
+        -58.54,
+        0,
+        -45.09
+      ]
+    },
+    "terminal_session_time": "Not directly recorded. At least 596.3127642900217 seconds of gameplay are verified by the last persisted autosave. The final frame and the autosave are different moments.",
+    "no_purchases_or_bonus_claims": true,
+    "intro_skipped": true,
+    "autopilot_notes": [
+      "Nearest-target loop with repair and detour logic; no garage/shop interaction.",
+      "Stationary sample at 60s and 90s, then resumed movement/progress by 120s without intervention.",
+      "totalKills includes breakable props, not just enemies.",
+      "tutorialDone remained false because scripted autopilot does not invoke OnFirstInput; persistent drag hint is not evidence of player tutorial behavior."
+    ]
+  },
+  "fresh_menus": {
+    "garage": {
+      "gems": 0,
+      "hit": 5.5,
+      "hp": 100,
+      "weaponLevel": 1,
+      "copies": "0/2",
+      "levelup_gems": 100,
+      "screenshot": "_anton/scarbound-20261116/evidence/garagefresh/garagefresh_00.png"
+    },
+    "shop": {
+      "gems": 0,
+      "free_gems": "+20 every 4 hours, claim available; not clicked",
+      "weapon_crate": "250 gems; 3 random copies of your weapons",
+      "big_weapon_crate": "1000 gems; 15 random copies of your weapons",
+      "armor_crate": "300 gems; 2 random armor parts",
+      "damage_pack": "150 gems; +1.4 Gun damage",
+      "screenshot": "_anton/scarbound-20261116/evidence/shopfresh/shopfresh_00.png"
+    }
+  },
+  "limitations": [
+    "Exit 0 means the capture sequence completed; it is not a formal assertion suite.",
+    "HP invariance is not isolated in terrain/flip: live combat damage and collected rewards remain enabled. During roof_roll_selfright HP/maxHP increased from 500 to 505 due a collected reward; kicker_at_angle hpChange was -15.5 amid combat.",
+    "The direct auto-flip back/done log pairs preserved HP; no roof timer in-air RUN ERROR appeared.",
+    "No rocks sweep, mesa autopilot, natural upgrade purchase, direct device benchmark, or browser hands-on was run by this agent.",
+    "The final run of each terrain/flip scenario does not get an end line; takeoff/landing and final screenshots are present."
+  ]
+}

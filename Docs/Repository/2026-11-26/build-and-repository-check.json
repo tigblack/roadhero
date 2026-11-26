@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-26",
+  "repository": "https://github.com/tigblack/roadhero",
+  "unityVersion": "6000.6.4f1",
+  "release": "2026-11-26-car-feel",
+  "buildResult": "Succeeded",
+  "errors": 0,
+  "warnings": 364,
+  "sourceFilesBeforeAfter": 3776,
+  "sourceChangedDuringBuild": false,
+  "packageChecksPassed": 26,
+  "loaderChecksPassed": 12,
+  "mobileDisplayChecksPassed": 11,
+  "browserReadyVerified": false,
+  "browserVerificationLimit": "Safari CUA returned noWindowsAvailable; no fresh browser gameplay or physical-phone test is claimed.",
+  "historicalHandlingChecks": 120,
+  "historicalHandlingScope": "Prior Editor runs under Docs/screenshots/car-feel-2026-11-26; not rerun for publication.",
+  "releaseArchiveSha256": "a6baeb1f7426e0239aa1fe5e333f563edb7a7907dd6c232fc8fba585cbfc60c9",
+  "coreUnityFilesTracked": true,
+  "nestedGitlinks": 0,
+  "regularBlobsOver100MiB": 0,
+  "inventoryBeforeThisReport": {
+    "files": 5524,
+    "workingBytes": 2033040746,
+    "lfsFiles": 1727,
+    "lfsLogicalBytes": 1217926999,
+    "missingUnityFiles": [],
+    "oversizedRegularBlobs": 0
+  },
+  "excluded": "Unity caches, old builds, logs, per-user settings, standalone Sites checkout, local agent state and OS metadata.",
+  "externalAuthoringSources": "ArtSource/ImportedMasters/source-manifest.json"
+}

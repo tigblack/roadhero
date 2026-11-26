@@ -1,0 +1,239 @@
+{
+  "release": "2026-11-26-car-feel",
+  "createdUtc": "2026-11-26T00:23:06.459377+00:00",
+  "package": "/Users/arthuri/Unity Projects/RoadGame/Builds/WebGL/2026-11-26-car-feel-sites",
+  "passed": true,
+  "issues": [],
+  "fileCount": 19,
+  "totalBytes": 134497235,
+  "checks": {
+    "release_version": {
+      "passed": true,
+      "details": {
+        "version": "2026-11-26-car-feel",
+        "builtAtUtc": "2026-11-26T00:21:16.179241+00:00",
+        "sourceBuild": "2026-11-26-car-feel-raw",
+        "delivery": "hashed Unity gzip assets with streamed 24 MiB parts",
+        "chunkedFiles": [
+          "Build/320adde4f16be342e9b3b2a1e132f4c1.data.unityweb"
+        ],
+        "chunkLoader": "chunked-data-loader.4f1eda3c9aa7cfe2.js"
+      }
+    },
+    "release_inventory": {
+      "passed": true,
+      "details": {
+        "files": 19,
+        "manifestEntries": 18
+      }
+    },
+    "release_sha256_and_sizes": {
+      "passed": true,
+      "details": []
+    },
+    "hosting_file_limit": {
+      "passed": true,
+      "details": {
+        "maxBytes": 25165824
+      }
+    },
+    "inline_chunk_manifest": {
+      "passed": true
+    },
+    "buildinfo_chunked_files": {
+      "passed": true
+    },
+    "chunks_sha_gzip_crc_raw_identity": {
+      "passed": true,
+      "details": [
+        {
+          "path": "Build/320adde4f16be342e9b3b2a1e132f4c1.data.unityweb",
+          "passed": true,
+          "parts": 5,
+          "gzipBytes": 122520956,
+          "decodedBytes": 153173874,
+          "gzipCRCValid": true,
+          "rawByteIdentical": true
+        }
+      ]
+    },
+    "four_unity_refs": {
+      "passed": true,
+      "details": [
+        "Build/320adde4f16be342e9b3b2a1e132f4c1.data.unityweb",
+        "Build/e9e359369c1aedd65b994229c59b8550.framework.js.unityweb",
+        "Build/db96a2ee07d4b7d29597ac03fab63077.wasm.unityweb",
+        "Build/5ad36125be4d804f553d3109008bd09b.loader.js"
+      ]
+    },
+    "raw_binary_identity": {
+      "passed": true,
+      "details": []
+    },
+    "gzip_framework_wasm_crc_and_magic": {
+      "passed": true,
+      "details": [
+        {
+          "path": "Build/e9e359369c1aedd65b994229c59b8550.framework.js.unityweb",
+          "decodedBytes": 332278,
+          "valid": true
+        },
+        {
+          "path": "Build/db96a2ee07d4b7d29597ac03fab63077.wasm.unityweb",
+          "decodedBytes": 38410305,
+          "valid": true
+        }
+      ]
+    },
+    "all_html_css_webmanifest_refs": {
+      "passed": true,
+      "details": {
+        "checked": [
+          "./",
+          "TemplateData/app-icon.png",
+          "TemplateData/loading-poster.webp",
+          "TemplateData/mobile-display.js",
+          "TemplateData/style.css",
+          "chunked-data-loader.4f1eda3c9aa7cfe2.js",
+          "manifest.webmanifest",
+          "page-background.webp"
+        ],
+        "missing": []
+      }
+    },
+    "inline_javascript_syntax": {
+      "passed": true,
+      "details": [
+        {
+          "script": 2,
+          "passed": true,
+          "error": null
+        },
+        {
+          "script": 4,
+          "passed": true,
+          "error": null
+        }
+      ]
+    },
+    "no_unity_placeholders": {
+      "passed": true
+    },
+    "native_gzip_loader_unchanged": {
+      "passed": true,
+      "details": {
+        "sha256": "4f1eda3c9aa7cfe256091695737f69ae85ea05a492986b44c291c66611e116b2"
+      }
+    },
+    "mobile_display_unchanged": {
+      "passed": true
+    },
+    "mobile_css_and_manifest_unchanged": {
+      "passed": true
+    },
+    "mute_bootstrap_present": {
+      "passed": true
+    },
+    "no_service_worker": {
+      "passed": true
+    },
+    "no_production_RoadGameQA_assignment": {
+      "passed": true
+    },
+    "node_tests": {
+      "passed": true,
+      "details": [
+        {
+          "test": "test-chunked-data-loader.cjs",
+          "exitCode": 0,
+          "passed": 12,
+          "failed": 0
+        },
+        {
+          "test": "test-mobile-display.cjs",
+          "exitCode": 0,
+          "passed": 11,
+          "failed": 0
+        }
+      ]
+    },
+    "unityfs_inner_lz4_decode": {
+      "passed": true,
+      "details": {
+        "version": 8,
+        "blocks": 2269,
+        "decodedBytes": 297281496
+      }
+    },
+    "new_location_resources_embedded_exactly": {
+      "passed": true,
+      "details": [
+        {
+          "resource": "Levels/AshenWinterZ2/manifest.json",
+          "bytes": 403631,
+          "exactSourceBytesInDecodedUnityFS": true,
+          "offset": 166215256
+        },
+        {
+          "resource": "Creatures/AshenWinterEnemies/manifest.json",
+          "bytes": 54153,
+          "exactSourceBytesInDecodedUnityFS": true,
+          "offset": 263184584
+        },
+        {
+          "resource": "Levels/AshenWinter_layout.json",
+          "bytes": 6667,
+          "exactSourceBytesInDecodedUnityFS": true,
+          "offset": 181216116
+        },
+        {
+          "resource": "Levels/AshenWinter_surfaces.bytes",
+          "bytes": 2002,
+          "exactSourceBytesInDecodedUnityFS": true,
+          "offset": 137584996
+        }
+      ]
+    },
+    "source_snapshots_unchanged": {
+      "passed": true,
+      "details": {
+        "inputFiles": 3776,
+        "diff": {
+          "added": [],
+          "removed": [],
+          "changed": []
+        }
+      }
+    },
+    "current_snapshot_files_unchanged": {
+      "passed": true,
+      "details": {
+        "checkedFiles": 3776,
+        "different": []
+      }
+    },
+    "unity_build_succeeded": {
+      "passed": true,
+      "details": {
+        "errors": 0,
+        "warnings": 364
+      }
+    },
+    "package_stable": {
+      "passed": true
+    }
+  },
+  "historicalGameplayEvidence": {
+    "file": "Docs/screenshots/car-feel-2026-11-26/checks/handling-checks.json",
+    "sha256": "700b96031f2e4b519180a7a54ee21ce600221c7237f132aeed61706f149cabb4",
+    "checks": 120,
+    "failures": 0,
+    "editorMasterMuted": true,
+    "hasImmutableBuildSourceHash": false,
+    "scope": "Previously saved Unity Editor batch/synthetic HUD joystick results; inspected, not rerun by this audit. README explicitly excludes browser and physical phone in the tuning pass."
+  },
+  "browserReadyVerifiedByThisAudit": false,
+  "nativeFullscreenVerified": false,
+  "realDeviceVerified": false,
+  "verificationScope": "Fresh local package integrity, current resource embedding, source snapshot identity and Node loader/display regression tests. No gameplay execution, publication, Git or browser actions performed by this auditor."
+}
